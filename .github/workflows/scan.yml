@@ -67,7 +67,7 @@ jobs:
         run: |
           git config user.email "actions@github.com"
           git config user.name "linkmap-bot"
-          git add 3k-fi.* index.html 2>/dev/null || true
+          git add 3k-fi* index.html 2>/dev/null || true
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
