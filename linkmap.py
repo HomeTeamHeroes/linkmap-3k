@@ -494,6 +494,11 @@ def head_check(session, url, timeout=8):
                 r.close()
             except Exception:
                 pass
+        # Detect auth redirects (Drupal /user/login pattern) — treat as 403
+        if r.history and "/user/login" not in url.lower():
+            final_lower = r.url.lower()
+            if "/user/login" in final_lower or "destination=" in final_lower:
+                return 403, "auth redirect to login"
         return r.status_code, None
     except requests.exceptions.Timeout:
         return None, "timeout"
@@ -566,6 +571,22 @@ def crawl(start_url, max_pages=100, delay=0.5, follow_external=False,
         except Exception as e:
             pages[url] = {"title": None, "status": None, "error": str(e)[:140], "outbound": []}
             continue
+
+        # Detect auth/access redirects: Drupal often redirects anonymous users
+        # to /user/login (with ?destination=) when they hit a restricted page.
+        # The HTTP status ends up 200 (login page) which masks the underlying
+        # 403/access-denied. Treat these as broken from the visitor's perspective.
+        if r.history and "/user/login" not in url.lower():
+            final_lower = r.url.lower()
+            if "/user/login" in final_lower or "destination=" in final_lower:
+                original_status = r.history[0].status_code if r.history else None
+                pages[url] = {
+                    "title": None,
+                    "status": 403,
+                    "error": f"auth redirect to login (was HTTP {original_status})",
+                    "outbound": [],
+                }
+                continue
 
         if not is_html_response(r):
             pages[url] = {
