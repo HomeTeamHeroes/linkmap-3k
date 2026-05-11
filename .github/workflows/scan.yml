@@ -1,1 +1,131 @@
+name: Weekly link scan
 
+on:
+  schedule:
+    # Mondays 06:00 UTC = 08:00 Helsinki (EEST). Adjust as needed.
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+    # Allows manual triggering from the Actions tab
+
+permissions:
+  contents: write   # commit results back to the repo
+  issues: write     # create/update issues with broken-links report
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run linkmap scan
+        run: |
+          python linkmap.py https://www.kolmekampusta.fi/fi \
+            --max-pages 1000 \
+            --delay 0.5 \
+            --skip-pattern '^https?://(www\.)?kolmekampusta\.fi/(sv|en)(/|$)' \
+            --skip-pattern '/user/' \
+            --skip-pattern '/admin/' \
+            --skip-pattern '/node/\d+/(edit|delete)' \
+            --skip-pattern '\?destination=' \
+            --output 3k-fi
+
+      # OPTIONAL: Enable Drupal author enrichment by adding DRUPAL_USER and
+      # DRUPAL_PASS as repository secrets. The step is auto-skipped if the
+      # DRUPAL_USER secret is empty. See DEPLOYMENT.md for setup.
+      #
+      # - name: Enrich with Drupal author info
+      #   if: env.DRUPAL_USER != ''
+      #   env:
+      #     DRUPAL_URL: https://www.kolmekampusta.fi
+      #     DRUPAL_USER: ${{ secrets.DRUPAL_USER }}
+      #     DRUPAL_PASS: ${{ secrets.DRUPAL_PASS }}
+      #   run: python drupal_authors.py 3k-fi.json
+
+      - name: Read scan stats
+        id: stats
+        run: |
+          BROKEN=$(python -c "import json; print(json.load(open('3k-fi.json'))['stats']['broken_count'])")
+          PAGES=$(python -c "import json; print(json.load(open('3k-fi.json'))['stats']['pages_crawled'])")
+          DATE=$(date -I)
+          echo "broken=$BROKEN" >> $GITHUB_OUTPUT
+          echo "pages=$PAGES" >> $GITHUB_OUTPUT
+          echo "date=$DATE" >> $GITHUB_OUTPUT
+          echo "Scan: $PAGES pages, $BROKEN broken links"
+
+      - name: Commit results
+        run: |
+          git config user.email "actions@github.com"
+          git config user.name "linkmap-bot"
+          git add 3k-fi.* index.html 2>/dev/null || true
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Weekly scan ${{ steps.stats.outputs.date }} — ${{ steps.stats.outputs.pages }} pages, ${{ steps.stats.outputs.broken }} broken"
+            git push
+          fi
+
+      - name: Open or update issue if broken links found
+        if: steps.stats.outputs.broken != '0'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          OWNER: ${{ github.repository_owner }}
+          REPO_NAME: ${{ github.event.repository.name }}
+        run: |
+          REPORT=3k-fi-broken.md
+
+          # Truncate body if too long for GitHub issues (65,536 char limit)
+          BODY_FILE=$(mktemp)
+          if [ "$(wc -c < "$REPORT")" -gt 60000 ]; then
+            head -c 60000 "$REPORT" > "$BODY_FILE"
+            echo "" >> "$BODY_FILE"
+            echo "..." >> "$BODY_FILE"
+            echo "*(truncated; see [$REPORT](../tree/main/$REPORT) for full report)*" >> "$BODY_FILE"
+          else
+            cp "$REPORT" "$BODY_FILE"
+          fi
+
+          # Footer with links
+          echo "" >> "$BODY_FILE"
+          echo "---" >> "$BODY_FILE"
+          echo "" >> "$BODY_FILE"
+          echo "🌐 [Interactive map](https://${OWNER}.github.io/${REPO_NAME}/3k-fi.html) · " >> "$BODY_FILE"
+          echo "📄 [Full report](../tree/main/$REPORT) · " >> "$BODY_FILE"
+          echo "🔄 [Run scan now](../actions/workflows/scan.yml)" >> "$BODY_FILE"
+
+          # Find existing open issue with the broken-links label
+          EXISTING=$(gh issue list --label broken-links --state open --json number --jq '.[0].number' 2>/dev/null || echo "")
+
+          TITLE="🔴 ${{ steps.stats.outputs.broken }} broken link(s) — ${{ steps.stats.outputs.date }}"
+
+          if [ -n "$EXISTING" ]; then
+            # Update existing issue body and add a comment with new scan stats
+            gh issue edit "$EXISTING" --body-file "$BODY_FILE" --title "$TITLE"
+            echo "Updated existing issue #$EXISTING"
+          else
+            gh issue create \
+              --title "$TITLE" \
+              --body-file "$BODY_FILE" \
+              --label broken-links
+            echo "Created new issue"
+          fi
+
+      - name: Close issue if no broken links
+        if: steps.stats.outputs.broken == '0'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          for num in $(gh issue list --label broken-links --state open --json number --jq '.[].number' 2>/dev/null); do
+            gh issue close "$num" --comment "✅ Latest scan ${{ steps.stats.outputs.date }} found 0 broken links. Auto-closing this issue."
+          done
