@@ -191,6 +191,39 @@ const LAYOUT_OPTIONS = {{
 
 const PALETTE = ['#7aa2f7', '#bb9af7', '#9ece6a', '#e0af68', '#7dcfff', '#ff9e64', '#73daca', '#c0caf5', '#41a6b5', '#d19a66'];
 
+function assignBFSLevels() {{
+  // Compute BFS depth from start_url so vis-network's hierarchical layout
+  // can place nodes by their distance from the entry page rather than
+  // failing on the cycles introduced by site-wide navigation menus.
+  const start = DATA.start_url;
+  const levels = new Map();
+  if (!start) return;
+  levels.set(start, 0);
+
+  let queue = [start];
+  while (queue.length > 0) {{
+    const next = [];
+    for (const url of queue) {{
+      const cur = levels.get(url);
+      for (const e of DATA.edges) {{
+        if (e.source === url && !levels.has(e.target)) {{
+          levels.set(e.target, cur + 1);
+          next.push(e.target);
+        }}
+      }}
+    }}
+    queue = next;
+  }}
+
+  // Nodes not reachable via outbound BFS (orphans, external-only) go below
+  const maxLevel = levels.size > 0 ? Math.max(...levels.values()) : 0;
+  const updated = nodes.map(n => ({{
+    id: n.id,
+    level: levels.has(n.id) ? levels.get(n.id) : maxLevel + 1,
+  }}));
+  visNodes.update(updated);
+}}
+
 function recolorByStatus() {{
   const updated = nodes.map(n => {{
     const internal = n.id.includes(DATA.base_netloc);
@@ -242,6 +275,9 @@ const network = new vis.Network(
 
 document.getElementById('layout-mode').addEventListener('change', e => {{
   const mode = e.target.value;
+  if (mode.startsWith('hierarchy')) {{
+    assignBFSLevels();
+  }}
   network.setOptions(LAYOUT_OPTIONS[mode] || LAYOUT_OPTIONS.force);
 }});
 
