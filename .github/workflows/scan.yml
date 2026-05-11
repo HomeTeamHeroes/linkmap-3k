@@ -83,6 +83,7 @@ jobs:
           OWNER: ${{ github.repository_owner }}
           REPO_NAME: ${{ github.event.repository.name }}
         run: |
+          gh label create broken-links --color FF0000 --description "Auto-created by linkmap" 2>/dev/null || true
           REPORT=3k-fi-broken.md
 
           # Truncate body if too long for GitHub issues (65,536 char limit)
