@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Linkmap — kolmekampusta.fi</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #0e1115; color: #e7e7e7;
+      max-width: 880px; margin: 0 auto; padding: 40px 24px;
+      line-height: 1.5;
+    }
+    h1 { color: #7aa2f7; font-size: 28px; margin: 0 0 4px; }
+    .subtitle { color: #9aa5b1; font-size: 14px; margin-bottom: 32px; }
+    .card {
+      background: #181c22;
+      border: 1px solid #2a2f37;
+      border-radius: 8px;
+      padding: 20px 24px;
+      margin-bottom: 16px;
+    }
+    .card h2 {
+      margin: 0 0 12px;
+      font-size: 18px;
+      color: #bb9af7;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .stat-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+      font-size: 13px;
+      color: #c5cdd6;
+      margin: 12px 0;
+      padding: 12px 0;
+      border-top: 1px solid #2a2f37;
+      border-bottom: 1px solid #2a2f37;
+    }
+    .stat-row strong { color: #fff; font-weight: 600; }
+    .actions { display: flex; flex-wrap: wrap; gap: 16px; }
+    .actions a {
+      color: #7aa2f7;
+      text-decoration: none;
+      padding: 6px 12px;
+      border: 1px solid #2a2f37;
+      border-radius: 4px;
+      transition: background 0.15s;
+    }
+    .actions a:hover { background: #2a2f37; color: #a4c1f7; }
+    .broken { color: #f7768e; }
+    .ok { color: #9ece6a; }
+    .pending { color: #888; font-style: italic; }
+    footer {
+      margin-top: 48px;
+      font-size: 12px;
+      color: #666;
+      border-top: 1px solid #2a2f37;
+      padding-top: 16px;
+    }
+    footer a { color: #7aa2f7; }
+  </style>
+</head>
+<body>
+  <h1>📊 Linkmap</h1>
+  <div class="subtitle">www.kolmekampusta.fi — automated link audit</div>
+
+  <div class="card">
+    <h2>Finnish (fi)</h2>
+    <div class="stat-row" id="3k-fi-stats">
+      <span class="pending">Loading scan results…</span>
+    </div>
+    <div class="actions">
+      <a href="3k-fi.html">🔗 Interactive map</a>
+      <a href="3k-fi-broken.md">📄 Broken links report</a>
+      <a href="3k-fi.json">📦 Raw JSON</a>
+    </div>
+  </div>
+
+  <footer>
+    Auto-generated weekly by GitHub Actions. Manual run: Actions tab → Run workflow.
+    Source: <a href="https://github.com/USERNAME/REPO_NAME">github.com</a>
+  </footer>
+
+  <script>
+    async function loadStats(prefix, elementId) {
+      const el = document.getElementById(elementId);
+      try {
+        const resp = await fetch(`${prefix}.json`);
+        if (!resp.ok) throw new Error('not found');
+        const data = await resp.json();
+        const s = data.stats || {};
+        const broken = s.broken_count || 0;
+        const date = (data.crawled_at || '').slice(0, 10);
+        el.innerHTML = `
+          <span><strong>${s.pages_crawled ?? '?'}</strong> pages crawled</span>
+          <span><strong>${s.edges ?? '?'}</strong> links mapped</span>
+          <span><strong>${s.external_targets_checked ?? '?'}</strong> external checked</span>
+          <span class="${broken > 0 ? 'broken' : 'ok'}">
+            ${broken > 0 ? '🔴' : '✅'} <strong>${broken}</strong> broken
+          </span>
+          ${date ? `<span style="color:#666; margin-left:auto">${date}</span>` : ''}
+        `;
+      } catch (e) {
+        el.innerHTML = '<span class="pending">No scan data yet — first run pending. Trigger via the Actions tab.</span>';
+      }
+    }
+
+    loadStats('3k-fi', '3k-fi-stats');
+  </script>
+</body>
+</html>
