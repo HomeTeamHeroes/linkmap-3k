@@ -100,10 +100,12 @@ HTML_TEMPLATE = """<!doctype html>
   <div class="stat">Crawled: <strong>{pages_crawled}</strong> pages</div>
   <div class="stat">Edges: <strong>{edges_count}</strong> links</div>
   <div class="stat bad">Broken: <strong>{broken_count}</strong> targets</div>
+  <div class="stat" id="stat-canonical-dups" style="display:none;">🔁 Canonical duplicates: <strong id="canonical-dup-count">0</strong> page(s)</div>
   <div class="legend">
     <span><span class="dot" style="background:#7aa2f7"></span>internal OK</span>
     <span><span class="dot" style="background:#bb9af7"></span>external OK</span>
     <span><span class="dot" style="background:#f7768e"></span>broken</span>
+    <span><span class="dot" style="background:#e0af68"></span>canonical duplicate</span>
     <span><span class="dot" style="background:#888"></span>not checked</span>
   </div>
   <button id="toggle-graph" type="button">Show visual graph</button>
@@ -118,6 +120,7 @@ HTML_TEMPLATE = """<!doctype html>
     <label style="font-size:11px; color:#9aa5b1; display:block;">Color</label>
     <select id="color-mode" style="width:100%; box-sizing:border-box; padding:6px 8px; background:#0e1115; color:#fff; border:1px solid #2a2f37; border-radius:4px; font:inherit;">
       <option value="status">Status (default)</option>
+      <option value="canonical">Canonical status</option>
       <option value="section">URL section</option>
     </select>
     <h2>Filter graph</h2>
@@ -131,6 +134,10 @@ HTML_TEMPLATE = """<!doctype html>
   <label style="font-size:11px; color:#9aa5b1; display:block; margin-bottom:6px;">
     <input type="checkbox" id="show-files" style="width:auto; vertical-align:middle;">
     Show files (images, PDFs, etc.)
+  </label>
+  <label style="font-size:11px; color:#9aa5b1; display:block; margin-bottom:6px;">
+    <input type="checkbox" id="show-canonical-dups" style="width:auto; vertical-align:middle;">
+    Show canonical duplicates
   </label>
   <div id="all-pages-list" class="all-pages"></div>
   <h2>Selected node</h2>
@@ -330,6 +337,18 @@ function recolorBySection() {{
   visNodes.update(updated);
 }}
 
+function recolorByCanonical() {{
+  // Three-state: broken (red), canonical duplicate (amber), normal (gray-blue)
+  const updated = nodes.map(n => {{
+    if (brokenSet.has(n.id)) return {{ id: n.id, color: '#f7768e' }};
+    const p = DATA.pages[n.id];
+    if (p && p.is_canonical_duplicate) return {{ id: n.id, color: '#e0af68' }};
+    if (p && p.canonical) return {{ id: n.id, color: '#9ece6a' }};  // canonical = self
+    return {{ id: n.id, color: '#7aa2f7' }};  // no canonical tag or external
+  }});
+  visNodes.update(updated);
+}}
+
 const PALETTE_FALLBACK_COMMENT = "see lazy initNetwork() above";
 
 document.getElementById('layout-mode').addEventListener('change', e => {{
@@ -342,6 +361,7 @@ document.getElementById('layout-mode').addEventListener('change', e => {{
 
 document.getElementById('color-mode').addEventListener('change', e => {{
   if (e.target.value === 'section') recolorBySection();
+  else if (e.target.value === 'canonical') recolorByCanonical();
   else recolorByStatus();
 }});
 
@@ -361,6 +381,17 @@ window.showNode = function(url) {{
     if (page.title)  html += '<div class="node-info"><strong>Title:</strong> ' + escape(page.title) + '</div>';
     if (page.status) html += '<div class="node-info"><strong>Status:</strong> ' + page.status + '</div>';
     if (page.error)  html += '<div class="node-info error"><strong>Error:</strong> ' + escape(page.error) + '</div>';
+    if (page.is_canonical_duplicate && page.canonical) {{
+      html += '<div class="node-info" style="color:#e0af68"><strong>🔁 Canonical duplicate</strong> → '
+            + '<a href="javascript:showNode(' + JSON.stringify(page.canonical) + ')">'
+            + escape(page.canonical) + '</a>'
+            + '<div style="font-size:11px; color:#9aa5b1; margin-top:4px;">'
+            + 'Outbound links were not extracted (duplicate of canonical above).'
+            + '</div></div>';
+    }} else if (page.canonical) {{
+      html += '<div class="node-info" style="font-size:11px; color:#9aa5b1;">'
+            + 'Canonical: <code>' + escape(page.canonical) + '</code> (self)</div>';
+    }}
   }}
   if (broken) {{
     html += '<div class="node-info error"><strong>⚠ BROKEN</strong>: ' +
@@ -398,6 +429,7 @@ window.showNode = function(url) {{
 function renderAllPages(filter) {{
   filter = (filter || '').toLowerCase();
   const showFiles = document.getElementById('show-files') && document.getElementById('show-files').checked;
+  const showCanonicalDups = document.getElementById('show-canonical-dups') && document.getElementById('show-canonical-dups').checked;
   const inboundCount = {{}};
   for (const e of DATA.edges) {{
     inboundCount[e.target] = (inboundCount[e.target] || 0) + 1;
@@ -412,8 +444,11 @@ function renderAllPages(filter) {{
       outbound: (p.outbound || []).length,
       isBroken: brokenSet.has(url),
       isFile: !!p.is_file,
+      isCanonicalDup: !!p.is_canonical_duplicate,
+      canonical: p.canonical || null,
     }}))
     .filter(e => showFiles || !e.isFile)
+    .filter(e => showCanonicalDups || !e.isCanonicalDup)
     .filter(e => !filter
       || e.url.toLowerCase().includes(filter)
       || e.title.toLowerCase().includes(filter))
@@ -429,10 +464,11 @@ function renderAllPages(filter) {{
     const status = e.isBroken
       ? `<span style="color:#f7768e">⚠ ${{e.status || 'err'}}</span>`
       : `<span style="color:#666">${{e.status || '?'}}</span>`;
+    const dupBadge = e.isCanonicalDup ? ' <span style="color:#e0af68">🔁</span>' : '';
     return `<div class="all-pages-row ${{e.isBroken ? 'broken' : ''}}" `
       + `onclick='showNode(${{JSON.stringify(e.url)}})' `
       + `title="${{urlEsc}}">`
-      + `<span class="all-pages-url">${{labelEsc}}</span>`
+      + `<span class="all-pages-url">${{labelEsc}}${{dupBadge}}</span>`
       + `<span class="all-pages-count">${{status}} · in:${{e.inbound}} · out:${{e.outbound}}</span>`
       + `</div>`;
   }}).join('');
@@ -450,6 +486,21 @@ document.getElementById('show-files').addEventListener('change', () => {{
   const filterEl = document.getElementById('all-pages-filter');
   renderAllPages(filterEl ? filterEl.value : '');
 }});
+document.getElementById('show-canonical-dups').addEventListener('change', () => {{
+  const filterEl = document.getElementById('all-pages-filter');
+  renderAllPages(filterEl ? filterEl.value : '');
+}});
+// Initialize canonical-duplicate stat
+(function initCanonicalStat() {{
+  const stats = DATA.stats || {{}};
+  const count = stats.canonical_duplicate_count || 0;
+  if (count > 0) {{
+    const el = document.getElementById('stat-canonical-dups');
+    const num = document.getElementById('canonical-dup-count');
+    if (el) el.style.display = '';
+    if (num) num.textContent = count;
+  }}
+}})();
 renderAllPages();
 
 document.getElementById('search').addEventListener('input', e => {{
@@ -770,6 +821,55 @@ def extract_meta(soup):
     return meta
 
 
+def extract_canonical(soup, base_url):
+    """Extract <link rel='canonical' href='...'> from parsed HTML.
+
+    Returns the canonical URL resolved to absolute (relative href is joined
+    against the page's final URL). Returns None if no canonical tag, no
+    href attribute, or empty href.
+    """
+    if not soup:
+        return None
+    tag = soup.find("link", attrs={"rel": "canonical"})
+    if not tag:
+        return None
+    href = (tag.get("href") or "").strip()
+    if not href:
+        return None
+    try:
+        return urljoin(base_url, href)
+    except Exception:
+        return None
+
+
+def canonical_equivalent(crawled_url, canonical_url):
+    """Check if canonical URL refers to the same logical page as crawled URL.
+
+    Tolerates:
+    - www. vs. non-www. host prefixes (kolmekampusta.fi == www.kolmekampusta.fi)
+    - trailing slash differences (/foo vs /foo/)
+    - query parameter ordering (already handled by normalize_url)
+
+    Used to decide whether <link rel="canonical"> points to "self" (same page)
+    or to a different page (this is a duplicate of another canonical page).
+    """
+    if not crawled_url or not canonical_url:
+        return False
+
+    def key(u):
+        try:
+            p = urlparse(normalize_url(u))
+            netloc = normalize_netloc(p.netloc)
+            path = p.path.rstrip("/") or "/"
+            return (p.scheme, netloc, path, p.query)
+        except Exception:
+            return None
+
+    ka = key(crawled_url)
+    kb = key(canonical_url)
+    return ka is not None and ka == kb
+
+
 def head_check(session, url, timeout=8):
     """Return (status, error) for url. Falls back to GET if HEAD is unsupported."""
     try:
@@ -819,7 +919,7 @@ def head_check(session, url, timeout=8):
 def crawl(start_url, max_pages=100, delay=0.5, follow_external=False,
           timeout=10, skip_patterns=None, check_external=True,
           external_delay=0.1, check_soft_404=True, soft_404_patterns=None,
-          soft_404_threshold=3):
+          soft_404_threshold=3, dedup_canonical=True):
     start_url = normalize_url(start_url)
     base_netloc = urlparse(start_url).netloc
     skip_patterns = skip_patterns or []
@@ -922,7 +1022,25 @@ def crawl(start_url, max_pages=100, delay=0.5, follow_external=False,
         except Exception:
             soup = None
 
-        outbound_links = extract_links(r.text, final)
+        # Canonical-tag duplicate detection: if the page's <link rel="canonical">
+        # points to a different URL than the one we crawled, this is a duplicate
+        # (typically a Drupal Views filter permutation, paginated variant, or
+        # alternate path on a multi-display node). Skip outbound link extraction
+        # to avoid expanding the duplicate URL tree — the canonical version's
+        # links cover the same ground.
+        canonical_url = extract_canonical(soup, final) if soup else None
+        canonical_norm = normalize_url(canonical_url) if canonical_url else None
+        is_canonical_dup = bool(
+            canonical_norm
+            and not canonical_equivalent(final, canonical_norm)
+        )
+
+        if is_canonical_dup and dedup_canonical:
+            # Record the duplicate but don't follow its links forward.
+            outbound_links = []
+        else:
+            outbound_links = extract_links(r.text, final)
+
         page_meta = extract_meta(soup) if soup else {}
         soft_signals = collect_soft_404_signals(soup, url, soft_404_patterns) if soup and check_soft_404 else {}
         # No-alias detection: final URL still contains /node/N means Drupal
@@ -935,6 +1053,8 @@ def crawl(start_url, max_pages=100, delay=0.5, follow_external=False,
             "body_length": len(r.text),
             "soft_404_signals": soft_signals,
             "no_alias": no_alias,
+            "canonical": canonical_norm,
+            "is_canonical_duplicate": is_canonical_dup,
             **page_meta,
         }
 
@@ -1063,6 +1183,33 @@ def crawl(start_url, max_pages=100, delay=0.5, follow_external=False,
     # Sort by inbound count desc
     no_alias_pages.sort(key=lambda x: -len(x["linked_from"]))
 
+    # Build canonical-duplicates list (pages whose <link rel="canonical"> points
+    # elsewhere — Drupal Views filter permutations, paginated variants, etc.).
+    # Group by the canonical target so users see "URL X is a canonical, and these
+    # 12 URLs are duplicates of it".
+    canonical_duplicates_by_target = {}
+    for url, p in pages.items():
+        if not p.get("is_canonical_duplicate"):
+            continue
+        target = p.get("canonical")
+        if not target:
+            continue
+        canonical_duplicates_by_target.setdefault(target, []).append({
+            "url": url,
+            "title": p.get("title"),
+            "inbound_count": len(by_target.get(url, [])),
+        })
+    canonical_duplicates = [
+        {
+            "canonical": target,
+            "duplicates": sorted(dups, key=lambda d: -d["inbound_count"]),
+            "duplicate_count": len(dups),
+        }
+        for target, dups in canonical_duplicates_by_target.items()
+    ]
+    canonical_duplicates.sort(key=lambda x: -x["duplicate_count"])
+    canonical_duplicate_total = sum(d["duplicate_count"] for d in canonical_duplicates)
+
     return {
         "start_url": start_url,
         "base_netloc": base_netloc,
@@ -1072,6 +1219,7 @@ def crawl(start_url, max_pages=100, delay=0.5, follow_external=False,
         "external_status": external_status,
         "broken": broken,
         "no_alias_pages": no_alias_pages,
+        "canonical_duplicates": canonical_duplicates,
         "stats": {
             "pages_crawled": len(visited),
             "pages_with_data": len(pages),
@@ -1081,6 +1229,8 @@ def crawl(start_url, max_pages=100, delay=0.5, follow_external=False,
             "broken_internal": sum(1 for b in broken if b["kind"] == "internal"),
             "broken_external": sum(1 for b in broken if b["kind"] == "external"),
             "no_alias_count": len(no_alias_pages),
+            "canonical_duplicate_count": canonical_duplicate_total,
+            "canonical_target_count": len(canonical_duplicates),
         },
     }
 
@@ -1112,6 +1262,7 @@ def write_broken_report(data, path):
     """Markdown report of broken links + quality issues (e.g. pages without URL alias)."""
     s = data["stats"]
     no_alias = data.get("no_alias_pages", [])
+    canonical_dups = data.get("canonical_duplicates", [])
     lines = []
     lines.append("# Broken Links Report")
     lines.append("")
@@ -1124,9 +1275,13 @@ def write_broken_report(data, path):
     if no_alias:
         lines.append(f"- **⚠️ Pages without URL alias:** {len(no_alias)} "
                      f"(Drupal /node/N served directly, no Pathauto alias)")
+    if canonical_dups:
+        lines.append(f"- **🔁 Canonical duplicates:** {s.get('canonical_duplicate_count', 0)} "
+                     f"page(s) across {s.get('canonical_target_count', 0)} canonical target(s) "
+                     f"(crawl-budget waste — duplicate content with canonical redirect)")
     lines.append("")
 
-    if not data["broken"] and not no_alias:
+    if not data["broken"] and not no_alias and not canonical_dups:
         lines.append("✅ No broken links or quality issues found.")
         with open(path, "w", encoding="utf-8") as f:
             f.write("\n".join(lines) + "\n")
@@ -1197,6 +1352,45 @@ def write_broken_report(data, path):
             lines.append(f"*…and {len(no_alias) - 100} more pages without aliases (showing top 100)*")
             lines.append("")
 
+    # Canonical duplicates: pages whose <link rel="canonical"> points elsewhere
+    if canonical_dups:
+        lines.append("## 🔁 Canonical duplicates")
+        lines.append("")
+        lines.append(
+            f"These {s.get('canonical_duplicate_count', 0)} page(s) declare a different URL "
+            f"in their `<link rel=\"canonical\">` tag, grouped here by their canonical target "
+            f"({s.get('canonical_target_count', 0)} unique canonicals)."
+        )
+        lines.append("")
+        lines.append(
+            "Each duplicate URL is a different surface form of the same underlying content "
+            "(typically Drupal Views filter permutations, paginated variants, or alternate "
+            "node paths). Canonical tags handle the duplicate-content SEO penalty, but "
+            "Googlebot still has to crawl each duplicate to discover the canonical — so "
+            "every duplicate listed here costs one unit of crawl budget on each Google scan."
+        )
+        lines.append("")
+        lines.append(
+            "**Internal-link hygiene:** wherever your own pages link to a duplicate URL, "
+            "consider changing the link to point at the canonical URL directly. This both "
+            "saves crawl budget and consolidates internal-link equity to the canonical."
+        )
+        lines.append("")
+        for group in canonical_dups[:50]:  # cap at top 50 canonical targets
+            lines.append(f"### → `{group['canonical']}`")
+            lines.append(f"- **Duplicates pointing here:** {group['duplicate_count']}")
+            for d in group["duplicates"][:20]:
+                title = f' — "{d["title"]}"' if d.get("title") else ""
+                ib = f" (in:{d['inbound_count']})" if d.get("inbound_count") else ""
+                lines.append(f"  - `{d['url']}`{title}{ib}")
+            if len(group["duplicates"]) > 20:
+                lines.append(f"  - …and {len(group['duplicates']) - 20} more duplicates")
+            lines.append("")
+        if len(canonical_dups) > 50:
+            lines.append(f"*…and {len(canonical_dups) - 50} more canonical targets "
+                         f"(showing top 50 by duplicate count)*")
+            lines.append("")
+
     with open(path, "w", encoding="utf-8") as f:
         f.write("\n".join(lines) + "\n")
 
@@ -1233,6 +1427,12 @@ def main():
     p.add_argument("--soft-404-threshold", type=int, default=3,
                    help="Score threshold for flagging soft-404 (default 3). "
                         "Lower = more sensitive, higher = stricter")
+    p.add_argument("--no-canonical-dedup", dest="dedup_canonical", action="store_false",
+                   help="Disable canonical-tag duplicate detection (default: enabled). "
+                        "When enabled, pages whose <link rel='canonical'> points elsewhere "
+                        "are recorded but their outbound links are NOT followed, preventing "
+                        "duplicate URL trees (e.g. Drupal Views filter permutations) from "
+                        "exploding the crawl.")
     p.add_argument("--output", default="linkmap",
                    help="Output filename prefix (default 'linkmap')")
     p.add_argument("--timeout", type=int, default=10,
@@ -1257,6 +1457,7 @@ def main():
         check_soft_404=args.check_soft_404,
         soft_404_patterns=args.soft_404_pattern,
         soft_404_threshold=args.soft_404_threshold,
+        dedup_canonical=args.dedup_canonical,
     )
 
     write_json(result, f"{args.output}.json")
@@ -1281,6 +1482,11 @@ def main():
     if s.get("no_alias_count"):
         print(f"  ⚠ {s['no_alias_count']} page(s) without URL alias "
               f"(/node/N served directly)", file=sys.stderr)
+    if s.get("canonical_duplicate_count"):
+        print(f"  🔁 {s['canonical_duplicate_count']} canonical duplicate(s) "
+              f"across {s.get('canonical_target_count', 0)} canonical target(s) "
+              f"— outbound links from duplicates were skipped to save budget",
+              file=sys.stderr)
 
 
 if __name__ == "__main__":
