@@ -128,6 +128,10 @@ HTML_TEMPLATE = """<!doctype html>
   <div id="lookup-result"></div>
   <h2>All pages (<span id="all-pages-count">0</span>)</h2>
   <input id="all-pages-filter" placeholder="Filter pages…" style="margin-bottom:6px;">
+  <label style="font-size:11px; color:#9aa5b1; display:block; margin-bottom:6px;">
+    <input type="checkbox" id="show-files" style="width:auto; vertical-align:middle;">
+    Show files (images, PDFs, etc.)
+  </label>
   <div id="all-pages-list" class="all-pages"></div>
   <h2>Selected node</h2>
   <div id="selected">Click a node or page to see its inbound &amp; outbound links.</div>
@@ -393,6 +397,7 @@ window.showNode = function(url) {{
 
 function renderAllPages(filter) {{
   filter = (filter || '').toLowerCase();
+  const showFiles = document.getElementById('show-files') && document.getElementById('show-files').checked;
   const inboundCount = {{}};
   for (const e of DATA.edges) {{
     inboundCount[e.target] = (inboundCount[e.target] || 0) + 1;
@@ -406,7 +411,9 @@ function renderAllPages(filter) {{
       inbound: inboundCount[url] || 0,
       outbound: (p.outbound || []).length,
       isBroken: brokenSet.has(url),
+      isFile: !!p.is_file,
     }}))
+    .filter(e => showFiles || !e.isFile)
     .filter(e => !filter
       || e.url.toLowerCase().includes(filter)
       || e.title.toLowerCase().includes(filter))
@@ -439,6 +446,10 @@ function renderAllPages(filter) {{
 }}
 
 document.getElementById('all-pages-filter').addEventListener('input', e => renderAllPages(e.target.value));
+document.getElementById('show-files').addEventListener('change', () => {{
+  const filterEl = document.getElementById('all-pages-filter');
+  renderAllPages(filterEl ? filterEl.value : '');
+}});
 renderAllPages();
 
 document.getElementById('search').addEventListener('input', e => {{
@@ -537,6 +548,44 @@ def is_html_response(response):
 
 def matches_skip(url, patterns):
     return any(p.search(url) for p in patterns)
+
+
+FILE_EXTENSIONS = (
+    # Documents
+    ".pdf", ".doc", ".docx", ".xls", ".xlsx", ".ppt", ".pptx", ".odt", ".ods", ".odp",
+    # Archives
+    ".zip", ".rar", ".7z", ".tar", ".gz", ".tgz", ".bz2",
+    # Images
+    ".jpg", ".jpeg", ".png", ".gif", ".webp", ".svg", ".bmp", ".ico", ".tiff",
+    # Video / audio
+    ".mp4", ".mp3", ".wav", ".mov", ".avi", ".webm", ".m4a", ".ogg", ".ogv",
+    # Fonts
+    ".woff", ".woff2", ".ttf", ".otf", ".eot",
+    # Other
+    ".rtf", ".csv", ".txt",
+)
+
+
+def is_file_url(url):
+    """Heuristic: is this URL likely a binary file (image/PDF/etc) rather than HTML?
+
+    Detects Drupal's /sites/.../files/ uploads, common /files/ paths,
+    /assets/, /uploads/, and any URL with a recognized file extension.
+    For these, HEAD is sufficient to get the status — saves bandwidth.
+    """
+    try:
+        path = urlparse(url).path.lower()
+    except Exception:
+        return False
+    # Drupal and common CMS file-upload patterns
+    if "/sites/" in path and "/files/" in path:
+        return True
+    if path.startswith(("/files/", "/uploads/", "/assets/", "/media/")):
+        return True
+    # File extension
+    if path.endswith(FILE_EXTENSIONS):
+        return True
+    return False
 
 
 def extract_links(html, base_url):
@@ -752,15 +801,44 @@ def crawl(start_url, max_pages=100, delay=0.5, follow_external=False,
     print(file=sys.stderr)
 
     # ---- Phase 1: BFS crawl internal pages ----
-    while queue and len(visited) < max_pages:
+    # Pages and files are tracked separately: max_pages limits only HTML pages,
+    # file URLs (images/PDFs/etc.) are HEAD-checked without consuming the budget.
+    page_count = 0
+
+    while queue:
         url = queue.pop(0)
         if url in visited:
             continue
         if matches_skip(url, skip_patterns):
             continue
+
+        file_url = is_file_url(url)
+
+        # Stop processing new HTML pages once we hit max_pages, but keep
+        # draining the queue for file URLs (they're cheap HEAD checks)
+        if not file_url and page_count >= max_pages:
+            continue
+
         visited.add(url)
 
-        print(f"  [{len(visited):>4}/{max_pages}] {url[:90]}", file=sys.stderr)
+        # File URLs (images, PDFs, archives) — HEAD is enough for status check,
+        # saves bandwidth vs downloading the full binary
+        if file_url:
+            print(f"  [file] {url[:90]}", file=sys.stderr)
+            status, err = head_check(session, url, timeout=timeout)
+            pages[url] = {
+                "title": None,
+                "status": status,
+                "error": err,
+                "outbound": [],
+                "is_file": True,
+            }
+            if delay > 0:
+                time.sleep(delay)
+            continue
+
+        page_count += 1
+        print(f"  [{page_count:>4}/{max_pages}] {url[:90]}", file=sys.stderr)
 
         try:
             r = session.get(url, timeout=timeout, allow_redirects=True)
