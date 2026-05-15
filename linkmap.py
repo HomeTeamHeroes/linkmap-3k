@@ -588,6 +588,12 @@ def is_file_url(url):
     return False
 
 
+# Drupal-specific: detects /node/N URLs that didn't redirect to a URL alias.
+# Pages that respond directly at /node/N (no redirect) lack a Pathauto alias,
+# which is an SEO/maintenance issue worth surfacing.
+NODE_PATTERN = re.compile(r"/node/\d+(?:/|$|\?|#)")
+
+
 def extract_links(html, base_url):
     soup = BeautifulSoup(html, "html.parser")
     out = []
@@ -883,12 +889,16 @@ def crawl(start_url, max_pages=100, delay=0.5, follow_external=False,
         outbound_links = extract_links(r.text, final)
         page_meta = extract_meta(soup) if soup else {}
         soft_signals = collect_soft_404_signals(soup, url, soft_404_patterns) if soup and check_soft_404 else {}
+        # No-alias detection: final URL still contains /node/N means Drupal
+        # served the content directly without redirecting to a URL alias.
+        no_alias = bool(NODE_PATTERN.search(final)) if r.status_code == 200 else False
         pages[url] = {
             "title": title,
             "status": r.status_code,
             "outbound": [link["url"] for link in outbound_links],
             "body_length": len(r.text),
             "soft_404_signals": soft_signals,
+            "no_alias": no_alias,
             **page_meta,
         }
 
@@ -1002,6 +1012,21 @@ def crawl(start_url, max_pages=100, delay=0.5, follow_external=False,
                 ],
             })
 
+    # Build no-alias list (Drupal pages without URL alias — quality issue, not broken)
+    no_alias_pages = []
+    for url, p in pages.items():
+        if p.get("no_alias"):
+            no_alias_pages.append({
+                "target": url,
+                "title": p.get("title"),
+                "linked_from": [
+                    {"page": e["source"], "anchor": e["text"]}
+                    for e in by_target.get(url, [])
+                ],
+            })
+    # Sort by inbound count desc
+    no_alias_pages.sort(key=lambda x: -len(x["linked_from"]))
+
     return {
         "start_url": start_url,
         "base_netloc": base_netloc,
@@ -1010,6 +1035,7 @@ def crawl(start_url, max_pages=100, delay=0.5, follow_external=False,
         "edges": edges,
         "external_status": external_status,
         "broken": broken,
+        "no_alias_pages": no_alias_pages,
         "stats": {
             "pages_crawled": len(visited),
             "pages_with_data": len(pages),
@@ -1018,6 +1044,7 @@ def crawl(start_url, max_pages=100, delay=0.5, follow_external=False,
             "broken_count": len(broken),
             "broken_internal": sum(1 for b in broken if b["kind"] == "internal"),
             "broken_external": sum(1 for b in broken if b["kind"] == "external"),
+            "no_alias_count": len(no_alias_pages),
         },
     }
 
@@ -1046,8 +1073,9 @@ def write_html(data, path):
 
 
 def write_broken_report(data, path):
-    """Markdown report of broken links, grouped by target."""
+    """Markdown report of broken links + quality issues (e.g. pages without URL alias)."""
     s = data["stats"]
+    no_alias = data.get("no_alias_pages", [])
     lines = []
     lines.append("# Broken Links Report")
     lines.append("")
@@ -1057,10 +1085,13 @@ def write_broken_report(data, path):
     lines.append(f"- **External targets checked:** {s['external_targets_checked']}")
     lines.append(f"- **Total broken:** {s['broken_count']} "
                  f"({s['broken_internal']} internal, {s['broken_external']} external)")
+    if no_alias:
+        lines.append(f"- **⚠️ Pages without URL alias:** {len(no_alias)} "
+                     f"(Drupal /node/N served directly, no Pathauto alias)")
     lines.append("")
 
-    if not data["broken"]:
-        lines.append("✅ No broken links found.")
+    if not data["broken"] and not no_alias:
+        lines.append("✅ No broken links or quality issues found.")
         with open(path, "w", encoding="utf-8") as f:
             f.write("\n".join(lines) + "\n")
         return
@@ -1100,6 +1131,35 @@ def write_broken_report(data, path):
 
     render_section("Internal broken pages", internal)
     render_section("External broken links", external)
+
+    # Quality issues: Drupal pages without URL aliases
+    if no_alias:
+        lines.append("## ⚠️ Pages without URL alias")
+        lines.append("")
+        lines.append(
+            f"These {len(no_alias)} page(s) are served directly at Drupal's `/node/N` URL "
+            "with no Pathauto alias configured. This is an SEO/maintenance issue — fix by "
+            "running Pathauto bulk-generate, or by setting an alias manually in the page's "
+            "**URL alias** field in Drupal."
+        )
+        lines.append("")
+        for item in no_alias[:100]:  # cap at top 100
+            title = f' — "{item["title"]}"' if item.get("title") else ""
+            lines.append(f"### `{item['target']}`{title}")
+            srcs = item["linked_from"]
+            if srcs:
+                lines.append(f"- **Linked from {len(srcs)} page(s):**")
+                for lf in srcs[:20]:
+                    anchor = f' — "{lf["anchor"]}"' if lf["anchor"] else ""
+                    lines.append(f"  - `{lf['page']}`{anchor}")
+                if len(srcs) > 20:
+                    lines.append(f"  - …and {len(srcs) - 20} more")
+            else:
+                lines.append("- *(not linked from any crawled page — direct visit only)*")
+            lines.append("")
+        if len(no_alias) > 100:
+            lines.append(f"*…and {len(no_alias) - 100} more pages without aliases (showing top 100)*")
+            lines.append("")
 
     with open(path, "w", encoding="utf-8") as f:
         f.write("\n".join(lines) + "\n")
@@ -1182,6 +1242,9 @@ def main():
               file=sys.stderr)
     else:
         print("  ✅ No broken links found", file=sys.stderr)
+    if s.get("no_alias_count"):
+        print(f"  ⚠ {s['no_alias_count']} page(s) without URL alias "
+              f"(/node/N served directly)", file=sys.stderr)
 
 
 if __name__ == "__main__":
