@@ -553,6 +553,97 @@ def extract_links(html, base_url):
     return out
 
 
+SOFT_404_PATTERNS = [
+    # Finnish
+    "sivua ei löytynyt",
+    "sivua ei löydy",
+    "sivu ei ole saatavilla",
+    "etsimääsi sivua ei löydy",
+    "etsimäsi sivu ei löydy",
+    "tämä sivu ei ole käytettävissä",
+    # English
+    "page not found",
+    "404 not found",
+    "this page doesn't exist",
+    "this page does not exist",
+    "this page is unavailable",
+    "we couldn't find that page",
+    "we can't find that page",
+    "the page you are looking for",
+]
+
+
+def collect_soft_404_signals(soup, requested_url, custom_patterns=None):
+    """Collect soft-404 indicators from a 200-status HTML response.
+
+    Returns {signal_key: human_readable_reason} dict. Signals:
+      - 'pattern': known "not found" phrase in title or h1 (strong)
+      - 'canonical_to_home': <link rel="canonical"> points to homepage (strong)
+      - 'noindex': <meta name="robots" content="noindex"> present (weak)
+    """
+    patterns = SOFT_404_PATTERNS + list(custom_patterns or [])
+    signals = {}
+
+    # Pattern in title or h1
+    candidates = []
+    if soup.title and soup.title.string:
+        candidates.append(("title", soup.title.string.lower().strip()))
+    h1 = soup.find("h1")
+    if h1:
+        candidates.append(("h1", h1.get_text().lower().strip()[:300]))
+    for location, text in candidates:
+        for pattern in patterns:
+            if pattern.lower() in text:
+                signals["pattern"] = f"{location} contains '{pattern}'"
+                break
+        if "pattern" in signals:
+            break
+
+    # Canonical URL mismatch — pointing to homepage from a non-homepage URL
+    canon = soup.find("link", attrs={"rel": "canonical"})
+    if canon and canon.get("href"):
+        canon_path = urlparse(canon["href"]).path.rstrip("/") or "/"
+        requested_path = urlparse(requested_url).path.rstrip("/") or "/"
+        if canon_path == "/" and requested_path != "/":
+            signals["canonical_to_home"] = "canonical points to homepage"
+
+    # noindex meta — weak signal (legit admin/search pages also use this)
+    robots = soup.find("meta", attrs={"name": "robots"})
+    if robots and "noindex" in (robots.get("content") or "").lower():
+        signals["noindex"] = "meta robots noindex"
+
+    return signals
+
+
+def score_soft_404(signals, body_length=None, median_length=None, threshold=3):
+    """Score soft-404 likelihood from collected signals.
+
+    Returns (is_soft_404: bool, reasons: list[str]).
+    Defaults to threshold 3 — one strong signal alone is enough.
+    """
+    weights = {
+        "pattern": 3,            # strong: matches known not-found phrases
+        "canonical_to_home": 2,  # strong: canonical → /  on a non-/ URL
+        "noindex": 1,            # weak: legit pages can also be noindex
+    }
+    score = 0
+    reasons = []
+
+    for key, reason in signals.items():
+        if key in weights:
+            score += weights[key]
+            reasons.append(reason)
+
+    # Body length anomaly (computed post-crawl when median is known)
+    if median_length and body_length and body_length < median_length * 0.2:
+        score += 1
+        reasons.append(
+            f"body unusually short ({body_length} chars vs median {int(median_length)})"
+        )
+
+    return score >= threshold, reasons
+
+
 def extract_meta(soup):
     """Pull useful page metadata: og:updated_time, robots unavailable_after.
 
@@ -636,7 +727,8 @@ def head_check(session, url, timeout=8):
 
 def crawl(start_url, max_pages=100, delay=0.5, follow_external=False,
           timeout=10, skip_patterns=None, check_external=True,
-          external_delay=0.1):
+          external_delay=0.1, check_soft_404=True, soft_404_patterns=None,
+          soft_404_threshold=3):
     start_url = normalize_url(start_url)
     base_netloc = urlparse(start_url).netloc
     skip_patterns = skip_patterns or []
@@ -712,10 +804,13 @@ def crawl(start_url, max_pages=100, delay=0.5, follow_external=False,
 
         outbound_links = extract_links(r.text, final)
         page_meta = extract_meta(soup) if soup else {}
+        soft_signals = collect_soft_404_signals(soup, url, soft_404_patterns) if soup and check_soft_404 else {}
         pages[url] = {
             "title": title,
             "status": r.status_code,
             "outbound": [link["url"] for link in outbound_links],
+            "body_length": len(r.text),
+            "soft_404_signals": soft_signals,
             **page_meta,
         }
 
@@ -730,6 +825,37 @@ def crawl(start_url, max_pages=100, delay=0.5, follow_external=False,
 
         if delay > 0:
             time.sleep(delay)
+
+    # ---- Phase 1.5: Soft-404 detection on internal 200-status pages ----
+    soft_404_count = 0
+    if check_soft_404:
+        import statistics
+        body_lengths = [
+            p["body_length"] for p in pages.values()
+            if p.get("status") == 200 and p.get("body_length")
+        ]
+        median_length = statistics.median(body_lengths) if len(body_lengths) >= 5 else None
+
+        for url, p in pages.items():
+            if p.get("status") != 200:
+                continue
+            signals = p.get("soft_404_signals") or {}
+            if not signals and not median_length:
+                continue
+            is_soft, reasons = score_soft_404(
+                signals,
+                body_length=p.get("body_length"),
+                median_length=median_length,
+                threshold=soft_404_threshold,
+            )
+            if is_soft:
+                p["status"] = 404
+                p["error"] = "soft 404: " + "; ".join(reasons)
+                soft_404_count += 1
+
+        if soft_404_count:
+            print(f"\nSoft-404 detection: flagged {soft_404_count} page(s) "
+                  f"(200 status but content suggests not-found)", file=sys.stderr)
 
     # ---- Phase 2: HEAD-check external link targets ----
     external_status = {}
@@ -924,6 +1050,15 @@ def main():
     p.add_argument("--skip-pattern", action="append", default=[],
                    help="Regex pattern of URLs to skip (can be repeated). "
                         "Useful for Drupal admin paths, etc.")
+    p.add_argument("--no-soft-404", dest="check_soft_404", action="store_false",
+                   help="Disable soft-404 detection (default: enabled). "
+                        "Soft 404 = 200 status but body says 'page not found'.")
+    p.add_argument("--soft-404-pattern", action="append", default=[],
+                   help="Additional 'not found' phrase to match in title/h1 "
+                        "(can be repeated, case-insensitive substring match)")
+    p.add_argument("--soft-404-threshold", type=int, default=3,
+                   help="Score threshold for flagging soft-404 (default 3). "
+                        "Lower = more sensitive, higher = stricter")
     p.add_argument("--output", default="linkmap",
                    help="Output filename prefix (default 'linkmap')")
     p.add_argument("--timeout", type=int, default=10,
@@ -945,6 +1080,9 @@ def main():
         skip_patterns=skip_patterns,
         check_external=args.check_external,
         external_delay=args.external_delay,
+        check_soft_404=args.check_soft_404,
+        soft_404_patterns=args.soft_404_pattern,
+        soft_404_threshold=args.soft_404_threshold,
     )
 
     write_json(result, f"{args.output}.json")
