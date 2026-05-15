@@ -1,10 +1,10 @@
 # Broken Links Report
 
 - **Site:** https://www.kolmekampusta.fi/fi
-- **Crawled:** 2026-05-11T10:11:43
+- **Crawled:** 2026-05-15T08:45:04
 - **Pages crawled:** 1000
-- **External targets checked:** 257
-- **Total broken:** 9 (2 internal, 7 external)
+- **External targets checked:** 259
+- **Total broken:** 9 (3 internal, 6 external)
 
 ## Internal broken pages
 
@@ -17,6 +17,11 @@
 - **Reason:** HTTP 403
 - **Linked from 1 page(s):**
   - `https://www.kolmekampusta.fi/fi/artikkelit/elamyksia-ja-herkuttelua-aitienpaivana` — "Tiedustele paikkoja äitienpäivälounaalle" *[updated 2026-05-07]*
+
+### `https://www.kolmekampusta.fi/fi/tapahtumat/aloittelijan-juoksuviikonloppu-pajulahdessa`
+- **Reason:** HTTP 403
+- **Linked from 1 page(s):**
+  - `https://www.kolmekampusta.fi/fi/kesan-tarjonta-kolmella-kampuksella` — "Aloittelijan juoksuviikonloppu Pajulahdessa 2.-3.5." *[updated 2026-05-15]*
 
 ## External broken links
 
@@ -44,11 +49,6 @@
 - **Reason:** HTTP 404
 - **Linked from 1 page(s):**
   - `https://www.kolmekampusta.fi/fi/uutiset/2026-03/osallisuus-ja-soveltava-liikunta-esilla-pajulahdessa` — "osallisuusindikaattoria" *[updated 2026-03-25]*
-
-### `https://urheilijanurapolku.fi/`
-- **Reason:** timeout
-- **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/urheilu/yhteisomme/paijat-hameen-urheiluakatemia` — "Lue lisää" *[updated 2025-06-24]*
 
 ### `https://www.bikeland.fi/southbycycle-lansi-uudenmaan-kierros`
 - **Reason:** HTTP 404
