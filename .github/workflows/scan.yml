@@ -31,13 +31,14 @@ jobs:
       - name: Run linkmap scan
         run: |
           python linkmap.py https://www.kolmekampusta.fi/fi \
-            --max-pages 1000 \
+            --max-pages 3000 \
             --delay 0.5 \
-            --skip-pattern '^https?://(www\.)?kolmekampusta\.fi/(sv|en)(/|$)' \
+            --skip-pattern '^https?://(www\.)?kolmekampusta\.fi/sv([/?#]|$)' \
             --skip-pattern '/user/' \
             --skip-pattern '/admin/' \
             --skip-pattern '/node/\d+/(edit|delete)' \
             --skip-pattern '\?destination=' \
+            --skip-pattern '/feed(/|$|\?)' \
             --output 3k-fi
 
       # OPTIONAL: Enable Drupal author enrichment by adding DRUPAL_USER and
