@@ -2,7 +2,7 @@ name: Weekly link scan
 
 on:
   schedule:
-    # Mondays 06:00 UTC = 08:00 Helsinki (EEST). Adjust as needed.
+    # Mondays 06:00 UTC = 09:00 Helsinki (EEST). Adjust as needed.
     - cron: '0 6 * * 1'
   workflow_dispatch:
     # Allows manual triggering from the Actions tab
@@ -14,7 +14,7 @@ permissions:
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 45   # bumped from 30: 3000 pages + canonical dedup adds detection time
 
     steps:
       - name: Checkout repo
@@ -31,18 +31,20 @@ jobs:
       - name: Run linkmap scan
         run: |
           python linkmap.py https://www.kolmekampusta.fi/fi \
-         --max-pages 3000 \
-        --delay 0.5 \
-        --skip-pattern '^https?://(www\.)?kolmekampusta\.fi/sv([/?#]|$)' \
-        --skip-pattern '^https?://(www\.)?kolmekampusta\.fi/(fi|en)\?' \
-        --skip-pattern '/node/\d+\?' \
-        --skip-pattern '/taxonomy/term/\d+\?' \
-        --skip-pattern '/user/' \
-        --skip-pattern '/admin/' \
-        --skip-pattern '/node/\d+/(edit|delete)' \
-        --skip-pattern '\?destination=' \
-        --skip-pattern '/feed(/|$|\?)' \
-        --output 3k-fi
+            --max-pages 3000 \
+            --delay 0.5 \
+            --skip-pattern '^https?://(www\.)?kolmekampusta\.fi/sv([/?#]|$)' \
+            --skip-pattern '/user/' \
+            --skip-pattern '/admin/' \
+            --skip-pattern '/node/\d+/(edit|delete)' \
+            --skip-pattern '\?destination=' \
+            --skip-pattern '/feed(/|$|\?)' \
+            --output 3k-fi
+        # Note: canonical-tag duplicate detection is enabled by default.
+        # Pages whose <link rel="canonical"> points elsewhere are recorded but
+        # their outbound links are NOT followed, preventing Drupal Views filter
+        # permutations from exploding the crawl. Pass --no-canonical-dedup to
+        # disable if you ever need to see the full duplicate URL tree.
 
       # OPTIONAL: Enable Drupal author enrichment by adding DRUPAL_USER and
       # DRUPAL_PASS as repository secrets. The step is auto-skipped if the
@@ -61,11 +63,17 @@ jobs:
         run: |
           BROKEN=$(python -c "import json; print(json.load(open('3k-fi.json'))['stats']['broken_count'])")
           PAGES=$(python -c "import json; print(json.load(open('3k-fi.json'))['stats']['pages_crawled'])")
+          NO_ALIAS=$(python -c "import json; print(json.load(open('3k-fi.json'))['stats'].get('no_alias_count', 0))")
+          CANON_DUPS=$(python -c "import json; print(json.load(open('3k-fi.json'))['stats'].get('canonical_duplicate_count', 0))")
+          CANON_TARGETS=$(python -c "import json; print(json.load(open('3k-fi.json'))['stats'].get('canonical_target_count', 0))")
           DATE=$(date -I)
           echo "broken=$BROKEN" >> $GITHUB_OUTPUT
           echo "pages=$PAGES" >> $GITHUB_OUTPUT
+          echo "no_alias=$NO_ALIAS" >> $GITHUB_OUTPUT
+          echo "canon_dups=$CANON_DUPS" >> $GITHUB_OUTPUT
+          echo "canon_targets=$CANON_TARGETS" >> $GITHUB_OUTPUT
           echo "date=$DATE" >> $GITHUB_OUTPUT
-          echo "Scan: $PAGES pages, $BROKEN broken links"
+          echo "Scan: $PAGES pages, $BROKEN broken, $NO_ALIAS without alias, $CANON_DUPS canonical duplicates"
 
       - name: Commit results
         run: |
@@ -75,7 +83,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Weekly scan ${{ steps.stats.outputs.date }} — ${{ steps.stats.outputs.pages }} pages, ${{ steps.stats.outputs.broken }} broken"
+            git commit -m "Weekly scan ${{ steps.stats.outputs.date }} — ${{ steps.stats.outputs.pages }} pages, ${{ steps.stats.outputs.broken }} broken, ${{ steps.stats.outputs.canon_dups }} canonical duplicates"
             git push
           fi
 
