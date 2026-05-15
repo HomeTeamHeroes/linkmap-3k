@@ -40,10 +40,15 @@ HTML_TEMPLATE = """<!doctype html>
 <style>
   body {{ margin:0; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
          background:#0e1115; color:#e7e7e7; }}
-  #sidebar {{ position:fixed; top:0; right:0; width:380px; height:100vh; padding:20px;
-             box-sizing:border-box; background:#181c22; border-left:1px solid #2a2f37;
-             overflow-y:auto; }}
-  #network {{ width:calc(100% - 380px); height:100vh; }}
+  /* Default: graph hidden, sidebar fills viewport */
+  body.graph-hidden #network {{ display:none; }}
+  body.graph-hidden #sidebar {{ position:relative; width:100%; max-width:780px;
+                                margin:0 auto; height:auto; min-height:100vh;
+                                border-left:none; }}
+  body.graph-visible #sidebar {{ position:fixed; top:0; right:0; width:380px;
+                                 height:100vh; border-left:1px solid #2a2f37; }}
+  body.graph-visible #network {{ display:block; width:calc(100% - 380px); height:100vh; }}
+  #sidebar {{ padding:20px; box-sizing:border-box; background:#181c22; overflow-y:auto; }}
   h1 {{ font-size:16px; margin:0 0 12px; color:#7aa2f7; }}
   h2 {{ font-size:12px; margin:18px 0 8px; color:#bb9af7;
         text-transform:uppercase; letter-spacing:.06em; }}
@@ -67,10 +72,26 @@ HTML_TEMPLATE = """<!doctype html>
   .legend {{ display:flex; gap:12px; font-size:11px; margin-top:8px; flex-wrap:wrap; }}
   .legend span {{ display:flex; align-items:center; gap:5px; }}
   .legend .dot {{ width:9px; height:9px; border-radius:50%; }}
+  #toggle-graph {{ width:100%; padding:8px 12px; margin:12px 0;
+                   background:#7aa2f7; color:#0e1115; border:none; border-radius:4px;
+                   font:inherit; font-weight:600; cursor:pointer; }}
+  #toggle-graph:hover {{ background:#a4c1f7; }}
+  .all-pages {{ font-size:11px; max-height:340px; overflow-y:auto;
+               border:1px solid #2a2f37; border-radius:4px; }}
+  .all-pages-row {{ display:flex; justify-content:space-between; align-items:center;
+                    padding:5px 8px; cursor:pointer; border-bottom:1px solid #1f242c;
+                    gap:8px; }}
+  .all-pages-row:hover {{ background:#2a2f37; }}
+  .all-pages-url {{ color:#7aa2f7; flex:1; overflow:hidden; text-overflow:ellipsis;
+                    white-space:nowrap; }}
+  .all-pages-row.broken .all-pages-url {{ color:#f7768e; }}
+  .all-pages-count {{ color:#666; font-size:10px; white-space:nowrap; }}
+  .graph-only {{ /* visible only when graph is on */ }}
+  body.graph-hidden .graph-only {{ display:none; }}
 </style>
 <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
 </head>
-<body>
+<body class="graph-hidden">
 <div id="network"></div>
 <aside id="sidebar">
   <h1>📊 Linkmap</h1>
@@ -85,25 +106,31 @@ HTML_TEMPLATE = """<!doctype html>
     <span><span class="dot" style="background:#f7768e"></span>broken</span>
     <span><span class="dot" style="background:#888"></span>not checked</span>
   </div>
-  <h2>View</h2>
-  <label style="font-size:11px; color:#9aa5b1; display:block; margin-top:6px;">Layout</label>
-  <select id="layout-mode" style="width:100%; box-sizing:border-box; padding:6px 8px; background:#0e1115; color:#fff; border:1px solid #2a2f37; border-radius:4px; font:inherit; margin-bottom:8px;">
-    <option value="force">Force-directed (default)</option>
-    <option value="hierarchy-ud">Hierarchy (top-down)</option>
-    <option value="hierarchy-lr">Hierarchy (left-right)</option>
-  </select>
-  <label style="font-size:11px; color:#9aa5b1; display:block;">Color</label>
-  <select id="color-mode" style="width:100%; box-sizing:border-box; padding:6px 8px; background:#0e1115; color:#fff; border:1px solid #2a2f37; border-radius:4px; font:inherit;">
-    <option value="status">Status (default)</option>
-    <option value="section">URL section</option>
-  </select>
-  <h2>Filter graph</h2>
-  <input id="search" placeholder="Filter nodes by URL or title…">
+  <button id="toggle-graph" type="button">Show visual graph</button>
+  <div class="graph-only">
+    <h2>View</h2>
+    <label style="font-size:11px; color:#9aa5b1; display:block; margin-top:6px;">Layout</label>
+    <select id="layout-mode" style="width:100%; box-sizing:border-box; padding:6px 8px; background:#0e1115; color:#fff; border:1px solid #2a2f37; border-radius:4px; font:inherit; margin-bottom:8px;">
+      <option value="force">Force-directed (default)</option>
+      <option value="hierarchy-ud">Hierarchy (top-down)</option>
+      <option value="hierarchy-lr">Hierarchy (left-right)</option>
+    </select>
+    <label style="font-size:11px; color:#9aa5b1; display:block;">Color</label>
+    <select id="color-mode" style="width:100%; box-sizing:border-box; padding:6px 8px; background:#0e1115; color:#fff; border:1px solid #2a2f37; border-radius:4px; font:inherit;">
+      <option value="status">Status (default)</option>
+      <option value="section">URL section</option>
+    </select>
+    <h2>Filter graph</h2>
+    <input id="search" placeholder="Filter nodes by URL or title…">
+  </div>
   <h2>Look up URL</h2>
   <input id="lookup" placeholder="Paste a URL to see what links to it…">
   <div id="lookup-result"></div>
+  <h2>All pages (<span id="all-pages-count">0</span>)</h2>
+  <input id="all-pages-filter" placeholder="Filter pages…" style="margin-bottom:6px;">
+  <div id="all-pages-list" class="all-pages"></div>
   <h2>Selected node</h2>
-  <div id="selected">Click a node to see its inbound &amp; outbound links.</div>
+  <div id="selected">Click a node or page to see its inbound &amp; outbound links.</div>
 </aside>
 <script>
 const DATA = {data_json};
@@ -189,6 +216,42 @@ const LAYOUT_OPTIONS = {{
   }},
 }};
 
+let network = null;  // lazy-initialized when graph is toggled on
+
+function initNetwork() {{
+  if (network) return;
+  network = new vis.Network(
+    document.getElementById('network'),
+    {{ nodes: visNodes, edges: visEdges }},
+    {{
+      ...LAYOUT_OPTIONS.force,
+      nodes: {{ shape: 'dot', font: {{ color: '#e7e7e7', size: 10, strokeWidth: 0 }} }},
+      interaction: {{ hover: true, tooltipDelay: 150 }},
+    }}
+  );
+  network.on('click', e => {{ if (e.nodes[0]) showNode(e.nodes[0]); }});
+  // Apply currently-selected layout if not force
+  const mode = document.getElementById('layout-mode').value;
+  if (mode !== 'force') {{
+    if (mode.startsWith('hierarchy')) assignBFSLevels();
+    network.setOptions(LAYOUT_OPTIONS[mode]);
+  }}
+}}
+
+document.getElementById('toggle-graph').addEventListener('click', () => {{
+  const body = document.body;
+  if (body.classList.contains('graph-hidden')) {{
+    body.classList.remove('graph-hidden');
+    body.classList.add('graph-visible');
+    document.getElementById('toggle-graph').textContent = 'Hide visual graph';
+    initNetwork();
+  }} else {{
+    body.classList.remove('graph-visible');
+    body.classList.add('graph-hidden');
+    document.getElementById('toggle-graph').textContent = 'Show visual graph';
+  }}
+}});
+
 const PALETTE = ['#7aa2f7', '#bb9af7', '#9ece6a', '#e0af68', '#7dcfff', '#ff9e64', '#73daca', '#c0caf5', '#41a6b5', '#d19a66'];
 
 function assignBFSLevels() {{
@@ -263,15 +326,7 @@ function recolorBySection() {{
   visNodes.update(updated);
 }}
 
-const network = new vis.Network(
-  document.getElementById('network'),
-  {{ nodes: visNodes, edges: visEdges }},
-  {{
-    ...LAYOUT_OPTIONS.force,
-    nodes: {{ shape: 'dot', font: {{ color: '#e7e7e7', size: 10, strokeWidth: 0 }} }},
-    interaction: {{ hover: true, tooltipDelay: 150 }},
-  }}
-);
+const PALETTE_FALLBACK_COMMENT = "see lazy initNetwork() above";
 
 document.getElementById('layout-mode').addEventListener('change', e => {{
   const mode = e.target.value;
@@ -330,11 +385,61 @@ window.showNode = function(url) {{
   }}
 
   document.getElementById('selected').innerHTML = html;
-  network.selectNodes([url]);
-  network.focus(url, {{ scale: 1.0, animation: true }});
+  if (network) {{
+    network.selectNodes([url]);
+    network.focus(url, {{ scale: 1.0, animation: true }});
+  }}
 }};
 
-network.on('click', e => {{ if (e.nodes[0]) showNode(e.nodes[0]); }});
+function renderAllPages(filter) {{
+  filter = (filter || '').toLowerCase();
+  const inboundCount = {{}};
+  for (const e of DATA.edges) {{
+    inboundCount[e.target] = (inboundCount[e.target] || 0) + 1;
+  }}
+
+  const entries = Object.entries(DATA.pages)
+    .map(([url, p]) => ({{
+      url,
+      title: p.title || '',
+      status: p.status,
+      inbound: inboundCount[url] || 0,
+      outbound: (p.outbound || []).length,
+      isBroken: brokenSet.has(url),
+    }}))
+    .filter(e => !filter
+      || e.url.toLowerCase().includes(filter)
+      || e.title.toLowerCase().includes(filter))
+    .sort((a, b) => b.inbound - a.inbound);
+
+  const MAX_ROWS = 200;
+  const rows = entries.slice(0, MAX_ROWS).map(e => {{
+    const label = e.title || (() => {{
+      try {{ return new URL(e.url).pathname || '/'; }} catch (_) {{ return e.url; }}
+    }})();
+    const labelEsc = escape(label.length > 50 ? label.slice(0, 47) + '…' : label);
+    const urlEsc = escape(e.url);
+    const status = e.isBroken
+      ? `<span style="color:#f7768e">⚠ ${{e.status || 'err'}}</span>`
+      : `<span style="color:#666">${{e.status || '?'}}</span>`;
+    return `<div class="all-pages-row ${{e.isBroken ? 'broken' : ''}}" `
+      + `onclick='showNode(${{JSON.stringify(e.url)}})' `
+      + `title="${{urlEsc}}">`
+      + `<span class="all-pages-url">${{labelEsc}}</span>`
+      + `<span class="all-pages-count">${{status}} · in:${{e.inbound}} · out:${{e.outbound}}</span>`
+      + `</div>`;
+  }}).join('');
+
+  const overflow = entries.length > MAX_ROWS
+    ? `<div style="padding:8px;color:#666;text-align:center;font-size:10px;">Showing ${{MAX_ROWS}} of ${{entries.length}} — type to filter</div>`
+    : '';
+
+  document.getElementById('all-pages-list').innerHTML = rows + overflow;
+  document.getElementById('all-pages-count').textContent = entries.length;
+}}
+
+document.getElementById('all-pages-filter').addEventListener('input', e => renderAllPages(e.target.value));
+renderAllPages();
 
 document.getElementById('search').addEventListener('input', e => {{
   const q = e.target.value.toLowerCase();
