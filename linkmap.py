@@ -511,7 +511,15 @@ document.getElementById('lookup').addEventListener('input', e => lookupUrl(e.tar
 # ---------------------------------------------------------------------
 
 def normalize_url(url):
-    """Canonicalize URL: drop fragment, sort query parameters alphabetically.
+    """Canonicalize URL: drop fragment, strip no-op filters, sort query parameters.
+
+    Canonicalization steps:
+    1. Drop fragment (#section)
+    2. Strip no-op filter values that mean "no filter applied":
+       - value == "All" (Drupal Views convention)
+       - value == "" (empty)
+       - key=="page" and value=="0" (first page = no page param)
+    3. Sort remaining parameters alphabetically
 
     This makes URLs like '?a=1&b=2' and '?b=2&a=1' equivalent — important for
     Drupal Views filter pages where the same logical page can be reached via
@@ -522,6 +530,11 @@ def normalize_url(url):
         parsed = urlparse(url)
         if parsed.query:
             params = parse_qsl(parsed.query, keep_blank_values=True)
+            # Strip no-op filter values
+            params = [
+                (k, v) for k, v in params
+                if v != "All" and v != "" and not (k == "page" and v == "0")
+            ]
             params.sort()
             query = urlencode(params)
             return urlunparse((
@@ -532,11 +545,9 @@ def normalize_url(url):
                 query,
                 "",
             ))
-        # No query string — just strip fragment
         return urlunparse((parsed.scheme, parsed.netloc, parsed.path,
                            parsed.params, "", ""))
     except Exception:
-        # Fall back to original URL on parsing errors
         return url
 
 
