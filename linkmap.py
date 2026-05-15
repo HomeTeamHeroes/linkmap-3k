@@ -26,7 +26,7 @@ import re
 import sys
 import time
 from datetime import datetime
-from urllib.parse import urljoin, urlparse, urldefrag
+from urllib.parse import urljoin, urlparse, urldefrag, parse_qsl, urlencode, urlunparse
 
 import requests
 from bs4 import BeautifulSoup
@@ -511,8 +511,33 @@ document.getElementById('lookup').addEventListener('input', e => lookupUrl(e.tar
 # ---------------------------------------------------------------------
 
 def normalize_url(url):
-    url, _ = urldefrag(url)
-    return url
+    """Canonicalize URL: drop fragment, sort query parameters alphabetically.
+
+    This makes URLs like '?a=1&b=2' and '?b=2&a=1' equivalent — important for
+    Drupal Views filter pages where the same logical page can be reached via
+    many parameter orderings (each filter-click reorders existing parameters).
+    """
+    try:
+        url, _ = urldefrag(url)
+        parsed = urlparse(url)
+        if parsed.query:
+            params = parse_qsl(parsed.query, keep_blank_values=True)
+            params.sort()
+            query = urlencode(params)
+            return urlunparse((
+                parsed.scheme,
+                parsed.netloc,
+                parsed.path,
+                parsed.params,
+                query,
+                "",
+            ))
+        # No query string — just strip fragment
+        return urlunparse((parsed.scheme, parsed.netloc, parsed.path,
+                           parsed.params, "", ""))
+    except Exception:
+        # Fall back to original URL on parsing errors
+        return url
 
 
 def normalize_netloc(netloc):
