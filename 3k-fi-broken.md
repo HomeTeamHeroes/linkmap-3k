@@ -1,10 +1,10 @@
 # Broken Links Report
 
 - **Site:** https://www.kolmekampusta.fi/fi
-- **Crawled:** 2026-05-15T16:34:32
-- **Pages crawled:** 921
-- **External targets checked:** 248
-- **Total broken:** 12 (4 internal, 8 external)
+- **Crawled:** 2026-05-18T10:05:57
+- **Pages crawled:** 920
+- **External targets checked:** 247
+- **Total broken:** 12 (5 internal, 7 external)
 - **⚠️ Pages without URL alias:** 8 (Drupal /node/N served directly, no Pathauto alias)
 - **🔁 Canonical duplicates:** 79 page(s) across 15 canonical target(s) (crawl-budget waste — duplicate content with canonical redirect)
 
@@ -16,6 +16,12 @@
   - `https://www.kolmekampusta.fi/en/articles/finnish-winter-swimming-championships-pajulahti-301-122026` — "Explore and book accommodation >" *[updated 2025-10-27]*
   - `https://www.kolmekampusta.fi/fi/artikkelit/talviuinnin-sm-kilpailut-pajulahdessa-301-122026` — "Tutustu ja varaa majoitus >" *[updated 2025-10-27]*
   - `https://www.kolmekampusta.fi/fi/artikkelit/talviuinnin-sm-kilpailut-pajulahdessa-301-122026` — "Talviuinnin SM" *[updated 2025-10-27]*
+
+### `https://www.kolmekampusta.fi/fi/tapahtumat/boccia-challenger`
+- **Reason:** HTTP 403
+- **Linked from 2 page(s):**
+  - `https://www.kolmekampusta.fi/fi/pajulahti-hallin-kuntosali` — "6.-15.5. Boccia Challenger -kisat" *[updated 2026-04-30]*
+  - `https://www.kolmekampusta.fi/fi/pajulahti-halli` — "6.-15.5. Boccia Challenger -kisat" *[updated 2026-05-11]*
 
 ### `https://www.kolmekampusta.fi/fi/tapahtumat/aitienpaivabrunssi-105-kisakallion-rantamakasiinilla`
 - **Reason:** HTTP 403
@@ -72,11 +78,6 @@
 - **Reason:** HTTP 404
 - **Linked from 1 page(s):**
   - `https://www.kolmekampusta.fi/fi/tapahtumat/merja-huttusen-kesakuun-leiri-aikuisille` — "LEIRI ON TÄYNNÄ!" *[updated 2026-05-08, ⏰ expires Sunday, 07-Jun-26 17:00:00 EEST]*
-
-### `https://urheilijanurapolku.fi/`
-- **Reason:** timeout
-- **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/urheilu/yhteisomme/paijat-hameen-urheiluakatemia` — "Lue lisää" *[updated 2025-06-24]*
 
 ## ⚠️ Pages without URL alias
 

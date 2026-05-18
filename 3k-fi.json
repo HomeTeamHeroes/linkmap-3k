@@ -1,7 +1,7 @@
 {
   "start_url": "https://www.kolmekampusta.fi/fi",
   "base_netloc": "www.kolmekampusta.fi",
-  "crawled_at": "2026-05-15T16:34:32",
+  "crawled_at": "2026-05-18T10:05:57",
   "pages": {
     "https://www.kolmekampusta.fi/fi": {
       "title": "Kolmen kampuksen urheiluopisto | Kolmen kampuksen urheiluopisto",
@@ -3717,12 +3717,12 @@
         "https://www.kolmekampusta.fi/fi",
         "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
         "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/vapaan-sivistystyon-koulutus",
-        "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+        "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
         "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-kisakalliossa-2-3-vrk-14-176",
         "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-25-27-146-37",
-        "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
         "https://www.kolmekampusta.fi/fi/tapahtumat/pajukettuleiri-1-pajulahdessa",
         "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
+        "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
         "https://www.kolmekampusta.fi/fi/tapahtumat/pajukettuleiri-2-pajulahdessa",
         "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-kisakalliossa",
         "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-kisakalliossa-2-3-vrk-14-176",
@@ -3763,7 +3763,7 @@
         "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
         "https://www.kolmekampusta.fi/fi/evastekaytanto"
       ],
-      "body_length": 155735,
+      "body_length": 155723,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/vapaa-aika",
@@ -3869,9 +3869,9 @@
         "https://hyvinvointilomat.fi/",
         "https://www.lomajaterveys.fi",
         "https://pht.fi/",
-        "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
         "https://www.kolmekampusta.fi/fi/tapahtumat/pajukettuleiri-1-pajulahdessa",
         "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
+        "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
         "https://www.kolmekampusta.fi/fi/tapahtumat/pajukettuleiri-2-pajulahdessa",
         "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-kisakalliossa",
         "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-kisakalliossa-2-3-vrk-14-176",
@@ -3897,12 +3897,12 @@
         "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
         "https://www.kolmekampusta.fi/fi/evastekaytanto"
       ],
-      "body_length": 138964,
+      "body_length": 138982,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit",
       "is_canonical_duplicate": false,
-      "updated_time": "2026-04-29T14:13:24+03:00",
+      "updated_time": "2026-05-18T11:03:52+03:00",
       "og_type": "article"
     },
     "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/perhepaketit": {
@@ -3999,7 +3999,7 @@
         "https://www.kolmekampusta.fi/fi/vapaa-aika/kanta-asiakkuus",
         "https://www.kolmekampusta.fi/fi/vapaa-aika/kanta-asiakkuus",
         "https://www.kolmekampusta.fi/fi/vapaa-ajan-ilmoittautumislomake",
-        "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+        "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
         "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
         "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-kisakalliossa",
         "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-kisakalliossa-2-3-vrk-14-176",
@@ -4026,7 +4026,7 @@
         "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
         "https://www.kolmekampusta.fi/fi/evastekaytanto"
       ],
-      "body_length": 135714,
+      "body_length": 135708,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/perhepaketit",
@@ -4272,7 +4272,7 @@
         "https://www.kolmekampusta.fi/fi/tapahtumat/kaj-kunnaksen-kuntofiilis-50",
         "https://www.kolmekampusta.fi/fi/vapaa-aika/kanta-asiakkuus",
         "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-        "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+        "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
         "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-25-27-146-37",
         "https://www.kolmekampusta.fi/fi/tapahtumat/senioritennis-viikonloppukurssi-2-vrk-pajulahdessa",
         "https://www.kolmekampusta.fi/fi/tapahtumat/senioritennis-viikonloppukurssi-2-vrk-pajulahdessa-0",
@@ -4293,7 +4293,7 @@
         "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
         "https://www.kolmekampusta.fi/fi/evastekaytanto"
       ],
-      "body_length": 132505,
+      "body_length": 132499,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/aikuiset-60-fiiliskurssit",
@@ -7714,13 +7714,13 @@
         "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat?tyyppi=24",
         "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat?tyyppi=23",
         "https://www.kolmekampusta.fi/fi/tapahtumat/taitoluistelun-tehopaiva-pojille-pajulahdessa-2352026",
-        "https://www.kolmekampusta.fi/fi/tapahtumat/taitoluistelun-tehopaiva-pojille-pajulahdessa-2452026",
         "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-        "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+        "https://www.kolmekampusta.fi/fi/tapahtumat/taitoluistelun-tehopaiva-pojille-pajulahdessa-2452026",
         "https://www.kolmekampusta.fi/fi/tapahtumat/pajukettuleiri-1-pajulahdessa",
         "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
         "https://www.kolmekampusta.fi/fi/tapahtumat/leimausleiri-2026",
         "https://www.kolmekampusta.fi/fi/tapahtumat/merja-huttusen-kesakuun-leiri-aikuisille",
+        "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
         "https://www.kolmekampusta.fi/fi/tapahtumat/ringeten-taitoleiri-7-1062026-kisakalliossa",
         "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallio-basket-camp-8-1162026",
         "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-kisakalliossa",
@@ -7990,7 +7990,7 @@
         "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
         "https://www.kolmekampusta.fi/fi/evastekaytanto"
       ],
-      "body_length": 113376,
+      "body_length": 113382,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/ajankohtaista",
@@ -17841,7 +17841,7 @@
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/ylakoululeiritys-kisakallion-kampuksella",
       "is_canonical_duplicate": false,
-      "updated_time": "2026-05-11T15:32:13+03:00",
+      "updated_time": "2026-05-18T11:01:39+03:00",
       "og_type": "article"
     },
     "https://www.kolmekampusta.fi/fi/ylakoululeiritys-pajulahden-kampuksella": {
@@ -22047,8 +22047,8 @@
       "updated_time": "2025-06-24T15:42:33+03:00",
       "og_type": "article"
     },
-    "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126": {
-      "title": "Kesä Pajulahdessa 2-5 vrk, vkot 23-24 (31.5.-12.6.) | Kolmen kampuksen urheiluopisto",
+    "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026": {
+      "title": "Kesä Pajulahdessa 2-5 vrk, vko 24 (7.-12.6.2026) | Kolmen kampuksen urheiluopisto",
       "status": 200,
       "outbound": [
         "https://www.kolmekampusta.fi/fi",
@@ -22136,7 +22136,6 @@
         "https://www.kolmekampusta.fi/sites/default/files/2026-02/pajulahti_180718_nikisoukkio_1874_0.jpg",
         "https://www.kolmekampusta.fi/fi/majoitus",
         "https://www.kolmekampusta.fi/fi/vapaa-aika/kanta-asiakkuus",
-        "https://www.kolmekampusta.fi/sites/default/files/2026-05/kesa-31.5-5.6.2026.pdf",
         "https://www.kolmekampusta.fi/sites/default/files/2026-05/kesa-7-12.6.2026.pdf",
         "https://www.kolmekampusta.fi/fi/vapaa-ajan-ilmoittautumislomake",
         "https://www.kolmekampusta.fi/fi/vapaa-aika/kanta-asiakkuus",
@@ -22174,12 +22173,12 @@
         "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
         "https://www.kolmekampusta.fi/fi/evastekaytanto"
       ],
-      "body_length": 123345,
+      "body_length": 123021,
       "soft_404_signals": {},
       "no_alias": false,
-      "canonical": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "canonical": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "is_canonical_duplicate": false,
-      "updated_time": "2026-05-13T11:16:45+03:00",
+      "updated_time": "2026-05-18T10:57:18+03:00",
       "robots": "unavailable_after: Friday, 12-Jun-26 00:00:00 EEST",
       "unavailable_after": "Friday, 12-Jun-26 00:00:00 EEST",
       "og_type": "article"
@@ -24808,12 +24807,12 @@
         "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
         "https://www.kolmekampusta.fi/fi/evastekaytanto"
       ],
-      "body_length": 92538,
+      "body_length": 92534,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/tapahtumat/hyvan-olon-viikonloppu-pajulahdessa-3010-1112026",
       "is_canonical_duplicate": false,
-      "updated_time": "2026-05-10T21:34:03+03:00",
+      "updated_time": "2026-05-18T11:56:30+03:00",
       "robots": "unavailable_after: Sunday, 01-Nov-26 23:00:00 EET",
       "unavailable_after": "Sunday, 01-Nov-26 23:00:00 EET",
       "og_type": "article"
@@ -31426,12 +31425,12 @@
         "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
         "https://www.kolmekampusta.fi/fi/evastekaytanto"
       ],
-      "body_length": 83945,
+      "body_length": 83815,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/pajulahden-ruokalista",
       "is_canonical_duplicate": false,
-      "updated_time": "2026-05-11T18:23:28+03:00",
+      "updated_time": "2026-05-17T20:21:14+03:00",
       "og_type": "article"
     },
     "https://www.kolmekampusta.fi/fi/ravintola-sport": {
@@ -32851,7 +32850,7 @@
       "title": "Tulevat tapahtumat | Kolmen kampuksen urheiluopisto",
       "status": 200,
       "outbound": [],
-      "body_length": 86719,
+      "body_length": 89476,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
@@ -32891,7 +32890,7 @@
       "title": "Tulevat tapahtumat | Kolmen kampuksen urheiluopisto",
       "status": 200,
       "outbound": [],
-      "body_length": 106109,
+      "body_length": 106103,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
@@ -32951,7 +32950,7 @@
       "title": "Tulevat tapahtumat | Kolmen kampuksen urheiluopisto",
       "status": 200,
       "outbound": [],
-      "body_length": 120549,
+      "body_length": 120555,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
@@ -32961,7 +32960,7 @@
       "title": "Tulevat tapahtumat | Kolmen kampuksen urheiluopisto",
       "status": 200,
       "outbound": [],
-      "body_length": 120909,
+      "body_length": 120838,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
@@ -32971,7 +32970,7 @@
       "title": "Tulevat tapahtumat | Kolmen kampuksen urheiluopisto",
       "status": 200,
       "outbound": [],
-      "body_length": 121020,
+      "body_length": 121091,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
@@ -32981,7 +32980,7 @@
       "title": "Tulevat tapahtumat | Kolmen kampuksen urheiluopisto",
       "status": 200,
       "outbound": [],
-      "body_length": 100706,
+      "body_length": 103463,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
@@ -33080,7 +33079,7 @@
       "title": "Ajankohtaista | Kolmen kampuksen urheiluopisto",
       "status": 200,
       "outbound": [],
-      "body_length": 113864,
+      "body_length": 113870,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/ajankohtaista",
@@ -42098,15 +42097,15 @@
       "og_type": "article"
     },
     "https://www.kolmekampusta.fi/fi/tapahtumat/boccia-challenger": {
-      "title": "Boccia Challenger Pajulahti | Kolmen kampuksen urheiluopisto",
-      "status": 200,
+      "title": "Kirjaudu sisään | Kolmen kampuksen urheiluopisto",
+      "status": 403,
       "outbound": [
         "https://www.kolmekampusta.fi/fi",
         "https://www.kolmekampusta.fi/fi",
         "https://www.kolmekampusta.fi/fi",
         "https://kauppa.kolmekampusta.fi/",
         "https://kauppa.kolmekampusta.fi/",
-        "https://www.kolmekampusta.fi/en",
+        "https://www.kolmekampusta.fi/en/user/login",
         "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
         "https://www.kolmekampusta.fi/fi/koulutus",
         "https://www.kolmekampusta.fi/fi/koulutus/koulutukset",
@@ -42182,8 +42181,6 @@
         "https://www.kolmekampusta.fi/fi/kampukset",
         "https://www.kolmekampusta.fi/fi/meista/tilat",
         "https://www.kolmekampusta.fi/fi",
-        "https://www.kolmekampusta.fi/fi/tapahtumat",
-        "https://bocciachallenger.fi/",
         "https://www.kolmekampusta.fi/fi",
         "https://kauppa.kolmekampusta.fi/",
         "https://www.kolmekampusta.fi/fi/ajankohtaista",
@@ -42200,15 +42197,11 @@
         "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
         "https://www.kolmekampusta.fi/fi/evastekaytanto"
       ],
-      "body_length": 85415,
+      "body_length": 79881,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/tapahtumat/boccia-challenger",
-      "is_canonical_duplicate": false,
-      "updated_time": "2026-05-11T02:41:14+03:00",
-      "robots": "unavailable_after: Saturday, 16-May-26 00:15:00 EEST",
-      "unavailable_after": "Saturday, 16-May-26 00:15:00 EEST",
-      "og_type": "article"
+      "is_canonical_duplicate": false
     },
     "https://www.kolmekampusta.fi/en/kamppailuareena-gym": {
       "title": "Kamppailuareena gym | Kolmen kampuksen urheiluopisto",
@@ -43372,13 +43365,6 @@
       "outbound": [],
       "is_file": true
     },
-    "https://www.kolmekampusta.fi/sites/default/files/2026-05/kesa-31.5-5.6.2026.pdf": {
-      "title": null,
-      "status": 200,
-      "error": null,
-      "outbound": [],
-      "is_file": true
-    },
     "https://www.kolmekampusta.fi/sites/default/files/2026-05/kesa-7-12.6.2026.pdf": {
       "title": null,
       "status": 200,
@@ -43583,7 +43569,7 @@
         "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
         "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-25-27-146-37",
         "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-vkot-28-32-57-78",
-        "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+        "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
         "https://www.kolmekampusta.fi/fi/taxonomy/term/53/feed",
         "https://www.kolmekampusta.fi/fi",
         "https://kauppa.kolmekampusta.fi/",
@@ -43601,7 +43587,7 @@
         "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
         "https://www.kolmekampusta.fi/fi/evastekaytanto"
       ],
-      "body_length": 101138,
+      "body_length": 101132,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/taxonomy/term/53",
@@ -50633,7 +50619,7 @@
       "title": "| Kolmen kampuksen urheiluopisto",
       "status": 200,
       "outbound": [],
-      "body_length": 100772,
+      "body_length": 98786,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/node",
@@ -50643,7 +50629,7 @@
       "title": "| Kolmen kampuksen urheiluopisto",
       "status": 200,
       "outbound": [],
-      "body_length": 103550,
+      "body_length": 105402,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/node",
@@ -67628,8 +67614,8 @@
     },
     {
       "source": "https://www.kolmekampusta.fi/fi/vapaa-aika",
-      "target": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
-      "text": "Kesä Pajulahdessa 2-5 vrk, vkot 23-24 (31.5.-12.6.)"
+      "target": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
+      "text": "Kesä Pajulahdessa 2-5 vrk, vko 24 (7.-12.6.2026)"
     },
     {
       "source": "https://www.kolmekampusta.fi/fi/vapaa-aika",
@@ -67643,11 +67629,6 @@
     },
     {
       "source": "https://www.kolmekampusta.fi/fi/vapaa-aika",
-      "target": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
-      "text": "Kesä Pajulahdessa 2-5 vrk, vkot 23-24 (31.5.-12.6.)"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/vapaa-aika",
       "target": "https://www.kolmekampusta.fi/fi/tapahtumat/pajukettuleiri-1-pajulahdessa",
       "text": "Pajukettuleiri 1 Pajulahdessa"
     },
@@ -67655,6 +67636,11 @@
       "source": "https://www.kolmekampusta.fi/fi/vapaa-aika",
       "target": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
       "text": "Mummot, Vaarit ja Vimpulat -kurssi Pajulahdessa"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/vapaa-aika",
+      "target": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
+      "text": "Kesä Pajulahdessa 2-5 vrk, vko 24 (7.-12.6.2026)"
     },
     {
       "source": "https://www.kolmekampusta.fi/fi/vapaa-aika",
@@ -68323,11 +68309,6 @@
     },
     {
       "source": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit",
-      "target": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
-      "text": "Kesä Pajulahdessa 2-5 vrk, vkot 23-24 (31.5.-12.6.)"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit",
       "target": "https://www.kolmekampusta.fi/fi/tapahtumat/pajukettuleiri-1-pajulahdessa",
       "text": "Pajukettuleiri 1 Pajulahdessa"
     },
@@ -68335,6 +68316,11 @@
       "source": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit",
       "target": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
       "text": "Mummot, Vaarit ja Vimpulat -kurssi Pajulahdessa"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit",
+      "target": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
+      "text": "Kesä Pajulahdessa 2-5 vrk, vko 24 (7.-12.6.2026)"
     },
     {
       "source": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit",
@@ -68908,8 +68894,8 @@
     },
     {
       "source": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/perhepaketit",
-      "target": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
-      "text": "Kesä Pajulahdessa 2-5 vrk, vkot 23-24 (31.5.-12.6.)"
+      "target": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
+      "text": "Kesä Pajulahdessa 2-5 vrk, vko 24 (7.-12.6.2026)"
     },
     {
       "source": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/perhepaketit",
@@ -70143,8 +70129,8 @@
     },
     {
       "source": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/aikuiset-60-fiiliskurssit",
-      "target": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
-      "text": "Kesä Pajulahdessa 2-5 vrk, vkot 23-24 (31.5.-12.6.)"
+      "target": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
+      "text": "Kesä Pajulahdessa 2-5 vrk, vko 24 (7.-12.6.2026)"
     },
     {
       "source": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/aikuiset-60-fiiliskurssit",
@@ -85468,18 +85454,13 @@
     },
     {
       "source": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
-      "target": "https://www.kolmekampusta.fi/fi/tapahtumat/taitoluistelun-tehopaiva-pojille-pajulahdessa-2452026",
-      "text": "Taitoluistelun tehopäivä pojille Pajulahdessa 24.5.2026"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
       "target": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
       "text": "Sähköpyörätuolisalibandyn MM-kilpailut"
     },
     {
       "source": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
-      "target": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
-      "text": "Kesä Pajulahdessa 2-5 vrk, vkot 23-24 (31.5.-12.6.)"
+      "target": "https://www.kolmekampusta.fi/fi/tapahtumat/taitoluistelun-tehopaiva-pojille-pajulahdessa-2452026",
+      "text": "Taitoluistelun tehopäivä pojille Pajulahdessa 24.5.2026"
     },
     {
       "source": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
@@ -85500,6 +85481,11 @@
       "source": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
       "target": "https://www.kolmekampusta.fi/fi/tapahtumat/merja-huttusen-kesakuun-leiri-aikuisille",
       "text": "Merja Huttusen kesäkuun leiri aikuisille"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
+      "target": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
+      "text": "Kesä Pajulahdessa 2-5 vrk, vko 24 (7.-12.6.2026)"
     },
     {
       "source": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
@@ -144272,612 +144258,607 @@
       "text": "Evästekäytäntö"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi",
       "text": ""
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi",
       "text": ""
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi",
       "text": "Kolmen kampuksen urheiluopisto"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://kauppa.kolmekampusta.fi/",
       "text": ""
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://kauppa.kolmekampusta.fi/",
       "text": "Verkkokauppa"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/en",
       "text": "en"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
       "text": "Yhteystiedot"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/koulutus",
       "text": "Koulutus"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/koulutus/koulutukset",
       "text": "Koulutukset"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/hakijalle",
       "text": "Hakijalle"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/ammatillinen-koulutus",
       "text": "Ammatillinen koulutus"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/oppisopimuskoulutus",
       "text": "Oppisopimuskoulutus"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/taydennyskoulutus",
       "text": "Täydennyskoulutus"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/vapaan-sivistystyon-koulutus",
       "text": "Vapaan sivistystyön koulutus"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/koulutus/kansainvalisyys",
       "text": "Kansainvälisyys"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/koulutus/opiskelijalle",
       "text": "Opiskelijalle"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/urheilu",
       "text": "Urheilu"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/urheilu/leiri-ja-tapahtumakauppa",
       "text": "Leiri- ja tapahtumakauppa"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit",
       "text": "Leirit"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit/esikuvaleirit",
       "text": "Esikuvaleirit"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit/ylakoululeiritys",
       "text": "Yläkoululeiritys"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit/urheilurippileirit",
       "text": "Urheilurippileirit"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/urheilu/valmennuskeskus",
       "text": "Valmennuskeskus"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/meista/tilat",
       "text": "Olosuhteet"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut",
       "text": "Urheilun palvelut"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/kestavyysurheilu",
       "text": "Kestävyysurheilu"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/korkeanpaikan-harjoittelu",
       "text": "Korkeanpaikan harjoittelu"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/testauspalvelut",
       "text": "Testauspalvelut"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/pajulahden-palautumiskeskus",
       "text": "Pajulahden palautumiskeskus"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/taito-360",
       "text": "TAITO 360 - motoristen taitojen harjoittelu- ja kuntoilualue"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen",
       "text": "Osaamisen kehittäminen"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen/urheilun-tki",
       "text": "Urheilun TKI"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen/kolmen-kampuksen-journal-club",
       "text": "Journal Club"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/urheilu/yhteisomme",
       "text": "Yhteisömme"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/vapaa-aika",
       "text": "Vapaa-aika"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit",
       "text": "Lomat ja kurssit"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/perhepaketit",
       "text": "Perhepaketit"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/teemakurssit",
       "text": "Teemakurssit"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/aikuiset-60-fiiliskurssit",
       "text": "Aikuiset 60+ Fiiliskurssit"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/lisapalvelut",
       "text": "Lomien lisäpalvelut"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/villaloma-kisakalliossa",
       "text": "Villaloma Kisakalliossa"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit",
       "text": "Aktiviteetit"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kisakallion-sporttipassi",
       "text": "Kisakallion Sporttipassi"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kisakallion-rantasauna",
       "text": "Kisakallion sauna ja uinti"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/lakepoolpajulahti",
       "text": "Lake Pool Pajulahti"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/pajulahden-uimahalli",
       "text": "Pajulahden uimahalli"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/seikkailupuisto",
       "text": "Pajulahden Seikkailupuisto"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/valine-ja-kenttavuokraus",
       "text": "Väline- ja kenttävuokraus"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/urheilu/tilat",
       "text": "Tilat"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/liikunta-ja-hyvinvointipalvelut",
       "text": "Liikunta- ja hyvinvointipalvelut"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/kanta-asiakkuus",
       "text": "Kanta-asiakkuus"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://kauppa.kolmekampusta.fi/",
       "text": "Verkkokauppa"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit",
       "text": "Ryhmät ja leirit"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/leirikoulu",
       "text": "Leirikoulu"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/luokkaretki",
       "text": "Luokkaretki"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/rippileiri",
       "text": "Rippileiri"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit",
       "text": "Urheilijaryhmät"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/yritykset",
       "text": "Yritysryhmät"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/yritykset",
       "text": "Yritykset"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/yritykset/kokoukset",
       "text": "Kokoukset"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/yritykset/kokoukset/seminaarit-ja-juhlat",
       "text": "Seminaarit ja juhlat"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/yritykset/tyohyvinvointi",
       "text": "Työhyvinvointi"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/yritykset/hyvinvointikoulu",
       "text": "Hyvinvointikoulu"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/yritykset/villamaailma-yrityksille",
       "text": "Villamaailma Kisakalliossa"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/majoitus",
       "text": "Majoitus"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/majoitus/pajulahti",
       "text": "Pajulahti"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/majoitus/kisakallio",
       "text": "Kisakallio"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/ravintolapalvelut",
       "text": "Ravintolapalvelut"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/ravintolapalvelut/tilaustarjoilut",
       "text": "Tilaustarjoilut"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/tapahtumat",
       "text": "Tapahtumat"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
       "text": "Tulevat tapahtumat"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/meista",
       "text": "Meistä"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/ajankohtaista",
       "text": "Ajankohtaista"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
       "text": "Yhteystiedot"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/meista/laskutustiedot",
       "text": "Laskutustiedot"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/meista/saatioiden-apurahat",
       "text": "Säätiöiden apurahat"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/meista/hankkeet",
       "text": "Hankkeet"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/meista/vastuullisuus",
       "text": "Vastuullisuus"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/kampukset",
       "text": "Kampukset"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/meista/tilat",
       "text": "Tilat"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi",
       "text": "Etusivu"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/tapahtumat",
       "text": "Tapahtumat"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/sites/default/files/2026-02/pajulahti_180718_nikisoukkio_1874_0.jpg",
       "text": ""
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/majoitus",
       "text": "hotelli- tai opistotasossa"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/kanta-asiakkuus",
       "text": "Klubin kanta-asiakasedut"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
-      "target": "https://www.kolmekampusta.fi/sites/default/files/2026-05/kesa-31.5-5.6.2026.pdf",
-      "text": "Alustava ohjelma"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/sites/default/files/2026-05/kesa-7-12.6.2026.pdf",
       "text": "Alustava ohjelma"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/vapaa-ajan-ilmoittautumislomake",
       "text": "Ilmoittaudu mukaan"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/kanta-asiakkuus",
       "text": "Liity kanta-asiakkaaksi."
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/sites/default/files/2026-02/pajulahti_uimahalli_4153.jpg",
       "text": ""
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/sites/default/files/2026-02/pajulahti_161227_ns_7065.jpg",
       "text": ""
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/sites/default/files/2025-06/lastenmaailma-lapsetjaketut.jpg",
       "text": ""
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/sites/default/files/2025-07/pajulahti_fasciamethod_full_9495-scaled.jpg",
       "text": ""
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/sites/default/files/2026-02/pajulahti_hopeapaju_muok.jpg",
       "text": ""
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/sites/default/files/2026-02/pajulahti_puistopaju_201_ns_web_5551.jpg",
       "text": ""
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/sites/default/files/2026-02/pajulahti_uimahalli_4113.jpg",
       "text": ""
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/sites/default/files/2026-02/pajulahti_161114_ns_5626.jpg",
       "text": ""
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/sites/default/files/2025-06/pajulahti-sauna-naiset-1024x682.jpg",
       "text": ""
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/sites/default/files/2026-01/pajulahti_ilmakuva_ns_web_0878.jpg",
       "text": ""
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/sites/default/files/2025-06/pajulahti_ilmakuva_ns_web_0869.jpg",
       "text": ""
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/sites/default/files/2026-01/pajulahti_full_180718_nikisoukkio_0849_pieni.jpg",
       "text": ""
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/sites/default/files/2025-06/pajulahti_190828_nikisoukkio_4737.jpg",
       "text": ""
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/sites/default/files/2025-05/pajulahti_valinevuokraus_melonta-1.jpg",
       "text": ""
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/sites/default/files/2025-06/pajulahti_tanssistudio_jumppa_ryhma-1024x704.jpg",
       "text": ""
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/sites/default/files/2025-11/pajulahti_170130_ns_5914.jpg",
       "text": ""
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/perhepaketit",
       "text": "Perhepaketit"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/taxonomy/term/53",
       "text": "Perhepaketit"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi",
       "text": ""
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://kauppa.kolmekampusta.fi/",
       "text": "Verkkokauppa"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/ajankohtaista",
       "text": "Ajankohtaista"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/meista/laskutustiedot",
       "text": "Laskutustiedot"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/varaus-ja-peruutusehdot",
       "text": "Varaus- ja peruutusehdot"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
       "text": "Yhteystiedot"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/uutiskirjeet",
       "text": "Tilaa uutiskirje"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/meista",
       "text": "Meistä"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/aluekartta",
       "text": "Aluekartta"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/anna-palautetta",
       "text": "Anna palautetta"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/koulutus/opiskelijalle",
       "text": "Opiskelijalle"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://app.digitalguest.com/guestbook/Pajulahti",
       "text": "PajuInfo"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://app.digitalguest.com/guestbook/Kisakallio",
       "text": "KisakallioInfo"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
       "text": "Tietosuojaseloste"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
       "target": "https://www.kolmekampusta.fi/fi/evastekaytanto",
       "text": "Evästekäytäntö"
     },
@@ -227233,7 +227214,7 @@
     },
     {
       "source": "https://www.kolmekampusta.fi/fi/tapahtumat/boccia-challenger",
-      "target": "https://www.kolmekampusta.fi/en",
+      "target": "https://www.kolmekampusta.fi/en/user/login",
       "text": "en"
     },
     {
@@ -227610,16 +227591,6 @@
       "source": "https://www.kolmekampusta.fi/fi/tapahtumat/boccia-challenger",
       "target": "https://www.kolmekampusta.fi/fi",
       "text": "Etusivu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/boccia-challenger",
-      "target": "https://www.kolmekampusta.fi/fi/tapahtumat",
-      "text": "Tapahtumat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/boccia-challenger",
-      "target": "https://bocciachallenger.fi/",
-      "text": "Tapahtuman nettisivut"
     },
     {
       "source": "https://www.kolmekampusta.fi/fi/tapahtumat/boccia-challenger",
@@ -232248,8 +232219,8 @@
     },
     {
       "source": "https://www.kolmekampusta.fi/fi/taxonomy/term/53",
-      "target": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vkot-23-24-315-126",
-      "text": "Kesä Pajulahdessa 2-5 vrk, vkot 23-24 (31.5.-12.6.)"
+      "target": "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-2-5-vrk-vko-24-7-1262026",
+      "text": "Kesä Pajulahdessa 2-5 vrk, vko 24 (7.-12.6.2026)"
     },
     {
       "source": "https://www.kolmekampusta.fi/fi/taxonomy/term/53",
@@ -258187,10 +258158,6 @@
       "status": 200,
       "error": null
     },
-    "https://bocciachallenger.fi/": {
-      "status": 200,
-      "error": null
-    },
     "https://calendar.google.com/calendar/embed?ctz=Europe%2FHelsinki&hl=fi&mode=WEEK&src=1js6b3q79i9q9s3u4uf7al5vph4jg1ua%40import.calendar.google.com": {
       "status": 200,
       "error": null
@@ -258784,8 +258751,8 @@
       "error": null
     },
     "https://urheilijanurapolku.fi/": {
-      "status": null,
-      "error": "timeout"
+      "status": 200,
+      "error": null
     },
     "https://urheiluopisto3k.inschool.fi/": {
       "status": 200,
@@ -259108,6 +259075,28 @@
       ]
     },
     {
+      "target": "https://www.kolmekampusta.fi/fi/tapahtumat/boccia-challenger",
+      "kind": "internal",
+      "status": 403,
+      "error": null,
+      "linked_from": [
+        {
+          "page": "https://www.kolmekampusta.fi/fi/pajulahti-hallin-kuntosali",
+          "anchor": "6.-15.5. Boccia Challenger -kisat",
+          "page_updated": "2026-04-30T16:07:00+03:00",
+          "page_og_type": "article",
+          "page_unavailable_after": null
+        },
+        {
+          "page": "https://www.kolmekampusta.fi/fi/pajulahti-halli",
+          "anchor": "6.-15.5. Boccia Challenger -kisat",
+          "page_updated": "2026-05-11T11:34:57+03:00",
+          "page_og_type": "article",
+          "page_unavailable_after": null
+        }
+      ]
+    },
+    {
       "target": "https://www.kolmekampusta.fi/pajulahti-aluekartta",
       "kind": "internal",
       "status": 403,
@@ -259259,21 +259248,6 @@
           "page_updated": "2026-05-08T16:02:55+03:00",
           "page_og_type": "article",
           "page_unavailable_after": "Sunday, 07-Jun-26 17:00:00 EEST"
-        }
-      ]
-    },
-    {
-      "target": "https://urheilijanurapolku.fi/",
-      "kind": "external",
-      "status": null,
-      "error": "timeout",
-      "linked_from": [
-        {
-          "page": "https://www.kolmekampusta.fi/fi/urheilu/yhteisomme/paijat-hameen-urheiluakatemia",
-          "anchor": "Lue lisää",
-          "page_updated": "2025-06-24T15:42:33+03:00",
-          "page_og_type": "article",
-          "page_unavailable_after": null
         }
       ]
     },
@@ -261098,13 +261072,13 @@
     }
   ],
   "stats": {
-    "pages_crawled": 921,
-    "pages_with_data": 921,
-    "edges": 41411,
-    "external_targets_checked": 248,
+    "pages_crawled": 920,
+    "pages_with_data": 920,
+    "edges": 41408,
+    "external_targets_checked": 247,
     "broken_count": 12,
-    "broken_internal": 4,
-    "broken_external": 8,
+    "broken_internal": 5,
+    "broken_external": 7,
     "no_alias_count": 8,
     "canonical_duplicate_count": 79,
     "canonical_target_count": 15
