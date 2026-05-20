@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Hyvinvointikartoitus · 3K</title>
+<meta name="description" content="Hyvinvoinnin itsearviointityökalu" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Geist:wght@300..600&display=swap" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+  /* ============ Design tokens ============ */
+  :root {
+    --bg: #0c2543;                                   /* page background (dark blue) */
+    --container-bg: #ffffff;                          /* main content wrapper */
+    --card-bg: #faf8f4;                               /* q-items (subtle cream) */
+    --navy: #0c2543;                                  /* primary text, always full opacity */
+    --green: #a3d9c5;
+    --green-soft: #d8eee3;
+    --blue: #b8d0e3;
+    --blue-soft: #dde9f0;
+    --border: rgba(12, 37, 67, 0.14);
+    --border-strong: rgba(12, 37, 67, 0.22);
+    --shadow-sm: 0 1px 2px rgba(12, 37, 67, 0.05);
+    --shadow: 0 2px 8px rgba(12, 37, 67, 0.08);
+    --shadow-lg: 0 12px 40px rgba(0, 0, 0, 0.25);
+    --radius: 12px;
+    --radius-sm: 8px;
+    --radius-lg: 20px;
+    --transition: 280ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    background: var(--bg);
+    color: var(--navy);
+    font-family: 'Geist', system-ui, -apple-system, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+    padding: 20px 16px 32px;
+  }
+
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    background: var(--container-bg);
+    border-radius: var(--radius-lg);
+    padding: 28px 28px 32px;
+    box-shadow: var(--shadow-lg);
+  }
+
+  /* ============ Buttons ============ */
+  .btn-primary {
+    display: inline-block;
+    background: var(--navy);
+    color: #fff;
+    border: none;
+    padding: 13px 32px;
+    font-family: 'Geist', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: all var(--transition);
+  }
+  .btn-primary:hover {
+    background: #1a3a5c;
+    transform: translateY(-1px);
+    box-shadow: var(--shadow);
+  }
+  .btn-secondary {
+    display: inline-block;
+    background: transparent;
+    color: var(--navy);
+    border: 1px solid var(--border);
+    padding: 13px 26px;
+    font-family: 'Geist', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: all var(--transition);
+  }
+  .btn-secondary:hover {
+    border-color: var(--navy);
+    background: var(--card-bg);
+  }
+
+  /* ============ Welcome ============ */
+  .welcome { text-align: center; padding: 16px 8px 8px; position: relative; }
+  .welcome-bg {
+    position: absolute;
+    top: -8px;
+    right: -12px;
+    width: 180px;
+    height: 180px;
+    opacity: 0.07;
+    pointer-events: none;
+  }
+  .welcome-eyebrow {
+    font-family: 'Geist', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--navy);
+    margin-bottom: 10px;
+  }
+  .welcome h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 400;
+    font-size: clamp(30px, 5.4vw, 46px);
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    margin-bottom: 12px;
+    color: var(--navy);
+  }
+  .welcome h1 em {
+    font-style: italic;
+    font-weight: 300;
+    color: var(--navy);
+  }
+  .welcome p {
+    color: var(--navy);
+    font-size: 15px;
+    max-width: 520px;
+    margin: 0 auto 20px;
+  }
+  .welcome-meta {
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 22px;
+    flex-wrap: wrap;
+    font-size: 13px;
+    color: var(--navy);
+  }
+  .welcome-meta strong {
+    font-family: 'Fraunces', serif;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .welcome-meta-sep {
+    color: var(--navy);
+    opacity: 0.4;
+    margin: 0 4px;
+  }
+
+  /* ============ Questionnaire header ============ */
+  .q-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 18px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid var(--border);
+  }
+  .q-counter {
+    font-family: 'Fraunces', serif;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    color: var(--navy);
+  }
+  .q-counter span {
+    color: var(--navy);
+    font-weight: 300;
+    font-size: 17px;
+  }
+  .q-progress { display: flex; gap: 6px; align-items: center; }
+  .q-progress-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--border-strong);
+    transition: all var(--transition);
+  }
+  .q-progress-dot.done { background: var(--green); }
+  .q-progress-dot.current {
+    background: var(--navy);
+    transform: scale(1.4);
+  }
+
+  /* ============ Questionnaire body ============ */
+  .q-category {
+    opacity: 0;
+    animation: fadeIn 420ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+  .q-category-title {
+    font-family: 'Fraunces', serif;
+    font-weight: 400;
+    font-size: clamp(24px, 4.4vw, 34px);
+    line-height: 1.08;
+    letter-spacing: -0.02em;
+    margin-bottom: 6px;
+    color: var(--navy);
+  }
+  .q-category-desc {
+    color: var(--navy);
+    font-size: 14px;
+    max-width: 540px;
+    margin-bottom: 18px;
+  }
+  .q-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .q-item {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 14px 18px;
+    transition: all var(--transition);
+  }
+  .q-item.answered {
+    border-color: var(--green);
+    background: linear-gradient(135deg, var(--card-bg) 0%, var(--green-soft) 220%);
+  }
+  .q-text {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--navy);
+    margin-bottom: 12px;
+    line-height: 1.4;
+  }
+  .q-scale {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 6px;
+    justify-content: space-between;
+  }
+  .q-button {
+    flex: 1;
+    min-width: 0;
+    aspect-ratio: 1;
+    max-width: 42px;
+    background: #ffffff;
+    border: 1px solid var(--border);
+    border-radius: 50%;
+    font-family: 'Geist', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--navy);
+    cursor: pointer;
+    transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .q-button:hover {
+    border-color: var(--navy);
+    background: var(--blue-soft);
+    transform: scale(1.08);
+  }
+  .q-button.selected {
+    background: var(--navy);
+    color: #fff;
+    border-color: var(--navy);
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(12, 37, 67, 0.25);
+  }
+  .q-scale-labels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    color: var(--navy);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  /* ============ Results ============ */
+  .results { text-align: center; }
+  .results-eyebrow {
+    font-family: 'Geist', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--navy);
+    margin-bottom: 8px;
+    animation: fadeIn 420ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+  .results h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 400;
+    font-size: clamp(24px, 4.6vw, 38px);
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    margin-bottom: 10px;
+    color: var(--navy);
+    opacity: 0;
+    animation: fadeIn 420ms 80ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+  .results h2 em {
+    font-style: italic;
+    font-weight: 300;
+    color: var(--navy);
+  }
+  .results-sub {
+    color: var(--navy);
+    font-size: 14px;
+    max-width: 520px;
+    margin: 0 auto 18px;
+    opacity: 0;
+    animation: fadeIn 420ms 160ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+  .chart-container {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 16px 12px;
+    margin-bottom: 18px;
+    opacity: 0;
+    animation: fadeIn 540ms 240ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+  .chart-wrap {
+    position: relative;
+    width: 100%;
+    max-width: 440px;
+    margin: 0 auto;
+    aspect-ratio: 1;
+  }
+  .scores {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 8px;
+    margin-bottom: 22px;
+    opacity: 0;
+    animation: fadeIn 420ms 360ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+  .score-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    padding: 10px 14px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .score-label {
+    font-size: 13px;
+    color: var(--navy);
+    font-weight: 500;
+  }
+  .score-value {
+    font-family: 'Fraunces', serif;
+    font-size: 21px;
+    font-weight: 400;
+    color: var(--navy);
+    line-height: 1;
+  }
+  .score-value .small {
+    font-size: 12px;
+    color: var(--navy);
+    font-family: 'Geist', sans-serif;
+    font-weight: 400;
+  }
+  .actions {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    opacity: 0;
+    animation: fadeIn 420ms 440ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(6px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  /* ============ Responsive ============ */
+  @media (max-width: 540px) {
+    body { padding: 14px 10px 24px; }
+    .container { padding: 22px 18px 24px; }
+    .welcome { padding: 8px 4px; }
+    .welcome-bg { width: 140px; height: 140px; top: -6px; right: -8px; }
+    .q-item { padding: 12px 14px; }
+    .q-button { max-width: 38px; font-size: 13px; }
+    .chart-container { padding: 12px 8px; }
+    .scores { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 380px) {
+    body { padding: 10px 8px 20px; }
+    .container { padding: 18px 14px 22px; }
+    .q-item { padding: 10px 12px; }
+    .q-scale { gap: 3px; }
+    .q-button { max-width: 34px; font-size: 12px; }
+    .q-scale-labels { font-size: 10px; }
+  }
+</style>
+</head>
+<body>
+<div class="container" id="app"></div>
+
+<script>
+  // ============ Data ============
+  const CATEGORIES = [
+    {
+      title: 'Tunnesäätely',
+      description: 'Kyky tunnistaa, käsitellä ja säädellä omia tunteita arjen tilanteissa.',
+      questions: [
+        'Pystyn käsittelemään stressiä rauhallisesti.',
+        'Tunnistan tunteeni ja osaan nimetä niitä.',
+        'Pystyn rauhoittumaan haastavissa tilanteissa.',
+        'Vaikeat tunteet eivät hallitse käyttäytymistäni.'
+      ]
+    },
+    {
+      title: 'Keskittyminen',
+      description: 'Kyky suunnata ja ylläpitää huomiota olennaisessa.',
+      questions: [
+        'Pystyn keskittymään yhteen tehtävään pitkään.',
+        'Huomioni ei karkaile jatkuvasti epäolennaisiin asioihin.',
+        'Osaan palauttaa huomioni nykyhetkeen sen harhaillessa.',
+        'Pystyn syventymään tehtäviini ilman häiriötekijöitä.'
+      ]
+    },
+    {
+      title: 'Liikkuminen',
+      description: 'Säännöllinen ja monipuolinen fyysinen aktiivisuus arjessa.',
+      questions: [
+        'Liikun säännöllisesti viikon aikana.',
+        'Tunnen kehoni tarvitsevan liikuntaa ja vastaan siihen.',
+        'Liikkuminen tuottaa minulle iloa.',
+        'Liikunta on luonteva osa arkeani.'
+      ]
+    },
+    {
+      title: 'Uni ja palautuminen',
+      description: 'Levon riittävyys ja palautumisen laatu.',
+      questions: [
+        'Nukun yleensä riittävästi yössä.',
+        'Heräilen yöllä harvoin.',
+        'Aamulla herätessäni tunnen oloni virkeäksi.',
+        'Uneni laatu tuntuu hyvältä.'
+      ]
+    },
+    {
+      title: 'Ravinto',
+      description: 'Suhde ruokaan ja kehon viesteihin.',
+      questions: [
+        'Syön säännöllisesti ja monipuolisesti.',
+        'Kuuntelen kehoni nälkä- ja kylläisyysviestejä.',
+        'Ruokavalioni tukee jaksamistani.',
+        'Nautin syömisestä ilman syyllisyyttä.'
+      ]
+    },
+    {
+      title: 'Sosiaaliset suhteet',
+      description: 'Yhteys läheisiin ihmisiin ja yhteisöllisyyden kokemus.',
+      questions: [
+        'Minulla on läheisiä ihmisiä, joiden kanssa voin jakaa asioita.',
+        'Tunnen kuuluvani johonkin yhteisöön.',
+        'Pyydän tarvittaessa apua muilta.',
+        'Annan aikaa minulle tärkeille ihmissuhteille.'
+      ]
+    }
+  ];
+
+  // ============ State ============
+  const state = {
+    screen: 'welcome',
+    currentCategory: 0,
+    answers: {},
+    chartInstance: null
+  };
+  let advanceTimeout = null;
+
+  // ============ Helpers ============
+  const $ = (id) => document.getElementById(id);
+  const answerKey = (c, q) => `${c}-${q}`;
+
+  function isCategoryComplete(catIdx) {
+    for (let q = 0; q < 4; q++) {
+      if (state.answers[answerKey(catIdx, q)] === undefined) return false;
+    }
+    return true;
+  }
+
+  function categoryAverage(catIdx) {
+    let sum = 0;
+    for (let q = 0; q < 4; q++) sum += state.answers[answerKey(catIdx, q)] ?? 0;
+    return sum / 4;
+  }
+
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  // ============ Welcome ============
+  function renderWelcome() {
+    $('app').innerHTML = `
+      <div class="welcome">
+        <svg class="welcome-bg" viewBox="0 0 200 200" aria-hidden="true">
+          <g fill="none" stroke="#0c2543" stroke-width="0.6">
+            <polygon points="100,20 169,60 169,140 100,180 31,140 31,60" />
+            <polygon points="100,50 142,75 142,125 100,150 58,125 58,75" />
+            <polygon points="100,80 115,90 115,110 100,120 85,110 85,90" />
+            <line x1="100" y1="20" x2="100" y2="180" />
+            <line x1="31" y1="60" x2="169" y2="140" />
+            <line x1="31" y1="140" x2="169" y2="60" />
+          </g>
+        </svg>
+        <div class="welcome-eyebrow">Itsearviointi</div>
+        <h1>Hyvinvoinnin <em>nykytila</em></h1>
+        <p>Kuusiosainen kartoitus auttaa sinua hahmottamaan oman hyvinvointisi vahvuudet ja kehityskohdat. Vastaa rehellisesti — kukaan ei näe yksittäisiä vastauksiasi.</p>
+        <div class="welcome-meta">
+          <span><strong>6</strong> kategoriaa</span>
+          <span class="welcome-meta-sep">·</span>
+          <span><strong>24</strong> kysymystä</span>
+          <span class="welcome-meta-sep">·</span>
+          <span><strong>5</strong> minuuttia</span>
+        </div>
+        <button class="btn-primary" onclick="startQuestionnaire()">Aloita kartoitus →</button>
+      </div>
+    `;
+  }
+
+  function startQuestionnaire() {
+    state.screen = 'questionnaire';
+    state.currentCategory = 0;
+    state.answers = {};
+    render();
+    scrollToTop();
+  }
+
+  // ============ Questionnaire ============
+  function renderQuestionnaire() {
+    const cat = CATEGORIES[state.currentCategory];
+    const dots = CATEGORIES.map((_, i) => {
+      let cls = 'q-progress-dot';
+      if (i < state.currentCategory) cls += ' done';
+      else if (i === state.currentCategory) cls += ' current';
+      return `<span class="${cls}"></span>`;
+    }).join('');
+
+    $('app').innerHTML = `
+      <div class="q-header">
+        <div class="q-counter">
+          ${String(state.currentCategory + 1).padStart(2, '0')}
+          <span>/ 06</span>
+        </div>
+        <div class="q-progress">${dots}</div>
+      </div>
+      <div class="q-category">
+        <h2 class="q-category-title">${cat.title}</h2>
+        <p class="q-category-desc">${cat.description}</p>
+        <div class="q-list">
+          ${cat.questions.map((q, i) => renderQuestion(state.currentCategory, i, q)).join('')}
+        </div>
+      </div>
+    `;
+  }
+
+  function renderQuestion(catIdx, qIdx, text) {
+    const selected = state.answers[answerKey(catIdx, qIdx)];
+    const answered = selected !== undefined;
+    let buttons = '';
+    for (let v = 0; v <= 7; v++) {
+      const sel = v === selected ? 'selected' : '';
+      buttons += `<button class="q-button ${sel}" onclick="setAnswer(${catIdx}, ${qIdx}, ${v})" aria-label="Vastaus ${v}">${v}</button>`;
+    }
+    return `
+      <div class="q-item ${answered ? 'answered' : ''}" id="q-${catIdx}-${qIdx}">
+        <div class="q-text">${text}</div>
+        <div class="q-scale">${buttons}</div>
+        <div class="q-scale-labels">
+          <span>Täysin eri mieltä</span>
+          <span>Täysin samaa mieltä</span>
+        </div>
+      </div>
+    `;
+  }
+
+  function setAnswer(catIdx, qIdx, value) {
+    state.answers[answerKey(catIdx, qIdx)] = value;
+
+    const qEl = $(`q-${catIdx}-${qIdx}`);
+    if (qEl) {
+      const wrapper = document.createElement('div');
+      wrapper.innerHTML = renderQuestion(catIdx, qIdx, CATEGORIES[catIdx].questions[qIdx]);
+      qEl.replaceWith(wrapper.firstElementChild);
+    }
+
+    if (advanceTimeout) clearTimeout(advanceTimeout);
+    if (isCategoryComplete(catIdx)) {
+      advanceTimeout = setTimeout(() => {
+        advanceTimeout = null;
+        if (catIdx + 1 < CATEGORIES.length) {
+          state.currentCategory = catIdx + 1;
+          render();
+          scrollToTop();
+        } else {
+          state.screen = 'results';
+          render();
+          scrollToTop();
+        }
+      }, 900);
+    }
+  }
+
+  // ============ Results ============
+  function renderResults() {
+    const cats = CATEGORIES.map((c, i) => ({
+      title: c.title,
+      avg: categoryAverage(i)
+    }));
+    const scoreCards = cats.map(c => `
+      <div class="score-card">
+        <span class="score-label">${c.title}</span>
+        <span class="score-value">${c.avg.toFixed(1)}<span class="small"> / 7</span></span>
+      </div>
+    `).join('');
+
+    $('app').innerHTML = `
+      <div class="results">
+        <div class="results-eyebrow">Tuloksesi</div>
+        <h2>Hyvinvoinnin <em>profiilisi</em></h2>
+        <p class="results-sub">Jokainen akseli kuvaa yhden hyvinvoinnin osa-alueen vahvuutta (0–7). Korkea arvo tarkoittaa, että koet osa-alueen toimivan elämässäsi hyvin.</p>
+        <div class="chart-container">
+          <div class="chart-wrap">
+            <canvas id="radarChart"></canvas>
+          </div>
+        </div>
+        <div class="scores">${scoreCards}</div>
+        <div class="actions">
+          <button class="btn-primary" onclick="downloadChart()">Tallenna kuva ↓</button>
+          <button class="btn-secondary" onclick="restart()">Aloita alusta</button>
+        </div>
+      </div>
+    `;
+
+    requestAnimationFrame(() => drawChart());
+  }
+
+  function drawChart() {
+    const canvas = $('radarChart');
+    if (!canvas) return;
+    const ctx = canvas.getContext('2d');
+    const labels = CATEGORIES.map(c => c.title);
+    const data = CATEGORIES.map((_, i) => categoryAverage(i));
+
+    state.chartInstance = new Chart(ctx, {
+      type: 'radar',
+      data: {
+        labels,
+        datasets: [{
+          label: 'Vastauksesi',
+          data,
+          backgroundColor: 'rgba(163, 217, 197, 0.42)',
+          borderColor: '#0c2543',
+          borderWidth: 2,
+          pointBackgroundColor: '#0c2543',
+          pointBorderColor: '#fff',
+          pointBorderWidth: 2,
+          pointRadius: 5,
+          pointHoverRadius: 7,
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: true,
+        animation: { duration: 900, easing: 'easeOutCubic' },
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            backgroundColor: '#0c2543',
+            padding: 12,
+            titleFont: { family: 'Geist', size: 13, weight: '500' },
+            bodyFont: { family: 'Geist', size: 13 },
+            displayColors: false,
+            callbacks: {
+              label: (item) => `${item.formattedValue} / 7`
+            }
+          }
+        },
+        scales: {
+          r: {
+            min: 0,
+            max: 7,
+            ticks: {
+              stepSize: 1,
+              font: { family: 'Geist', size: 10 },
+              color: '#0c2543',
+              backdropColor: 'transparent'
+            },
+            pointLabels: {
+              font: { family: 'Fraunces', size: 13, weight: '400' },
+              color: '#0c2543',
+              padding: 8
+            },
+            grid: { color: 'rgba(184, 208, 227, 0.55)' },
+            angleLines: { color: 'rgba(184, 208, 227, 0.55)' }
+          }
+        }
+      }
+    });
+  }
+
+  function downloadChart() {
+    if (!state.chartInstance) return;
+    const sourceCanvas = state.chartInstance.canvas;
+    const tempCanvas = document.createElement('canvas');
+    tempCanvas.width = sourceCanvas.width;
+    tempCanvas.height = sourceCanvas.height;
+    const tempCtx = tempCanvas.getContext('2d');
+    tempCtx.fillStyle = '#ffffff';
+    tempCtx.fillRect(0, 0, tempCanvas.width, tempCanvas.height);
+    tempCtx.drawImage(sourceCanvas, 0, 0);
+
+    const link = document.createElement('a');
+    link.href = tempCanvas.toDataURL('image/png', 1);
+    link.download = 'hyvinvoinnin-profiili.png';
+    link.click();
+  }
+
+  function restart() {
+    state.screen = 'welcome';
+    state.currentCategory = 0;
+    state.answers = {};
+    if (state.chartInstance) {
+      state.chartInstance.destroy();
+      state.chartInstance = null;
+    }
+    render();
+    scrollToTop();
+  }
+
+  function render() {
+    if (state.chartInstance && state.screen !== 'results') {
+      state.chartInstance.destroy();
+      state.chartInstance = null;
+    }
+    if (state.screen === 'welcome') renderWelcome();
+    else if (state.screen === 'questionnaire') renderQuestionnaire();
+    else if (state.screen === 'results') renderResults();
+  }
+
+  window.startQuestionnaire = startQuestionnaire;
+  window.setAnswer = setAnswer;
+  window.downloadChart = downloadChart;
+  window.restart = restart;
+
+  render();
+</script>
+</body>
+</html>
