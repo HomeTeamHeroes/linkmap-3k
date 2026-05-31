@@ -1,10 +1,10 @@
 # Broken Links Report
 
 - **Site:** https://www.kolmekampusta.fi/fi
-- **Crawled:** 2026-05-25T10:10:23
-- **Pages crawled:** 916
+- **Crawled:** 2026-05-31T09:02:00
+- **Pages crawled:** 921
 - **External targets checked:** 251
-- **Total broken:** 15 (5 internal, 10 external)
+- **Total broken:** 10 (5 internal, 5 external)
 - **⚠️ Pages without URL alias:** 8 (Drupal /node/N served directly, no Pathauto alias)
 - **🔁 Canonical duplicates:** 79 page(s) across 15 canonical target(s) (crawl-budget waste — duplicate content with canonical redirect)
 
@@ -17,12 +17,6 @@
   - `https://www.kolmekampusta.fi/fi/artikkelit/talviuinnin-sm-kilpailut-pajulahdessa-301-122026` — "Tutustu ja varaa majoitus >" *[updated 2025-10-27]*
   - `https://www.kolmekampusta.fi/fi/artikkelit/talviuinnin-sm-kilpailut-pajulahdessa-301-122026` — "Talviuinnin SM" *[updated 2025-10-27]*
 
-### `https://www.kolmekampusta.fi/fi/tapahtumat/boccia-challenger`
-- **Reason:** HTTP 403
-- **Linked from 2 page(s):**
-  - `https://www.kolmekampusta.fi/fi/pajulahti-hallin-kuntosali` — "6.-15.5. Boccia Challenger -kisat" *[updated 2026-04-30]*
-  - `https://www.kolmekampusta.fi/fi/pajulahti-halli` — "6.-15.5. Boccia Challenger -kisat" *[updated 2026-05-11]*
-
 ### `https://www.kolmekampusta.fi/fi/tapahtumat/aitienpaivabrunssi-105-kisakallion-rantamakasiinilla`
 - **Reason:** HTTP 403
 - **Linked from 1 page(s):**
@@ -32,6 +26,11 @@
 - **Reason:** HTTP 403
 - **Linked from 1 page(s):**
   - `https://www.kolmekampusta.fi/fi/artikkelit/elamyksia-ja-herkuttelua-aitienpaivana` — "Tiedustele paikkoja äitienpäivälounaalle" *[updated 2026-05-07]*
+
+### `https://www.kolmekampusta.fi/fi/tapahtumat/boccia-challenger`
+- **Reason:** HTTP 403
+- **Linked from 1 page(s):**
+  - `https://www.kolmekampusta.fi/fi/pajulahti-hallin-kuntosali` — "6.-15.5. Boccia Challenger -kisat" *[updated 2026-04-30]*
 
 ### `https://www.kolmekampusta.fi/pajulahti-aluekartta`
 - **Reason:** HTTP 403
@@ -53,29 +52,11 @@
   - `https://www.kolmekampusta.fi/en/leisure` — "Buy here" *[updated 2026-01-29]*
   - `https://www.kolmekampusta.fi/en/leisure/activities` — "Buy here" *[updated 2025-10-21]*
 
-### `https://store.pajulahti.willba.app/event/160139`
-- **Reason:** HTTP 404
-- **Linked from 2 page(s):**
-  - `https://www.kolmekampusta.fi/fi/tapahtumat/puistopilates-torstaisin` — "Osta teemahetki" *[updated 2026-05-25, ⏰ expires Thursday, 06-Aug-26 08:45:00 EEST]*
-  - `https://www.kolmekampusta.fi/fi/tapahtumat/puistopilates-torstaisin` — "Osta paikkasi Teemahetkeen" *[updated 2026-05-25, ⏰ expires Thursday, 06-Aug-26 08:45:00 EEST]*
-
-### `https://stresspass.app/index.php/en/`
-- **Reason:** HTTP 415
-- **Linked from 2 page(s):**
-  - `https://www.kolmekampusta.fi/fi/caset/wellbeing-athletes` — "StressPass app" *[updated 2026-04-22]*
-  - `https://www.kolmekampusta.fi/fi/caset/wellbeing-athletes` — "StressPass – Personalised stress management in a mobile app" *[updated 2026-04-22]*
-
 ### `https://www.bikeland.fi/southbycycle-lansi-uudenmaan-kierros`
-- **Reason:** HTTP 415
+- **Reason:** HTTP 404
 - **Linked from 2 page(s):**
   - `https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/ulkoliikunta-kesalla` — "South by Cycle - Länsi-Uudenmaan Reitti" *[updated 2026-05-18]*
   - `https://www.kolmekampusta.fi/en/outdoor-exercise` — "South by Cycle - West Uusimaa Route" *[updated 2026-04-07]*
-
-### `https://www.leimausleiri.fi/`
-- **Reason:** timeout
-- **Linked from 2 page(s):**
-  - `https://www.kolmekampusta.fi/fi/tapahtumat/leimausleiri-2026` — "Lisätiedot" *[updated 2026-03-27, ⏰ expires Friday, 05-Jun-26 00:15:00 EEST]*
-  - `https://www.kolmekampusta.fi/fi/tapahtumat/leimausleiri-2026` — "www.leimausleiri.fi" *[updated 2026-03-27, ⏰ expires Friday, 05-Jun-26 00:15:00 EEST]*
 
 ### `https://kauppa.kolmekampusta.fi/tuote/avanto-ja-saunaelamys-kisakalliossa/`
 - **Reason:** HTTP 404
@@ -86,16 +67,6 @@
 - **Reason:** HTTP 401
 - **Linked from 1 page(s):**
   - `https://www.kolmekampusta.fi/en/hotel-kalliopaju` — "From the site map" *[updated 2025-10-23]*
-
-### `https://oppisopimus.net/`
-- **Reason:** HTTP 415
-- **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/koulutus/koulutukset/oppisopimuskoulutus` — "Lisätietoja oppisopimuksista löydät täältä" *[updated 2025-10-22]*
-
-### `https://urheilijanurapolku.fi/`
-- **Reason:** HTTP 415
-- **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/urheilu/yhteisomme/paijat-hameen-urheiluakatemia` — "Lue lisää" *[updated 2025-06-24]*
 
 ## ⚠️ Pages without URL alias
 
