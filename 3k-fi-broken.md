@@ -1,7 +1,7 @@
 # Broken Links Report
 
 - **Site:** https://www.kolmekampusta.fi/fi
-- **Crawled:** 2026-05-31T10:02:27
+- **Crawled:** 2026-06-01T11:36:30
 - **Pages crawled:** 919
 - **External targets checked:** 248
 - **Total broken:** 1 (0 internal, 1 external)
@@ -9,10 +9,10 @@
 
 ## External broken links
 
-### `https://urheilijanurapolku.fi/`
-- **Reason:** timeout
+### `https://www.sportsfinland.com/`
+- **Reason:** DNS resolution failed
 - **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/urheilu/yhteisomme/paijat-hameen-urheiluakatemia` — "Lue lisää" *[updated 2025-06-24]*
+  - `https://www.kolmekampusta.fi/fi/tapahtumat` — "Lue lisää SEMF:n sivuilta" *[updated 2026-02-13]*
 
 ## 🔁 Canonical duplicates
 
