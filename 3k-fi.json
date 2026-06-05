@@ -1,7 +1,7 @@
 {
   "start_url": "https://www.kolmekampusta.fi/fi",
   "base_netloc": "www.kolmekampusta.fi",
-  "crawled_at": "2026-06-05T09:11:54",
+  "crawled_at": "2026-06-05T11:42:05",
   "pages": {
     "https://www.kolmekampusta.fi/fi": {
       "title": "Kolmen kampuksen urheiluopisto | Kolmen kampuksen urheiluopisto",
@@ -130,7 +130,7 @@
         "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
         "https://www.kolmekampusta.fi/fi/evastekaytanto"
       ],
-      "body_length": 138333,
+      "body_length": 138311,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi",
@@ -3799,7 +3799,7 @@
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/vapaa-aika",
       "is_canonical_duplicate": false,
-      "updated_time": "2026-05-29T18:26:01+03:00",
+      "updated_time": "2026-06-05T12:13:20+03:00",
       "og_type": "article"
     },
     "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit": {
@@ -5009,9 +5009,9 @@
         "https://www.kolmekampusta.fi/fi",
         "https://www.kolmekampusta.fi/fi/vapaa-aika",
         "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit",
-        "https://kauppa.kolmekampusta.fi/tuote-osasto/lake-pool/",
+        "https://kauppa.kolmekampusta.fi/?campus=pajulahti&category=uinti-ja-lake-pool",
         "https://www.kolmekampusta.fi/fi/tapahtumat/lake-poolin-kesakauden-avaus",
-        "https://kauppa.kolmekampusta.fi/tuote-osasto/lake-pool/",
+        "https://kauppa.kolmekampusta.fi/?campus=pajulahti&category=uinti-ja-lake-pool",
         "https://kauppa.kolmekampusta.fi/tuote/latvuksista-laiturille-paketti-pajulahti/",
         "https://www.kolmekampusta.fi/fi/tapahtumat/melontaillat-keskiviikkoisin",
         "https://www.kolmekampusta.fi/fi/tapahtumat/lake-poolin-kesakauden-avaus",
@@ -5037,12 +5037,12 @@
         "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
         "https://www.kolmekampusta.fi/fi/evastekaytanto"
       ],
-      "body_length": 113844,
+      "body_length": 113896,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/lake-pool-pajulahti",
       "is_canonical_duplicate": false,
-      "updated_time": "2026-06-05T11:24:57+03:00",
+      "updated_time": "2026-06-05T12:08:07+03:00",
       "og_type": "article"
     },
     "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/pajulahden-uimahalli": {
@@ -5054,7 +5054,7 @@
         "https://www.kolmekampusta.fi/fi",
         "https://kauppa.kolmekampusta.fi/",
         "https://kauppa.kolmekampusta.fi/",
-        "https://www.kolmekampusta.fi/en/pajulahti-swimming-hall",
+        "https://www.kolmekampusta.fi/en/leisure/activities/pajulahti-swimming-hall",
         "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
         "https://www.kolmekampusta.fi/fi/koulutus",
         "https://www.kolmekampusta.fi/fi/koulutus/koulutukset",
@@ -5133,8 +5133,7 @@
         "https://www.kolmekampusta.fi/fi",
         "https://www.kolmekampusta.fi/fi/vapaa-aika",
         "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit",
-        "https://kauppa.kolmekampusta.fi/tuote/vesijumppa/",
-        "https://kauppa.kolmekampusta.fi/tuote/vesijumppa-kertalippu/",
+        "https://kauppa.kolmekampusta.fi/?campus=pajulahti&category=uinti-ja-lake-pool",
         "https://calendar.google.com/calendar/embed?ctz=Europe%2FHelsinki&hl=fi&mode=WEEK&src=2cv25avshltc98akpcqc7us3m09h5c9r%40import.calendar.google.com",
         "https://www.kolmekampusta.fi/fi",
         "https://kauppa.kolmekampusta.fi/",
@@ -5152,12 +5151,12 @@
         "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
         "https://www.kolmekampusta.fi/fi/evastekaytanto"
       ],
-      "body_length": 90697,
+      "body_length": 90129,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/pajulahden-uimahalli",
       "is_canonical_duplicate": false,
-      "updated_time": "2026-05-13T15:20:57+03:00",
+      "updated_time": "2026-06-05T12:53:27+03:00",
       "og_type": "article"
     },
     "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/seikkailupuisto": {
@@ -5625,8 +5624,6 @@
         "https://www.kolmekampusta.fi/fi/meista/tilat",
         "https://www.kolmekampusta.fi/fi",
         "https://www.kolmekampusta.fi/fi/vapaa-aika",
-        "https://kauppa.kolmekampusta.fi/tuote/vesijumppa/",
-        "https://kauppa.kolmekampusta.fi/tuote/vesijumppa-kertalippu/",
         "https://www.kolmekampusta.fi/fi/kuntosali-ja-personal-trainer-palvelut",
         "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/pajulahden-uimahalli",
         "https://www.kolmekampusta.fi/fi/terveyskuntotestaus",
@@ -5650,12 +5647,12 @@
         "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
         "https://www.kolmekampusta.fi/fi/evastekaytanto"
       ],
-      "body_length": 99470,
+      "body_length": 96301,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/vapaa-aika/liikunta-ja-hyvinvointipalvelut",
       "is_canonical_duplicate": false,
-      "updated_time": "2026-03-21T23:31:19+02:00",
+      "updated_time": "2026-06-05T12:39:35+03:00",
       "og_type": "article"
     },
     "https://www.kolmekampusta.fi/fi/vapaa-aika/kanta-asiakkuus": {
@@ -7812,7 +7809,7 @@
         "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
         "https://www.kolmekampusta.fi/fi/evastekaytanto"
       ],
-      "body_length": 120277,
+      "body_length": 120271,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
@@ -8038,7 +8035,7 @@
         "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
         "https://www.kolmekampusta.fi/fi/evastekaytanto"
       ],
-      "body_length": 95620,
+      "body_length": 95598,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/meista/avoimet-tyopaikat",
@@ -8171,7 +8168,7 @@
         "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
         "https://www.kolmekampusta.fi/fi/evastekaytanto"
       ],
-      "body_length": 113200,
+      "body_length": 113172,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/ajankohtaista",
@@ -9027,12 +9024,12 @@
         "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
         "https://www.kolmekampusta.fi/fi/evastekaytanto"
       ],
-      "body_length": 88413,
+      "body_length": 88347,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/meista/avoimet-tyopaikat/asiakaspalveluneuvoja-maaraaikainen",
       "is_canonical_duplicate": false,
-      "updated_time": "2026-06-04T14:03:33+03:00",
+      "updated_time": "2026-06-05T13:16:25+03:00",
       "og_type": "article"
     },
     "https://www.kolmekampusta.fi/fi/meista/avoimet-tyopaikat/asiakaspalveluneuvoja-vakituinen": {
@@ -12069,7 +12066,7 @@
         "https://www.kolmekampusta.fi/en/about-us/facilities",
         "https://www.kolmekampusta.fi/en",
         "https://www.kolmekampusta.fi/en/gym-and-personal-trainer-services",
-        "https://www.kolmekampusta.fi/en/pajulahti-swimming-hall",
+        "https://www.kolmekampusta.fi/en/leisure/activities/pajulahti-swimming-hall",
         "https://www.kolmekampusta.fi/en/massage-services",
         "https://kauppa.kolmekampusta.fi/",
         "https://www.kolmekampusta.fi/en",
@@ -12078,7 +12075,7 @@
         "https://www.kolmekampusta.fi/en/cookie-policy",
         "https://www.kolmekampusta.fi/en/privacy-policy"
       ],
-      "body_length": 56499,
+      "body_length": 56518,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/en/vapaa-aika/exercise-and-wellness-services",
@@ -12518,7 +12515,7 @@
         "https://www.kolmekampusta.fi/en/classroom-1",
         "https://www.kolmekampusta.fi/en/classroom-2",
         "https://www.kolmekampusta.fi/en/classroom-haavisto",
-        "https://www.kolmekampusta.fi/en/node/787",
+        "https://www.kolmekampusta.fi/en/about-us/facilities/classroom-nikkinen",
         "https://www.kolmekampusta.fi/en/classroom-nikkinen",
         "https://www.kolmekampusta.fi/en/about-us/facilities?page=1",
         "https://www.kolmekampusta.fi/en/about-us/facilities?page=2",
@@ -12533,7 +12530,7 @@
         "https://www.kolmekampusta.fi/en/cookie-policy",
         "https://www.kolmekampusta.fi/en/privacy-policy"
       ],
-      "body_length": 73730,
+      "body_length": 73760,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/en/about-us/facilities",
@@ -18166,7 +18163,7 @@
         "https://www.kolmekampusta.fi/fi",
         "https://kauppa.kolmekampusta.fi/",
         "https://kauppa.kolmekampusta.fi/",
-        "https://www.kolmekampusta.fi/en/node/787",
+        "https://www.kolmekampusta.fi/en/about-us/facilities/classroom-nikkinen",
         "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
         "https://www.kolmekampusta.fi/fi/koulutus",
         "https://www.kolmekampusta.fi/fi/koulutus/koulutukset",
@@ -18259,7 +18256,7 @@
         "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
         "https://www.kolmekampusta.fi/fi/evastekaytanto"
       ],
-      "body_length": 85811,
+      "body_length": 85871,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/korneri-luokka-ja-vapaa-ajan-tila",
@@ -18465,7 +18462,6 @@
         "https://www.kolmekampusta.fi/fi/kampukset",
         "https://www.kolmekampusta.fi/fi/meista/tilat",
         "https://www.kolmekampusta.fi/fi",
-        "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
         "https://kolmekampusta-my.sharepoint.com/:w:/g/personal/ibai_mendia_kolmekampusta_fi/IQAehOtCQaSfQ7q4XH_bS8eDAfEb1QIuZvdFtLIBI4234rw?e=g2fmZ8",
         "https://kauppa.kolmekampusta.fi/tuote/pajulahtihallin-kertakaynti/",
         "https://www.kolmekampusta.fi/fi",
@@ -18484,12 +18480,12 @@
         "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
         "https://www.kolmekampusta.fi/fi/evastekaytanto"
       ],
-      "body_length": 86248,
+      "body_length": 85893,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/pajulahti-hallin-kuntosali",
       "is_canonical_duplicate": false,
-      "updated_time": "2026-05-31T12:10:36+03:00",
+      "updated_time": "2026-06-05T12:14:31+03:00",
       "og_type": "article"
     },
     "https://www.kolmekampusta.fi/fi/kamppailuareenan-kuntosali": {
@@ -20034,7 +20030,7 @@
         "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
         "https://www.kolmekampusta.fi/fi/evastekaytanto"
       ],
-      "body_length": 113194,
+      "body_length": 113172,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/ajankohtaista",
@@ -21278,9 +21274,9 @@
         "https://www.kolmekampusta.fi/fi",
         "https://www.kolmekampusta.fi/fi/vapaa-aika",
         "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit",
-        "https://kauppa.kolmekampusta.fi/tuote-osasto/lake-pool/",
+        "https://kauppa.kolmekampusta.fi/?campus=pajulahti&category=uinti-ja-lake-pool",
         "https://www.kolmekampusta.fi/fi/tapahtumat/lake-poolin-kesakauden-avaus",
-        "https://kauppa.kolmekampusta.fi/tuote-osasto/lake-pool/",
+        "https://kauppa.kolmekampusta.fi/?campus=pajulahti&category=uinti-ja-lake-pool",
         "https://kauppa.kolmekampusta.fi/tuote/latvuksista-laiturille-paketti-pajulahti/",
         "https://www.kolmekampusta.fi/fi/tapahtumat/melontaillat-keskiviikkoisin",
         "https://www.kolmekampusta.fi/fi/tapahtumat/lake-poolin-kesakauden-avaus",
@@ -21306,12 +21302,12 @@
         "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
         "https://www.kolmekampusta.fi/fi/evastekaytanto"
       ],
-      "body_length": 113844,
+      "body_length": 113896,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/lake-pool-pajulahti",
       "is_canonical_duplicate": false,
-      "updated_time": "2026-06-05T11:24:57+03:00",
+      "updated_time": "2026-06-05T12:08:07+03:00",
       "og_type": "article"
     },
     "https://www.kolmekampusta.fi/sites/default/files/2025-08/pajulahti_palautumishuone.jpg": {
@@ -22617,7 +22613,6 @@
         "https://www.kolmekampusta.fi/fi/meista/tilat",
         "https://www.kolmekampusta.fi/fi",
         "https://www.kolmekampusta.fi/fi/tapahtumat",
-        "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
         "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/perhepaketit",
         "https://www.kolmekampusta.fi/fi/taxonomy/term/53",
         "https://www.kolmekampusta.fi/fi",
@@ -22636,12 +22631,12 @@
         "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
         "https://www.kolmekampusta.fi/fi/evastekaytanto"
       ],
-      "body_length": 94080,
+      "body_length": 93720,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-kisakalliossa",
       "is_canonical_duplicate": false,
-      "updated_time": "2026-05-26T07:55:23+03:00",
+      "updated_time": "2026-06-05T12:20:35+03:00",
       "robots": "unavailable_after: Friday, 12-Jun-26 12:00:00 EEST",
       "unavailable_after": "Friday, 12-Jun-26 12:00:00 EEST",
       "og_type": "article"
@@ -25838,7 +25833,7 @@
         "https://www.kolmekampusta.fi/fi/kampukset",
         "https://www.kolmekampusta.fi/fi/meista/tilat",
         "https://www.kolmekampusta.fi/fi",
-        "https://kauppa.kolmekampusta.fi/tuote-osasto/kuntosali/",
+        "https://kauppa.kolmekampusta.fi/?campus=pajulahti&category=kuntosalit-ja-valmennus",
         "https://www.kolmekampusta.fi/fi/meista/tilat/paarakennuksen-kuntosali",
         "https://www.kolmekampusta.fi/fi/kisakallion-kuntosali",
         "https://kauppa.kolmekampusta.fi/tuote-osasto/kuntosali/",
@@ -25865,12 +25860,12 @@
         "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
         "https://www.kolmekampusta.fi/fi/evastekaytanto"
       ],
-      "body_length": 101020,
+      "body_length": 101051,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/kuntosali-ja-personal-trainer-palvelut",
       "is_canonical_duplicate": false,
-      "updated_time": "2026-03-11T14:47:09+02:00",
+      "updated_time": "2026-06-05T12:40:52+03:00",
       "og_type": "article"
     },
     "https://www.kolmekampusta.fi/sites/default/files/2026-04/kiintorastit2026pajulahti.rataa_.pdf": {
@@ -26297,6 +26292,7 @@
         "https://www.kolmekampusta.fi/fi/meista/tilat",
         "https://www.kolmekampusta.fi/fi",
         "https://www.kolmekampusta.fi/fi/tapahtumat",
+        "https://kauppa.kolmekampusta.fi/?campus=pajulahti&category=uinti-ja-lake-pool",
         "https://www.kolmekampusta.fi/sites/default/files/2026-05/pajulahti-ilmakuva-2025-3.JPG",
         "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/lake-pool-pajulahti",
         "https://www.kolmekampusta.fi/fi/tapahtumat/aamupilates-torstaisin",
@@ -26318,12 +26314,12 @@
         "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
         "https://www.kolmekampusta.fi/fi/evastekaytanto"
       ],
-      "body_length": 96382,
+      "body_length": 96533,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/tapahtumat/lake-poolin-kesakauden-avaus",
       "is_canonical_duplicate": false,
-      "updated_time": "2026-05-29T14:20:28+03:00",
+      "updated_time": "2026-06-05T12:07:38+03:00",
       "robots": "unavailable_after: Saturday, 13-Jun-26 19:00:00 EEST",
       "unavailable_after": "Saturday, 13-Jun-26 19:00:00 EEST",
       "og_type": "article"
@@ -26707,7 +26703,7 @@
       "outbound": [],
       "is_file": true
     },
-    "https://www.kolmekampusta.fi/en/pajulahti-swimming-hall": {
+    "https://www.kolmekampusta.fi/en/leisure/activities/pajulahti-swimming-hall": {
       "title": "Pajulahti Swimming Hall | Kolmen kampuksen urheiluopisto",
       "status": 200,
       "outbound": [
@@ -26742,7 +26738,8 @@
         "https://www.kolmekampusta.fi/en/about-us/campuses",
         "https://www.kolmekampusta.fi/en/about-us/facilities",
         "https://www.kolmekampusta.fi/en",
-        "https://kauppa.kolmekampusta.fi/tuote/vesijumppa/",
+        "https://www.kolmekampusta.fi/en/leisure",
+        "https://www.kolmekampusta.fi/en/leisure/activities",
         "https://calendar.google.com/calendar/embed?ctz=Europe%2FHelsinki&src=rlt9um4vohgihpcg14ei81br8nuumout%40import.calendar.google.com",
         "https://www.kolmekampusta.fi/en",
         "https://www.kolmekampusta.fi/en/about-us",
@@ -26750,12 +26747,12 @@
         "https://www.kolmekampusta.fi/en/cookie-policy",
         "https://www.kolmekampusta.fi/en/privacy-policy"
       ],
-      "body_length": 51591,
+      "body_length": 51769,
       "soft_404_signals": {},
       "no_alias": false,
-      "canonical": "https://www.kolmekampusta.fi/en/pajulahti-swimming-hall",
+      "canonical": "https://www.kolmekampusta.fi/en/leisure/activities/pajulahti-swimming-hall",
       "is_canonical_duplicate": false,
-      "updated_time": "2025-10-08T08:54:08+03:00",
+      "updated_time": "2026-06-05T12:26:59+03:00",
       "og_type": "article"
     },
     "https://www.kolmekampusta.fi/fi/seikkailupuiston-yleis-ja-turvallisuusohjeet": {
@@ -33055,7 +33052,6 @@
         "https://www.kolmekampusta.fi/fi/kampukset",
         "https://www.kolmekampusta.fi/fi/meista/tilat",
         "https://www.kolmekampusta.fi/fi",
-        "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
         "https://kauppa.kolmekampusta.fi/tuote/pajulahtihallin-kertakaynti/",
         "https://kolmekampusta-my.sharepoint.com/:w:/g/personal/ibai_mendia_kolmekampusta_fi/IQAehOtCQaSfQ7q4XH_bS8eDAdj_SI-uRyX0ZNZBqFQCr9I?rtime=ynmuDw5V3kg",
         "https://calendar.google.com/calendar/embed?ctz=Europe%2FHelsinki&hl=fi&mode=WEEK&src=4uka9ve5vgi9bbofnijfi1fin9n6r9q1%40import.calendar.google.com",
@@ -33084,12 +33080,12 @@
         "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
         "https://www.kolmekampusta.fi/fi/evastekaytanto"
       ],
-      "body_length": 97977,
+      "body_length": 97623,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/pajulahti-halli",
       "is_canonical_duplicate": false,
-      "updated_time": "2026-05-26T15:05:18+03:00",
+      "updated_time": "2026-06-05T12:14:46+03:00",
       "og_type": "article"
     },
     "https://www.kolmekampusta.fi/en/upcoming-events": {
@@ -33240,7 +33236,7 @@
       "title": "Tulevat tapahtumat | Kolmen kampuksen urheiluopisto",
       "status": 200,
       "outbound": [],
-      "body_length": 121133,
+      "body_length": 121127,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
@@ -33350,7 +33346,7 @@
       "title": "Ajankohtaista | Kolmen kampuksen urheiluopisto",
       "status": 200,
       "outbound": [],
-      "body_length": 113120,
+      "body_length": 113098,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/ajankohtaista",
@@ -33380,7 +33376,7 @@
       "title": "Ajankohtaista | Kolmen kampuksen urheiluopisto",
       "status": 200,
       "outbound": [],
-      "body_length": 114193,
+      "body_length": 114187,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/ajankohtaista",
@@ -33390,7 +33386,7 @@
       "title": "Ajankohtaista | Kolmen kampuksen urheiluopisto",
       "status": 200,
       "outbound": [],
-      "body_length": 115249,
+      "body_length": 115243,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/ajankohtaista",
@@ -33410,7 +33406,7 @@
       "title": "Ajankohtaista | Kolmen kampuksen urheiluopisto",
       "status": 200,
       "outbound": [],
-      "body_length": 114814,
+      "body_length": 114808,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/ajankohtaista",
@@ -40211,7 +40207,7 @@
       "title": "Facilities | Kolmen kampuksen urheiluopisto",
       "status": 200,
       "outbound": [],
-      "body_length": 72688,
+      "body_length": 72718,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/en/about-us/facilities",
@@ -40307,7 +40303,7 @@
       "title": "Facilities | Kolmen kampuksen urheiluopisto",
       "status": 200,
       "outbound": [],
-      "body_length": 73467,
+      "body_length": 73497,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/en/about-us/facilities",
@@ -40811,7 +40807,7 @@
       "updated_time": "2025-10-08T15:32:41+03:00",
       "og_type": "article"
     },
-    "https://www.kolmekampusta.fi/en/node/787": {
+    "https://www.kolmekampusta.fi/en/about-us/facilities/classroom-nikkinen": {
       "title": "Classroom Nikkinen | Kolmen kampuksen urheiluopisto",
       "status": 200,
       "outbound": [
@@ -40846,19 +40842,20 @@
         "https://www.kolmekampusta.fi/en/about-us/campuses",
         "https://www.kolmekampusta.fi/en/about-us/facilities",
         "https://www.kolmekampusta.fi/en",
-        "https://www.kolmekampusta.fi/en/node",
+        "https://www.kolmekampusta.fi/en/about-us",
+        "https://www.kolmekampusta.fi/en/about-us/facilities",
         "https://www.kolmekampusta.fi/en",
         "https://www.kolmekampusta.fi/en/about-us",
         "https://www.kolmekampusta.fi/en/about-us/contact-information",
         "https://www.kolmekampusta.fi/en/cookie-policy",
         "https://www.kolmekampusta.fi/en/privacy-policy"
       ],
-      "body_length": 45402,
+      "body_length": 46045,
       "soft_404_signals": {},
-      "no_alias": true,
-      "canonical": "https://www.kolmekampusta.fi/en/node/787",
+      "no_alias": false,
+      "canonical": "https://www.kolmekampusta.fi/en/about-us/facilities/classroom-nikkinen",
       "is_canonical_duplicate": false,
-      "updated_time": "2025-10-08T15:31:57+03:00",
+      "updated_time": "2026-06-05T12:28:01+03:00",
       "og_type": "article"
     },
     "https://www.kolmekampusta.fi/en/classroom-nikkinen": {
@@ -40950,7 +40947,7 @@
       "title": "Facilities | Kolmen kampuksen urheiluopisto",
       "status": 200,
       "outbound": [],
-      "body_length": 75149,
+      "body_length": 75168,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/en/about-us/facilities",
@@ -42632,114 +42629,6 @@
       "updated_time": "2025-10-08T12:54:11+03:00",
       "og_type": "article"
     },
-    "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut": {
-      "title": "Kirjaudu sisään | Kolmen kampuksen urheiluopisto",
-      "status": 403,
-      "outbound": [
-        "https://www.kolmekampusta.fi/fi",
-        "https://www.kolmekampusta.fi/fi",
-        "https://www.kolmekampusta.fi/fi",
-        "https://kauppa.kolmekampusta.fi/",
-        "https://kauppa.kolmekampusta.fi/",
-        "https://www.kolmekampusta.fi/en/user/login",
-        "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-        "https://www.kolmekampusta.fi/fi/koulutus",
-        "https://www.kolmekampusta.fi/fi/koulutus/koulutukset",
-        "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/hakijalle",
-        "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/ammatillinen-koulutus",
-        "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/oppisopimuskoulutus",
-        "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/taydennyskoulutus",
-        "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/vapaan-sivistystyon-koulutus",
-        "https://www.kolmekampusta.fi/fi/koulutus/kansainvalisyys",
-        "https://www.kolmekampusta.fi/fi/koulutus/opiskelijalle",
-        "https://www.kolmekampusta.fi/fi/urheilu",
-        "https://www.kolmekampusta.fi/fi/urheilu/leiri-ja-tapahtumakauppa",
-        "https://www.kolmekampusta.fi/fi/urheilu/leirit",
-        "https://www.kolmekampusta.fi/fi/urheilu/leirit/esikuvaleirit",
-        "https://www.kolmekampusta.fi/fi/urheilu/leirit/ylakoululeiritys",
-        "https://www.kolmekampusta.fi/fi/urheilu/leirit/urheilurippileirit",
-        "https://www.kolmekampusta.fi/fi/urheilu/valmennuskeskus",
-        "https://www.kolmekampusta.fi/fi/meista/tilat",
-        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut",
-        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/kestavyysurheilu",
-        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/korkeanpaikan-harjoittelu",
-        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/testauspalvelut",
-        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/pajulahden-palautumiskeskus",
-        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/taito-360",
-        "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen",
-        "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen/urheilun-tki",
-        "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen/kolmen-kampuksen-journal-club",
-        "https://www.kolmekampusta.fi/fi/urheilu/yhteisomme",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/perhepaketit",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/teemakurssit",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/aikuiset-60-fiiliskurssit",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/lisapalvelut",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/villaloma-kisakalliossa",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kisakallion-sporttipassi",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kisakallion-rantasauna",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/lake-pool-pajulahti",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/pajulahden-uimahalli",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/seikkailupuisto",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/valine-ja-kenttavuokraus",
-        "https://www.kolmekampusta.fi/fi/urheilu/tilat",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/liikunta-ja-hyvinvointipalvelut",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/kanta-asiakkuus",
-        "https://kauppa.kolmekampusta.fi/",
-        "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit",
-        "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/leirikoulu",
-        "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/luokkaretki",
-        "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/rippileiri",
-        "https://www.kolmekampusta.fi/fi/urheilu/leirit",
-        "https://www.kolmekampusta.fi/fi/yritykset",
-        "https://www.kolmekampusta.fi/fi/yritykset",
-        "https://www.kolmekampusta.fi/fi/yritykset/kokoukset",
-        "https://www.kolmekampusta.fi/fi/yritykset/kokoukset/seminaarit-ja-juhlat",
-        "https://www.kolmekampusta.fi/fi/yritykset/tyohyvinvointi",
-        "https://www.kolmekampusta.fi/fi/yritykset/hyvinvointikoulu",
-        "https://www.kolmekampusta.fi/fi/yritykset/villamaailma-yrityksille",
-        "https://www.kolmekampusta.fi/fi/majoitus",
-        "https://www.kolmekampusta.fi/fi/majoitus/pajulahti",
-        "https://www.kolmekampusta.fi/fi/majoitus/kisakallio",
-        "https://www.kolmekampusta.fi/fi/ravintolapalvelut",
-        "https://www.kolmekampusta.fi/fi/ravintolapalvelut/tilaustarjoilut",
-        "https://www.kolmekampusta.fi/fi/tapahtumat",
-        "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
-        "https://www.kolmekampusta.fi/fi/meista",
-        "https://www.kolmekampusta.fi/fi/meista/avoimet-tyopaikat",
-        "https://www.kolmekampusta.fi/fi/ajankohtaista",
-        "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-        "https://www.kolmekampusta.fi/fi/meista/laskutustiedot",
-        "https://www.kolmekampusta.fi/fi/meista/saatioiden-apurahat",
-        "https://www.kolmekampusta.fi/fi/meista/hankkeet",
-        "https://www.kolmekampusta.fi/fi/meista/vastuullisuus",
-        "https://www.kolmekampusta.fi/fi/kampukset",
-        "https://www.kolmekampusta.fi/fi/meista/tilat",
-        "https://www.kolmekampusta.fi/fi",
-        "https://www.kolmekampusta.fi/fi",
-        "https://kauppa.kolmekampusta.fi/",
-        "https://www.kolmekampusta.fi/fi/ajankohtaista",
-        "https://www.kolmekampusta.fi/fi/meista/laskutustiedot",
-        "https://www.kolmekampusta.fi/fi/varaus-ja-peruutusehdot",
-        "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-        "https://www.kolmekampusta.fi/fi/uutiskirjeet",
-        "https://www.kolmekampusta.fi/fi/meista",
-        "https://www.kolmekampusta.fi/fi/aluekartta",
-        "https://www.kolmekampusta.fi/fi/anna-palautetta",
-        "https://www.kolmekampusta.fi/fi/koulutus/opiskelijalle",
-        "https://app.digitalguest.com/guestbook/Pajulahti",
-        "https://app.digitalguest.com/guestbook/Kisakallio",
-        "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
-        "https://www.kolmekampusta.fi/fi/evastekaytanto"
-      ],
-      "body_length": 80512,
-      "soft_404_signals": {},
-      "no_alias": false,
-      "canonical": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "is_canonical_duplicate": false
-    },
     "https://www.kolmekampusta.fi/en/kamppailuareena-gym": {
       "title": "Kamppailuareena gym | Kolmen kampuksen urheiluopisto",
       "status": 200,
@@ -44339,114 +44228,6 @@
       "error": null,
       "outbound": [],
       "is_file": true
-    },
-    "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa": {
-      "title": "Kirjaudu sisään | Kolmen kampuksen urheiluopisto",
-      "status": 403,
-      "outbound": [
-        "https://www.kolmekampusta.fi/fi",
-        "https://www.kolmekampusta.fi/fi",
-        "https://www.kolmekampusta.fi/fi",
-        "https://kauppa.kolmekampusta.fi/",
-        "https://kauppa.kolmekampusta.fi/",
-        "https://www.kolmekampusta.fi/en/user/login",
-        "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-        "https://www.kolmekampusta.fi/fi/koulutus",
-        "https://www.kolmekampusta.fi/fi/koulutus/koulutukset",
-        "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/hakijalle",
-        "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/ammatillinen-koulutus",
-        "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/oppisopimuskoulutus",
-        "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/taydennyskoulutus",
-        "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/vapaan-sivistystyon-koulutus",
-        "https://www.kolmekampusta.fi/fi/koulutus/kansainvalisyys",
-        "https://www.kolmekampusta.fi/fi/koulutus/opiskelijalle",
-        "https://www.kolmekampusta.fi/fi/urheilu",
-        "https://www.kolmekampusta.fi/fi/urheilu/leiri-ja-tapahtumakauppa",
-        "https://www.kolmekampusta.fi/fi/urheilu/leirit",
-        "https://www.kolmekampusta.fi/fi/urheilu/leirit/esikuvaleirit",
-        "https://www.kolmekampusta.fi/fi/urheilu/leirit/ylakoululeiritys",
-        "https://www.kolmekampusta.fi/fi/urheilu/leirit/urheilurippileirit",
-        "https://www.kolmekampusta.fi/fi/urheilu/valmennuskeskus",
-        "https://www.kolmekampusta.fi/fi/meista/tilat",
-        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut",
-        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/kestavyysurheilu",
-        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/korkeanpaikan-harjoittelu",
-        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/testauspalvelut",
-        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/pajulahden-palautumiskeskus",
-        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/taito-360",
-        "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen",
-        "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen/urheilun-tki",
-        "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen/kolmen-kampuksen-journal-club",
-        "https://www.kolmekampusta.fi/fi/urheilu/yhteisomme",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/perhepaketit",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/teemakurssit",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/aikuiset-60-fiiliskurssit",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/lisapalvelut",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/villaloma-kisakalliossa",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kisakallion-sporttipassi",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kisakallion-rantasauna",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/lake-pool-pajulahti",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/pajulahden-uimahalli",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/seikkailupuisto",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/valine-ja-kenttavuokraus",
-        "https://www.kolmekampusta.fi/fi/urheilu/tilat",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/liikunta-ja-hyvinvointipalvelut",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/kanta-asiakkuus",
-        "https://kauppa.kolmekampusta.fi/",
-        "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit",
-        "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/leirikoulu",
-        "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/luokkaretki",
-        "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/rippileiri",
-        "https://www.kolmekampusta.fi/fi/urheilu/leirit",
-        "https://www.kolmekampusta.fi/fi/yritykset",
-        "https://www.kolmekampusta.fi/fi/yritykset",
-        "https://www.kolmekampusta.fi/fi/yritykset/kokoukset",
-        "https://www.kolmekampusta.fi/fi/yritykset/kokoukset/seminaarit-ja-juhlat",
-        "https://www.kolmekampusta.fi/fi/yritykset/tyohyvinvointi",
-        "https://www.kolmekampusta.fi/fi/yritykset/hyvinvointikoulu",
-        "https://www.kolmekampusta.fi/fi/yritykset/villamaailma-yrityksille",
-        "https://www.kolmekampusta.fi/fi/majoitus",
-        "https://www.kolmekampusta.fi/fi/majoitus/pajulahti",
-        "https://www.kolmekampusta.fi/fi/majoitus/kisakallio",
-        "https://www.kolmekampusta.fi/fi/ravintolapalvelut",
-        "https://www.kolmekampusta.fi/fi/ravintolapalvelut/tilaustarjoilut",
-        "https://www.kolmekampusta.fi/fi/tapahtumat",
-        "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
-        "https://www.kolmekampusta.fi/fi/meista",
-        "https://www.kolmekampusta.fi/fi/meista/avoimet-tyopaikat",
-        "https://www.kolmekampusta.fi/fi/ajankohtaista",
-        "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-        "https://www.kolmekampusta.fi/fi/meista/laskutustiedot",
-        "https://www.kolmekampusta.fi/fi/meista/saatioiden-apurahat",
-        "https://www.kolmekampusta.fi/fi/meista/hankkeet",
-        "https://www.kolmekampusta.fi/fi/meista/vastuullisuus",
-        "https://www.kolmekampusta.fi/fi/kampukset",
-        "https://www.kolmekampusta.fi/fi/meista/tilat",
-        "https://www.kolmekampusta.fi/fi",
-        "https://www.kolmekampusta.fi/fi",
-        "https://kauppa.kolmekampusta.fi/",
-        "https://www.kolmekampusta.fi/fi/ajankohtaista",
-        "https://www.kolmekampusta.fi/fi/meista/laskutustiedot",
-        "https://www.kolmekampusta.fi/fi/varaus-ja-peruutusehdot",
-        "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-        "https://www.kolmekampusta.fi/fi/uutiskirjeet",
-        "https://www.kolmekampusta.fi/fi/meista",
-        "https://www.kolmekampusta.fi/fi/aluekartta",
-        "https://www.kolmekampusta.fi/fi/anna-palautetta",
-        "https://www.kolmekampusta.fi/fi/koulutus/opiskelijalle",
-        "https://app.digitalguest.com/guestbook/Pajulahti",
-        "https://app.digitalguest.com/guestbook/Kisakallio",
-        "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
-        "https://www.kolmekampusta.fi/fi/evastekaytanto"
-      ],
-      "body_length": 80533,
-      "soft_404_signals": {},
-      "no_alias": false,
-      "canonical": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "is_canonical_duplicate": false
     },
     "https://www.kolmekampusta.fi/sites/default/files/2026-05/aquafiilis-22-26.6.2026_0.pdf": {
       "title": null,
@@ -49254,77 +49035,6 @@
       "updated_time": "2025-06-16T14:15:33+03:00",
       "og_type": "article"
     },
-    "https://www.kolmekampusta.fi/en/node": {
-      "title": "| Kolmen kampuksen urheiluopisto",
-      "status": 200,
-      "outbound": [
-        "https://www.kolmekampusta.fi/en",
-        "https://www.kolmekampusta.fi/en",
-        "https://www.kolmekampusta.fi/en",
-        "https://www.kolmekampusta.fi/fi/node",
-        "https://www.kolmekampusta.fi/en/about-us/contact-information",
-        "https://www.kolmekampusta.fi/en/sports",
-        "https://www.kolmekampusta.fi/en/sports/training-center",
-        "https://www.kolmekampusta.fi/en/sports/sports-services",
-        "https://www.kolmekampusta.fi/en/sports/urheilun-palvelut/high-altitude-training",
-        "https://www.kolmekampusta.fi/en/sports/urheilun-palvelut/testing-services",
-        "https://www.kolmekampusta.fi/en/sports/sports-services/pajulahti-recovery-center",
-        "https://www.kolmekampusta.fi/en/sports/sports-services/taito-360",
-        "https://www.kolmekampusta.fi/en/sports/skill-development",
-        "https://www.kolmekampusta.fi/en/leisure",
-        "https://www.kolmekampusta.fi/en/leisure/activities",
-        "https://www.kolmekampusta.fi/en/leisure/activities/lake-pool-pajulahti",
-        "https://www.kolmekampusta.fi/en/leisure/activities/adventure-park",
-        "https://www.kolmekampusta.fi/en/leisure/activities/equipment-and-field-rental",
-        "https://www.kolmekampusta.fi/en/vapaa-aika/exercise-and-wellness-services",
-        "https://www.kolmekampusta.fi/en/accommodation",
-        "https://store.kisakallio.willba.app/en",
-        "https://store.pajulahti.willba.app/en",
-        "https://www.kolmekampusta.fi/en/restaurant-services",
-        "https://www.kolmekampusta.fi/en/yritykset/catering-services",
-        "https://www.kolmekampusta.fi/en/events",
-        "https://www.kolmekampusta.fi/en/about-us",
-        "https://www.kolmekampusta.fi/en/about-us/contact-information",
-        "https://www.kolmekampusta.fi/en/about-us/sustainability",
-        "https://www.kolmekampusta.fi/en/about-us/campuses",
-        "https://www.kolmekampusta.fi/en/about-us/facilities",
-        "https://www.kolmekampusta.fi/en",
-        "https://www.kolmekampusta.fi/en/events/motor-skills-acquisition-conference-2027",
-        "https://www.kolmekampusta.fi/en/events/agifest-agilityhub-midsummer-festival",
-        "https://www.kolmekampusta.fi/en/news/2026-02/our-service-numbers-have-changed",
-        "https://www.kolmekampusta.fi/en/articles/young-ringette-stars-development-camp-pajulahti",
-        "https://www.kolmekampusta.fi/fi/taxonomy/term/125",
-        "https://www.kolmekampusta.fi/fi/taxonomy/term/126",
-        "https://www.kolmekampusta.fi/fi/taxonomy/term/127",
-        "https://www.kolmekampusta.fi/fi/taxonomy/term/103",
-        "https://www.kolmekampusta.fi/en/news/2025-10/european-curling-elite-meets-again-kisakallio",
-        "https://www.kolmekampusta.fi/en/articles/finnish-winter-swimming-championships-pajulahti-301-122026",
-        "https://www.kolmekampusta.fi/en/meeting-spaces-hotel-omenatarha",
-        "https://www.kolmekampusta.fi/en/maikkala-and-jarvisali",
-        "https://www.kolmekampusta.fi/en/auditorium",
-        "https://www.kolmekampusta.fi/en/kunto",
-        "https://www.kolmekampusta.fi/en/node?page=1",
-        "https://www.kolmekampusta.fi/en/node?page=2",
-        "https://www.kolmekampusta.fi/en/node?page=3",
-        "https://www.kolmekampusta.fi/en/node?page=4",
-        "https://www.kolmekampusta.fi/en/node?page=5",
-        "https://www.kolmekampusta.fi/en/node?page=6",
-        "https://www.kolmekampusta.fi/en/node?page=7",
-        "https://www.kolmekampusta.fi/en/node?page=8",
-        "https://www.kolmekampusta.fi/en/node?page=1",
-        "https://www.kolmekampusta.fi/en/node?page=8",
-        "https://www.kolmekampusta.fi/en",
-        "https://www.kolmekampusta.fi/en/about-us",
-        "https://www.kolmekampusta.fi/en/about-us/contact-information",
-        "https://www.kolmekampusta.fi/en/cookie-policy",
-        "https://www.kolmekampusta.fi/en/privacy-policy"
-      ],
-      "body_length": 65748,
-      "soft_404_signals": {},
-      "no_alias": false,
-      "canonical": "https://www.kolmekampusta.fi/en/node",
-      "is_canonical_duplicate": false
-    },
     "https://www.kolmekampusta.fi/fi/uutiset/2026-02/hae-yhteishaussa-172-173-kolmen-kampuksen-urheiluopistoon": {
       "title": "Hae yhteishaussa 17.2.-17.3. Kolmen kampuksen urheiluopistoon | Kolmen kampuksen urheiluopisto",
       "status": 200,
@@ -51344,214 +51054,6 @@
       "outbound": [],
       "is_file": true
     },
-    "https://www.kolmekampusta.fi/fi/node": {
-      "title": "| Kolmen kampuksen urheiluopisto",
-      "status": 200,
-      "outbound": [
-        "https://www.kolmekampusta.fi/fi",
-        "https://www.kolmekampusta.fi/fi",
-        "https://www.kolmekampusta.fi/fi",
-        "https://kauppa.kolmekampusta.fi/",
-        "https://kauppa.kolmekampusta.fi/",
-        "https://www.kolmekampusta.fi/en/node",
-        "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-        "https://www.kolmekampusta.fi/fi/koulutus",
-        "https://www.kolmekampusta.fi/fi/koulutus/koulutukset",
-        "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/hakijalle",
-        "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/ammatillinen-koulutus",
-        "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/oppisopimuskoulutus",
-        "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/taydennyskoulutus",
-        "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/vapaan-sivistystyon-koulutus",
-        "https://www.kolmekampusta.fi/fi/koulutus/kansainvalisyys",
-        "https://www.kolmekampusta.fi/fi/koulutus/opiskelijalle",
-        "https://www.kolmekampusta.fi/fi/urheilu",
-        "https://www.kolmekampusta.fi/fi/urheilu/leiri-ja-tapahtumakauppa",
-        "https://www.kolmekampusta.fi/fi/urheilu/leirit",
-        "https://www.kolmekampusta.fi/fi/urheilu/leirit/esikuvaleirit",
-        "https://www.kolmekampusta.fi/fi/urheilu/leirit/ylakoululeiritys",
-        "https://www.kolmekampusta.fi/fi/urheilu/leirit/urheilurippileirit",
-        "https://www.kolmekampusta.fi/fi/urheilu/valmennuskeskus",
-        "https://www.kolmekampusta.fi/fi/meista/tilat",
-        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut",
-        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/kestavyysurheilu",
-        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/korkeanpaikan-harjoittelu",
-        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/testauspalvelut",
-        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/pajulahden-palautumiskeskus",
-        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/taito-360",
-        "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen",
-        "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen/urheilun-tki",
-        "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen/kolmen-kampuksen-journal-club",
-        "https://www.kolmekampusta.fi/fi/urheilu/yhteisomme",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/perhepaketit",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/teemakurssit",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/aikuiset-60-fiiliskurssit",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/lisapalvelut",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/villaloma-kisakalliossa",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kisakallion-sporttipassi",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kisakallion-rantasauna",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/lake-pool-pajulahti",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/pajulahden-uimahalli",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/seikkailupuisto",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/valine-ja-kenttavuokraus",
-        "https://www.kolmekampusta.fi/fi/urheilu/tilat",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/liikunta-ja-hyvinvointipalvelut",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/kanta-asiakkuus",
-        "https://kauppa.kolmekampusta.fi/",
-        "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit",
-        "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/leirikoulu",
-        "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/luokkaretki",
-        "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/rippileiri",
-        "https://www.kolmekampusta.fi/fi/urheilu/leirit",
-        "https://www.kolmekampusta.fi/fi/yritykset",
-        "https://www.kolmekampusta.fi/fi/yritykset",
-        "https://www.kolmekampusta.fi/fi/yritykset/kokoukset",
-        "https://www.kolmekampusta.fi/fi/yritykset/kokoukset/seminaarit-ja-juhlat",
-        "https://www.kolmekampusta.fi/fi/yritykset/tyohyvinvointi",
-        "https://www.kolmekampusta.fi/fi/yritykset/hyvinvointikoulu",
-        "https://www.kolmekampusta.fi/fi/yritykset/villamaailma-yrityksille",
-        "https://www.kolmekampusta.fi/fi/majoitus",
-        "https://www.kolmekampusta.fi/fi/majoitus/pajulahti",
-        "https://www.kolmekampusta.fi/fi/majoitus/kisakallio",
-        "https://www.kolmekampusta.fi/fi/ravintolapalvelut",
-        "https://www.kolmekampusta.fi/fi/ravintolapalvelut/tilaustarjoilut",
-        "https://www.kolmekampusta.fi/fi/tapahtumat",
-        "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
-        "https://www.kolmekampusta.fi/fi/meista",
-        "https://www.kolmekampusta.fi/fi/meista/avoimet-tyopaikat",
-        "https://www.kolmekampusta.fi/fi/ajankohtaista",
-        "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-        "https://www.kolmekampusta.fi/fi/meista/laskutustiedot",
-        "https://www.kolmekampusta.fi/fi/meista/saatioiden-apurahat",
-        "https://www.kolmekampusta.fi/fi/meista/hankkeet",
-        "https://www.kolmekampusta.fi/fi/meista/vastuullisuus",
-        "https://www.kolmekampusta.fi/fi/kampukset",
-        "https://www.kolmekampusta.fi/fi/meista/tilat",
-        "https://www.kolmekampusta.fi/fi",
-        "https://www.kolmekampusta.fi/fi/koulutus/avoin-yliopisto/psyykkiset-taidot1",
-        "https://www.kolmekampusta.fi/fi/meista/avoimet-tyopaikat/asiakaspalveluneuvoja-maaraaikainen",
-        "https://www.kolmekampusta.fi/fi/meista/avoimet-tyopaikat/asiakaspalveluneuvoja-vakituinen",
-        "https://www.kolmekampusta.fi/fi/korneri-luokka-ja-vapaa-ajan-tila",
-        "https://www.kolmekampusta.fi/fi/uutiset/2026-06/kirkkovenesoudun-sm-kilpailu-lohjalla-6-76",
-        "https://www.kolmekampusta.fi/fi/tapahtumat/syketta-ja-samppanjaa-kisakalliossa",
-        "https://www.kolmekampusta.fi/fi/tapahtumat/ulkovesijumppa-tiistaisin",
-        "https://www.kolmekampusta.fi/fi/tapahtumat/melontaillat-keskiviikkoisin",
-        "https://www.kolmekampusta.fi/fi/meista/avoimet-tyopaikat/valmennuskeskuspaallikko",
-        "https://www.kolmekampusta.fi/fi/uutiset/2026-05/majoittujatietojen-kasittelymme-uudistuu",
-        "https://www.kolmekampusta.fi/fi/node?page=1",
-        "https://www.kolmekampusta.fi/fi/node?page=2",
-        "https://www.kolmekampusta.fi/fi/node?page=3",
-        "https://www.kolmekampusta.fi/fi/node?page=4",
-        "https://www.kolmekampusta.fi/fi/node?page=5",
-        "https://www.kolmekampusta.fi/fi/node?page=6",
-        "https://www.kolmekampusta.fi/fi/node?page=7",
-        "https://www.kolmekampusta.fi/fi/node?page=8",
-        "https://www.kolmekampusta.fi/fi/node?page=1",
-        "https://www.kolmekampusta.fi/fi/node?page=44",
-        "https://www.kolmekampusta.fi/fi",
-        "https://kauppa.kolmekampusta.fi/",
-        "https://www.kolmekampusta.fi/fi/ajankohtaista",
-        "https://www.kolmekampusta.fi/fi/meista/laskutustiedot",
-        "https://www.kolmekampusta.fi/fi/varaus-ja-peruutusehdot",
-        "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-        "https://www.kolmekampusta.fi/fi/uutiskirjeet",
-        "https://www.kolmekampusta.fi/fi/meista",
-        "https://www.kolmekampusta.fi/fi/aluekartta",
-        "https://www.kolmekampusta.fi/fi/anna-palautetta",
-        "https://www.kolmekampusta.fi/fi/koulutus/opiskelijalle",
-        "https://app.digitalguest.com/guestbook/Pajulahti",
-        "https://app.digitalguest.com/guestbook/Kisakallio",
-        "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
-        "https://www.kolmekampusta.fi/fi/evastekaytanto"
-      ],
-      "body_length": 105082,
-      "soft_404_signals": {},
-      "no_alias": false,
-      "canonical": "https://www.kolmekampusta.fi/fi/node",
-      "is_canonical_duplicate": false
-    },
-    "https://www.kolmekampusta.fi/en/node?page=1": {
-      "title": "| Kolmen kampuksen urheiluopisto",
-      "status": 200,
-      "outbound": [],
-      "body_length": 63761,
-      "soft_404_signals": {},
-      "no_alias": false,
-      "canonical": "https://www.kolmekampusta.fi/en/node",
-      "is_canonical_duplicate": true
-    },
-    "https://www.kolmekampusta.fi/en/node?page=2": {
-      "title": "| Kolmen kampuksen urheiluopisto",
-      "status": 200,
-      "outbound": [],
-      "body_length": 64326,
-      "soft_404_signals": {},
-      "no_alias": false,
-      "canonical": "https://www.kolmekampusta.fi/en/node",
-      "is_canonical_duplicate": true
-    },
-    "https://www.kolmekampusta.fi/en/node?page=3": {
-      "title": "| Kolmen kampuksen urheiluopisto",
-      "status": 200,
-      "outbound": [],
-      "body_length": 64420,
-      "soft_404_signals": {},
-      "no_alias": false,
-      "canonical": "https://www.kolmekampusta.fi/en/node",
-      "is_canonical_duplicate": true
-    },
-    "https://www.kolmekampusta.fi/en/node?page=4": {
-      "title": "| Kolmen kampuksen urheiluopisto",
-      "status": 200,
-      "outbound": [],
-      "body_length": 64238,
-      "soft_404_signals": {},
-      "no_alias": false,
-      "canonical": "https://www.kolmekampusta.fi/en/node",
-      "is_canonical_duplicate": true
-    },
-    "https://www.kolmekampusta.fi/en/node?page=5": {
-      "title": "| Kolmen kampuksen urheiluopisto",
-      "status": 200,
-      "outbound": [],
-      "body_length": 64169,
-      "soft_404_signals": {},
-      "no_alias": false,
-      "canonical": "https://www.kolmekampusta.fi/en/node",
-      "is_canonical_duplicate": true
-    },
-    "https://www.kolmekampusta.fi/en/node?page=6": {
-      "title": "| Kolmen kampuksen urheiluopisto",
-      "status": 200,
-      "outbound": [],
-      "body_length": 64227,
-      "soft_404_signals": {},
-      "no_alias": false,
-      "canonical": "https://www.kolmekampusta.fi/en/node",
-      "is_canonical_duplicate": true
-    },
-    "https://www.kolmekampusta.fi/en/node?page=7": {
-      "title": "| Kolmen kampuksen urheiluopisto",
-      "status": 200,
-      "outbound": [],
-      "body_length": 65729,
-      "soft_404_signals": {},
-      "no_alias": false,
-      "canonical": "https://www.kolmekampusta.fi/en/node",
-      "is_canonical_duplicate": true
-    },
-    "https://www.kolmekampusta.fi/en/node?page=8": {
-      "title": "| Kolmen kampuksen urheiluopisto",
-      "status": 200,
-      "outbound": [],
-      "body_length": 46536,
-      "soft_404_signals": {},
-      "no_alias": false,
-      "canonical": "https://www.kolmekampusta.fi/en/node",
-      "is_canonical_duplicate": true
-    },
     "https://www.kolmekampusta.fi/sites/default/files/2026-05/syketta-ja-samppanjaa-kisakalliossa-20-22.11.2026.pdf": {
       "title": null,
       "status": 200,
@@ -52363,96 +51865,6 @@
       "error": null,
       "outbound": [],
       "is_file": true
-    },
-    "https://www.kolmekampusta.fi/fi/node?page=1": {
-      "title": "| Kolmen kampuksen urheiluopisto",
-      "status": 200,
-      "outbound": [],
-      "body_length": 107817,
-      "soft_404_signals": {},
-      "no_alias": false,
-      "canonical": "https://www.kolmekampusta.fi/fi/node",
-      "is_canonical_duplicate": true
-    },
-    "https://www.kolmekampusta.fi/fi/node?page=2": {
-      "title": "| Kolmen kampuksen urheiluopisto",
-      "status": 200,
-      "outbound": [],
-      "body_length": 107946,
-      "soft_404_signals": {},
-      "no_alias": false,
-      "canonical": "https://www.kolmekampusta.fi/fi/node",
-      "is_canonical_duplicate": true
-    },
-    "https://www.kolmekampusta.fi/fi/node?page=3": {
-      "title": "| Kolmen kampuksen urheiluopisto",
-      "status": 200,
-      "outbound": [],
-      "body_length": 109619,
-      "soft_404_signals": {},
-      "no_alias": false,
-      "canonical": "https://www.kolmekampusta.fi/fi/node",
-      "is_canonical_duplicate": true
-    },
-    "https://www.kolmekampusta.fi/fi/node?page=4": {
-      "title": "| Kolmen kampuksen urheiluopisto",
-      "status": 200,
-      "outbound": [],
-      "body_length": 108135,
-      "soft_404_signals": {},
-      "no_alias": false,
-      "canonical": "https://www.kolmekampusta.fi/fi/node",
-      "is_canonical_duplicate": true
-    },
-    "https://www.kolmekampusta.fi/fi/node?page=5": {
-      "title": "| Kolmen kampuksen urheiluopisto",
-      "status": 200,
-      "outbound": [],
-      "body_length": 105379,
-      "soft_404_signals": {},
-      "no_alias": false,
-      "canonical": "https://www.kolmekampusta.fi/fi/node",
-      "is_canonical_duplicate": true
-    },
-    "https://www.kolmekampusta.fi/fi/node?page=6": {
-      "title": "| Kolmen kampuksen urheiluopisto",
-      "status": 200,
-      "outbound": [],
-      "body_length": 109566,
-      "soft_404_signals": {},
-      "no_alias": false,
-      "canonical": "https://www.kolmekampusta.fi/fi/node",
-      "is_canonical_duplicate": true
-    },
-    "https://www.kolmekampusta.fi/fi/node?page=7": {
-      "title": "| Kolmen kampuksen urheiluopisto",
-      "status": 200,
-      "outbound": [],
-      "body_length": 108987,
-      "soft_404_signals": {},
-      "no_alias": false,
-      "canonical": "https://www.kolmekampusta.fi/fi/node",
-      "is_canonical_duplicate": true
-    },
-    "https://www.kolmekampusta.fi/fi/node?page=8": {
-      "title": "| Kolmen kampuksen urheiluopisto",
-      "status": 200,
-      "outbound": [],
-      "body_length": 97083,
-      "soft_404_signals": {},
-      "no_alias": false,
-      "canonical": "https://www.kolmekampusta.fi/fi/node",
-      "is_canonical_duplicate": true
-    },
-    "https://www.kolmekampusta.fi/fi/node?page=44": {
-      "title": "| Kolmen kampuksen urheiluopisto",
-      "status": 200,
-      "outbound": [],
-      "body_length": 85896,
-      "soft_404_signals": {},
-      "no_alias": false,
-      "canonical": "https://www.kolmekampusta.fi/fi/node",
-      "is_canonical_duplicate": true
     },
     "https://www.kolmekampusta.fi/sites/default/files/2026-03/biitsi-3-kampusta.jpg": {
       "title": null,
@@ -74882,7 +74294,7 @@
     },
     {
       "source": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/lake-pool-pajulahti",
-      "target": "https://kauppa.kolmekampusta.fi/tuote-osasto/lake-pool/",
+      "target": "https://kauppa.kolmekampusta.fi/?campus=pajulahti&category=uinti-ja-lake-pool",
       "text": "Osta lippu Lake Pooliin"
     },
     {
@@ -74892,7 +74304,7 @@
     },
     {
       "source": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/lake-pool-pajulahti",
-      "target": "https://kauppa.kolmekampusta.fi/tuote-osasto/lake-pool/",
+      "target": "https://kauppa.kolmekampusta.fi/?campus=pajulahti&category=uinti-ja-lake-pool",
       "text": "Osta liput verkkokaupasta"
     },
     {
@@ -75042,7 +74454,7 @@
     },
     {
       "source": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/pajulahden-uimahalli",
-      "target": "https://www.kolmekampusta.fi/en/pajulahti-swimming-hall",
+      "target": "https://www.kolmekampusta.fi/en/leisure/activities/pajulahti-swimming-hall",
       "text": "en"
     },
     {
@@ -75437,13 +74849,8 @@
     },
     {
       "source": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/pajulahden-uimahalli",
-      "target": "https://kauppa.kolmekampusta.fi/tuote/vesijumppa/",
-      "text": "Osta kausikortti"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/pajulahden-uimahalli",
-      "target": "https://kauppa.kolmekampusta.fi/tuote/vesijumppa-kertalippu/",
-      "text": "Osta kertalippu"
+      "target": "https://kauppa.kolmekampusta.fi/?campus=pajulahti&category=uinti-ja-lake-pool",
+      "text": "LIPUT VERKKOKAUPASTA"
     },
     {
       "source": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/pajulahden-uimahalli",
@@ -77634,16 +77041,6 @@
       "source": "https://www.kolmekampusta.fi/fi/vapaa-aika/liikunta-ja-hyvinvointipalvelut",
       "target": "https://www.kolmekampusta.fi/fi/vapaa-aika",
       "text": "Vapaa-aika"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/vapaa-aika/liikunta-ja-hyvinvointipalvelut",
-      "target": "https://kauppa.kolmekampusta.fi/tuote/vesijumppa/",
-      "text": "Osta kausikortti"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/vapaa-aika/liikunta-ja-hyvinvointipalvelut",
-      "target": "https://kauppa.kolmekampusta.fi/tuote/vesijumppa-kertalippu/",
-      "text": "Osta kertalippu"
     },
     {
       "source": "https://www.kolmekampusta.fi/fi/vapaa-aika/liikunta-ja-hyvinvointipalvelut",
@@ -105782,7 +105179,7 @@
     },
     {
       "source": "https://www.kolmekampusta.fi/en/vapaa-aika/exercise-and-wellness-services",
-      "target": "https://www.kolmekampusta.fi/en/pajulahti-swimming-hall",
+      "target": "https://www.kolmekampusta.fi/en/leisure/activities/pajulahti-swimming-hall",
       "text": "Pajulahti Swimming Hall"
     },
     {
@@ -107507,7 +106904,7 @@
     },
     {
       "source": "https://www.kolmekampusta.fi/en/about-us/facilities",
-      "target": "https://www.kolmekampusta.fi/en/node/787",
+      "target": "https://www.kolmekampusta.fi/en/about-us/facilities/classroom-nikkinen",
       "text": "Classroom Nikkinen"
     },
     {
@@ -131002,7 +130399,7 @@
     },
     {
       "source": "https://www.kolmekampusta.fi/fi/korneri-luokka-ja-vapaa-ajan-tila",
-      "target": "https://www.kolmekampusta.fi/en/node/787",
+      "target": "https://www.kolmekampusta.fi/en/about-us/facilities/classroom-nikkinen",
       "text": "en"
     },
     {
@@ -132364,11 +131761,6 @@
       "source": "https://www.kolmekampusta.fi/fi/pajulahti-hallin-kuntosali",
       "target": "https://www.kolmekampusta.fi/fi",
       "text": "Etusivu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/pajulahti-hallin-kuntosali",
-      "target": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "text": "24.-31.5. Sähköpyörätuolisalibandyn MM-kilpailut"
     },
     {
       "source": "https://www.kolmekampusta.fi/fi/pajulahti-hallin-kuntosali",
@@ -142497,7 +141889,7 @@
     },
     {
       "source": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/lakepoolpajulahti",
-      "target": "https://kauppa.kolmekampusta.fi/tuote-osasto/lake-pool/",
+      "target": "https://kauppa.kolmekampusta.fi/?campus=pajulahti&category=uinti-ja-lake-pool",
       "text": "Osta lippu Lake Pooliin"
     },
     {
@@ -142507,7 +141899,7 @@
     },
     {
       "source": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/lakepoolpajulahti",
-      "target": "https://kauppa.kolmekampusta.fi/tuote-osasto/lake-pool/",
+      "target": "https://kauppa.kolmekampusta.fi/?campus=pajulahti&category=uinti-ja-lake-pool",
       "text": "Osta liput verkkokaupasta"
     },
     {
@@ -148304,11 +147696,6 @@
       "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-kisakalliossa",
       "target": "https://www.kolmekampusta.fi/fi/tapahtumat",
       "text": "Tapahtumat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-kisakalliossa",
-      "target": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "text": "Tutustu Mummot, vaarit ja vimpulat -kurssiin Pajulahdessa"
     },
     {
       "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-kisakalliossa",
@@ -162417,7 +161804,7 @@
     },
     {
       "source": "https://www.kolmekampusta.fi/fi/kuntosali-ja-personal-trainer-palvelut",
-      "target": "https://kauppa.kolmekampusta.fi/tuote-osasto/kuntosali/",
+      "target": "https://kauppa.kolmekampusta.fi/?campus=pajulahti&category=kuntosalit-ja-valmennus",
       "text": "Tutustu valikoimaan."
     },
     {
@@ -164242,6 +163629,11 @@
     },
     {
       "source": "https://www.kolmekampusta.fi/fi/tapahtumat/lake-poolin-kesakauden-avaus",
+      "target": "https://kauppa.kolmekampusta.fi/?campus=pajulahti&category=uinti-ja-lake-pool",
+      "text": "LIPUT VERKKOKAUPASTA"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/lake-poolin-kesakauden-avaus",
       "target": "https://www.kolmekampusta.fi/sites/default/files/2026-05/pajulahti-ilmakuva-2025-3.JPG",
       "text": ""
     },
@@ -165871,192 +165263,197 @@
       "text": "Evästekäytäntö"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/pajulahti-swimming-hall",
+      "source": "https://www.kolmekampusta.fi/en/leisure/activities/pajulahti-swimming-hall",
       "target": "https://www.kolmekampusta.fi/en",
       "text": ""
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/pajulahti-swimming-hall",
+      "source": "https://www.kolmekampusta.fi/en/leisure/activities/pajulahti-swimming-hall",
       "target": "https://www.kolmekampusta.fi/en",
       "text": ""
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/pajulahti-swimming-hall",
+      "source": "https://www.kolmekampusta.fi/en/leisure/activities/pajulahti-swimming-hall",
       "target": "https://www.kolmekampusta.fi/en",
       "text": "Kolmen kampuksen urheiluopisto"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/pajulahti-swimming-hall",
+      "source": "https://www.kolmekampusta.fi/en/leisure/activities/pajulahti-swimming-hall",
       "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/pajulahden-uimahalli",
       "text": "fi"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/pajulahti-swimming-hall",
+      "source": "https://www.kolmekampusta.fi/en/leisure/activities/pajulahti-swimming-hall",
       "target": "https://www.kolmekampusta.fi/en/about-us/contact-information",
       "text": "Contact Information"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/pajulahti-swimming-hall",
+      "source": "https://www.kolmekampusta.fi/en/leisure/activities/pajulahti-swimming-hall",
       "target": "https://www.kolmekampusta.fi/en/sports",
       "text": "Sports"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/pajulahti-swimming-hall",
+      "source": "https://www.kolmekampusta.fi/en/leisure/activities/pajulahti-swimming-hall",
       "target": "https://www.kolmekampusta.fi/en/sports/training-center",
       "text": "Training Center"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/pajulahti-swimming-hall",
+      "source": "https://www.kolmekampusta.fi/en/leisure/activities/pajulahti-swimming-hall",
       "target": "https://www.kolmekampusta.fi/en/sports/sports-services",
       "text": "Sports services"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/pajulahti-swimming-hall",
+      "source": "https://www.kolmekampusta.fi/en/leisure/activities/pajulahti-swimming-hall",
       "target": "https://www.kolmekampusta.fi/en/sports/urheilun-palvelut/high-altitude-training",
       "text": "High-altitude training"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/pajulahti-swimming-hall",
+      "source": "https://www.kolmekampusta.fi/en/leisure/activities/pajulahti-swimming-hall",
       "target": "https://www.kolmekampusta.fi/en/sports/urheilun-palvelut/testing-services",
       "text": "Testing Services"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/pajulahti-swimming-hall",
+      "source": "https://www.kolmekampusta.fi/en/leisure/activities/pajulahti-swimming-hall",
       "target": "https://www.kolmekampusta.fi/en/sports/sports-services/pajulahti-recovery-center",
       "text": "Pajulahti Recovery Center"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/pajulahti-swimming-hall",
+      "source": "https://www.kolmekampusta.fi/en/leisure/activities/pajulahti-swimming-hall",
       "target": "https://www.kolmekampusta.fi/en/sports/sports-services/taito-360",
       "text": "TAITO 360 - Motor skills training area"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/pajulahti-swimming-hall",
+      "source": "https://www.kolmekampusta.fi/en/leisure/activities/pajulahti-swimming-hall",
       "target": "https://www.kolmekampusta.fi/en/sports/skill-development",
       "text": "Skill Development"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/pajulahti-swimming-hall",
+      "source": "https://www.kolmekampusta.fi/en/leisure/activities/pajulahti-swimming-hall",
       "target": "https://www.kolmekampusta.fi/en/leisure",
       "text": "Leisure"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/pajulahti-swimming-hall",
+      "source": "https://www.kolmekampusta.fi/en/leisure/activities/pajulahti-swimming-hall",
       "target": "https://www.kolmekampusta.fi/en/leisure/activities",
       "text": "Activities"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/pajulahti-swimming-hall",
+      "source": "https://www.kolmekampusta.fi/en/leisure/activities/pajulahti-swimming-hall",
       "target": "https://www.kolmekampusta.fi/en/leisure/activities/lake-pool-pajulahti",
       "text": "Lake Pool Pajulahti"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/pajulahti-swimming-hall",
+      "source": "https://www.kolmekampusta.fi/en/leisure/activities/pajulahti-swimming-hall",
       "target": "https://www.kolmekampusta.fi/en/leisure/activities/adventure-park",
       "text": "Adventure park"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/pajulahti-swimming-hall",
+      "source": "https://www.kolmekampusta.fi/en/leisure/activities/pajulahti-swimming-hall",
       "target": "https://www.kolmekampusta.fi/en/leisure/activities/equipment-and-field-rental",
       "text": "Equipment and field rental"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/pajulahti-swimming-hall",
+      "source": "https://www.kolmekampusta.fi/en/leisure/activities/pajulahti-swimming-hall",
       "target": "https://www.kolmekampusta.fi/en/vapaa-aika/exercise-and-wellness-services",
       "text": "Exercise and Wellness Services"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/pajulahti-swimming-hall",
+      "source": "https://www.kolmekampusta.fi/en/leisure/activities/pajulahti-swimming-hall",
       "target": "https://www.kolmekampusta.fi/en/accommodation",
       "text": "Accommodation"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/pajulahti-swimming-hall",
+      "source": "https://www.kolmekampusta.fi/en/leisure/activities/pajulahti-swimming-hall",
       "target": "https://store.kisakallio.willba.app/en",
       "text": "Book a stay in Kisakallio"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/pajulahti-swimming-hall",
+      "source": "https://www.kolmekampusta.fi/en/leisure/activities/pajulahti-swimming-hall",
       "target": "https://store.pajulahti.willba.app/en",
       "text": "Book a stay in Pajulahti"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/pajulahti-swimming-hall",
+      "source": "https://www.kolmekampusta.fi/en/leisure/activities/pajulahti-swimming-hall",
       "target": "https://www.kolmekampusta.fi/en/restaurant-services",
       "text": "Restaurant services"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/pajulahti-swimming-hall",
+      "source": "https://www.kolmekampusta.fi/en/leisure/activities/pajulahti-swimming-hall",
       "target": "https://www.kolmekampusta.fi/en/yritykset/catering-services",
       "text": "Tilaustarjoilut"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/pajulahti-swimming-hall",
+      "source": "https://www.kolmekampusta.fi/en/leisure/activities/pajulahti-swimming-hall",
       "target": "https://www.kolmekampusta.fi/en/events",
       "text": "Events"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/pajulahti-swimming-hall",
+      "source": "https://www.kolmekampusta.fi/en/leisure/activities/pajulahti-swimming-hall",
       "target": "https://www.kolmekampusta.fi/en/about-us",
       "text": "About us"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/pajulahti-swimming-hall",
+      "source": "https://www.kolmekampusta.fi/en/leisure/activities/pajulahti-swimming-hall",
       "target": "https://www.kolmekampusta.fi/en/about-us/contact-information",
       "text": "Contact Information"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/pajulahti-swimming-hall",
+      "source": "https://www.kolmekampusta.fi/en/leisure/activities/pajulahti-swimming-hall",
       "target": "https://www.kolmekampusta.fi/en/about-us/sustainability",
       "text": "Sustainability"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/pajulahti-swimming-hall",
+      "source": "https://www.kolmekampusta.fi/en/leisure/activities/pajulahti-swimming-hall",
       "target": "https://www.kolmekampusta.fi/en/about-us/campuses",
       "text": "Campuses"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/pajulahti-swimming-hall",
+      "source": "https://www.kolmekampusta.fi/en/leisure/activities/pajulahti-swimming-hall",
       "target": "https://www.kolmekampusta.fi/en/about-us/facilities",
       "text": "Tilat"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/pajulahti-swimming-hall",
+      "source": "https://www.kolmekampusta.fi/en/leisure/activities/pajulahti-swimming-hall",
       "target": "https://www.kolmekampusta.fi/en",
       "text": "Home"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/pajulahti-swimming-hall",
-      "target": "https://kauppa.kolmekampusta.fi/tuote/vesijumppa/",
-      "text": "Buy a season ticket from the online store"
+      "source": "https://www.kolmekampusta.fi/en/leisure/activities/pajulahti-swimming-hall",
+      "target": "https://www.kolmekampusta.fi/en/leisure",
+      "text": "Leisure"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/pajulahti-swimming-hall",
+      "source": "https://www.kolmekampusta.fi/en/leisure/activities/pajulahti-swimming-hall",
+      "target": "https://www.kolmekampusta.fi/en/leisure/activities",
+      "text": "Activities"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/en/leisure/activities/pajulahti-swimming-hall",
       "target": "https://calendar.google.com/calendar/embed?ctz=Europe%2FHelsinki&src=rlt9um4vohgihpcg14ei81br8nuumout%40import.calendar.google.com",
       "text": "Varauskalenteri"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/pajulahti-swimming-hall",
+      "source": "https://www.kolmekampusta.fi/en/leisure/activities/pajulahti-swimming-hall",
       "target": "https://www.kolmekampusta.fi/en",
       "text": ""
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/pajulahti-swimming-hall",
+      "source": "https://www.kolmekampusta.fi/en/leisure/activities/pajulahti-swimming-hall",
       "target": "https://www.kolmekampusta.fi/en/about-us",
       "text": "About Us"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/pajulahti-swimming-hall",
+      "source": "https://www.kolmekampusta.fi/en/leisure/activities/pajulahti-swimming-hall",
       "target": "https://www.kolmekampusta.fi/en/about-us/contact-information",
       "text": "Contact Information"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/pajulahti-swimming-hall",
+      "source": "https://www.kolmekampusta.fi/en/leisure/activities/pajulahti-swimming-hall",
       "target": "https://www.kolmekampusta.fi/en/cookie-policy",
       "text": "Cookie policy"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/pajulahti-swimming-hall",
+      "source": "https://www.kolmekampusta.fi/en/leisure/activities/pajulahti-swimming-hall",
       "target": "https://www.kolmekampusta.fi/en/privacy-policy",
       "text": "Privacy policy"
     },
@@ -192964,11 +192361,6 @@
       "source": "https://www.kolmekampusta.fi/fi/pajulahti-halli",
       "target": "https://www.kolmekampusta.fi/fi",
       "text": "Etusivu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/pajulahti-halli",
-      "target": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "text": "24.-31.5. Sähköpyörätuolisalibandyn MM-kilpailut"
     },
     {
       "source": "https://www.kolmekampusta.fi/fi/pajulahti-halli",
@@ -224331,187 +223723,192 @@
       "text": "Privacy policy"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/node/787",
+      "source": "https://www.kolmekampusta.fi/en/about-us/facilities/classroom-nikkinen",
       "target": "https://www.kolmekampusta.fi/en",
       "text": ""
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/node/787",
+      "source": "https://www.kolmekampusta.fi/en/about-us/facilities/classroom-nikkinen",
       "target": "https://www.kolmekampusta.fi/en",
       "text": ""
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/node/787",
+      "source": "https://www.kolmekampusta.fi/en/about-us/facilities/classroom-nikkinen",
       "target": "https://www.kolmekampusta.fi/en",
       "text": "Kolmen kampuksen urheiluopisto"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/node/787",
+      "source": "https://www.kolmekampusta.fi/en/about-us/facilities/classroom-nikkinen",
       "target": "https://www.kolmekampusta.fi/fi/korneri-luokka-ja-vapaa-ajan-tila",
       "text": "fi"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/node/787",
+      "source": "https://www.kolmekampusta.fi/en/about-us/facilities/classroom-nikkinen",
       "target": "https://www.kolmekampusta.fi/en/about-us/contact-information",
       "text": "Contact Information"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/node/787",
+      "source": "https://www.kolmekampusta.fi/en/about-us/facilities/classroom-nikkinen",
       "target": "https://www.kolmekampusta.fi/en/sports",
       "text": "Sports"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/node/787",
+      "source": "https://www.kolmekampusta.fi/en/about-us/facilities/classroom-nikkinen",
       "target": "https://www.kolmekampusta.fi/en/sports/training-center",
       "text": "Training Center"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/node/787",
+      "source": "https://www.kolmekampusta.fi/en/about-us/facilities/classroom-nikkinen",
       "target": "https://www.kolmekampusta.fi/en/sports/sports-services",
       "text": "Sports services"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/node/787",
+      "source": "https://www.kolmekampusta.fi/en/about-us/facilities/classroom-nikkinen",
       "target": "https://www.kolmekampusta.fi/en/sports/urheilun-palvelut/high-altitude-training",
       "text": "High-altitude training"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/node/787",
+      "source": "https://www.kolmekampusta.fi/en/about-us/facilities/classroom-nikkinen",
       "target": "https://www.kolmekampusta.fi/en/sports/urheilun-palvelut/testing-services",
       "text": "Testing Services"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/node/787",
+      "source": "https://www.kolmekampusta.fi/en/about-us/facilities/classroom-nikkinen",
       "target": "https://www.kolmekampusta.fi/en/sports/sports-services/pajulahti-recovery-center",
       "text": "Pajulahti Recovery Center"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/node/787",
+      "source": "https://www.kolmekampusta.fi/en/about-us/facilities/classroom-nikkinen",
       "target": "https://www.kolmekampusta.fi/en/sports/sports-services/taito-360",
       "text": "TAITO 360 - Motor skills training area"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/node/787",
+      "source": "https://www.kolmekampusta.fi/en/about-us/facilities/classroom-nikkinen",
       "target": "https://www.kolmekampusta.fi/en/sports/skill-development",
       "text": "Skill Development"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/node/787",
+      "source": "https://www.kolmekampusta.fi/en/about-us/facilities/classroom-nikkinen",
       "target": "https://www.kolmekampusta.fi/en/leisure",
       "text": "Leisure"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/node/787",
+      "source": "https://www.kolmekampusta.fi/en/about-us/facilities/classroom-nikkinen",
       "target": "https://www.kolmekampusta.fi/en/leisure/activities",
       "text": "Activities"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/node/787",
+      "source": "https://www.kolmekampusta.fi/en/about-us/facilities/classroom-nikkinen",
       "target": "https://www.kolmekampusta.fi/en/leisure/activities/lake-pool-pajulahti",
       "text": "Lake Pool Pajulahti"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/node/787",
+      "source": "https://www.kolmekampusta.fi/en/about-us/facilities/classroom-nikkinen",
       "target": "https://www.kolmekampusta.fi/en/leisure/activities/adventure-park",
       "text": "Adventure park"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/node/787",
+      "source": "https://www.kolmekampusta.fi/en/about-us/facilities/classroom-nikkinen",
       "target": "https://www.kolmekampusta.fi/en/leisure/activities/equipment-and-field-rental",
       "text": "Equipment and field rental"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/node/787",
+      "source": "https://www.kolmekampusta.fi/en/about-us/facilities/classroom-nikkinen",
       "target": "https://www.kolmekampusta.fi/en/vapaa-aika/exercise-and-wellness-services",
       "text": "Exercise and Wellness Services"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/node/787",
+      "source": "https://www.kolmekampusta.fi/en/about-us/facilities/classroom-nikkinen",
       "target": "https://www.kolmekampusta.fi/en/accommodation",
       "text": "Accommodation"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/node/787",
+      "source": "https://www.kolmekampusta.fi/en/about-us/facilities/classroom-nikkinen",
       "target": "https://store.kisakallio.willba.app/en",
       "text": "Book a stay in Kisakallio"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/node/787",
+      "source": "https://www.kolmekampusta.fi/en/about-us/facilities/classroom-nikkinen",
       "target": "https://store.pajulahti.willba.app/en",
       "text": "Book a stay in Pajulahti"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/node/787",
+      "source": "https://www.kolmekampusta.fi/en/about-us/facilities/classroom-nikkinen",
       "target": "https://www.kolmekampusta.fi/en/restaurant-services",
       "text": "Restaurant services"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/node/787",
+      "source": "https://www.kolmekampusta.fi/en/about-us/facilities/classroom-nikkinen",
       "target": "https://www.kolmekampusta.fi/en/yritykset/catering-services",
       "text": "Tilaustarjoilut"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/node/787",
+      "source": "https://www.kolmekampusta.fi/en/about-us/facilities/classroom-nikkinen",
       "target": "https://www.kolmekampusta.fi/en/events",
       "text": "Events"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/node/787",
+      "source": "https://www.kolmekampusta.fi/en/about-us/facilities/classroom-nikkinen",
       "target": "https://www.kolmekampusta.fi/en/about-us",
       "text": "About us"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/node/787",
+      "source": "https://www.kolmekampusta.fi/en/about-us/facilities/classroom-nikkinen",
       "target": "https://www.kolmekampusta.fi/en/about-us/contact-information",
       "text": "Contact Information"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/node/787",
+      "source": "https://www.kolmekampusta.fi/en/about-us/facilities/classroom-nikkinen",
       "target": "https://www.kolmekampusta.fi/en/about-us/sustainability",
       "text": "Sustainability"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/node/787",
+      "source": "https://www.kolmekampusta.fi/en/about-us/facilities/classroom-nikkinen",
       "target": "https://www.kolmekampusta.fi/en/about-us/campuses",
       "text": "Campuses"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/node/787",
+      "source": "https://www.kolmekampusta.fi/en/about-us/facilities/classroom-nikkinen",
       "target": "https://www.kolmekampusta.fi/en/about-us/facilities",
       "text": "Tilat"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/node/787",
+      "source": "https://www.kolmekampusta.fi/en/about-us/facilities/classroom-nikkinen",
       "target": "https://www.kolmekampusta.fi/en",
       "text": "Home"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/node/787",
-      "target": "https://www.kolmekampusta.fi/en/node",
-      "text": ""
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node/787",
-      "target": "https://www.kolmekampusta.fi/en",
-      "text": ""
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node/787",
+      "source": "https://www.kolmekampusta.fi/en/about-us/facilities/classroom-nikkinen",
       "target": "https://www.kolmekampusta.fi/en/about-us",
       "text": "About Us"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/node/787",
+      "source": "https://www.kolmekampusta.fi/en/about-us/facilities/classroom-nikkinen",
+      "target": "https://www.kolmekampusta.fi/en/about-us/facilities",
+      "text": "Facilities"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/en/about-us/facilities/classroom-nikkinen",
+      "target": "https://www.kolmekampusta.fi/en",
+      "text": ""
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/en/about-us/facilities/classroom-nikkinen",
+      "target": "https://www.kolmekampusta.fi/en/about-us",
+      "text": "About Us"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/en/about-us/facilities/classroom-nikkinen",
       "target": "https://www.kolmekampusta.fi/en/about-us/contact-information",
       "text": "Contact Information"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/node/787",
+      "source": "https://www.kolmekampusta.fi/en/about-us/facilities/classroom-nikkinen",
       "target": "https://www.kolmekampusta.fi/en/cookie-policy",
       "text": "Cookie policy"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/node/787",
+      "source": "https://www.kolmekampusta.fi/en/about-us/facilities/classroom-nikkinen",
       "target": "https://www.kolmekampusta.fi/en/privacy-policy",
       "text": "Privacy policy"
     },
@@ -230006,491 +229403,6 @@
       "text": "Privacy policy"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi",
-      "text": ""
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi",
-      "text": ""
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi",
-      "text": "Kolmen kampuksen urheiluopisto"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://kauppa.kolmekampusta.fi/",
-      "text": ""
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://kauppa.kolmekampusta.fi/",
-      "text": "Verkkokauppa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/en/user/login",
-      "text": "en"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-      "text": "Yhteystiedot"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus",
-      "text": "Koulutus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/koulutukset",
-      "text": "Koulutukset"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/hakijalle",
-      "text": "Hakijalle"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/ammatillinen-koulutus",
-      "text": "Ammatillinen koulutus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/oppisopimuskoulutus",
-      "text": "Oppisopimuskoulutus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/taydennyskoulutus",
-      "text": "Täydennyskoulutus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/vapaan-sivistystyon-koulutus",
-      "text": "Vapaan sivistystyön koulutus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/kansainvalisyys",
-      "text": "Kansainvälisyys"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/opiskelijalle",
-      "text": "Opiskelijalle"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu",
-      "text": "Urheilu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/leiri-ja-tapahtumakauppa",
-      "text": "Leiri- ja tapahtumakauppa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit",
-      "text": "Leirit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit/esikuvaleirit",
-      "text": "Esikuvaleirit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit/ylakoululeiritys",
-      "text": "Yläkoululeiritys"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit/urheilurippileirit",
-      "text": "Urheilurippileirit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/valmennuskeskus",
-      "text": "Valmennuskeskus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/meista/tilat",
-      "text": "Olosuhteet"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut",
-      "text": "Urheilun palvelut"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/kestavyysurheilu",
-      "text": "Kestävyysurheilu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/korkeanpaikan-harjoittelu",
-      "text": "Korkeanpaikan harjoittelu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/testauspalvelut",
-      "text": "Testauspalvelut"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/pajulahden-palautumiskeskus",
-      "text": "Pajulahden palautumiskeskus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/taito-360",
-      "text": "TAITO 360 - motoristen taitojen harjoittelu- ja kuntoilualue"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen",
-      "text": "Osaamisen kehittäminen"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen/urheilun-tki",
-      "text": "Urheilun TKI"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen/kolmen-kampuksen-journal-club",
-      "text": "Journal Club"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/yhteisomme",
-      "text": "Yhteisömme"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika",
-      "text": "Vapaa-aika"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit",
-      "text": "Lomat ja kurssit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/perhepaketit",
-      "text": "Perhepaketit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/teemakurssit",
-      "text": "Teemakurssit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/aikuiset-60-fiiliskurssit",
-      "text": "Aikuiset 60+ Fiiliskurssit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/lisapalvelut",
-      "text": "Lomien lisäpalvelut"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/villaloma-kisakalliossa",
-      "text": "Villaloma Kisakalliossa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit",
-      "text": "Aktiviteetit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kisakallion-sporttipassi",
-      "text": "Kisakallion Sporttipassi"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kisakallion-rantasauna",
-      "text": "Kisakallion sauna ja uinti"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/lake-pool-pajulahti",
-      "text": "Lake Pool Pajulahti"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/pajulahden-uimahalli",
-      "text": "Pajulahden uimahalli"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/seikkailupuisto",
-      "text": "Pajulahden Seikkailupuisto"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/valine-ja-kenttavuokraus",
-      "text": "Väline- ja kenttävuokraus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/tilat",
-      "text": "Tilat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/liikunta-ja-hyvinvointipalvelut",
-      "text": "Liikunta- ja hyvinvointipalvelut"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/kanta-asiakkuus",
-      "text": "Kanta-asiakkuus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://kauppa.kolmekampusta.fi/",
-      "text": "Verkkokauppa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit",
-      "text": "Ryhmät ja leirit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/leirikoulu",
-      "text": "Leirikoulu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/luokkaretki",
-      "text": "Luokkaretki"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/rippileiri",
-      "text": "Rippileiri"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit",
-      "text": "Urheilijaryhmät"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/yritykset",
-      "text": "Yritysryhmät"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/yritykset",
-      "text": "Yritykset"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/yritykset/kokoukset",
-      "text": "Kokoukset"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/yritykset/kokoukset/seminaarit-ja-juhlat",
-      "text": "Seminaarit ja juhlat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/yritykset/tyohyvinvointi",
-      "text": "Työhyvinvointi"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/yritykset/hyvinvointikoulu",
-      "text": "Hyvinvointikoulu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/yritykset/villamaailma-yrityksille",
-      "text": "Villamaailma Kisakalliossa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/majoitus",
-      "text": "Majoitus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/majoitus/pajulahti",
-      "text": "Pajulahti"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/majoitus/kisakallio",
-      "text": "Kisakallio"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/ravintolapalvelut",
-      "text": "Ravintolapalvelut"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/ravintolapalvelut/tilaustarjoilut",
-      "text": "Tilaustarjoilut"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/tapahtumat",
-      "text": "Tapahtumat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
-      "text": "Tulevat tapahtumat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/meista",
-      "text": "Meistä"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/meista/avoimet-tyopaikat",
-      "text": "Avoimet työpaikat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/ajankohtaista",
-      "text": "Ajankohtaista"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-      "text": "Yhteystiedot"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/meista/laskutustiedot",
-      "text": "Laskutustiedot"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/meista/saatioiden-apurahat",
-      "text": "Säätiöiden apurahat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/meista/hankkeet",
-      "text": "Hankkeet"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/meista/vastuullisuus",
-      "text": "Vastuullisuus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/kampukset",
-      "text": "Kampukset"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/meista/tilat",
-      "text": "Tilat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi",
-      "text": "Etusivu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi",
-      "text": ""
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://kauppa.kolmekampusta.fi/",
-      "text": "Verkkokauppa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/ajankohtaista",
-      "text": "Ajankohtaista"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/meista/laskutustiedot",
-      "text": "Laskutustiedot"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/varaus-ja-peruutusehdot",
-      "text": "Varaus- ja peruutusehdot"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-      "text": "Yhteystiedot"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/uutiskirjeet",
-      "text": "Tilaa uutiskirje"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/meista",
-      "text": "Meistä"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/aluekartta",
-      "text": "Aluekartta"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/anna-palautetta",
-      "text": "Anna palautetta"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/opiskelijalle",
-      "text": "Opiskelijalle"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://app.digitalguest.com/guestbook/Pajulahti",
-      "text": "PajuInfo"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://app.digitalguest.com/guestbook/Kisakallio",
-      "text": "KisakallioInfo"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
-      "text": "Tietosuojaseloste"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "target": "https://www.kolmekampusta.fi/fi/evastekaytanto",
-      "text": "Evästekäytäntö"
-    },
-    {
       "source": "https://www.kolmekampusta.fi/en/kamppailuareena-gym",
       "target": "https://www.kolmekampusta.fi/en",
       "text": ""
@@ -235362,491 +234274,6 @@
     },
     {
       "source": "https://www.kolmekampusta.fi/fi/taxonomy/term/53",
-      "target": "https://www.kolmekampusta.fi/fi/evastekaytanto",
-      "text": "Evästekäytäntö"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi",
-      "text": ""
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi",
-      "text": ""
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi",
-      "text": "Kolmen kampuksen urheiluopisto"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://kauppa.kolmekampusta.fi/",
-      "text": ""
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://kauppa.kolmekampusta.fi/",
-      "text": "Verkkokauppa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/en/user/login",
-      "text": "en"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-      "text": "Yhteystiedot"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus",
-      "text": "Koulutus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/koulutukset",
-      "text": "Koulutukset"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/hakijalle",
-      "text": "Hakijalle"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/ammatillinen-koulutus",
-      "text": "Ammatillinen koulutus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/oppisopimuskoulutus",
-      "text": "Oppisopimuskoulutus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/taydennyskoulutus",
-      "text": "Täydennyskoulutus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/vapaan-sivistystyon-koulutus",
-      "text": "Vapaan sivistystyön koulutus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/kansainvalisyys",
-      "text": "Kansainvälisyys"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/opiskelijalle",
-      "text": "Opiskelijalle"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu",
-      "text": "Urheilu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/leiri-ja-tapahtumakauppa",
-      "text": "Leiri- ja tapahtumakauppa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit",
-      "text": "Leirit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit/esikuvaleirit",
-      "text": "Esikuvaleirit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit/ylakoululeiritys",
-      "text": "Yläkoululeiritys"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit/urheilurippileirit",
-      "text": "Urheilurippileirit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/valmennuskeskus",
-      "text": "Valmennuskeskus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/meista/tilat",
-      "text": "Olosuhteet"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut",
-      "text": "Urheilun palvelut"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/kestavyysurheilu",
-      "text": "Kestävyysurheilu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/korkeanpaikan-harjoittelu",
-      "text": "Korkeanpaikan harjoittelu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/testauspalvelut",
-      "text": "Testauspalvelut"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/pajulahden-palautumiskeskus",
-      "text": "Pajulahden palautumiskeskus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/taito-360",
-      "text": "TAITO 360 - motoristen taitojen harjoittelu- ja kuntoilualue"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen",
-      "text": "Osaamisen kehittäminen"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen/urheilun-tki",
-      "text": "Urheilun TKI"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen/kolmen-kampuksen-journal-club",
-      "text": "Journal Club"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/yhteisomme",
-      "text": "Yhteisömme"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika",
-      "text": "Vapaa-aika"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit",
-      "text": "Lomat ja kurssit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/perhepaketit",
-      "text": "Perhepaketit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/teemakurssit",
-      "text": "Teemakurssit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/aikuiset-60-fiiliskurssit",
-      "text": "Aikuiset 60+ Fiiliskurssit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/lisapalvelut",
-      "text": "Lomien lisäpalvelut"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/villaloma-kisakalliossa",
-      "text": "Villaloma Kisakalliossa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit",
-      "text": "Aktiviteetit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kisakallion-sporttipassi",
-      "text": "Kisakallion Sporttipassi"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kisakallion-rantasauna",
-      "text": "Kisakallion sauna ja uinti"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/lake-pool-pajulahti",
-      "text": "Lake Pool Pajulahti"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/pajulahden-uimahalli",
-      "text": "Pajulahden uimahalli"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/seikkailupuisto",
-      "text": "Pajulahden Seikkailupuisto"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/valine-ja-kenttavuokraus",
-      "text": "Väline- ja kenttävuokraus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/tilat",
-      "text": "Tilat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/liikunta-ja-hyvinvointipalvelut",
-      "text": "Liikunta- ja hyvinvointipalvelut"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/kanta-asiakkuus",
-      "text": "Kanta-asiakkuus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://kauppa.kolmekampusta.fi/",
-      "text": "Verkkokauppa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit",
-      "text": "Ryhmät ja leirit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/leirikoulu",
-      "text": "Leirikoulu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/luokkaretki",
-      "text": "Luokkaretki"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/rippileiri",
-      "text": "Rippileiri"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit",
-      "text": "Urheilijaryhmät"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/yritykset",
-      "text": "Yritysryhmät"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/yritykset",
-      "text": "Yritykset"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/yritykset/kokoukset",
-      "text": "Kokoukset"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/yritykset/kokoukset/seminaarit-ja-juhlat",
-      "text": "Seminaarit ja juhlat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/yritykset/tyohyvinvointi",
-      "text": "Työhyvinvointi"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/yritykset/hyvinvointikoulu",
-      "text": "Hyvinvointikoulu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/yritykset/villamaailma-yrityksille",
-      "text": "Villamaailma Kisakalliossa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/majoitus",
-      "text": "Majoitus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/majoitus/pajulahti",
-      "text": "Pajulahti"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/majoitus/kisakallio",
-      "text": "Kisakallio"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/ravintolapalvelut",
-      "text": "Ravintolapalvelut"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/ravintolapalvelut/tilaustarjoilut",
-      "text": "Tilaustarjoilut"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/tapahtumat",
-      "text": "Tapahtumat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
-      "text": "Tulevat tapahtumat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/meista",
-      "text": "Meistä"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/meista/avoimet-tyopaikat",
-      "text": "Avoimet työpaikat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/ajankohtaista",
-      "text": "Ajankohtaista"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-      "text": "Yhteystiedot"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/meista/laskutustiedot",
-      "text": "Laskutustiedot"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/meista/saatioiden-apurahat",
-      "text": "Säätiöiden apurahat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/meista/hankkeet",
-      "text": "Hankkeet"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/meista/vastuullisuus",
-      "text": "Vastuullisuus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/kampukset",
-      "text": "Kampukset"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/meista/tilat",
-      "text": "Tilat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi",
-      "text": "Etusivu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi",
-      "text": ""
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://kauppa.kolmekampusta.fi/",
-      "text": "Verkkokauppa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/ajankohtaista",
-      "text": "Ajankohtaista"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/meista/laskutustiedot",
-      "text": "Laskutustiedot"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/varaus-ja-peruutusehdot",
-      "text": "Varaus- ja peruutusehdot"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-      "text": "Yhteystiedot"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/uutiskirjeet",
-      "text": "Tilaa uutiskirje"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/meista",
-      "text": "Meistä"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/aluekartta",
-      "text": "Aluekartta"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/anna-palautetta",
-      "text": "Anna palautetta"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/opiskelijalle",
-      "text": "Opiskelijalle"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://app.digitalguest.com/guestbook/Pajulahti",
-      "text": "PajuInfo"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://app.digitalguest.com/guestbook/Kisakallio",
-      "text": "KisakallioInfo"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
-      "text": "Tietosuojaseloste"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
       "target": "https://www.kolmekampusta.fi/fi/evastekaytanto",
       "text": "Evästekäytäntö"
     },
@@ -252491,306 +250918,6 @@
       "text": "Evästekäytäntö"
     },
     {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en",
-      "text": ""
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en",
-      "text": ""
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en",
-      "text": "Kolmen kampuksen urheiluopisto"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/fi/node",
-      "text": "fi"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en/about-us/contact-information",
-      "text": "Contact Information"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en/sports",
-      "text": "Sports"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en/sports/training-center",
-      "text": "Training Center"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en/sports/sports-services",
-      "text": "Sports services"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en/sports/urheilun-palvelut/high-altitude-training",
-      "text": "High-altitude training"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en/sports/urheilun-palvelut/testing-services",
-      "text": "Testing Services"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en/sports/sports-services/pajulahti-recovery-center",
-      "text": "Pajulahti Recovery Center"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en/sports/sports-services/taito-360",
-      "text": "TAITO 360 - Motor skills training area"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en/sports/skill-development",
-      "text": "Skill Development"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en/leisure",
-      "text": "Leisure"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en/leisure/activities",
-      "text": "Activities"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en/leisure/activities/lake-pool-pajulahti",
-      "text": "Lake Pool Pajulahti"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en/leisure/activities/adventure-park",
-      "text": "Adventure park"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en/leisure/activities/equipment-and-field-rental",
-      "text": "Equipment and field rental"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en/vapaa-aika/exercise-and-wellness-services",
-      "text": "Exercise and Wellness Services"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en/accommodation",
-      "text": "Accommodation"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://store.kisakallio.willba.app/en",
-      "text": "Book a stay in Kisakallio"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://store.pajulahti.willba.app/en",
-      "text": "Book a stay in Pajulahti"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en/restaurant-services",
-      "text": "Restaurant services"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en/yritykset/catering-services",
-      "text": "Tilaustarjoilut"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en/events",
-      "text": "Events"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en/about-us",
-      "text": "About us"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en/about-us/contact-information",
-      "text": "Contact Information"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en/about-us/sustainability",
-      "text": "Sustainability"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en/about-us/campuses",
-      "text": "Campuses"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en/about-us/facilities",
-      "text": "Tilat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en",
-      "text": "Home"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en/events/motor-skills-acquisition-conference-2027",
-      "text": "Motor Skills Acquisition Conference 2027"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en/events/agifest-agilityhub-midsummer-festival",
-      "text": "Agifest - AgilityHub Midsummer Festival"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en/news/2026-02/our-service-numbers-have-changed",
-      "text": "Our service numbers have changed"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en/articles/young-ringette-stars-development-camp-pajulahti",
-      "text": "Young ringette stars at the Development Camp in Pajulahti"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/fi/taxonomy/term/125",
-      "text": "ringeten MM-kisat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/fi/taxonomy/term/126",
-      "text": "ringette U18"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/fi/taxonomy/term/127",
-      "text": "asiantuntijuus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/fi/taxonomy/term/103",
-      "text": "Yhteistyö"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en/news/2025-10/european-curling-elite-meets-again-kisakallio",
-      "text": "European Curling Elite meets again in Kisakallio"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en/articles/finnish-winter-swimming-championships-pajulahti-301-122026",
-      "text": "Finnish Winter Swimming Championships in Pajulahti 30.1.-1.2.2026"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en/meeting-spaces-hotel-omenatarha",
-      "text": "Meeting Spaces at Hotel Omenatarha"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en/maikkala-and-jarvisali",
-      "text": "Maikkala and Järvisali"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en/auditorium",
-      "text": "Auditorium"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en/kunto",
-      "text": "Kunto"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en/node?page=1",
-      "text": "Page 2"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en/node?page=2",
-      "text": "Page 3"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en/node?page=3",
-      "text": "Page 4"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en/node?page=4",
-      "text": "Page 5"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en/node?page=5",
-      "text": "Page 6"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en/node?page=6",
-      "text": "Page 7"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en/node?page=7",
-      "text": "Page 8"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en/node?page=8",
-      "text": "Page 9"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en/node?page=1",
-      "text": "Next page"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en/node?page=8",
-      "text": "Last page"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en",
-      "text": ""
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en/about-us",
-      "text": "About Us"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en/about-us/contact-information",
-      "text": "Contact Information"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en/cookie-policy",
-      "text": "Cookie policy"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/en/node",
-      "target": "https://www.kolmekampusta.fi/en/privacy-policy",
-      "text": "Privacy policy"
-    },
-    {
       "source": "https://www.kolmekampusta.fi/fi/uutiset/2026-02/hae-yhteishaussa-172-173-kolmen-kampuksen-urheiluopistoon",
       "target": "https://www.kolmekampusta.fi/fi",
       "text": ""
@@ -260806,591 +258933,6 @@
       "text": "Evästekäytäntö"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi",
-      "text": ""
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi",
-      "text": ""
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi",
-      "text": "Kolmen kampuksen urheiluopisto"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://kauppa.kolmekampusta.fi/",
-      "text": ""
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://kauppa.kolmekampusta.fi/",
-      "text": "Verkkokauppa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/en/node",
-      "text": "en"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-      "text": "Yhteystiedot"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus",
-      "text": "Koulutus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/koulutukset",
-      "text": "Koulutukset"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/hakijalle",
-      "text": "Hakijalle"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/ammatillinen-koulutus",
-      "text": "Ammatillinen koulutus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/oppisopimuskoulutus",
-      "text": "Oppisopimuskoulutus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/taydennyskoulutus",
-      "text": "Täydennyskoulutus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/vapaan-sivistystyon-koulutus",
-      "text": "Vapaan sivistystyön koulutus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/kansainvalisyys",
-      "text": "Kansainvälisyys"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/opiskelijalle",
-      "text": "Opiskelijalle"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu",
-      "text": "Urheilu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/leiri-ja-tapahtumakauppa",
-      "text": "Leiri- ja tapahtumakauppa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit",
-      "text": "Leirit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit/esikuvaleirit",
-      "text": "Esikuvaleirit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit/ylakoululeiritys",
-      "text": "Yläkoululeiritys"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit/urheilurippileirit",
-      "text": "Urheilurippileirit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/valmennuskeskus",
-      "text": "Valmennuskeskus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/meista/tilat",
-      "text": "Olosuhteet"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut",
-      "text": "Urheilun palvelut"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/kestavyysurheilu",
-      "text": "Kestävyysurheilu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/korkeanpaikan-harjoittelu",
-      "text": "Korkeanpaikan harjoittelu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/testauspalvelut",
-      "text": "Testauspalvelut"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/pajulahden-palautumiskeskus",
-      "text": "Pajulahden palautumiskeskus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/taito-360",
-      "text": "TAITO 360 - motoristen taitojen harjoittelu- ja kuntoilualue"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen",
-      "text": "Osaamisen kehittäminen"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen/urheilun-tki",
-      "text": "Urheilun TKI"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen/kolmen-kampuksen-journal-club",
-      "text": "Journal Club"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/yhteisomme",
-      "text": "Yhteisömme"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika",
-      "text": "Vapaa-aika"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit",
-      "text": "Lomat ja kurssit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/perhepaketit",
-      "text": "Perhepaketit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/teemakurssit",
-      "text": "Teemakurssit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/aikuiset-60-fiiliskurssit",
-      "text": "Aikuiset 60+ Fiiliskurssit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/lisapalvelut",
-      "text": "Lomien lisäpalvelut"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/villaloma-kisakalliossa",
-      "text": "Villaloma Kisakalliossa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit",
-      "text": "Aktiviteetit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kisakallion-sporttipassi",
-      "text": "Kisakallion Sporttipassi"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kisakallion-rantasauna",
-      "text": "Kisakallion sauna ja uinti"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/lake-pool-pajulahti",
-      "text": "Lake Pool Pajulahti"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/pajulahden-uimahalli",
-      "text": "Pajulahden uimahalli"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/seikkailupuisto",
-      "text": "Pajulahden Seikkailupuisto"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/valine-ja-kenttavuokraus",
-      "text": "Väline- ja kenttävuokraus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/tilat",
-      "text": "Tilat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/liikunta-ja-hyvinvointipalvelut",
-      "text": "Liikunta- ja hyvinvointipalvelut"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/kanta-asiakkuus",
-      "text": "Kanta-asiakkuus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://kauppa.kolmekampusta.fi/",
-      "text": "Verkkokauppa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit",
-      "text": "Ryhmät ja leirit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/leirikoulu",
-      "text": "Leirikoulu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/luokkaretki",
-      "text": "Luokkaretki"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/rippileiri",
-      "text": "Rippileiri"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit",
-      "text": "Urheilijaryhmät"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/yritykset",
-      "text": "Yritysryhmät"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/yritykset",
-      "text": "Yritykset"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/yritykset/kokoukset",
-      "text": "Kokoukset"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/yritykset/kokoukset/seminaarit-ja-juhlat",
-      "text": "Seminaarit ja juhlat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/yritykset/tyohyvinvointi",
-      "text": "Työhyvinvointi"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/yritykset/hyvinvointikoulu",
-      "text": "Hyvinvointikoulu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/yritykset/villamaailma-yrityksille",
-      "text": "Villamaailma Kisakalliossa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/majoitus",
-      "text": "Majoitus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/majoitus/pajulahti",
-      "text": "Pajulahti"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/majoitus/kisakallio",
-      "text": "Kisakallio"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/ravintolapalvelut",
-      "text": "Ravintolapalvelut"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/ravintolapalvelut/tilaustarjoilut",
-      "text": "Tilaustarjoilut"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/tapahtumat",
-      "text": "Tapahtumat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
-      "text": "Tulevat tapahtumat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/meista",
-      "text": "Meistä"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/meista/avoimet-tyopaikat",
-      "text": "Avoimet työpaikat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/ajankohtaista",
-      "text": "Ajankohtaista"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-      "text": "Yhteystiedot"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/meista/laskutustiedot",
-      "text": "Laskutustiedot"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/meista/saatioiden-apurahat",
-      "text": "Säätiöiden apurahat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/meista/hankkeet",
-      "text": "Hankkeet"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/meista/vastuullisuus",
-      "text": "Vastuullisuus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/kampukset",
-      "text": "Kampukset"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/meista/tilat",
-      "text": "Tilat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi",
-      "text": "Etusivu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/avoin-yliopisto/psyykkiset-taidot1",
-      "text": "Psyykkiset taidot 1 (5op)"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/meista/avoimet-tyopaikat/asiakaspalveluneuvoja-maaraaikainen",
-      "text": "Avoin työpaikka: Asiakaspalveluneuvoja, määräaikainen"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/meista/avoimet-tyopaikat/asiakaspalveluneuvoja-vakituinen",
-      "text": "Avoin työpaikka: Asiakaspalveluneuvoja, vakituinen"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/korneri-luokka-ja-vapaa-ajan-tila",
-      "text": "Korneri - luokka ja vapaa-ajan tila"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/uutiset/2026-06/kirkkovenesoudun-sm-kilpailu-lohjalla-6-76",
-      "text": "Kirkkovenesoudun SM-kilpailu Lohjalla 6.-7.6."
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/tapahtumat/syketta-ja-samppanjaa-kisakalliossa",
-      "text": "Sykettä ja samppanjaa Kisakalliossa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/tapahtumat/ulkovesijumppa-tiistaisin",
-      "text": "Ulkovesijumppa tiistaisin"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/tapahtumat/melontaillat-keskiviikkoisin",
-      "text": "Melontaillat keskiviikkoisin"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/meista/avoimet-tyopaikat/valmennuskeskuspaallikko",
-      "text": "Avoin työpaikka: Valmennuskeskuspäällikkö"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/uutiset/2026-05/majoittujatietojen-kasittelymme-uudistuu",
-      "text": "Majoittujatietojen käsittelymme uudistuu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/node?page=1",
-      "text": "Sivu 2"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/node?page=2",
-      "text": "Sivu 3"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/node?page=3",
-      "text": "Sivu 4"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/node?page=4",
-      "text": "Sivu 5"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/node?page=5",
-      "text": "Sivu 6"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/node?page=6",
-      "text": "Sivu 7"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/node?page=7",
-      "text": "Sivu 8"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/node?page=8",
-      "text": "Sivu 9"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/node?page=1",
-      "text": "Seuraava sivu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/node?page=44",
-      "text": "Viimeinen sivu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi",
-      "text": ""
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://kauppa.kolmekampusta.fi/",
-      "text": "Verkkokauppa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/ajankohtaista",
-      "text": "Ajankohtaista"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/meista/laskutustiedot",
-      "text": "Laskutustiedot"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/varaus-ja-peruutusehdot",
-      "text": "Varaus- ja peruutusehdot"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-      "text": "Yhteystiedot"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/uutiskirjeet",
-      "text": "Tilaa uutiskirje"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/meista",
-      "text": "Meistä"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/aluekartta",
-      "text": "Aluekartta"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/anna-palautetta",
-      "text": "Anna palautetta"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/opiskelijalle",
-      "text": "Opiskelijalle"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://app.digitalguest.com/guestbook/Pajulahti",
-      "text": "PajuInfo"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://app.digitalguest.com/guestbook/Kisakallio",
-      "text": "KisakallioInfo"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
-      "text": "Tietosuojaseloste"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/node",
-      "target": "https://www.kolmekampusta.fi/fi/evastekaytanto",
-      "text": "Evästekäytäntö"
-    },
-    {
       "source": "https://www.kolmekampusta.fi/fi/uutiset/2026-04/kasipalloliiton-ja-kolmen-kampuksen-kumppanuus-vahvistaa-kasipallon-kehityspolkua",
       "target": "https://www.kolmekampusta.fi/fi",
       "text": ""
@@ -265277,8 +262819,16 @@
       "status": 200,
       "error": null
     },
-    "https://kauppa.kolmekampusta.fi/tuote-osasto/kuntosali/": {
+    "https://kauppa.kolmekampusta.fi/?campus=pajulahti&category=kuntosalit-ja-valmennus": {
       "status": 200,
+      "error": null
+    },
+    "https://kauppa.kolmekampusta.fi/?campus=pajulahti&category=uinti-ja-lake-pool": {
+      "status": 200,
+      "error": null
+    },
+    "https://kauppa.kolmekampusta.fi/tuote-osasto/kuntosali/": {
+      "status": 404,
       "error": null
     },
     "https://kauppa.kolmekampusta.fi/tuote-osasto/lahjakortit/": {
@@ -265286,11 +262836,11 @@
       "error": null
     },
     "https://kauppa.kolmekampusta.fi/tuote-osasto/lake-pool/": {
-      "status": 200,
+      "status": 404,
       "error": null
     },
     "https://kauppa.kolmekampusta.fi/tuote-osasto/liikuntamahdollisuudet/": {
-      "status": 200,
+      "status": 404,
       "error": null
     },
     "https://kauppa.kolmekampusta.fi/tuote-osasto/seikkailupuisto/": {
@@ -265347,14 +262897,6 @@
     },
     "https://kauppa.kolmekampusta.fi/tuote/personal-trainer-palvelut/": {
       "status": 200,
-      "error": null
-    },
-    "https://kauppa.kolmekampusta.fi/tuote/vesijumppa-kertalippu/": {
-      "status": 200,
-      "error": null
-    },
-    "https://kauppa.kolmekampusta.fi/tuote/vesijumppa/": {
-      "status": 404,
       "error": null
     },
     "https://kolmekampusta-my.sharepoint.com/:w:/g/personal/ibai_mendia_kolmekampusta_fi/IQAehOtCQaSfQ7q4XH_bS8eDAdj_SI-uRyX0ZNZBqFQCr9I?rtime=ynmuDw5V3kg": {
@@ -265622,8 +263164,8 @@
       "error": null
     },
     "https://urheilijanurapolku.fi/": {
-      "status": null,
-      "error": "timeout"
+      "status": 200,
+      "error": null
     },
     "https://urheiluopisto3k.inschool.fi/": {
       "status": 200,
@@ -265924,43 +263466,6 @@
   },
   "broken": [
     {
-      "target": "https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut",
-      "kind": "internal",
-      "status": 403,
-      "error": null,
-      "linked_from": [
-        {
-          "page": "https://www.kolmekampusta.fi/fi/pajulahti-hallin-kuntosali",
-          "anchor": "24.-31.5. Sähköpyörätuolisalibandyn MM-kilpailut",
-          "page_updated": "2026-05-31T12:10:36+03:00",
-          "page_og_type": "article",
-          "page_unavailable_after": null
-        },
-        {
-          "page": "https://www.kolmekampusta.fi/fi/pajulahti-halli",
-          "anchor": "24.-31.5. Sähköpyörätuolisalibandyn MM-kilpailut",
-          "page_updated": "2026-05-26T15:05:18+03:00",
-          "page_og_type": "article",
-          "page_unavailable_after": null
-        }
-      ]
-    },
-    {
-      "target": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa",
-      "kind": "internal",
-      "status": 403,
-      "error": null,
-      "linked_from": [
-        {
-          "page": "https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-kisakalliossa",
-          "anchor": "Tutustu Mummot, vaarit ja vimpulat -kurssiin Pajulahdessa",
-          "page_updated": "2026-05-26T07:55:23+03:00",
-          "page_og_type": "article",
-          "page_unavailable_after": "Friday, 12-Jun-26 12:00:00 EEST"
-        }
-      ]
-    },
-    {
       "target": "http://www.urn.fi/URN:NBN:fi:amk-201805046482",
       "kind": "external",
       "status": 403,
@@ -265976,66 +263481,129 @@
       ]
     },
     {
-      "target": "https://kauppa.kolmekampusta.fi/tuote/vesijumppa/",
+      "target": "https://kauppa.kolmekampusta.fi/tuote-osasto/kuntosali/",
       "kind": "external",
       "status": 404,
       "error": null,
       "linked_from": [
         {
-          "page": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/pajulahden-uimahalli",
-          "anchor": "Osta kausikortti",
-          "page_updated": "2026-05-13T15:20:57+03:00",
+          "page": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/pajulahden-palautumiskeskus",
+          "anchor": "Kuntosalituotteet verkkokaupasta",
+          "page_updated": "2026-03-20T09:03:16+02:00",
           "page_og_type": "article",
           "page_unavailable_after": null
         },
         {
-          "page": "https://www.kolmekampusta.fi/fi/vapaa-aika/liikunta-ja-hyvinvointipalvelut",
-          "anchor": "Osta kausikortti",
-          "page_updated": "2026-03-21T23:31:19+02:00",
+          "page": "https://www.kolmekampusta.fi/fi/paarakennuksen-kuntosali",
+          "anchor": "Osta tästä",
+          "page_updated": "2026-05-31T12:34:11+03:00",
           "page_og_type": "article",
           "page_unavailable_after": null
         },
         {
-          "page": "https://www.kolmekampusta.fi/en/pajulahti-swimming-hall",
-          "anchor": "Buy a season ticket from the online store",
-          "page_updated": "2025-10-08T08:54:08+03:00",
+          "page": "https://www.kolmekampusta.fi/fi/kuntosali-ja-personal-trainer-palvelut",
+          "anchor": "Voit ostaa personal trainer -palveluita helposti verkkokaupasta.",
+          "page_updated": "2026-06-05T12:40:52+03:00",
+          "page_og_type": "article",
+          "page_unavailable_after": null
+        },
+        {
+          "page": "https://www.kolmekampusta.fi/fi/kuntosali-ja-personal-trainer-palvelut",
+          "anchor": "Osta tästä",
+          "page_updated": "2026-06-05T12:40:52+03:00",
+          "page_og_type": "article",
+          "page_unavailable_after": null
+        },
+        {
+          "page": "https://www.kolmekampusta.fi/fi/pajulahden-kuntosalit",
+          "anchor": "Osta tästä",
+          "page_updated": "2026-05-31T12:34:11+03:00",
+          "page_og_type": "article",
+          "page_unavailable_after": null
+        },
+        {
+          "page": "https://www.kolmekampusta.fi/fi/pajulahden-palautumiskeskus",
+          "anchor": "Kuntosalituotteet verkkokaupasta",
+          "page_updated": "2026-03-20T09:03:16+02:00",
+          "page_og_type": "article",
+          "page_unavailable_after": null
+        },
+        {
+          "page": "https://www.kolmekampusta.fi/en/gym-and-personal-trainer-services",
+          "anchor": "Explore the selection.",
+          "page_updated": "2026-01-09T17:38:38+02:00",
+          "page_og_type": "article",
+          "page_unavailable_after": null
+        },
+        {
+          "page": "https://www.kolmekampusta.fi/en/gym-and-personal-trainer-services",
+          "anchor": "You can easily purchase personal trainer services in the online store.",
+          "page_updated": "2026-01-09T17:38:38+02:00",
+          "page_og_type": "article",
+          "page_unavailable_after": null
+        },
+        {
+          "page": "https://www.kolmekampusta.fi/en/gym-and-personal-trainer-services",
+          "anchor": "Osta tästä",
+          "page_updated": "2026-01-09T17:38:38+02:00",
+          "page_og_type": "article",
+          "page_unavailable_after": null
+        },
+        {
+          "page": "https://www.kolmekampusta.fi/fi/meista/tilat/paarakennuksen-kuntosali",
+          "anchor": "Osta tästä",
+          "page_updated": "2026-05-31T12:34:11+03:00",
+          "page_og_type": "article",
+          "page_unavailable_after": null
+        },
+        {
+          "page": "https://www.kolmekampusta.fi/en/about-us/facilities/gym-pajulahti-main-building",
+          "anchor": "Osta tästä",
+          "page_updated": "2026-05-31T12:34:50+03:00",
           "page_og_type": "article",
           "page_unavailable_after": null
         }
       ]
     },
     {
-      "target": "https://urheilijanurapolku.fi/",
+      "target": "https://kauppa.kolmekampusta.fi/tuote-osasto/lake-pool/",
       "kind": "external",
-      "status": null,
-      "error": "timeout",
+      "status": 404,
+      "error": null,
       "linked_from": [
         {
-          "page": "https://www.kolmekampusta.fi/fi/urheilu/yhteisomme/paijat-hameen-urheiluakatemia",
-          "anchor": "Lue lisää",
-          "page_updated": "2025-06-24T15:42:33+03:00",
+          "page": "https://www.kolmekampusta.fi/en/leisure/activities/lake-pool-pajulahti",
+          "anchor": "Buy online",
+          "page_updated": "2026-05-31T12:32:09+03:00",
+          "page_og_type": "article",
+          "page_unavailable_after": null
+        }
+      ]
+    },
+    {
+      "target": "https://kauppa.kolmekampusta.fi/tuote-osasto/liikuntamahdollisuudet/",
+      "kind": "external",
+      "status": 404,
+      "error": null,
+      "linked_from": [
+        {
+          "page": "https://www.kolmekampusta.fi/en/leisure/activities/equipment-and-field-rental",
+          "anchor": "buy here",
+          "page_updated": "2026-05-21T19:10:17+03:00",
+          "page_og_type": "article",
+          "page_unavailable_after": null
+        },
+        {
+          "page": "https://www.kolmekampusta.fi/fi/pajulahden-jaahalli",
+          "anchor": "verkkokaupassa",
+          "page_updated": "2026-03-20T19:07:45+02:00",
           "page_og_type": "article",
           "page_unavailable_after": null
         }
       ]
     }
   ],
-  "no_alias_pages": [
-    {
-      "target": "https://www.kolmekampusta.fi/en/node/787",
-      "title": "Classroom Nikkinen | Kolmen kampuksen urheiluopisto",
-      "linked_from": [
-        {
-          "page": "https://www.kolmekampusta.fi/en/about-us/facilities",
-          "anchor": "Classroom Nikkinen"
-        },
-        {
-          "page": "https://www.kolmekampusta.fi/fi/korneri-luokka-ja-vapaa-ajan-tila",
-          "anchor": "en"
-        }
-      ]
-    }
-  ],
+  "no_alias_pages": [],
   "canonical_duplicates": [
     {
       "canonical": "https://www.kolmekampusta.fi/fi/meista/tilat",
@@ -266327,103 +263895,6 @@
       "duplicate_count": 9
     },
     {
-      "canonical": "https://www.kolmekampusta.fi/fi/node",
-      "duplicates": [
-        {
-          "url": "https://www.kolmekampusta.fi/fi/node?page=1",
-          "title": "| Kolmen kampuksen urheiluopisto",
-          "inbound_count": 2
-        },
-        {
-          "url": "https://www.kolmekampusta.fi/fi/node?page=2",
-          "title": "| Kolmen kampuksen urheiluopisto",
-          "inbound_count": 1
-        },
-        {
-          "url": "https://www.kolmekampusta.fi/fi/node?page=3",
-          "title": "| Kolmen kampuksen urheiluopisto",
-          "inbound_count": 1
-        },
-        {
-          "url": "https://www.kolmekampusta.fi/fi/node?page=4",
-          "title": "| Kolmen kampuksen urheiluopisto",
-          "inbound_count": 1
-        },
-        {
-          "url": "https://www.kolmekampusta.fi/fi/node?page=5",
-          "title": "| Kolmen kampuksen urheiluopisto",
-          "inbound_count": 1
-        },
-        {
-          "url": "https://www.kolmekampusta.fi/fi/node?page=6",
-          "title": "| Kolmen kampuksen urheiluopisto",
-          "inbound_count": 1
-        },
-        {
-          "url": "https://www.kolmekampusta.fi/fi/node?page=7",
-          "title": "| Kolmen kampuksen urheiluopisto",
-          "inbound_count": 1
-        },
-        {
-          "url": "https://www.kolmekampusta.fi/fi/node?page=8",
-          "title": "| Kolmen kampuksen urheiluopisto",
-          "inbound_count": 1
-        },
-        {
-          "url": "https://www.kolmekampusta.fi/fi/node?page=44",
-          "title": "| Kolmen kampuksen urheiluopisto",
-          "inbound_count": 1
-        }
-      ],
-      "duplicate_count": 9
-    },
-    {
-      "canonical": "https://www.kolmekampusta.fi/en/node",
-      "duplicates": [
-        {
-          "url": "https://www.kolmekampusta.fi/en/node?page=1",
-          "title": "| Kolmen kampuksen urheiluopisto",
-          "inbound_count": 2
-        },
-        {
-          "url": "https://www.kolmekampusta.fi/en/node?page=8",
-          "title": "| Kolmen kampuksen urheiluopisto",
-          "inbound_count": 2
-        },
-        {
-          "url": "https://www.kolmekampusta.fi/en/node?page=2",
-          "title": "| Kolmen kampuksen urheiluopisto",
-          "inbound_count": 1
-        },
-        {
-          "url": "https://www.kolmekampusta.fi/en/node?page=3",
-          "title": "| Kolmen kampuksen urheiluopisto",
-          "inbound_count": 1
-        },
-        {
-          "url": "https://www.kolmekampusta.fi/en/node?page=4",
-          "title": "| Kolmen kampuksen urheiluopisto",
-          "inbound_count": 1
-        },
-        {
-          "url": "https://www.kolmekampusta.fi/en/node?page=5",
-          "title": "| Kolmen kampuksen urheiluopisto",
-          "inbound_count": 1
-        },
-        {
-          "url": "https://www.kolmekampusta.fi/en/node?page=6",
-          "title": "| Kolmen kampuksen urheiluopisto",
-          "inbound_count": 1
-        },
-        {
-          "url": "https://www.kolmekampusta.fi/en/node?page=7",
-          "title": "| Kolmen kampuksen urheiluopisto",
-          "inbound_count": 1
-        }
-      ],
-      "duplicate_count": 8
-    },
-    {
       "canonical": "https://www.kolmekampusta.fi/fi/koulutus",
       "duplicates": [
         {
@@ -266588,15 +264059,15 @@
     }
   ],
   "stats": {
-    "pages_crawled": 956,
-    "pages_with_data": 956,
-    "edges": 42493,
+    "pages_crawled": 935,
+    "pages_with_data": 935,
+    "edges": 42119,
     "external_targets_checked": 246,
-    "broken_count": 5,
-    "broken_internal": 2,
-    "broken_external": 3,
-    "no_alias_count": 1,
-    "canonical_duplicate_count": 93,
-    "canonical_target_count": 14
+    "broken_count": 4,
+    "broken_internal": 0,
+    "broken_external": 4,
+    "no_alias_count": 0,
+    "canonical_duplicate_count": 76,
+    "canonical_target_count": 12
   }
 }

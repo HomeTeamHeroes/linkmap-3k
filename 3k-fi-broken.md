@@ -1,57 +1,48 @@
 # Broken Links Report
 
 - **Site:** https://www.kolmekampusta.fi/fi
-- **Crawled:** 2026-06-05T09:11:54
-- **Pages crawled:** 956
+- **Crawled:** 2026-06-05T11:42:05
+- **Pages crawled:** 935
 - **External targets checked:** 246
-- **Total broken:** 5 (2 internal, 3 external)
-- **⚠️ Pages without URL alias:** 1 (Drupal /node/N served directly, no Pathauto alias)
-- **🔁 Canonical duplicates:** 93 page(s) across 14 canonical target(s) (crawl-budget waste — duplicate content with canonical redirect)
-
-## Internal broken pages
-
-### `https://www.kolmekampusta.fi/fi/tapahtumat/sahkopyoratuolisalibandyn-mm-kilpailut`
-- **Reason:** HTTP 403
-- **Linked from 2 page(s):**
-  - `https://www.kolmekampusta.fi/fi/pajulahti-hallin-kuntosali` — "24.-31.5. Sähköpyörätuolisalibandyn MM-kilpailut" *[updated 2026-05-31]*
-  - `https://www.kolmekampusta.fi/fi/pajulahti-halli` — "24.-31.5. Sähköpyörätuolisalibandyn MM-kilpailut" *[updated 2026-05-26]*
-
-### `https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-pajulahdessa`
-- **Reason:** HTTP 403
-- **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/tapahtumat/mummot-vaarit-ja-vimpulat-kurssi-kisakalliossa` — "Tutustu Mummot, vaarit ja vimpulat -kurssiin Pajulahdessa" *[updated 2026-05-26, ⏰ expires Friday, 12-Jun-26 12:00:00 EEST]*
+- **Total broken:** 4 (0 internal, 4 external)
+- **🔁 Canonical duplicates:** 76 page(s) across 12 canonical target(s) (crawl-budget waste — duplicate content with canonical redirect)
 
 ## External broken links
 
-### `https://kauppa.kolmekampusta.fi/tuote/vesijumppa/`
+### `https://kauppa.kolmekampusta.fi/tuote-osasto/kuntosali/`
 - **Reason:** HTTP 404
-- **Linked from 3 page(s):**
-  - `https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/pajulahden-uimahalli` — "Osta kausikortti" *[updated 2026-05-13]*
-  - `https://www.kolmekampusta.fi/fi/vapaa-aika/liikunta-ja-hyvinvointipalvelut` — "Osta kausikortti" *[updated 2026-03-21]*
-  - `https://www.kolmekampusta.fi/en/pajulahti-swimming-hall` — "Buy a season ticket from the online store" *[updated 2025-10-08]*
+- **Linked from 11 page(s):**
+  - `https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/pajulahden-palautumiskeskus` — "Kuntosalituotteet verkkokaupasta" *[updated 2026-03-20]*
+  - `https://www.kolmekampusta.fi/fi/paarakennuksen-kuntosali` — "Osta tästä" *[updated 2026-05-31]*
+  - `https://www.kolmekampusta.fi/fi/kuntosali-ja-personal-trainer-palvelut` — "Voit ostaa personal trainer -palveluita helposti verkkokaupasta." *[updated 2026-06-05]*
+  - `https://www.kolmekampusta.fi/fi/kuntosali-ja-personal-trainer-palvelut` — "Osta tästä" *[updated 2026-06-05]*
+  - `https://www.kolmekampusta.fi/fi/pajulahden-kuntosalit` — "Osta tästä" *[updated 2026-05-31]*
+  - `https://www.kolmekampusta.fi/fi/pajulahden-palautumiskeskus` — "Kuntosalituotteet verkkokaupasta" *[updated 2026-03-20]*
+  - `https://www.kolmekampusta.fi/en/gym-and-personal-trainer-services` — "Explore the selection." *[updated 2026-01-09]*
+  - `https://www.kolmekampusta.fi/en/gym-and-personal-trainer-services` — "You can easily purchase personal trainer services in the online store." *[updated 2026-01-09]*
+  - `https://www.kolmekampusta.fi/en/gym-and-personal-trainer-services` — "Osta tästä" *[updated 2026-01-09]*
+  - `https://www.kolmekampusta.fi/fi/meista/tilat/paarakennuksen-kuntosali` — "Osta tästä" *[updated 2026-05-31]*
+  - `https://www.kolmekampusta.fi/en/about-us/facilities/gym-pajulahti-main-building` — "Osta tästä" *[updated 2026-05-31]*
+
+### `https://kauppa.kolmekampusta.fi/tuote-osasto/liikuntamahdollisuudet/`
+- **Reason:** HTTP 404
+- **Linked from 2 page(s):**
+  - `https://www.kolmekampusta.fi/en/leisure/activities/equipment-and-field-rental` — "buy here" *[updated 2026-05-21]*
+  - `https://www.kolmekampusta.fi/fi/pajulahden-jaahalli` — "verkkokaupassa" *[updated 2026-03-20]*
 
 ### `http://www.urn.fi/URN:NBN:fi:amk-201805046482`
 - **Reason:** HTTP 403
 - **Linked from 1 page(s):**
   - `https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/kestavyysurheilu` — "Kestävyyslajien välisen yhteistyömallin pilotointi ja kehittäminen Espoossa 2017–2018" *[updated 2026-05-10]*
 
-### `https://urheilijanurapolku.fi/`
-- **Reason:** timeout
+### `https://kauppa.kolmekampusta.fi/tuote-osasto/lake-pool/`
+- **Reason:** HTTP 404
 - **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/urheilu/yhteisomme/paijat-hameen-urheiluakatemia` — "Lue lisää" *[updated 2025-06-24]*
-
-## ⚠️ Pages without URL alias
-
-These 1 page(s) are served directly at Drupal's `/node/N` URL with no Pathauto alias configured. This is an SEO/maintenance issue — fix by running Pathauto bulk-generate, or by setting an alias manually in the page's **URL alias** field in Drupal.
-
-### `https://www.kolmekampusta.fi/en/node/787` — "Classroom Nikkinen | Kolmen kampuksen urheiluopisto"
-- **Linked from 2 page(s):**
-  - `https://www.kolmekampusta.fi/en/about-us/facilities` — "Classroom Nikkinen"
-  - `https://www.kolmekampusta.fi/fi/korneri-luokka-ja-vapaa-ajan-tila` — "en"
+  - `https://www.kolmekampusta.fi/en/leisure/activities/lake-pool-pajulahti` — "Buy online" *[updated 2026-05-31]*
 
 ## 🔁 Canonical duplicates
 
-These 93 page(s) declare a different URL in their `<link rel="canonical">` tag, grouped here by their canonical target (14 unique canonicals).
+These 76 page(s) declare a different URL in their `<link rel="canonical">` tag, grouped here by their canonical target (12 unique canonicals).
 
 Each duplicate URL is a different surface form of the same underlying content (typically Drupal Views filter permutations, paginated variants, or alternate node paths). Canonical tags handle the duplicate-content SEO penalty, but Googlebot still has to crawl each duplicate to discover the canonical — so every duplicate listed here costs one unit of crawl budget on each Google scan.
 
@@ -121,29 +112,6 @@ Each duplicate URL is a different surface form of the same underlying content (t
   - `https://www.kolmekampusta.fi/fi/ajankohtaista?page=3` — "Ajankohtaista | Kolmen kampuksen urheiluopisto" (in:2)
   - `https://www.kolmekampusta.fi/fi/ajankohtaista?page=4` — "Ajankohtaista | Kolmen kampuksen urheiluopisto" (in:2)
   - `https://www.kolmekampusta.fi/fi/ajankohtaista?page=9` — "Ajankohtaista | Kolmen kampuksen urheiluopisto" (in:2)
-
-### → `https://www.kolmekampusta.fi/fi/node`
-- **Duplicates pointing here:** 9
-  - `https://www.kolmekampusta.fi/fi/node?page=1` — "| Kolmen kampuksen urheiluopisto" (in:2)
-  - `https://www.kolmekampusta.fi/fi/node?page=2` — "| Kolmen kampuksen urheiluopisto" (in:1)
-  - `https://www.kolmekampusta.fi/fi/node?page=3` — "| Kolmen kampuksen urheiluopisto" (in:1)
-  - `https://www.kolmekampusta.fi/fi/node?page=4` — "| Kolmen kampuksen urheiluopisto" (in:1)
-  - `https://www.kolmekampusta.fi/fi/node?page=5` — "| Kolmen kampuksen urheiluopisto" (in:1)
-  - `https://www.kolmekampusta.fi/fi/node?page=6` — "| Kolmen kampuksen urheiluopisto" (in:1)
-  - `https://www.kolmekampusta.fi/fi/node?page=7` — "| Kolmen kampuksen urheiluopisto" (in:1)
-  - `https://www.kolmekampusta.fi/fi/node?page=8` — "| Kolmen kampuksen urheiluopisto" (in:1)
-  - `https://www.kolmekampusta.fi/fi/node?page=44` — "| Kolmen kampuksen urheiluopisto" (in:1)
-
-### → `https://www.kolmekampusta.fi/en/node`
-- **Duplicates pointing here:** 8
-  - `https://www.kolmekampusta.fi/en/node?page=1` — "| Kolmen kampuksen urheiluopisto" (in:2)
-  - `https://www.kolmekampusta.fi/en/node?page=8` — "| Kolmen kampuksen urheiluopisto" (in:2)
-  - `https://www.kolmekampusta.fi/en/node?page=2` — "| Kolmen kampuksen urheiluopisto" (in:1)
-  - `https://www.kolmekampusta.fi/en/node?page=3` — "| Kolmen kampuksen urheiluopisto" (in:1)
-  - `https://www.kolmekampusta.fi/en/node?page=4` — "| Kolmen kampuksen urheiluopisto" (in:1)
-  - `https://www.kolmekampusta.fi/en/node?page=5` — "| Kolmen kampuksen urheiluopisto" (in:1)
-  - `https://www.kolmekampusta.fi/en/node?page=6` — "| Kolmen kampuksen urheiluopisto" (in:1)
-  - `https://www.kolmekampusta.fi/en/node?page=7` — "| Kolmen kampuksen urheiluopisto" (in:1)
 
 ### → `https://www.kolmekampusta.fi/fi/koulutus`
 - **Duplicates pointing here:** 6
