@@ -1,106 +1,70 @@
 # Broken Links Report
 
 - **Site:** https://www.kolmekampusta.fi/fi
-- **Crawled:** 2026-06-08T10:41:39
-- **Pages crawled:** 935
-- **External targets checked:** 243
-- **Total broken:** 18 (0 internal, 18 external)
+- **Crawled:** 2026-06-09T21:12:23
+- **Pages crawled:** 937
+- **External targets checked:** 244
+- **Total broken:** 2 (1 internal, 1 external)
+- **❓ External links could not be verified:** 3 (likely bot-detection / WAF — manual verification recommended)
 - **🔁 Canonical duplicates:** 75 page(s) across 12 canonical target(s) (crawl-budget waste — duplicate content with canonical redirect)
 
+## Internal broken pages
+
+### `https://www.kolmekampusta.fi/fi/tapahtumat/jani-sievisen-uintileiri-aikuisille-pajulahdessa`
+- **Reason:** HTTP 403
+- **Linked from 1 page(s):**
+  - `https://www.kolmekampusta.fi/fi/urheilu/leirit/esikuvaleirit` — "Jani Sievisen uintileiri aikuisille 8.-9.6." *[updated 2026-06-03]*
+
 ## External broken links
-
-### `https://3d.keyframe.fi/tour/57047708`
-- **Reason:** HTTP 403
-- **Linked from 2 page(s):**
-  - `https://www.kolmekampusta.fi/fi/yritykset/villamaailma-yrityksille` — "Katso Villa Kallio -virtuaalikierros" *[updated 2026-04-07]*
-  - `https://www.kolmekampusta.fi/fi/villa-kallio-ja-villa-koivu` — "3D-Virtuaalikierros" *[updated 2026-04-01]*
-
-### `https://stresspass.app/index.php/en/`
-- **Reason:** HTTP 415
-- **Linked from 2 page(s):**
-  - `https://www.kolmekampusta.fi/fi/caset/wellbeing-athletes` — "StressPass app" *[updated 2026-04-22]*
-  - `https://www.kolmekampusta.fi/fi/caset/wellbeing-athletes` — "StressPass – Personalised stress management in a mobile app" *[updated 2026-04-22]*
-
-### `https://www.bikeland.fi/south-by-cycle-lansi-uudenmaan-kierros/`
-- **Reason:** HTTP 415
-- **Linked from 2 page(s):**
-  - `https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/ulkoliikunta-kesalla` — "South by Cycle - Länsi-Uudenmaan Reitti" *[updated 2026-05-31]*
-  - `https://www.kolmekampusta.fi/en/leisure/activities/outdoor-exercise` — "South by Cycle - West Uusimaa Route" *[updated 2026-05-31]*
-
-### `http://www.urn.fi/URN:NBN:fi:amk-201805046482`
-- **Reason:** HTTP 403
-- **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/kestavyysurheilu` — "Kestävyyslajien välisen yhteistyömallin pilotointi ja kehittäminen Espoossa 2017–2018" *[updated 2026-05-10]*
-
-### `https://3d.keyframe.fi/tour/2edf3952`
-- **Reason:** HTTP 403
-- **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/susi-training-center` — "3D-Virtuaalikierros" *[updated 2026-02-23]*
-
-### `https://3d.keyframe.fi/tour/68e2c5d7`
-- **Reason:** HTTP 403
-- **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/yritykset/villamaailma-yrityksille` — "Katso Villa SSO -virtuaalikierros" *[updated 2026-04-07]*
-
-### `https://3d.keyframe.fi/tour/8acd701d`
-- **Reason:** HTTP 403
-- **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/hotelli-omenatarha` — "3D-Virtuaalikierros" *[updated 2026-02-23]*
-
-### `https://3d.keyframe.fi/tour/bc466b29`
-- **Reason:** HTTP 403
-- **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/hotelli-omenatarhan-kokoustilat` — "3D-Virtuaalikierros" *[updated 2026-02-23]*
-
-### `https://3d.keyframe.fi/tour/kisakallion-urheiluopisto-2021`
-- **Reason:** HTTP 403
-- **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/huoneistohotelli-katajarinne-1-2` — "3D-Virtuaalikierros" *[updated 2026-02-23]*
-
-### `https://3d.keyframe.fi/tour/kisakallion-urheiluopisto-rantamakasiini`
-- **Reason:** HTTP 403
-- **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/rantamakasiini` — "3D-Virtuaalikierros" *[updated 2026-05-13]*
-
-### `https://3d.keyframe.fi/tour/kisakallion-urheiluopisto-rantarinne-1`
-- **Reason:** HTTP 403
-- **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/rantarinne-opistotaso` — "3D-Virtuaalikierros" *[updated 2026-02-23]*
-
-### `https://asiointi.oikeus.fi/oikeusrekisterikeskus/`
-- **Reason:** timeout
-- **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/sora-tutkintojen-terveydentilavaatimukset` — "Tilaa rikosrekisteriote TÄÄLTÄ" *[updated 2025-06-09]*
 
 ### `https://kauppa.kolmekampusta.fi/tuote-osasto/liikuntamahdollisuudet/`
 - **Reason:** HTTP 404
 - **Linked from 1 page(s):**
   - `https://www.kolmekampusta.fi/fi/pajulahden-jaahalli` — "verkkokaupassa" *[updated 2026-03-20]*
 
-### `https://lohja.emmi.fi/l/G7wHZjMBSxSs?utm_campaign=custom-link-button&utm_medium=Karnaistenkorven+retkeilypolut&utm_source=Visit+Lohja`
-- **Reason:** timeout
-- **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/ulkoliikunta-kesalla` — "Luontopolun opasvihkonen" *[updated 2026-05-31]*
+## ❓ External links — could not be verified
 
-### `https://lohja.emmi.fi/l/sF_SS-X8b59G?utm_campaign=custom-link-button&utm_medium=Karnaistenkorven+retkeilypolut&utm_source=Visit+Lohja`
-- **Reason:** timeout
-- **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/ulkoliikunta-kesalla` — "Karnaistenkorven kartta" *[updated 2026-05-31]*
+These 3 external link(s) returned a response that could not be confidently classified as broken or working. Common causes:
 
-### `https://oppisopimus.net/`
-- **Reason:** HTTP 415
-- **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/koulutus/koulutukset/oppisopimuskoulutus` — "Lisätietoja oppisopimuksista löydät täältä" *[updated 2025-10-22]*
+- **HTTP 403/415/429** — site's WAF or bot-detection flagged the request (Cloudflare often blocks datacenter IPs even with browser User-Agents)
+- **HTTP 5xx** — temporary server issue, may resolve on next scan
+- **Timeout / connection reset** — slow response, may be intermittent
 
-### `https://urheilijanurapolku.fi/`
-- **Reason:** HTTP 415
-- **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/urheilu/yhteisomme/paijat-hameen-urheiluakatemia` — "Lue lisää" *[updated 2025-06-24]*
+**These links are very likely fine** when visited from a normal browser. Verify manually by opening them — if they work, no action needed. If they're actually broken, move them to your real broken-links triage.
 
-### `https://www.leimausleiri.fi/`
-- **Reason:** timeout
+### `https://urheiluopisto3k.inschool.fi/browsecourses`
+- **Reason:** HTTP 503
+- **Linked from 20 page(s):**
+  - `https://www.kolmekampusta.fi/fi/koulutus/koulutukset/hakijalle` — "Hae opiskelemaan" *[updated 2025-07-09]*
+  - `https://www.kolmekampusta.fi/fi/koulutus/koulutukset/oppisopimuskoulutus` — "Hae nyt" *[updated 2025-10-22]*
+  - `https://www.kolmekampusta.fi/fi/liikunnanohjauksen-perustutkinto` — "HAE TÄSTÄ LPT MONIMUOTOON 30.8. MENNESSÄ" *[updated 2026-03-27]*
+  - `https://www.kolmekampusta.fi/fi/liikunnanohjauksen-perustutkinto` — "HAE TÄSTÄ 30.8. MENNESSÄ" *[updated 2026-03-27]*
+  - `https://www.kolmekampusta.fi/fi/liikunnan-ja-valmennuksen-ammattitutkinto-valmennuksen-osaamisala` — "HAE TÄSTÄ" *[updated 2026-05-11]*
+  - `https://www.kolmekampusta.fi/fi/liikunnan-ja-valmennuksen-ammattitutkinto-valmennuksen-osaamisala` — "HAE NYT" *[updated 2026-05-11]*
+  - `https://www.kolmekampusta.fi/fi/liikunnan-ja-valmennuksen-ammattitutkinto-valmennuksen-osaamisala` — "Hae koulutuksiin" *[updated 2026-05-11]*
+  - `https://www.kolmekampusta.fi/fi/liikunnanohjauksen-perustutkinto-huippu-urheilijoille` — "HAE TÄSTÄ" *[updated 2026-03-13]*
+  - `https://www.kolmekampusta.fi/fi/liikunnanohjauksen-perustutkinto-huippu-urheilijoille` — "Hae koulutukseen" *[updated 2026-03-13]*
+  - `https://www.kolmekampusta.fi/fi/liikuntapaikka-alan-ammattitutkinto` — "HAE TÄSTÄ" *[updated 2026-01-30]*
+  - `https://www.kolmekampusta.fi/fi/liikuntapaikka-alan-ammattitutkinto` — "Hae koulutukseen" *[updated 2026-01-30]*
+  - `https://www.kolmekampusta.fi/fi/liikunnanohjauksen-perustutkinto-oppisopimuksella` — "Hae opiskelemaan" *[updated 2025-11-21]*
+  - `https://www.kolmekampusta.fi/fi/liikunnan-ja-valmennuksen-ammattitutkinto-liikunnan-osaamisala` — "HAE TÄSTÄ" *[updated 2026-04-14]*
+  - `https://www.kolmekampusta.fi/fi/liikunnan-ja-valmennuksen-ammattitutkinto-liikunnan-osaamisala` — "HAE TÄSTÄ" *[updated 2026-04-14]*
+  - `https://www.kolmekampusta.fi/fi/valmennuksen-erikoisammattitutkinto` — "HAE TÄSTÄ" *[updated 2026-03-27]*
+  - `https://www.kolmekampusta.fi/fi/valmennuksen-erikoisammattitutkinto` — "Hae tästä" *[updated 2026-03-27]*
+  - `https://www.kolmekampusta.fi/fi/yksilollinen-liikunnan-ohjaaminen-tutkinnonosa` — "HAE TÄSTÄ" *[updated 2026-04-14]*
+  - `https://www.kolmekampusta.fi/fi/yksilollinen-liikunnan-ohjaaminen-tutkinnonosa` — "Hae tästä" *[updated 2026-04-14]*
+  - `https://www.kolmekampusta.fi/fi/liikunnan-ammattitutkinto-aikuisten-liikuttaja` — "Hae tästä 30.12. mennessä" *[updated 2025-12-15]*
+  - `https://www.kolmekampusta.fi/fi/liikunnan-ammattitutkinto-aikuisten-liikuttaja` — "Hae tästä" *[updated 2025-12-15]*
+
+### `https://urheiluopisto3k.inschool.fi/`
+- **Reason:** HTTP 503
 - **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/artikkelit/suomen-suurin-suunnistusleiri-valtaa-kisakallion` — "Lue lisää Leimaus-leiristä" *[updated 2026-05-26]*
+  - `https://www.kolmekampusta.fi/fi/koulutus/opiskelijalle` — "WILMA" *[updated 2025-06-11]*
+
+### `http://www.urn.fi/URN:NBN:fi:amk-201805046482`
+- **Reason:** HTTP 403
+- **Linked from 1 page(s):**
+  - `https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/kestavyysurheilu` — "Kestävyyslajien välisen yhteistyömallin pilotointi ja kehittäminen Espoossa 2017–2018" *[updated 2026-05-10]*
 
 ## 🔁 Canonical duplicates
 
@@ -148,10 +112,10 @@ Each duplicate URL is a different surface form of the same underlying content (t
 
 ### → `https://www.kolmekampusta.fi/fi/tulevat-tapahtumat`
 - **Duplicates pointing here:** 13
+  - `https://www.kolmekampusta.fi/fi/tulevat-tapahtumat?tyyppi=59` — "Tulevat tapahtumat | Kolmen kampuksen urheiluopisto" (in:2)
   - `https://www.kolmekampusta.fi/fi/tulevat-tapahtumat?page=1` — "Tulevat tapahtumat | Kolmen kampuksen urheiluopisto" (in:2)
   - `https://www.kolmekampusta.fi/fi/tulevat-tapahtumat?page=4` — "Tulevat tapahtumat | Kolmen kampuksen urheiluopisto" (in:2)
   - `https://www.kolmekampusta.fi/fi/tulevat-tapahtumat?tyyppi=85` — "Tulevat tapahtumat | Kolmen kampuksen urheiluopisto" (in:1)
-  - `https://www.kolmekampusta.fi/fi/tulevat-tapahtumat?tyyppi=59` — "Tulevat tapahtumat | Kolmen kampuksen urheiluopisto" (in:1)
   - `https://www.kolmekampusta.fi/fi/tulevat-tapahtumat?tyyppi=71` — "Tulevat tapahtumat | Kolmen kampuksen urheiluopisto" (in:1)
   - `https://www.kolmekampusta.fi/fi/tulevat-tapahtumat?tyyppi=65` — "Tulevat tapahtumat | Kolmen kampuksen urheiluopisto" (in:1)
   - `https://www.kolmekampusta.fi/fi/tulevat-tapahtumat?tyyppi=52` — "Tulevat tapahtumat | Kolmen kampuksen urheiluopisto" (in:1)
