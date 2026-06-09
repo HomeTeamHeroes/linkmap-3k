@@ -14,7 +14,7 @@ permissions:
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 45   # bumped from 30: 3000 pages + canonical dedup adds detection time
+    timeout-minutes: 55
 
     steps:
       - name: Checkout repo
@@ -32,7 +32,7 @@ jobs:
         run: |
           python linkmap.py https://www.kolmekampusta.fi/fi \
             --max-pages 3000 \
-            --delay 0.5 \
+            --delay 0.55 \
             --skip-pattern '^https?://(www\.)?kolmekampusta\.fi/sv([/?#]|$)' \
             --skip-pattern '/user/' \
             --skip-pattern '/admin/' \
@@ -40,23 +40,6 @@ jobs:
             --skip-pattern '\?destination=' \
             --skip-pattern '/feed(/|$|\?)' \
             --output 3k-fi
-        # Note: canonical-tag duplicate detection is enabled by default.
-        # Pages whose <link rel="canonical"> points elsewhere are recorded but
-        # their outbound links are NOT followed, preventing Drupal Views filter
-        # permutations from exploding the crawl. Pass --no-canonical-dedup to
-        # disable if you ever need to see the full duplicate URL tree.
-
-      # OPTIONAL: Enable Drupal author enrichment by adding DRUPAL_USER and
-      # DRUPAL_PASS as repository secrets. The step is auto-skipped if the
-      # DRUPAL_USER secret is empty. See DEPLOYMENT.md for setup.
-      #
-      # - name: Enrich with Drupal author info
-      #   if: env.DRUPAL_USER != ''
-      #   env:
-      #     DRUPAL_URL: https://www.kolmekampusta.fi
-      #     DRUPAL_USER: ${{ secrets.DRUPAL_USER }}
-      #     DRUPAL_PASS: ${{ secrets.DRUPAL_PASS }}
-      #   run: python drupal_authors.py 3k-fi.json
 
       - name: Read scan stats
         id: stats
@@ -65,15 +48,15 @@ jobs:
           PAGES=$(python -c "import json; print(json.load(open('3k-fi.json'))['stats']['pages_crawled'])")
           NO_ALIAS=$(python -c "import json; print(json.load(open('3k-fi.json'))['stats'].get('no_alias_count', 0))")
           CANON_DUPS=$(python -c "import json; print(json.load(open('3k-fi.json'))['stats'].get('canonical_duplicate_count', 0))")
-          CANON_TARGETS=$(python -c "import json; print(json.load(open('3k-fi.json'))['stats'].get('canonical_target_count', 0))")
+          UNCERTAIN=$(python -c "import json; print(json.load(open('3k-fi.json'))['stats'].get('external_uncertain_count', 0))")
           DATE=$(date -I)
           echo "broken=$BROKEN" >> $GITHUB_OUTPUT
           echo "pages=$PAGES" >> $GITHUB_OUTPUT
           echo "no_alias=$NO_ALIAS" >> $GITHUB_OUTPUT
           echo "canon_dups=$CANON_DUPS" >> $GITHUB_OUTPUT
-          echo "canon_targets=$CANON_TARGETS" >> $GITHUB_OUTPUT
+          echo "uncertain=$UNCERTAIN" >> $GITHUB_OUTPUT
           echo "date=$DATE" >> $GITHUB_OUTPUT
-          echo "Scan: $PAGES pages, $BROKEN broken, $NO_ALIAS without alias, $CANON_DUPS canonical duplicates"
+          echo "Scan: $PAGES pages, $BROKEN broken (definite), $UNCERTAIN uncertain, $NO_ALIAS no-alias, $CANON_DUPS canonical-dups"
 
       - name: Commit results
         run: |
@@ -83,10 +66,15 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Weekly scan ${{ steps.stats.outputs.date }} — ${{ steps.stats.outputs.pages }} pages, ${{ steps.stats.outputs.broken }} broken, ${{ steps.stats.outputs.canon_dups }} canonical duplicates"
+            git commit -m "Weekly scan ${{ steps.stats.outputs.date }} — ${{ steps.stats.outputs.pages }} pages, ${{ steps.stats.outputs.broken }} broken, ${{ steps.stats.outputs.uncertain }} uncertain, ${{ steps.stats.outputs.canon_dups }} canonical dups"
             git push
           fi
 
+      # GitHub issue is opened ONLY for definite-broken links (404, DNS failures, etc.).
+      # Uncertain external links (Cloudflare/WAF-blocked, 403/415 false positives) are
+      # NOT counted toward the broken total and don't trigger this step. They appear
+      # only in the markdown report's "❓ External links — could not be verified"
+      # section, where you can verify them manually if curious.
       - name: Open or update issue if broken links found
         if: steps.stats.outputs.broken != '0'
         env:
@@ -98,7 +86,6 @@ jobs:
           gh label create broken-links --color FF0000 --description "Auto-created by linkmap workflow" 2>/dev/null || true
           REPORT=3k-fi-broken.md
 
-          # Truncate body if too long for GitHub issues (65,536 char limit)
           BODY_FILE=$(mktemp)
           if [ "$(wc -c < "$REPORT")" -gt 60000 ]; then
             head -c 60000 "$REPORT" > "$BODY_FILE"
@@ -109,7 +96,6 @@ jobs:
             cp "$REPORT" "$BODY_FILE"
           fi
 
-          # Footer with links
           echo "" >> "$BODY_FILE"
           echo "---" >> "$BODY_FILE"
           echo "" >> "$BODY_FILE"
@@ -117,13 +103,11 @@ jobs:
           echo "📄 [Full report](../tree/main/$REPORT) · " >> "$BODY_FILE"
           echo "🔄 [Run scan now](../actions/workflows/scan.yml)" >> "$BODY_FILE"
 
-          # Find existing open issue with the broken-links label
           EXISTING=$(gh issue list --label broken-links --state open --json number --jq '.[0].number' 2>/dev/null || echo "")
 
           TITLE="🔴 ${{ steps.stats.outputs.broken }} broken link(s) — ${{ steps.stats.outputs.date }}"
 
           if [ -n "$EXISTING" ]; then
-            # Update existing issue body and add a comment with new scan stats
             gh issue edit "$EXISTING" --body-file "$BODY_FILE" --title "$TITLE"
             echo "Updated existing issue #$EXISTING"
           else
@@ -140,5 +124,5 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           for num in $(gh issue list --label broken-links --state open --json number --jq '.[].number' 2>/dev/null); do
-            gh issue close "$num" --comment "✅ Latest scan ${{ steps.stats.outputs.date }} found 0 broken links. Auto-closing this issue."
+            gh issue close "$num" --comment "✅ Latest scan ${{ steps.stats.outputs.date }} found 0 definite broken links. Auto-closing this issue."
           done
