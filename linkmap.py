@@ -870,17 +870,138 @@ def canonical_equivalent(crawled_url, canonical_url):
     return ka is not None and ka == kb
 
 
+def fetch_with_hard_timeout(session, url, total_timeout=30, connect_timeout=5,
+                            read_timeout=10, method="GET", **kwargs):
+    """HTTP request with three layers of timeout protection.
+
+    requests library's `timeout` parameter is per-network-operation, not total —
+    a server that sends one byte every 9 seconds can hang a request indefinitely
+    even with timeout=10. This wrapper enforces a hard total cap via a watchdog
+    thread: if the request hasn't completed within `total_timeout`, the caller
+    moves on and the request thread becomes a leaked daemon (the OS reaps it on
+    process exit).
+
+    Trade-off: leaks one thread + socket per hang, but the crawler progresses
+    instead of getting stuck forever. Worth it for unattended scans.
+    """
+    import threading
+    result = {"response": None, "exception": None, "done": False}
+
+    def _do_request():
+        try:
+            req_method = session.get if method == "GET" else session.head
+            result["response"] = req_method(
+                url,
+                timeout=(connect_timeout, read_timeout),
+                **kwargs,
+            )
+        except BaseException as e:  # noqa: BLE001 — must catch all to set result
+            result["exception"] = e
+        finally:
+            result["done"] = True
+
+    thread = threading.Thread(target=_do_request, daemon=True)
+    thread.start()
+    thread.join(total_timeout)
+
+    if not result["done"]:
+        # Thread is still working but total budget exceeded — give up on this URL
+        raise requests.exceptions.Timeout(
+            f"hard timeout: request exceeded {total_timeout}s total"
+        )
+
+    if result["exception"]:
+        raise result["exception"]
+
+    return result["response"]
+
+
+def _is_uncertain_external_failure(status, error):
+    """Classify an external-link failure as 'uncertain' (likely bot detection or
+    transient issue) vs. definite broken.
+
+    GitHub Actions and other datacenter IPs are often flagged by Cloudflare and
+    similar bot-detection services even with browser-like User-Agents. These
+    services typically respond with 403 (Forbidden), 415 (Unsupported Media
+    Type), or 429 (Too Many Requests). The URLs ARE valid — they just refuse
+    requests from non-residential IPs.
+
+    Returns True for failures we can't verify confidently from a CI runner.
+    These should be reported separately so they don't trigger broken-link issues.
+    """
+    if status in (403, 405, 415, 429):
+        return True  # commonly bot-detection responses
+    if status and 500 <= status < 600:
+        return True  # temporary server error
+    if error:
+        err_lower = error.lower()
+        if any(s in err_lower for s in ("timeout", "connection reset")):
+            return True  # often transient
+    return False
+
+
 def head_check(session, url, timeout=8):
-    """Return (status, error) for url. Falls back to GET if HEAD is unsupported."""
-    try:
-        r = session.head(url, timeout=timeout, allow_redirects=True)
-        # Some servers return 405/501 for HEAD; verify with GET
-        if r.status_code in (405, 501):
+    """Return (status, error) for url. Falls back to GET if HEAD is unsupported or blocked.
+
+    Many sites (especially behind Cloudflare/WAF or running WordPress) reject HEAD
+    requests with 403/415, or hang on them, even though they respond fine to GET.
+    To avoid false-positive "broken link" reports for such sites, we treat the
+    following HEAD responses as inconclusive and retry with GET:
+
+      - 403 Forbidden     (often Cloudflare bot detection)
+      - 405 Not Allowed   (server doesn't implement HEAD)
+      - 415 Unsupported   (WordPress's reaction to HEAD)
+      - 429 Too Many Reqs (rate-limit, GET might work after delay)
+      - 501 Not Implemented (server doesn't know HEAD)
+
+    GET fallback uses streaming + immediate close so we don't actually download
+    response bodies — just verify the status code.
+
+    Uses hard-timeout wrapper to prevent slow/hung servers from blocking the scan.
+    """
+    SUSPECT_HEAD_CODES = (403, 405, 415, 429, 501)
+
+    def try_get(reason):
+        """GET fallback: verify the URL is actually broken vs. HEAD-rejection."""
+        try:
+            gr = fetch_with_hard_timeout(
+                session, url,
+                total_timeout=max(timeout * 2, 20),
+                connect_timeout=min(timeout, 5),
+                read_timeout=timeout,
+                method="GET",
+                allow_redirects=True,
+                stream=True,  # don't download body
+            )
             try:
-                r = session.get(url, timeout=timeout, allow_redirects=True, stream=True)
-                r.close()
+                gr.close()
             except Exception:
                 pass
+            # If GET succeeded with a non-error status, HEAD response was misleading
+            if gr.status_code < 400:
+                return gr.status_code, None
+            return gr.status_code, f"{reason} (HEAD), HTTP {gr.status_code} (GET)"
+        except Exception:
+            return None, reason
+
+    try:
+        r = fetch_with_hard_timeout(
+            session, url,
+            total_timeout=max(timeout * 2, 20),
+            connect_timeout=min(timeout, 5),
+            read_timeout=timeout,
+            method="HEAD",
+            allow_redirects=True,
+        )
+
+        # HEAD returned a suspect code — verify with GET before declaring broken
+        if r.status_code in SUSPECT_HEAD_CODES:
+            get_status, get_err = try_get(f"HEAD returned {r.status_code}")
+            if get_status is not None:
+                # Use GET result instead. If GET succeeded (<400), URL is fine.
+                # If GET also failed, error string includes both for debugging.
+                return get_status, get_err if get_status >= 400 else None
+
         # Detect auth redirects (Drupal /user/login pattern) — treat as 403
         if r.history and "/user/login" not in url.lower():
             final_lower = r.url.lower()
@@ -888,6 +1009,11 @@ def head_check(session, url, timeout=8):
                 return 403, "auth redirect to login"
         return r.status_code, None
     except requests.exceptions.Timeout:
+        # HEAD timed out — often a bot-detection signal (server stalls on HEAD).
+        # Try GET as last resort; many sites respond fine to a normal GET.
+        get_status, get_err = try_get("HEAD timeout")
+        if get_status is not None and get_status < 400:
+            return get_status, None
         return None, "timeout"
     except requests.exceptions.SSLError as e:
         msg = str(e).lower()
@@ -932,7 +1058,15 @@ def crawl(start_url, max_pages=100, delay=0.5, follow_external=False,
 
     session = requests.Session()
     session.headers.update({
-        "User-Agent": "linkmap.py/1.1 (+ link mapper & broken-link checker)"
+        # Browser-like UA to avoid being blocked by overly strict WAFs.
+        # Tag identifies the bot for site-admin debugging (legitimate purpose).
+        "User-Agent": (
+            "Mozilla/5.0 (compatible; linkmap.py/1.2; "
+            "+https://github.com/HomeTeamHeroes/linkmap-3k) "
+            "AppleWebKit/537.36 (KHTML, like Gecko)"
+        ),
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "fi,en;q=0.7",
     })
 
     print(f"Crawling: {start_url}", file=sys.stderr)
@@ -946,6 +1080,7 @@ def crawl(start_url, max_pages=100, delay=0.5, follow_external=False,
     # Pages and files are tracked separately: max_pages limits only HTML pages,
     # file URLs (images/PDFs/etc.) are HEAD-checked without consuming the budget.
     page_count = 0
+    crawl_start_time = time.time()
 
     while queue:
         url = queue.pop(0)
@@ -982,8 +1117,29 @@ def crawl(start_url, max_pages=100, delay=0.5, follow_external=False,
         page_count += 1
         print(f"  [{page_count:>4}/{max_pages}] {url[:90]}", file=sys.stderr)
 
+        # Periodic throughput summary so users watching live logs can estimate ETA
+        # and notice if the crawl is degrading (e.g., site started rate-limiting).
+        if page_count % 50 == 0:
+            elapsed = time.time() - crawl_start_time
+            rate = page_count / elapsed if elapsed > 0 else 0
+            remaining_pages = max(0, max_pages - page_count)
+            eta_seconds = remaining_pages / rate if rate > 0 else 0
+            print(
+                f"  ─ progress: {page_count} pages in {elapsed:.0f}s "
+                f"({rate:.2f} pages/s, ETA {eta_seconds/60:.1f} min for "
+                f"remaining {remaining_pages})",
+                file=sys.stderr,
+            )
+
         try:
-            r = session.get(url, timeout=timeout, allow_redirects=True)
+            r = fetch_with_hard_timeout(
+                session, url,
+                total_timeout=max(timeout * 3, 30),  # 3x the per-op timeout, min 30s
+                connect_timeout=min(timeout, 5),
+                read_timeout=timeout,
+                method="GET",
+                allow_redirects=True,
+            )
             final = normalize_url(r.url)
         except Exception as e:
             pages[url] = {"title": None, "status": None, "error": str(e)[:140], "outbound": []}
@@ -1148,25 +1304,38 @@ def crawl(start_url, max_pages=100, delay=0.5, follow_external=False,
                     for e in by_target.get(url, [])
                 ],
             })
+    # Separate external link failures into:
+    #   - broken: definite failures (404, 410, DNS failures, etc.)
+    #   - external_uncertain: likely bot-detection (403, 415, 429, 5xx, timeouts)
+    # The latter happens because Cloudflare and similar WAFs flag the GitHub
+    # Actions IPs as bots, even with browser-like User-Agents. These URLs are
+    # typically fine when visited from a real browser.
+    external_uncertain = []
     for url, info in external_status.items():
-        is_broken = (info["status"] and info["status"] >= 400) or info["error"]
-        if is_broken:
-            broken.append({
-                "target": url,
-                "kind": "external",
-                "status": info["status"],
-                "error": info["error"],
-                "linked_from": [
-                    {
-                        "page": e["source"],
-                        "anchor": e["text"],
-                        "page_updated": pages.get(e["source"], {}).get("updated_time"),
-                        "page_og_type": pages.get(e["source"], {}).get("og_type"),
-                        "page_unavailable_after": pages.get(e["source"], {}).get("unavailable_after"),
-                    }
-                    for e in by_target.get(url, [])
-                ],
-            })
+        is_failure = (info["status"] and info["status"] >= 400) or info["error"]
+        if not is_failure:
+            continue
+
+        entry = {
+            "target": url,
+            "kind": "external",
+            "status": info["status"],
+            "error": info["error"],
+            "linked_from": [
+                {
+                    "page": e["source"],
+                    "anchor": e["text"],
+                    "page_updated": pages.get(e["source"], {}).get("updated_time"),
+                    "page_og_type": pages.get(e["source"], {}).get("og_type"),
+                    "page_unavailable_after": pages.get(e["source"], {}).get("unavailable_after"),
+                }
+                for e in by_target.get(url, [])
+            ],
+        }
+        if _is_uncertain_external_failure(info["status"], info["error"]):
+            external_uncertain.append(entry)
+        else:
+            broken.append(entry)
 
     # Build no-alias list (Drupal pages without URL alias — quality issue, not broken)
     no_alias_pages = []
@@ -1218,6 +1387,7 @@ def crawl(start_url, max_pages=100, delay=0.5, follow_external=False,
         "edges": edges,
         "external_status": external_status,
         "broken": broken,
+        "external_uncertain": external_uncertain,
         "no_alias_pages": no_alias_pages,
         "canonical_duplicates": canonical_duplicates,
         "stats": {
@@ -1228,6 +1398,7 @@ def crawl(start_url, max_pages=100, delay=0.5, follow_external=False,
             "broken_count": len(broken),
             "broken_internal": sum(1 for b in broken if b["kind"] == "internal"),
             "broken_external": sum(1 for b in broken if b["kind"] == "external"),
+            "external_uncertain_count": len(external_uncertain),
             "no_alias_count": len(no_alias_pages),
             "canonical_duplicate_count": canonical_duplicate_total,
             "canonical_target_count": len(canonical_duplicates),
@@ -1263,6 +1434,7 @@ def write_broken_report(data, path):
     s = data["stats"]
     no_alias = data.get("no_alias_pages", [])
     canonical_dups = data.get("canonical_duplicates", [])
+    external_uncertain = data.get("external_uncertain", [])
     lines = []
     lines.append("# Broken Links Report")
     lines.append("")
@@ -1272,6 +1444,9 @@ def write_broken_report(data, path):
     lines.append(f"- **External targets checked:** {s['external_targets_checked']}")
     lines.append(f"- **Total broken:** {s['broken_count']} "
                  f"({s['broken_internal']} internal, {s['broken_external']} external)")
+    if external_uncertain:
+        lines.append(f"- **❓ External links could not be verified:** {len(external_uncertain)} "
+                     f"(likely bot-detection / WAF — manual verification recommended)")
     if no_alias:
         lines.append(f"- **⚠️ Pages without URL alias:** {len(no_alias)} "
                      f"(Drupal /node/N served directly, no Pathauto alias)")
@@ -1281,7 +1456,7 @@ def write_broken_report(data, path):
                      f"(crawl-budget waste — duplicate content with canonical redirect)")
     lines.append("")
 
-    if not data["broken"] and not no_alias and not canonical_dups:
+    if not data["broken"] and not no_alias and not canonical_dups and not external_uncertain:
         lines.append("✅ No broken links or quality issues found.")
         with open(path, "w", encoding="utf-8") as f:
             f.write("\n".join(lines) + "\n")
@@ -1322,6 +1497,57 @@ def write_broken_report(data, path):
 
     render_section("Internal broken pages", internal)
     render_section("External broken links", external)
+
+    # External links we couldn't verify confidently from this scanner's IP
+    # (typically Cloudflare/WAF blocking, or sites that reject HEAD requests).
+    if external_uncertain:
+        lines.append("## ❓ External links — could not be verified")
+        lines.append("")
+        lines.append(
+            f"These {len(external_uncertain)} external link(s) returned a response that "
+            f"could not be confidently classified as broken or working. Common causes:"
+        )
+        lines.append("")
+        lines.append("- **HTTP 403/415/429** — site's WAF or bot-detection flagged the request "
+                     "(Cloudflare often blocks datacenter IPs even with browser User-Agents)")
+        lines.append("- **HTTP 5xx** — temporary server issue, may resolve on next scan")
+        lines.append("- **Timeout / connection reset** — slow response, may be intermittent")
+        lines.append("")
+        lines.append(
+            "**These links are very likely fine** when visited from a normal browser. "
+            "Verify manually by opening them — if they work, no action needed. "
+            "If they're actually broken, move them to your real broken-links triage."
+        )
+        lines.append("")
+
+        # Sort: definite-looking issues first (404-adjacent codes), then by inbound
+        uncertain_sorted = sorted(
+            external_uncertain,
+            key=lambda b: (
+                0 if (b.get("status") and b["status"] >= 500) else 1,
+                -len(b["linked_from"]),
+                b["target"],
+            ),
+        )
+        for b in uncertain_sorted[:50]:  # cap at top 50
+            lines.append(f"### `{b['target']}`")
+            reason = f"HTTP {b['status']}" if b["status"] else (b["error"] or "unknown error")
+            lines.append(f"- **Reason:** {reason}")
+            lines.append(f"- **Linked from {len(b['linked_from'])} page(s):**")
+            for lf in b["linked_from"][:20]:
+                anchor = f' — "{lf["anchor"]}"' if lf["anchor"] else ""
+                meta_bits = []
+                if lf.get("page_updated"):
+                    date = lf["page_updated"][:10] if len(lf["page_updated"]) >= 10 else lf["page_updated"]
+                    meta_bits.append(f"updated {date}")
+                meta_suffix = f" *[{', '.join(meta_bits)}]*" if meta_bits else ""
+                lines.append(f"  - `{lf['page']}`{anchor}{meta_suffix}")
+            if len(b["linked_from"]) > 20:
+                lines.append(f"  - …and {len(b['linked_from']) - 20} more")
+            lines.append("")
+        if len(uncertain_sorted) > 50:
+            lines.append(f"*…and {len(uncertain_sorted) - 50} more (showing top 50)*")
+            lines.append("")
 
     # Quality issues: Drupal pages without URL aliases
     if no_alias:
@@ -1479,6 +1705,10 @@ def main():
               file=sys.stderr)
     else:
         print("  ✅ No broken links found", file=sys.stderr)
+    if s.get("external_uncertain_count"):
+        print(f"  ❓ {s['external_uncertain_count']} external link(s) could not be verified "
+              f"(likely WAF / bot detection — see report)",
+              file=sys.stderr)
     if s.get("no_alias_count"):
         print(f"  ⚠ {s['no_alias_count']} page(s) without URL alias "
               f"(/node/N served directly)", file=sys.stderr)
