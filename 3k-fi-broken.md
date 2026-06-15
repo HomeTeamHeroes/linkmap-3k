@@ -1,30 +1,47 @@
 # Broken Links Report
 
 - **Site:** https://www.kolmekampusta.fi/fi
-- **Crawled:** 2026-06-09T21:12:23
-- **Pages crawled:** 937
-- **External targets checked:** 244
-- **Total broken:** 2 (1 internal, 1 external)
-- **❓ External links could not be verified:** 3 (likely bot-detection / WAF — manual verification recommended)
-- **🔁 Canonical duplicates:** 75 page(s) across 12 canonical target(s) (crawl-budget waste — duplicate content with canonical redirect)
+- **Crawled:** 2026-06-15T12:09:36
+- **Pages crawled:** 980
+- **External targets checked:** 238
+- **Total broken:** 5 (3 internal, 2 external)
+- **❓ External links could not be verified:** 1 (likely bot-detection / WAF — manual verification recommended)
+- **⚠️ Pages without URL alias:** 2 (Drupal /node/N served directly, no Pathauto alias)
+- **🔁 Canonical duplicates:** 111 page(s) across 16 canonical target(s) (crawl-budget waste — duplicate content with canonical redirect)
 
 ## Internal broken pages
 
-### `https://www.kolmekampusta.fi/fi/tapahtumat/jani-sievisen-uintileiri-aikuisille-pajulahdessa`
+### `https://www.kolmekampusta.fi/fi/tapahtumat/lake-poolin-kesakauden-avaus`
+- **Reason:** HTTP 403
+- **Linked from 2 page(s):**
+  - `https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/lake-pool-pajulahti` — "Lue kesäkauden avauksesta" *[updated 2026-06-12]*
+  - `https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/lakepoolpajulahti` — "Lue kesäkauden avauksesta" *[updated 2026-06-12]*
+
+### `https://www.kolmekampusta.fi/fi/tapahtumat/pohja-coaching-hybridiharjoittelu-pajulahdessa`
 - **Reason:** HTTP 403
 - **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/urheilu/leirit/esikuvaleirit` — "Jani Sievisen uintileiri aikuisille 8.-9.6." *[updated 2026-06-03]*
+  - `https://www.kolmekampusta.fi/fi/kesan-tarjonta-kolmella-kampuksella` — "Pohja Coaching Hybridiharjoittelu Pajulahdessa 3.-5.7." *[updated 2026-06-15]*
+
+### `https://www.kolmekampusta.fi/fi/tapahtumat/senioritennis-viikonloppukurssi-2-vrk-pajulahdessa`
+- **Reason:** HTTP 403
+- **Linked from 1 page(s):**
+  - `https://www.kolmekampusta.fi/fi/kesan-tarjonta-kolmella-kampuksella` — "Senioritennis Pajulahdessa 26.-28.6." *[updated 2026-06-15]*
 
 ## External broken links
 
-### `https://kauppa.kolmekampusta.fi/tuote-osasto/liikuntamahdollisuudet/`
+### `https://kolmekampusta.willba.store/event/kk112256-makiahon-jaakiekkoleiri-kisakalliossa-10.-12.7.2026`
 - **Reason:** HTTP 404
 - **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/pajulahden-jaahalli` — "verkkokaupassa" *[updated 2026-03-20]*
+  - `https://www.kolmekampusta.fi/fi/tapahtumat/makiahon-jaakiekkoleiri-kisakalliossa-10-1272026` — "Ilmoittaudu mukaan TÄSTÄ" *[updated 2026-06-10, ⏰ expires Sunday, 12-Jul-26 16:00:00 EEST]*
+
+### `https://www.suomisport.fi/events/680f2327-bd2f-47c3-b48f-2a1031d1cdc8`
+- **Reason:** HTTP 401
+- **Linked from 1 page(s):**
+  - `https://www.kolmekampusta.fi/fi/koulutus/kamppailuvalmentajakoulutus-taso1` — "https://www.suomisport.fi/events/680f2327-bd2f-47c3-b48f-2a1031d1cdc8" *[updated 2026-06-11]*
 
 ## ❓ External links — could not be verified
 
-These 3 external link(s) returned a response that could not be confidently classified as broken or working. Common causes:
+These 1 external link(s) returned a response that could not be confidently classified as broken or working. Common causes:
 
 - **HTTP 403/415/429** — site's WAF or bot-detection flagged the request (Cloudflare often blocks datacenter IPs even with browser User-Agents)
 - **HTTP 5xx** — temporary server issue, may resolve on next scan
@@ -32,43 +49,28 @@ These 3 external link(s) returned a response that could not be confidently class
 
 **These links are very likely fine** when visited from a normal browser. Verify manually by opening them — if they work, no action needed. If they're actually broken, move them to your real broken-links triage.
 
-### `https://urheiluopisto3k.inschool.fi/browsecourses`
-- **Reason:** HTTP 503
-- **Linked from 20 page(s):**
-  - `https://www.kolmekampusta.fi/fi/koulutus/koulutukset/hakijalle` — "Hae opiskelemaan" *[updated 2025-07-09]*
-  - `https://www.kolmekampusta.fi/fi/koulutus/koulutukset/oppisopimuskoulutus` — "Hae nyt" *[updated 2025-10-22]*
-  - `https://www.kolmekampusta.fi/fi/liikunnanohjauksen-perustutkinto` — "HAE TÄSTÄ LPT MONIMUOTOON 30.8. MENNESSÄ" *[updated 2026-03-27]*
-  - `https://www.kolmekampusta.fi/fi/liikunnanohjauksen-perustutkinto` — "HAE TÄSTÄ 30.8. MENNESSÄ" *[updated 2026-03-27]*
-  - `https://www.kolmekampusta.fi/fi/liikunnan-ja-valmennuksen-ammattitutkinto-valmennuksen-osaamisala` — "HAE TÄSTÄ" *[updated 2026-05-11]*
-  - `https://www.kolmekampusta.fi/fi/liikunnan-ja-valmennuksen-ammattitutkinto-valmennuksen-osaamisala` — "HAE NYT" *[updated 2026-05-11]*
-  - `https://www.kolmekampusta.fi/fi/liikunnan-ja-valmennuksen-ammattitutkinto-valmennuksen-osaamisala` — "Hae koulutuksiin" *[updated 2026-05-11]*
-  - `https://www.kolmekampusta.fi/fi/liikunnanohjauksen-perustutkinto-huippu-urheilijoille` — "HAE TÄSTÄ" *[updated 2026-03-13]*
-  - `https://www.kolmekampusta.fi/fi/liikunnanohjauksen-perustutkinto-huippu-urheilijoille` — "Hae koulutukseen" *[updated 2026-03-13]*
-  - `https://www.kolmekampusta.fi/fi/liikuntapaikka-alan-ammattitutkinto` — "HAE TÄSTÄ" *[updated 2026-01-30]*
-  - `https://www.kolmekampusta.fi/fi/liikuntapaikka-alan-ammattitutkinto` — "Hae koulutukseen" *[updated 2026-01-30]*
-  - `https://www.kolmekampusta.fi/fi/liikunnanohjauksen-perustutkinto-oppisopimuksella` — "Hae opiskelemaan" *[updated 2025-11-21]*
-  - `https://www.kolmekampusta.fi/fi/liikunnan-ja-valmennuksen-ammattitutkinto-liikunnan-osaamisala` — "HAE TÄSTÄ" *[updated 2026-04-14]*
-  - `https://www.kolmekampusta.fi/fi/liikunnan-ja-valmennuksen-ammattitutkinto-liikunnan-osaamisala` — "HAE TÄSTÄ" *[updated 2026-04-14]*
-  - `https://www.kolmekampusta.fi/fi/valmennuksen-erikoisammattitutkinto` — "HAE TÄSTÄ" *[updated 2026-03-27]*
-  - `https://www.kolmekampusta.fi/fi/valmennuksen-erikoisammattitutkinto` — "Hae tästä" *[updated 2026-03-27]*
-  - `https://www.kolmekampusta.fi/fi/yksilollinen-liikunnan-ohjaaminen-tutkinnonosa` — "HAE TÄSTÄ" *[updated 2026-04-14]*
-  - `https://www.kolmekampusta.fi/fi/yksilollinen-liikunnan-ohjaaminen-tutkinnonosa` — "Hae tästä" *[updated 2026-04-14]*
-  - `https://www.kolmekampusta.fi/fi/liikunnan-ammattitutkinto-aikuisten-liikuttaja` — "Hae tästä 30.12. mennessä" *[updated 2025-12-15]*
-  - `https://www.kolmekampusta.fi/fi/liikunnan-ammattitutkinto-aikuisten-liikuttaja` — "Hae tästä" *[updated 2025-12-15]*
-
-### `https://urheiluopisto3k.inschool.fi/`
-- **Reason:** HTTP 503
-- **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/koulutus/opiskelijalle` — "WILMA" *[updated 2025-06-11]*
-
 ### `http://www.urn.fi/URN:NBN:fi:amk-201805046482`
 - **Reason:** HTTP 403
 - **Linked from 1 page(s):**
   - `https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/kestavyysurheilu` — "Kestävyyslajien välisen yhteistyömallin pilotointi ja kehittäminen Espoossa 2017–2018" *[updated 2026-05-10]*
 
+## ⚠️ Pages without URL alias
+
+These 2 page(s) are served directly at Drupal's `/node/N` URL with no Pathauto alias configured. This is an SEO/maintenance issue — fix by running Pathauto bulk-generate, or by setting an alias manually in the page's **URL alias** field in Drupal.
+
+### `https://www.kolmekampusta.fi/en/node/763` — "Accommodation | Kolmen kampuksen urheiluopisto"
+- **Linked from 3 page(s):**
+  - `https://www.kolmekampusta.fi/fi/search` — "Accommodation"
+  - `https://www.kolmekampusta.fi/en/search` — "Accommodation"
+  - `https://www.kolmekampusta.fi/fi/node/763` — "Englanti"
+
+### `https://www.kolmekampusta.fi/fi/node/763` — "Majoitus | Kolmen kampuksen urheiluopisto"
+- **Linked from 1 page(s):**
+  - `https://www.kolmekampusta.fi/en/node/763` — "Finnish"
+
 ## 🔁 Canonical duplicates
 
-These 75 page(s) declare a different URL in their `<link rel="canonical">` tag, grouped here by their canonical target (12 unique canonicals).
+These 111 page(s) declare a different URL in their `<link rel="canonical">` tag, grouped here by their canonical target (16 unique canonicals).
 
 Each duplicate URL is a different surface form of the same underlying content (typically Drupal Views filter permutations, paginated variants, or alternate node paths). Canonical tags handle the duplicate-content SEO penalty, but Googlebot still has to crawl each duplicate to discover the canonical — so every duplicate listed here costs one unit of crawl budget on each Google scan.
 
@@ -111,10 +113,10 @@ Each duplicate URL is a different surface form of the same underlying content (t
   - `https://www.kolmekampusta.fi/en/about-us/facilities?page=4` — "Facilities | Kolmen kampuksen urheiluopisto" (in:1)
 
 ### → `https://www.kolmekampusta.fi/fi/tulevat-tapahtumat`
-- **Duplicates pointing here:** 13
-  - `https://www.kolmekampusta.fi/fi/tulevat-tapahtumat?tyyppi=59` — "Tulevat tapahtumat | Kolmen kampuksen urheiluopisto" (in:2)
+- **Duplicates pointing here:** 12
+  - `https://www.kolmekampusta.fi/fi/tulevat-tapahtumat?tyyppi=59` — "Tulevat tapahtumat | Kolmen kampuksen urheiluopisto" (in:3)
   - `https://www.kolmekampusta.fi/fi/tulevat-tapahtumat?page=1` — "Tulevat tapahtumat | Kolmen kampuksen urheiluopisto" (in:2)
-  - `https://www.kolmekampusta.fi/fi/tulevat-tapahtumat?page=4` — "Tulevat tapahtumat | Kolmen kampuksen urheiluopisto" (in:2)
+  - `https://www.kolmekampusta.fi/fi/tulevat-tapahtumat?page=3` — "Tulevat tapahtumat | Kolmen kampuksen urheiluopisto" (in:2)
   - `https://www.kolmekampusta.fi/fi/tulevat-tapahtumat?tyyppi=85` — "Tulevat tapahtumat | Kolmen kampuksen urheiluopisto" (in:1)
   - `https://www.kolmekampusta.fi/fi/tulevat-tapahtumat?tyyppi=71` — "Tulevat tapahtumat | Kolmen kampuksen urheiluopisto" (in:1)
   - `https://www.kolmekampusta.fi/fi/tulevat-tapahtumat?tyyppi=65` — "Tulevat tapahtumat | Kolmen kampuksen urheiluopisto" (in:1)
@@ -124,7 +126,6 @@ Each duplicate URL is a different surface form of the same underlying content (t
   - `https://www.kolmekampusta.fi/fi/tulevat-tapahtumat?tyyppi=24` — "Tulevat tapahtumat | Kolmen kampuksen urheiluopisto" (in:1)
   - `https://www.kolmekampusta.fi/fi/tulevat-tapahtumat?tyyppi=23` — "Tulevat tapahtumat | Kolmen kampuksen urheiluopisto" (in:1)
   - `https://www.kolmekampusta.fi/fi/tulevat-tapahtumat?page=2` — "Tulevat tapahtumat | Kolmen kampuksen urheiluopisto" (in:1)
-  - `https://www.kolmekampusta.fi/fi/tulevat-tapahtumat?page=3` — "Tulevat tapahtumat | Kolmen kampuksen urheiluopisto" (in:1)
 
 ### → `https://www.kolmekampusta.fi/fi/ajankohtaista`
 - **Duplicates pointing here:** 9
@@ -138,36 +139,89 @@ Each duplicate URL is a different surface form of the same underlying content (t
   - `https://www.kolmekampusta.fi/fi/ajankohtaista?page=4` — "Ajankohtaista | Kolmen kampuksen urheiluopisto" (in:2)
   - `https://www.kolmekampusta.fi/fi/ajankohtaista?page=9` — "Ajankohtaista | Kolmen kampuksen urheiluopisto" (in:2)
 
-### → `https://www.kolmekampusta.fi/fi/koulutus`
-- **Duplicates pointing here:** 6
-  - `https://www.kolmekampusta.fi/fi/koulutus?page=1` — "Koulutus | Kolmen kampuksen urheiluopisto" (in:3)
-  - `https://www.kolmekampusta.fi/fi/koulutus?tyyppi=32` — "Koulutus | Kolmen kampuksen urheiluopisto" (in:1)
-  - `https://www.kolmekampusta.fi/fi/koulutus?tyyppi=142` — "Koulutus | Kolmen kampuksen urheiluopisto" (in:1)
-  - `https://www.kolmekampusta.fi/fi/koulutus?tyyppi=33` — "Koulutus | Kolmen kampuksen urheiluopisto" (in:1)
-  - `https://www.kolmekampusta.fi/fi/koulutus?tyyppi=34` — "Koulutus | Kolmen kampuksen urheiluopisto" (in:1)
-  - `https://www.kolmekampusta.fi/fi/koulutus?tyyppi=87` — "Koulutus | Kolmen kampuksen urheiluopisto" (in:1)
+### → `https://www.kolmekampusta.fi/fi/node`
+- **Duplicates pointing here:** 9
+  - `https://www.kolmekampusta.fi/fi/node?page=1` — "| Kolmen kampuksen urheiluopisto" (in:2)
+  - `https://www.kolmekampusta.fi/fi/node?page=2` — "| Kolmen kampuksen urheiluopisto" (in:1)
+  - `https://www.kolmekampusta.fi/fi/node?page=3` — "| Kolmen kampuksen urheiluopisto" (in:1)
+  - `https://www.kolmekampusta.fi/fi/node?page=4` — "| Kolmen kampuksen urheiluopisto" (in:1)
+  - `https://www.kolmekampusta.fi/fi/node?page=5` — "| Kolmen kampuksen urheiluopisto" (in:1)
+  - `https://www.kolmekampusta.fi/fi/node?page=6` — "| Kolmen kampuksen urheiluopisto" (in:1)
+  - `https://www.kolmekampusta.fi/fi/node?page=7` — "| Kolmen kampuksen urheiluopisto" (in:1)
+  - `https://www.kolmekampusta.fi/fi/node?page=8` — "| Kolmen kampuksen urheiluopisto" (in:1)
+  - `https://www.kolmekampusta.fi/fi/node?page=43` — "| Kolmen kampuksen urheiluopisto" (in:1)
+
+### → `https://www.kolmekampusta.fi/en/node`
+- **Duplicates pointing here:** 8
+  - `https://www.kolmekampusta.fi/en/node?page=1` — "| Kolmen kampuksen urheiluopisto" (in:2)
+  - `https://www.kolmekampusta.fi/en/node?page=8` — "| Kolmen kampuksen urheiluopisto" (in:2)
+  - `https://www.kolmekampusta.fi/en/node?page=2` — "| Kolmen kampuksen urheiluopisto" (in:1)
+  - `https://www.kolmekampusta.fi/en/node?page=3` — "| Kolmen kampuksen urheiluopisto" (in:1)
+  - `https://www.kolmekampusta.fi/en/node?page=4` — "| Kolmen kampuksen urheiluopisto" (in:1)
+  - `https://www.kolmekampusta.fi/en/node?page=5` — "| Kolmen kampuksen urheiluopisto" (in:1)
+  - `https://www.kolmekampusta.fi/en/node?page=6` — "| Kolmen kampuksen urheiluopisto" (in:1)
+  - `https://www.kolmekampusta.fi/en/node?page=7` — "| Kolmen kampuksen urheiluopisto" (in:1)
 
 ### → `https://www.kolmekampusta.fi/fi/koulutus/koulutukset`
-- **Duplicates pointing here:** 6
+- **Duplicates pointing here:** 7
   - `https://www.kolmekampusta.fi/fi/koulutus/koulutukset?page=1` — "Koulutukset | Kolmen kampuksen urheiluopisto" (in:3)
   - `https://www.kolmekampusta.fi/fi/koulutus/koulutukset?tyyppi=32` — "Koulutukset | Kolmen kampuksen urheiluopisto" (in:1)
   - `https://www.kolmekampusta.fi/fi/koulutus/koulutukset?tyyppi=142` — "Koulutukset | Kolmen kampuksen urheiluopisto" (in:1)
   - `https://www.kolmekampusta.fi/fi/koulutus/koulutukset?tyyppi=33` — "Koulutukset | Kolmen kampuksen urheiluopisto" (in:1)
   - `https://www.kolmekampusta.fi/fi/koulutus/koulutukset?tyyppi=34` — "Koulutukset | Kolmen kampuksen urheiluopisto" (in:1)
+  - `https://www.kolmekampusta.fi/fi/koulutus/koulutukset?tyyppi=138` — "Koulutukset | Kolmen kampuksen urheiluopisto" (in:1)
   - `https://www.kolmekampusta.fi/fi/koulutus/koulutukset?tyyppi=87` — "Koulutukset | Kolmen kampuksen urheiluopisto" (in:1)
+
+### → `https://www.kolmekampusta.fi/fi/koulutus`
+- **Duplicates pointing here:** 7
+  - `https://www.kolmekampusta.fi/fi/koulutus?page=1` — "Koulutus | Kolmen kampuksen urheiluopisto" (in:3)
+  - `https://www.kolmekampusta.fi/fi/koulutus?tyyppi=32` — "Koulutus | Kolmen kampuksen urheiluopisto" (in:1)
+  - `https://www.kolmekampusta.fi/fi/koulutus?tyyppi=142` — "Koulutus | Kolmen kampuksen urheiluopisto" (in:1)
+  - `https://www.kolmekampusta.fi/fi/koulutus?tyyppi=33` — "Koulutus | Kolmen kampuksen urheiluopisto" (in:1)
+  - `https://www.kolmekampusta.fi/fi/koulutus?tyyppi=34` — "Koulutus | Kolmen kampuksen urheiluopisto" (in:1)
+  - `https://www.kolmekampusta.fi/fi/koulutus?tyyppi=138` — "Koulutus | Kolmen kampuksen urheiluopisto" (in:1)
+  - `https://www.kolmekampusta.fi/fi/koulutus?tyyppi=87` — "Koulutus | Kolmen kampuksen urheiluopisto" (in:1)
+
+### → `https://www.kolmekampusta.fi/fi/koulutukset`
+- **Duplicates pointing here:** 7
+  - `https://www.kolmekampusta.fi/fi/koulutukset?page=1` — "Koulutukset | Kolmen kampuksen urheiluopisto" (in:3)
+  - `https://www.kolmekampusta.fi/fi/koulutukset?tyyppi=32` — "Koulutukset | Kolmen kampuksen urheiluopisto" (in:1)
+  - `https://www.kolmekampusta.fi/fi/koulutukset?tyyppi=142` — "Koulutukset | Kolmen kampuksen urheiluopisto" (in:1)
+  - `https://www.kolmekampusta.fi/fi/koulutukset?tyyppi=33` — "Koulutukset | Kolmen kampuksen urheiluopisto" (in:1)
+  - `https://www.kolmekampusta.fi/fi/koulutukset?tyyppi=34` — "Koulutukset | Kolmen kampuksen urheiluopisto" (in:1)
+  - `https://www.kolmekampusta.fi/fi/koulutukset?tyyppi=138` — "Koulutukset | Kolmen kampuksen urheiluopisto" (in:1)
+  - `https://www.kolmekampusta.fi/fi/koulutukset?tyyppi=87` — "Koulutukset | Kolmen kampuksen urheiluopisto" (in:1)
+
+### → `https://www.kolmekampusta.fi/fi/search`
+- **Duplicates pointing here:** 6
+  - `https://www.kolmekampusta.fi/fi/search?page=1` — "Haku | Kolmen kampuksen urheiluopisto" (in:2)
+  - `https://www.kolmekampusta.fi/fi/search?page=2` — "Haku | Kolmen kampuksen urheiluopisto" (in:1)
+  - `https://www.kolmekampusta.fi/fi/search?page=3` — "Haku | Kolmen kampuksen urheiluopisto" (in:1)
+  - `https://www.kolmekampusta.fi/fi/search?page=4` — "Haku | Kolmen kampuksen urheiluopisto" (in:1)
+  - `https://www.kolmekampusta.fi/fi/search?page=5` — "Haku | Kolmen kampuksen urheiluopisto" (in:1)
+  - `https://www.kolmekampusta.fi/fi/search?page=70` — "Haku | Kolmen kampuksen urheiluopisto" (in:1)
+
+### → `https://www.kolmekampusta.fi/en/search`
+- **Duplicates pointing here:** 6
+  - `https://www.kolmekampusta.fi/en/search?page=1` — "Search | Kolmen kampuksen urheiluopisto" (in:2)
+  - `https://www.kolmekampusta.fi/en/search?page=2` — "Search | Kolmen kampuksen urheiluopisto" (in:1)
+  - `https://www.kolmekampusta.fi/en/search?page=3` — "Search | Kolmen kampuksen urheiluopisto" (in:1)
+  - `https://www.kolmekampusta.fi/en/search?page=4` — "Search | Kolmen kampuksen urheiluopisto" (in:1)
+  - `https://www.kolmekampusta.fi/en/search?page=5` — "Search | Kolmen kampuksen urheiluopisto" (in:1)
+  - `https://www.kolmekampusta.fi/en/search?page=70` — "Search | Kolmen kampuksen urheiluopisto" (in:1)
 
 ### → `https://www.kolmekampusta.fi/en/current-topics`
 - **Duplicates pointing here:** 4
-  - `https://www.kolmekampusta.fi/en/current-topics?type=article` — "Current topics | Kolmen kampuksen urheiluopisto" (in:1)
-  - `https://www.kolmekampusta.fi/en/current-topics?type=blog` — "Current topics | Kolmen kampuksen urheiluopisto" (in:1)
-  - `https://www.kolmekampusta.fi/en/current-topics?type=news` — "Current topics | Kolmen kampuksen urheiluopisto" (in:1)
-  - `https://www.kolmekampusta.fi/en/current-topics?type=student_story` — "Current topics | Kolmen kampuksen urheiluopisto" (in:1)
+  - `https://www.kolmekampusta.fi/en/current-topics?tyyppi=article` — "Ajankohtaista | Kolmen kampuksen urheiluopisto" (in:1)
+  - `https://www.kolmekampusta.fi/en/current-topics?tyyppi=blog` — "Ajankohtaista | Kolmen kampuksen urheiluopisto" (in:1)
+  - `https://www.kolmekampusta.fi/en/current-topics?tyyppi=news` — "Ajankohtaista | Kolmen kampuksen urheiluopisto" (in:1)
+  - `https://www.kolmekampusta.fi/en/current-topics?tyyppi=student_story` — "Ajankohtaista | Kolmen kampuksen urheiluopisto" (in:1)
 
 ### → `https://www.kolmekampusta.fi/en/upcoming-events`
 - **Duplicates pointing here:** 3
-  - `https://www.kolmekampusta.fi/en/upcoming-events?type=85` — "Upcoming events | Kolmen kampuksen urheiluopisto" (in:1)
-  - `https://www.kolmekampusta.fi/en/upcoming-events?type=24` — "Upcoming events | Kolmen kampuksen urheiluopisto" (in:1)
-  - `https://www.kolmekampusta.fi/en/upcoming-events?type=23` — "Upcoming events | Kolmen kampuksen urheiluopisto" (in:1)
+  - `https://www.kolmekampusta.fi/en/upcoming-events?tyyppi=85` — "Tulevat tapahtumat | Kolmen kampuksen urheiluopisto" (in:1)
+  - `https://www.kolmekampusta.fi/en/upcoming-events?tyyppi=24` — "Tulevat tapahtumat | Kolmen kampuksen urheiluopisto" (in:1)
+  - `https://www.kolmekampusta.fi/en/upcoming-events?tyyppi=23` — "Tulevat tapahtumat | Kolmen kampuksen urheiluopisto" (in:1)
 
 ### → `https://www.kolmekampusta.fi/fi/taxonomy/term/60`
 - **Duplicates pointing here:** 1
@@ -176,10 +230,6 @@ Each duplicate URL is a different surface form of the same underlying content (t
 ### → `https://www.kolmekampusta.fi/fi/taxonomy/term/55`
 - **Duplicates pointing here:** 1
   - `https://www.kolmekampusta.fi/fi/taxonomy/term/55?page=1` — "Fiiliskurssit | Kolmen kampuksen urheiluopisto" (in:1)
-
-### → `https://www.kolmekampusta.fi/fi/taxonomy/term/56`
-- **Duplicates pointing here:** 1
-  - `https://www.kolmekampusta.fi/fi/taxonomy/term/56?page=1` — "Teemakurssit | Kolmen kampuksen urheiluopisto" (in:1)
 
 ### → `https://www.kolmekampusta.fi/fi/taxonomy/term/29`
 - **Duplicates pointing here:** 1
