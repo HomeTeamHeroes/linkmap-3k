@@ -10,6 +10,7 @@ on:
 permissions:
   contents: write   # commit results back to the repo
   issues: write     # create/update issues with broken-links report
+  pages: write      # request a Pages rebuild after committing fresh data
 
 jobs:
   scan:
@@ -106,6 +107,21 @@ jobs:
             git commit -m "Weekly scan ${{ steps.stats.outputs.date }} — ${{ steps.stats.outputs.pages }} pages, ${{ steps.stats.outputs.broken }} broken, ${{ steps.stats.outputs.uncertain }} uncertain"
             git push
           fi
+
+      # GitHub Pages does NOT auto-rebuild when the commit was pushed by the
+      # Actions bot token (GITHUB_TOKEN) — GitHub suppresses the trigger to avoid
+      # recursion. Without this step the bot's fresh data lands in the repo but
+      # Pages keeps serving a stale copy frozen at the last human push. So we
+      # request a build explicitly. The `|| echo` keeps the job green if Pages is
+      # in "GitHub Actions" source mode (where this endpoint doesn't apply).
+      - name: Trigger GitHub Pages rebuild
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh api --method POST -H "Accept: application/vnd.github+json" \
+            repos/${{ github.repository }}/pages/builds \
+            && echo "Requested Pages rebuild" \
+            || echo "Pages build request failed — check Settings → Pages source is 'Deploy from a branch'"
 
       # GitHub issue is opened ONLY for definite-broken links (404, 410, DNS
       # failures, connection refused). Uncertain external links (WAF/bot-blocked
