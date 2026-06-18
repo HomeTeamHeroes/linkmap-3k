@@ -1,11 +1,11 @@
 # Broken Links Report
 
 - **Site:** https://www.kolmekampusta.fi/fi
-- **Crawled:** 2026-06-18T10:54:21
+- **Crawled:** 2026-06-18T12:48:33
 - **Pages crawled:** 969
 - **External targets checked:** 298
 - **Total broken:** 7 (5 internal, 2 external)
-- **🛡️ Trusted-domain links treated as OK:** 2 (bot-blocked from CI, but on domains you marked trusted)
+- **🛡️ Trusted-domain links treated as OK:** 1 (bot-blocked from CI, but on domains you marked trusted)
 
 ## Internal broken pages
 

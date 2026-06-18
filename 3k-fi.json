@@ -1,7 +1,7 @@
 {
   "start_url": "https://www.kolmekampusta.fi/fi",
   "base_netloc": "www.kolmekampusta.fi",
-  "crawled_at": "2026-06-18T10:54:21",
+  "crawled_at": "2026-06-18T12:48:33",
   "pages": {
     "https://www.kolmekampusta.fi/fi": {
       "title": "Kolmen kampuksen urheiluopisto | Kolmen kampuksen urheiluopisto",
@@ -18422,12 +18422,12 @@
         "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
         "https://www.kolmekampusta.fi/fi/evastekaytanto"
       ],
-      "body_length": 106891,
+      "body_length": 107119,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/ylakoululeiritys-kisakallion-kampuksella",
       "is_canonical_duplicate": false,
-      "updated_time": "2026-06-09T15:02:58+03:00",
+      "updated_time": "2026-06-18T15:16:40+03:00",
       "og_type": "article"
     },
     "https://www.kolmekampusta.fi/fi/ylakoululeiritys-pajulahden-kampuksella": {
@@ -285501,8 +285501,8 @@
       "error": null
     },
     "https://www.leimausleiri.fi/": {
-      "status": null,
-      "error": "timeout"
+      "status": 200,
+      "error": null
     },
     "https://www.lentopallo.fi/maajoukkuetoiminta/ylakoululeiritys/": {
       "status": 200,
@@ -285867,7 +285867,7 @@
     "broken_internal": 5,
     "broken_external": 2,
     "external_uncertain_count": 0,
-    "external_trusted_ok_count": 2,
+    "external_trusted_ok_count": 1,
     "no_alias_count": 0,
     "canonical_duplicate_count": 0,
     "canonical_target_count": 0
