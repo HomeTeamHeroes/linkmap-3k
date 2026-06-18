@@ -7,10 +7,20 @@ on:
   workflow_dispatch:
     # Allows manual triggering from the Actions tab
 
+# Pages source is set to "GitHub Actions" (Settings -> Pages -> Source), so the
+# site is published by the deploy job below — NOT by pushing to a branch. A
+# plain git push does not update Pages in this mode; only actions/deploy-pages
+# does. That is why earlier scans committed fresh data but the site stayed stale.
 permissions:
-  contents: write   # commit results back to the repo
+  contents: write   # commit results back to the repo (history / raw JSON URL)
   issues: write     # create/update issues with broken-links report
-  pages: write      # request a Pages rebuild after committing fresh data
+  pages: write      # publish to GitHub Pages
+  id-token: write   # required by actions/deploy-pages (OIDC)
+
+# Only one Pages deployment at a time; don't cancel an in-progress scan.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   scan:
@@ -53,31 +63,13 @@ jobs:
             --trust-domain emmi.fi \
             --trust-domain leimausleiri.fi \
             --output 3k-fi
-        # CACHE-BUSTING is ON by default (no flag needed): every internal request
-        #     gets no-cache headers + a unique _cb query param so a CDN / reverse
-        #     proxy in front of Drupal can't serve a stale cached render. This is
-        #     why a link removed from a page days ago will no longer show up. If a
-        #     scan ever needs the raw cached behavior, add --no-cache-bust.
-        #     NB: if stale pages STILL appear, the cache layer is ignoring the
-        #     query string in its cache key — that needs a server-side fix (purge
-        #     on publish, or include query string in the CDN cache key).
-        #
-        # --no-canonical-report  : keeps the dedup CRAWL behavior (so the crawl
-        #     stays bounded and filter-URL permutations are NOT followed), but
-        #     omits the canonical-duplicates section + stats from the report.
-        #     To turn the feature fully off (follow duplicate URLs too), swap this
-        #     for --no-canonical-dedup — but note that can eat the page budget.
-        #
-        # --external-verify-*    : failed external links are re-checked with GET
-        #     and a 25s timeout + 2 retries. This clears genuine slow-site false
-        #     positives. Sites that hard-block datacenter IPs (instant 403/415)
-        #     fail fast and don't waste the budget.
-        #
-        # --trust-domain         : these partner domains hard-block GitHub Actions
-        #     IPs (Cloudflare / WAF) and can't be verified from CI, but are known
-        #     good. Their bot-block failures (403/415/timeout) are treated as OK.
-        #     A genuine 404/DNS failure on these domains is STILL reported.
-        #     Add/remove domains here as your outbound links change.
+        # CACHE-BUSTING is ON by default: every internal request gets no-cache
+        #   headers + a unique _cb query param so a CDN/proxy in front of Drupal
+        #   can't serve a stale cached render. Add --no-cache-bust to disable.
+        # --no-canonical-report keeps the dedup crawl behavior but omits the
+        #   canonical-duplicates section. --external-verify-* re-checks failed
+        #   external links with a generous timeout. --trust-domain treats known
+        #   WAF-blocked partner domains as OK (a real 404 there is still reported).
 
       - name: Read scan stats
         id: stats
@@ -96,7 +88,11 @@ jobs:
           echo "date=$DATE" >> $GITHUB_OUTPUT
           echo "Scan: $PAGES pages, $BROKEN broken (definite), $UNCERTAIN uncertain, $TRUSTED trusted-OK, $NO_ALIAS no-alias"
 
-      - name: Commit results
+      # Commit results back to the repo for git history + the raw 3k-fi.json URL.
+      # This is now OPTIONAL (Pages is fed by the artifact below, not the branch),
+      # so it's best-effort: a push hiccup must not block the Pages deploy.
+      - name: Commit results (history)
+        continue-on-error: true
         run: |
           git config user.email "actions@github.com"
           git config user.name "linkmap-bot"
@@ -108,70 +104,78 @@ jobs:
             git push
           fi
 
-      # GitHub Pages does NOT auto-rebuild when the commit was pushed by the
-      # Actions bot token (GITHUB_TOKEN) — GitHub suppresses the trigger to avoid
-      # recursion. Without this step the bot's fresh data lands in the repo but
-      # Pages keeps serving a stale copy frozen at the last human push. So we
-      # request a build explicitly. The `|| echo` keeps the job green if Pages is
-      # in "GitHub Actions" source mode (where this endpoint doesn't apply).
-      - name: Trigger GitHub Pages rebuild
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # ---- Publish to GitHub Pages (the part that was missing) ----
+      - name: Prepare Pages site directory
         run: |
-          gh api --method POST -H "Accept: application/vnd.github+json" \
-            repos/${{ github.repository }}/pages/builds \
-            && echo "Requested Pages rebuild" \
-            || echo "Pages build request failed — check Settings → Pages source is 'Deploy from a branch'"
+          mkdir -p _site
+          # Landing/dispatcher page (committed in the repo). Soft-guarded.
+          cp index.html _site/ 2>/dev/null || echo "WARN: no index.html dispatcher found"
+          # Fresh scan outputs (must exist — the scan step produced them).
+          cp 3k-fi.json 3k-fi.html 3k-fi-broken.md _site/
+          echo "Files staged for Pages:"
+          ls -la _site/
 
-      # GitHub issue is opened ONLY for definite-broken links (404, 410, DNS
-      # failures, connection refused). Uncertain external links (WAF/bot-blocked
-      # 403/415/timeout) and trusted-domain links do NOT count toward the broken
-      # total and never trigger this step. Uncertain links still appear in the
-      # markdown report's "❓ External links — could not be verified" section.
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      # GitHub issue opens ONLY for definite-broken links (404/410/DNS/refused).
+      # Uncertain (WAF/bot-blocked) and trusted-domain links never trigger it.
+      # Best-effort so a gh hiccup can't fail the job and block the deploy.
       - name: Open or update issue if broken links found
         if: steps.stats.outputs.broken != '0'
+        continue-on-error: true
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          REPO: ${{ github.repository }}
           OWNER: ${{ github.repository_owner }}
           REPO_NAME: ${{ github.event.repository.name }}
         run: |
           gh label create broken-links --color FF0000 --description "Auto-created by linkmap workflow" 2>/dev/null || true
           REPORT=3k-fi-broken.md
-
           BODY_FILE=$(mktemp)
           if [ "$(wc -c < "$REPORT")" -gt 60000 ]; then
             head -c 60000 "$REPORT" > "$BODY_FILE"
-            echo "" >> "$BODY_FILE"
-            echo "..." >> "$BODY_FILE"
+            echo "" >> "$BODY_FILE"; echo "..." >> "$BODY_FILE"
             echo "*(truncated; see [$REPORT](../tree/main/$REPORT) for full report)*" >> "$BODY_FILE"
           else
             cp "$REPORT" "$BODY_FILE"
           fi
-
-          echo "" >> "$BODY_FILE"
-          echo "---" >> "$BODY_FILE"
-          echo "" >> "$BODY_FILE"
+          echo "" >> "$BODY_FILE"; echo "---" >> "$BODY_FILE"; echo "" >> "$BODY_FILE"
           echo "🌐 [Interactive map](https://${OWNER}.github.io/${REPO_NAME}/3k-fi.html) · " >> "$BODY_FILE"
           echo "📄 [Full report](../tree/main/$REPORT) · " >> "$BODY_FILE"
           echo "🔄 [Run scan now](../actions/workflows/scan.yml)" >> "$BODY_FILE"
-
           EXISTING=$(gh issue list --label broken-links --state open --json number --jq '.[0].number' 2>/dev/null || echo "")
           TITLE="🔴 ${{ steps.stats.outputs.broken }} broken link(s) — ${{ steps.stats.outputs.date }}"
-
           if [ -n "$EXISTING" ]; then
             gh issue edit "$EXISTING" --body-file "$BODY_FILE" --title "$TITLE"
-            echo "Updated existing issue #$EXISTING"
           else
             gh issue create --title "$TITLE" --body-file "$BODY_FILE" --label broken-links
-            echo "Created new issue"
           fi
 
       - name: Close issue if no broken links
         if: steps.stats.outputs.broken == '0'
+        continue-on-error: true
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           for num in $(gh issue list --label broken-links --state open --json number --jq '.[].number' 2>/dev/null); do
             gh issue close "$num" --comment "✅ Latest scan ${{ steps.stats.outputs.date }} found 0 definite broken links. Auto-closing this issue."
           done
+
+  # Separate deploy job: publishes the artifact uploaded above to GitHub Pages.
+  # Required when Pages source = "GitHub Actions". Runs only if the scan job
+  # succeeded (the artifact exists).
+  deploy:
+    needs: scan
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
