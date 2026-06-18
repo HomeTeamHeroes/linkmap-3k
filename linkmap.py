@@ -566,11 +566,12 @@ def normalize_url(url):
 
     Canonicalization steps:
     1. Drop fragment (#section)
-    2. Strip no-op filter values that mean "no filter applied":
+    2. Strip the internal cache-bust param (_cb) so it never enters the link graph
+    3. Strip no-op filter values that mean "no filter applied":
        - value == "All" (Drupal Views convention)
        - value == "" (empty)
        - key=="page" and value=="0" (first page = no page param)
-    3. Sort remaining parameters alphabetically
+    4. Sort remaining parameters alphabetically
 
     This makes URLs like '?a=1&b=2' and '?b=2&a=1' equivalent — important for
     Drupal Views filter pages where the same logical page can be reached via
@@ -581,10 +582,10 @@ def normalize_url(url):
         parsed = urlparse(url)
         if parsed.query:
             params = parse_qsl(parsed.query, keep_blank_values=True)
-            # Strip no-op filter values
+            # Strip cache-bust param and no-op filter values
             params = [
                 (k, v) for k, v in params
-                if v != "All" and v != "" and not (k == "page" and v == "0")
+                if k != "_cb" and v != "All" and v != "" and not (k == "page" and v == "0")
             ]
             params.sort()
             query = urlencode(params)
@@ -605,6 +606,32 @@ def normalize_url(url):
 def normalize_netloc(netloc):
     """Strip optional 'www.' prefix so e.g. www.example.com == example.com."""
     return netloc[4:] if netloc.startswith("www.") else netloc
+
+
+def _add_cache_bust(url, token):
+    """Append a cache-bust query param (_cb=token) to force a fresh fetch.
+
+    Used ONLY at request time — the clean URL (without _cb) remains the key in
+    the link graph because normalize_url() strips _cb. A unique token per scan
+    gives every URL a distinct cache key at any CDN/reverse-proxy in front of
+    the origin, so a stale cached render can't be served. The origin (Drupal),
+    whose own cache invalidates correctly on content edits, then renders fresh.
+
+    Note: defeats caches that include the query string in their cache key (the
+    common default). A cache explicitly configured to *ignore* query strings
+    would still serve stale content — that requires a server-side fix.
+    """
+    if not token:
+        return url
+    try:
+        parsed = urlparse(url)
+        params = [(k, v) for k, v in parse_qsl(parsed.query, keep_blank_values=True)
+                  if k != "_cb"]
+        params.append(("_cb", token))
+        return urlunparse((parsed.scheme, parsed.netloc, parsed.path,
+                           parsed.params, urlencode(params), parsed.fragment))
+    except Exception:
+        return url
 
 
 def is_internal(url, base_netloc):
@@ -916,6 +943,92 @@ def fetch_with_hard_timeout(session, url, total_timeout=30, connect_timeout=5,
     return result["response"]
 
 
+def verify_external_url(session, url, timeout=25, retries=2):
+    """Re-check a previously-failed external URL with GET and a generous timeout.
+
+    Used in the verification pass (Phase 2.5) to clear false positives from
+    slow sites. Goes straight to GET (skips HEAD) because many WAF-protected
+    or WordPress sites reject HEAD but serve GET fine. Retries on timeout with
+    linear backoff, giving genuinely-slow origins multiple generous attempts.
+
+    Time bound per URL: (timeout + 5) × (retries + 1). With defaults that's
+    30s × 3 = 90s worst case — but only timeout failures consume the full
+    budget; instant rejections (403/415 from Cloudflare) return in well under
+    a second even across retries.
+
+    Returns (status, error) — same shape as head_check.
+    """
+    attempt = 0
+    while True:
+        try:
+            r = fetch_with_hard_timeout(
+                session, url,
+                total_timeout=timeout + 5,
+                connect_timeout=min(timeout, 10),
+                read_timeout=timeout,
+                method="GET",
+                allow_redirects=True,
+                stream=True,  # don't download the body, just read the status
+            )
+            try:
+                r.close()
+            except Exception:
+                pass
+            # Drupal auth-redirect pattern → treat as 403
+            if r.history:
+                fl = r.url.lower()
+                if "/user/login" in fl or "destination=" in fl:
+                    return 403, "auth redirect to login"
+            return r.status_code, (None if r.status_code < 400 else f"HTTP {r.status_code}")
+        except requests.exceptions.Timeout:
+            if attempt < retries:
+                attempt += 1
+                time.sleep(1.5 * attempt)  # linear backoff between retries
+                continue
+            return None, "timeout"
+        except requests.exceptions.SSLError as e:
+            msg = str(e).lower()
+            return None, "SSL certificate error" if "certificate" in msg else "SSL error"
+        except requests.exceptions.ConnectionError as e:
+            msg = str(e).lower()
+            if any(s in msg for s in ("name or service not known", "name resolution",
+                                       "getaddrinfo failed")):
+                return None, "DNS resolution failed"
+            if "connection refused" in msg:
+                return None, "connection refused"
+            if "connection reset" in msg:
+                return None, "connection reset"
+            return None, "connection failed"
+        except requests.exceptions.TooManyRedirects:
+            return None, "too many redirects"
+        except Exception as e:
+            return None, str(e)[:100]
+
+
+def _host_matches_trusted(url, trusted_domains):
+    """True if url's host equals or is a subdomain of any trusted domain.
+
+    'keyframe.fi' matches '3d.keyframe.fi' and 'keyframe.fi'. www. is ignored.
+    Used to suppress uncertain (bot-block) failures for domains the operator
+    knows are fine but which hard-block datacenter IPs.
+    """
+    if not trusted_domains:
+        return False
+    try:
+        host = (urlparse(url).hostname or "").lower()  # .hostname drops port & lowercases
+    except Exception:
+        return False
+    if host.startswith("www."):
+        host = host[4:]
+    for d in trusted_domains:
+        d = d.lower().strip().lstrip(".")
+        if not d:
+            continue
+        if host == d or host.endswith("." + d):
+            return True
+    return False
+
+
 def _is_uncertain_external_failure(status, error):
     """Classify an external-link failure as 'uncertain' (likely bot detection or
     transient issue) vs. definite broken.
@@ -1045,10 +1158,18 @@ def head_check(session, url, timeout=8):
 def crawl(start_url, max_pages=100, delay=0.5, follow_external=False,
           timeout=10, skip_patterns=None, check_external=True,
           external_delay=0.1, check_soft_404=True, soft_404_patterns=None,
-          soft_404_threshold=3, dedup_canonical=True):
+          soft_404_threshold=3, dedup_canonical=True, report_canonical=True,
+          external_verify_timeout=25, external_verify_retries=2,
+          external_verify_max=80, trusted_domains=None, cache_bust=True):
     start_url = normalize_url(start_url)
     base_netloc = urlparse(start_url).netloc
     skip_patterns = skip_patterns or []
+    trusted_domains = trusted_domains or []
+
+    # Unique per-scan cache-bust token. Appended to internal request URLs (not
+    # the graph keys) so a CDN/reverse-proxy in front of the origin can't serve
+    # a stale cached render. Fresh token each run → guaranteed cache miss.
+    cache_bust_token = str(int(time.time())) if cache_bust else None
 
     visited = set()
     queued = {start_url}
@@ -1061,17 +1182,28 @@ def crawl(start_url, max_pages=100, delay=0.5, follow_external=False,
         # Browser-like UA to avoid being blocked by overly strict WAFs.
         # Tag identifies the bot for site-admin debugging (legitimate purpose).
         "User-Agent": (
-            "Mozilla/5.0 (compatible; linkmap.py/1.2; "
+            "Mozilla/5.0 (compatible; linkmap.py/1.3; "
             "+https://github.com/HomeTeamHeroes/linkmap-3k) "
             "AppleWebKit/537.36 (KHTML, like Gecko)"
         ),
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
         "Accept-Language": "fi,en;q=0.7",
+        # Ask any intermediary cache + the origin to revalidate rather than serve
+        # a stored copy. Honored by Varnish/Drupal page cache and some CDNs; the
+        # _cb query param (see _add_cache_bust) is the fallback for caches that
+        # ignore request Cache-Control (e.g. Cloudflare "Cache Everything").
+        "Cache-Control": "no-cache, max-age=0",
+        "Pragma": "no-cache",
     })
 
     print(f"Crawling: {start_url}", file=sys.stderr)
     print(f"Domain:   {base_netloc}", file=sys.stderr)
     print(f"Limit:    {max_pages} pages, {delay}s delay between requests", file=sys.stderr)
+    if cache_bust_token:
+        print(f"Cache:    bypass ON (no-cache headers + _cb={cache_bust_token})",
+              file=sys.stderr)
+    else:
+        print(f"Cache:    bypass OFF (may receive cached/stale pages)", file=sys.stderr)
     if skip_patterns:
         print(f"Skip:     {len(skip_patterns)} pattern(s)", file=sys.stderr)
     print(file=sys.stderr)
@@ -1102,7 +1234,10 @@ def crawl(start_url, max_pages=100, delay=0.5, follow_external=False,
         # saves bandwidth vs downloading the full binary
         if file_url:
             print(f"  [file] {url[:90]}", file=sys.stderr)
-            status, err = head_check(session, url, timeout=timeout)
+            # Cache-bust internal file URLs too (same stale-cache risk applies).
+            check_url = _add_cache_bust(url, cache_bust_token) \
+                if is_internal(url, base_netloc) else url
+            status, err = head_check(session, check_url, timeout=timeout)
             pages[url] = {
                 "title": None,
                 "status": status,
@@ -1133,14 +1268,14 @@ def crawl(start_url, max_pages=100, delay=0.5, follow_external=False,
 
         try:
             r = fetch_with_hard_timeout(
-                session, url,
+                session, _add_cache_bust(url, cache_bust_token),
                 total_timeout=max(timeout * 3, 30),  # 3x the per-op timeout, min 30s
                 connect_timeout=min(timeout, 5),
                 read_timeout=timeout,
                 method="GET",
                 allow_redirects=True,
             )
-            final = normalize_url(r.url)
+            final = normalize_url(r.url)  # normalize_url strips _cb back out
         except Exception as e:
             pages[url] = {"title": None, "status": None, "error": str(e)[:140], "outbound": []}
             continue
@@ -1279,7 +1414,64 @@ def crawl(start_url, max_pages=100, delay=0.5, follow_external=False,
                 if external_delay > 0:
                     time.sleep(external_delay)
 
-    # ---- Phase 3: Compile broken-link list ----
+    # ---- Phase 2.5: Verification retry for FAILED external links ----
+    # The first pass above uses the normal (short) timeout for speed. Some
+    # legitimate external sites are simply slow (heavy WAF, slow origin, rate
+    # limiting) and get a false "timeout" or transient error on the fast pass.
+    #
+    # Here we re-check ONLY the failures, with a generous timeout, a GET request
+    # (not HEAD — many sites reject HEAD), and a couple of retries with backoff.
+    # Anything that now responds < 400 is cleared and won't be reported.
+    #
+    # IMPORTANT: sites behind Cloudflare / bot-detection that hard-block
+    # datacenter IPs (like GitHub Actions runners) return 403/415 *instantly* —
+    # no amount of extra time changes an immediate rejection. Those will remain
+    # failing here and get classified as "uncertain" (not broken) in Phase 3.
+    if check_external and external_status:
+        # Count inbound links per external target so we can verify the
+        # most-linked URLs first (they matter most if the budget is capped).
+        inbound_count = {}
+        for e in edges:
+            t = e["target"]
+            if t in external_status:
+                inbound_count[t] = inbound_count.get(t, 0) + 1
+
+        failed = [
+            url for url, info in external_status.items()
+            if (info["status"] and info["status"] >= 400) or info["error"]
+        ]
+        failed.sort(key=lambda u: -inbound_count.get(u, 0))
+        to_recheck = failed[:external_verify_max]
+
+        if to_recheck:
+            print(f"\nVerification pass: re-checking {len(to_recheck)} failed external "
+                  f"link(s) with {external_verify_timeout}s timeout + "
+                  f"{external_verify_retries} retries…", file=sys.stderr)
+            cleared = 0
+            for i, url in enumerate(to_recheck, 1):
+                old = external_status[url]
+                status, err = verify_external_url(
+                    session, url,
+                    timeout=external_verify_timeout,
+                    retries=external_verify_retries,
+                )
+                external_status[url] = {"status": status, "error": err}
+                old_failed = (old["status"] and old["status"] >= 400) or old["error"]
+                now_ok = not ((status and status >= 400) or err)
+                if now_ok and old_failed:
+                    cleared += 1
+                    print(f"  ✓ [{i:>3}/{len(to_recheck)}] now OK: {url[:80]}",
+                          file=sys.stderr)
+                else:
+                    reason = f"HTTP {status}" if status else (err or "?")
+                    print(f"  ✗ [{i:>3}/{len(to_recheck)}] still failing ({reason}): "
+                          f"{url[:70]}", file=sys.stderr)
+                if external_delay > 0:
+                    time.sleep(external_delay)
+            still_failing = len(to_recheck) - cleared
+            print(f"  → Verification cleared {cleared} false positive(s); "
+                  f"{still_failing} still failing (likely real or hard-blocked)",
+                  file=sys.stderr)
     by_target = {}
     for e in edges:
         by_target.setdefault(e["target"], []).append(e)
@@ -1311,9 +1503,21 @@ def crawl(start_url, max_pages=100, delay=0.5, follow_external=False,
     # Actions IPs as bots, even with browser-like User-Agents. These URLs are
     # typically fine when visited from a real browser.
     external_uncertain = []
+    external_trusted_ok = 0  # uncertain failures on trusted domains, treated as OK
     for url, info in external_status.items():
         is_failure = (info["status"] and info["status"] >= 400) or info["error"]
         if not is_failure:
+            continue
+
+        uncertain = _is_uncertain_external_failure(info["status"], info["error"])
+
+        # Trusted-domain suppression: if this is an *uncertain* failure (403/415/
+        # 429/5xx/timeout — the bot-block signatures) on a domain the operator
+        # marked trusted, drop it from the report entirely. Definite failures
+        # (404/410/DNS/refused) on trusted domains are STILL reported, because
+        # those mean the specific URL is genuinely gone, not just bot-blocked.
+        if uncertain and _host_matches_trusted(url, trusted_domains):
+            external_trusted_ok += 1
             continue
 
         entry = {
@@ -1332,10 +1536,15 @@ def crawl(start_url, max_pages=100, delay=0.5, follow_external=False,
                 for e in by_target.get(url, [])
             ],
         }
-        if _is_uncertain_external_failure(info["status"], info["error"]):
+        if uncertain:
             external_uncertain.append(entry)
         else:
             broken.append(entry)
+
+    if external_trusted_ok:
+        print(f"\nTrusted-domain suppression: {external_trusted_ok} bot-blocked "
+              f"link(s) on trusted domains treated as OK (not reported)",
+              file=sys.stderr)
 
     # Build no-alias list (Drupal pages without URL alias — quality issue, not broken)
     no_alias_pages = []
@@ -1379,6 +1588,15 @@ def crawl(start_url, max_pages=100, delay=0.5, follow_external=False,
     canonical_duplicates.sort(key=lambda x: -x["duplicate_count"])
     canonical_duplicate_total = sum(d["duplicate_count"] for d in canonical_duplicates)
 
+    # When report_canonical is False, the dedup *behavior* still ran (so the
+    # crawl stayed bounded and didn't follow duplicate filter-URL trees), but we
+    # suppress the canonical-duplicates section + stats from the output entirely.
+    # This gives a clean broken-links-focused report without reintroducing the
+    # filter-URL explosion that dedup prevents.
+    if not report_canonical:
+        canonical_duplicates = []
+        canonical_duplicate_total = 0
+
     return {
         "start_url": start_url,
         "base_netloc": base_netloc,
@@ -1399,6 +1617,7 @@ def crawl(start_url, max_pages=100, delay=0.5, follow_external=False,
             "broken_internal": sum(1 for b in broken if b["kind"] == "internal"),
             "broken_external": sum(1 for b in broken if b["kind"] == "external"),
             "external_uncertain_count": len(external_uncertain),
+            "external_trusted_ok_count": external_trusted_ok,
             "no_alias_count": len(no_alias_pages),
             "canonical_duplicate_count": canonical_duplicate_total,
             "canonical_target_count": len(canonical_duplicates),
@@ -1447,6 +1666,9 @@ def write_broken_report(data, path):
     if external_uncertain:
         lines.append(f"- **❓ External links could not be verified:** {len(external_uncertain)} "
                      f"(likely bot-detection / WAF — manual verification recommended)")
+    if s.get("external_trusted_ok_count"):
+        lines.append(f"- **🛡️ Trusted-domain links treated as OK:** {s['external_trusted_ok_count']} "
+                     f"(bot-blocked from CI, but on domains you marked trusted)")
     if no_alias:
         lines.append(f"- **⚠️ Pages without URL alias:** {len(no_alias)} "
                      f"(Drupal /node/N served directly, no Pathauto alias)")
@@ -1641,6 +1863,12 @@ def main():
                    help="Skip HEAD-checking external link targets (default: check)")
     p.add_argument("--external-delay", type=float, default=0.1,
                    help="Seconds between external HEAD checks (default 0.1)")
+    p.add_argument("--no-cache-bust", dest="cache_bust", action="store_false",
+                   help="Disable cache-busting (default: enabled). By default every "
+                        "internal request gets no-cache headers + a unique _cb query "
+                        "param so a CDN/reverse-proxy in front of the origin can't serve "
+                        "stale cached pages. Disable only if cache-busting causes issues "
+                        "(e.g. the origin rejects unknown query params).")
     p.add_argument("--skip-pattern", action="append", default=[],
                    help="Regex pattern of URLs to skip (can be repeated). "
                         "Useful for Drupal admin paths, etc.")
@@ -1654,15 +1882,39 @@ def main():
                    help="Score threshold for flagging soft-404 (default 3). "
                         "Lower = more sensitive, higher = stricter")
     p.add_argument("--no-canonical-dedup", dest="dedup_canonical", action="store_false",
-                   help="Disable canonical-tag duplicate detection (default: enabled). "
+                   help="Disable canonical-tag duplicate detection ENTIRELY (default: enabled). "
                         "When enabled, pages whose <link rel='canonical'> points elsewhere "
                         "are recorded but their outbound links are NOT followed, preventing "
                         "duplicate URL trees (e.g. Drupal Views filter permutations) from "
-                        "exploding the crawl.")
+                        "exploding the crawl. Turning this off makes the crawler FOLLOW those "
+                        "duplicate URLs — use with care, it can eat your --max-pages budget.")
+    p.add_argument("--no-canonical-report", dest="report_canonical", action="store_false",
+                   help="Keep the canonical dedup CRAWL behavior (so the crawl stays bounded) "
+                        "but omit the canonical-duplicates section and stats from the output. "
+                        "Use this when you want a clean broken-links-only report without "
+                        "reintroducing the filter-URL explosion.")
+    p.add_argument("--external-verify-timeout", type=int, default=25,
+                   help="Timeout (seconds) for the external-link verification retry pass "
+                        "(default 25). Failed external links are re-checked with GET and this "
+                        "generous timeout to clear false positives from slow sites.")
+    p.add_argument("--external-verify-retries", type=int, default=2,
+                   help="Retries (with backoff) per URL in the verification pass (default 2). "
+                        "Set to 0 to disable retries (single generous attempt).")
+    p.add_argument("--external-verify-max", type=int, default=80,
+                   help="Max number of failed external links to put through the verification "
+                        "retry pass (default 80), prioritized by inbound link count. Bounds "
+                        "the time the verification pass can take.")
+    p.add_argument("--trust-domain", action="append", default=[], dest="trusted_domains",
+                   help="Domain to treat as trusted (can be repeated). External links on "
+                        "trusted domains that fail with bot-block signatures (403/415/429/"
+                        "5xx/timeout) are treated as OK and NOT reported — useful for partner "
+                        "sites behind Cloudflare that hard-block datacenter IPs. Definite "
+                        "failures (404/410/DNS) on trusted domains are still reported. "
+                        "Matches subdomains: 'keyframe.fi' covers '3d.keyframe.fi'.")
     p.add_argument("--output", default="linkmap",
                    help="Output filename prefix (default 'linkmap')")
     p.add_argument("--timeout", type=int, default=10,
-                   help="Request timeout (default 10s)")
+                   help="Request timeout for the fast first pass (default 10s)")
     args = p.parse_args()
 
     try:
@@ -1684,6 +1936,12 @@ def main():
         soft_404_patterns=args.soft_404_pattern,
         soft_404_threshold=args.soft_404_threshold,
         dedup_canonical=args.dedup_canonical,
+        report_canonical=args.report_canonical,
+        external_verify_timeout=args.external_verify_timeout,
+        external_verify_retries=args.external_verify_retries,
+        external_verify_max=args.external_verify_max,
+        trusted_domains=args.trusted_domains,
+        cache_bust=args.cache_bust,
     )
 
     write_json(result, f"{args.output}.json")
