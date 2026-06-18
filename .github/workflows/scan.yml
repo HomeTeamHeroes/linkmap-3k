@@ -30,6 +30,8 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # full history so the commit step can rebase before pushing
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -101,7 +103,18 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "Weekly scan ${{ steps.stats.outputs.date }} — ${{ steps.stats.outputs.pages }} pages, ${{ steps.stats.outputs.broken }} broken, ${{ steps.stats.outputs.uncertain }} uncertain"
-            git push
+            # The scan takes ~15 min, during which remote main may have moved
+            # (e.g. a manual edit to scan.yml). Rebase onto the latest main and
+            # retry so a non-fast-forward rejection doesn't fail the run.
+            pushed=false
+            for attempt in 1 2 3; do
+              if git push; then pushed=true; break; fi
+              echo "Push rejected (attempt $attempt) — rebasing onto latest main and retrying…"
+              git pull --rebase origin main || { git rebase --abort 2>/dev/null || true; }
+            done
+            if [ "$pushed" != "true" ]; then
+              echo "Could not push results after 3 attempts. History not updated — Pages still deploys below."
+            fi
           fi
 
       # ---- Publish to GitHub Pages (the part that was missing) ----
