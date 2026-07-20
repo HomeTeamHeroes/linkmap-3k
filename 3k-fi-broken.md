@@ -1,21 +1,15 @@
 # Broken Links Report
 
 - **Site:** https://www.kolmekampusta.fi/fi
-- **Crawled:** 2026-07-16T13:14:38
-- **Pages crawled:** 979
-- **External targets checked:** 324
-- **Total broken:** 7 (3 internal, 4 external)
+- **Crawled:** 2026-07-20T09:02:51
+- **Pages crawled:** 976
+- **External targets checked:** 325
+- **Total broken:** 6 (2 internal, 4 external)
 - **❓ External links could not be verified:** 1 (likely bot-detection / WAF — manual verification recommended)
 - **🛡️ Trusted-domain links treated as OK:** 1 (bot-blocked from CI, but on domains you marked trusted)
 - **⚠️ Pages without URL alias:** 1 (Drupal /node/N served directly, no Pathauto alias)
 
 ## Internal broken pages
-
-### `https://www.kolmekampusta.fi/fi/tapahtumat/4stars-basketball-camp-2026-kisakalliossa`
-- **Reason:** HTTP 403
-- **Linked from 2 page(s):**
-  - `https://www.kolmekampusta.fi/fi/urheilu/leirit/esikuvaleirit` — "4Stars Basketball Camp 9.-12.7." *[updated 2026-07-07]*
-  - `https://www.kolmekampusta.fi/fi/artikkelit/tule-ammentamaan-korisoppeja-susijengin-staroilta` — "ilmoittaudu mukaan tästä!" *[updated 2026-04-21]*
 
 ### `https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa`
 - **Reason:** HTTP 403
