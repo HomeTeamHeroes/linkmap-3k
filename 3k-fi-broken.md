@@ -1,25 +1,47 @@
 # Broken Links Report
 
 - **Site:** https://www.kolmekampusta.fi/fi
-- **Crawled:** 2026-07-20T09:02:51
-- **Pages crawled:** 976
-- **External targets checked:** 325
-- **Total broken:** 6 (2 internal, 4 external)
+- **Crawled:** 2026-07-25T11:58:34
+- **Pages crawled:** 982
+- **External targets checked:** 351
+- **Total broken:** 10 (6 internal, 4 external)
 - **❓ External links could not be verified:** 1 (likely bot-detection / WAF — manual verification recommended)
 - **🛡️ Trusted-domain links treated as OK:** 1 (bot-blocked from CI, but on domains you marked trusted)
 - **⚠️ Pages without URL alias:** 1 (Drupal /node/N served directly, no Pathauto alias)
 
 ## Internal broken pages
 
+### `https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-vesipaiva-257`
+- **Reason:** HTTP 403
+- **Linked from 3 page(s):**
+  - `https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kesan-tarjonta-kolmella-kampuksella` — "La 25.7. klo 13-15 Vesipäivä" *[updated 2026-07-17]*
+  - `https://www.kolmekampusta.fi/fi/tilat/rantamakasiini` — "La 25.7. klo 13-15 Vesipäivä" *[updated 2026-07-13]*
+  - `https://www.kolmekampusta.fi/fi/tapahtumat/rantamakasiinin-kesa` — "La 25.7. klo 13-15 Vesipäivä" *[updated 2026-07-13, ⏰ expires Sunday, 09-Aug-26 23:00:00 EEST]*
+
+### `https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-kisakalliossa`
+- **Reason:** HTTP 403
+- **Linked from 1 page(s):**
+  - `https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kesan-tarjonta-kolmella-kampuksella` — "KesäFiilis Kisakalliossa 20.-24.7." *[updated 2026-07-17]*
+
 ### `https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa`
 - **Reason:** HTTP 403
 - **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/aikuiset-60-fiiliskurssit` — "KesäFiilis 29.6.-3.7. Pajulahti" *[updated 2026-06-29]*
+  - `https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/aikuiset-60-fiiliskurssit` — "KuntoFiilis 3.-7.8. Pajulahti" *[updated 2026-07-22]*
 
 ### `https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276`
 - **Reason:** HTTP 403
 - **Linked from 1 page(s):**
   - `https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88` — "27.6.2026" *[updated 2026-06-19, ⏰ expires Saturday, 08-Aug-26 14:00:00 EEST]*
+
+### `https://www.kolmekampusta.fi/fi/tapahtumat/tenniskurssi-4-vrk-pajulahdessa-0`
+- **Reason:** HTTP 403
+- **Linked from 1 page(s):**
+  - `https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kesan-tarjonta-kolmella-kampuksella` — "Tenniskurssi Pajulahdessa 20.-24.7." *[updated 2026-07-17]*
+
+### `https://www.kolmekampusta.fi/sites/default/files/2026-07/kesa-26-31.7.2026.pdf`
+- **Reason:** HTTP 404
+- **Linked from 1 page(s):**
+  - `https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-vkot-28-31-57-317` — "Alustava ohjelma" *[updated 2026-07-22, ⏰ expires Friday, 07-Aug-26 00:00:00 EEST]*
 
 ## External broken links
 
