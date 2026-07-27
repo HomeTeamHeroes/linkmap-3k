@@ -1,10 +1,10 @@
 # Broken Links Report
 
 - **Site:** https://www.kolmekampusta.fi/fi
-- **Crawled:** 2026-07-25T11:58:34
-- **Pages crawled:** 982
-- **External targets checked:** 351
-- **Total broken:** 10 (6 internal, 4 external)
+- **Crawled:** 2026-07-27T09:54:28
+- **Pages crawled:** 981
+- **External targets checked:** 357
+- **Total broken:** 9 (5 internal, 4 external)
 - **❓ External links could not be verified:** 1 (likely bot-detection / WAF — manual verification recommended)
 - **🛡️ Trusted-domain links treated as OK:** 1 (bot-blocked from CI, but on domains you marked trusted)
 - **⚠️ Pages without URL alias:** 1 (Drupal /node/N served directly, no Pathauto alias)
@@ -27,11 +27,6 @@
 - **Reason:** HTTP 403
 - **Linked from 1 page(s):**
   - `https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/aikuiset-60-fiiliskurssit` — "KuntoFiilis 3.-7.8. Pajulahti" *[updated 2026-07-22]*
-
-### `https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276`
-- **Reason:** HTTP 403
-- **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88` — "27.6.2026" *[updated 2026-06-19, ⏰ expires Saturday, 08-Aug-26 14:00:00 EEST]*
 
 ### `https://www.kolmekampusta.fi/fi/tapahtumat/tenniskurssi-4-vrk-pajulahdessa-0`
 - **Reason:** HTTP 403

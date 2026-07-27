@@ -1,7 +1,7 @@
 {
   "start_url": "https://www.kolmekampusta.fi/fi",
   "base_netloc": "www.kolmekampusta.fi",
-  "crawled_at": "2026-07-25T11:58:34",
+  "crawled_at": "2026-07-27T09:54:28",
   "pages": {
     "https://www.kolmekampusta.fi/fi": {
       "title": "Kolmen kampuksen urheiluopisto | Kolmen kampuksen urheiluopisto",
@@ -3965,7 +3965,6 @@
         "https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-vkot-28-31-57-317",
         "https://www.kolmekampusta.fi/fi/tapahtumat/syksy-pajulahdessa-viikko-42",
         "https://www.kolmekampusta.fi/fi/tapahtumat/syksy-kisakalliossa-viikko-42",
-        "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
         "https://www.kolmekampusta.fi/fi/tapahtumat/kuntofiilis-pajulahdessa-0",
         "https://www.kolmekampusta.fi/fi/tapahtumat/luonnon-aarelle-kisakalliossa",
         "https://www.kolmekampusta.fi/fi/tapahtumat/aquafiilis-pajulahdessa-3",
@@ -3977,6 +3976,7 @@
         "https://www.kolmekampusta.fi/fi/tapahtumat/syysfiilis-pajulahdessa-2",
         "https://www.kolmekampusta.fi/fi/tapahtumat/hyvan-olon-viikonloppu-pajulahdessa-3010-1112026",
         "https://www.kolmekampusta.fi/fi/tapahtumat/pilates-ja-barreviikonloppu-kisakallio",
+        "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
         "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/perhepaketit",
         "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/villaloma-kisakalliossa",
         "https://www.kolmekampusta.fi/fi/vapaa-aika/liikunnalliset-vapaa-ajan-kurssit",
@@ -4009,7 +4009,7 @@
         "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
         "https://www.kolmekampusta.fi/fi/evastekaytanto"
       ],
-      "body_length": 156279,
+      "body_length": 156263,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/vapaa-aika",
@@ -4511,7 +4511,6 @@
         "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa",
         "https://www.kolmekampusta.fi/fi/tapahtumat/kaj-kunnaksen-kuntofiilis-50",
         "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/teemakurssit",
-        "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
         "https://www.kolmekampusta.fi/fi/tapahtumat/kuntofiilis-pajulahdessa-0",
         "https://www.kolmekampusta.fi/fi/tapahtumat/kaj-kunnaksen-kuntofiilis-50",
         "https://www.kolmekampusta.fi/fi/tapahtumat/aquafiilis-pajulahdessa-3",
@@ -4540,7 +4539,7 @@
         "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
         "https://www.kolmekampusta.fi/fi/evastekaytanto"
       ],
-      "body_length": 122867,
+      "body_length": 120248,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/aikuiset-60-fiiliskurssit",
@@ -8077,7 +8076,6 @@
         "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat?type=66",
         "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat?type=24",
         "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat?type=23",
-        "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
         "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallio-cheerleading-champ-camp-2-482026",
         "https://www.kolmekampusta.fi/fi/tapahtumat/kuntofiilis-pajulahdessa-0",
         "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
@@ -8089,6 +8087,7 @@
         "https://www.kolmekampusta.fi/fi/tapahtumat/luonnon-aarelle-kisakalliossa",
         "https://www.kolmekampusta.fi/fi/tapahtumat/aquafiilis-pajulahdessa-3",
         "https://www.kolmekampusta.fi/fi/tapahtumat/naisten-hyvinvointi-ja-sporttiviikonloppu-25-2792026-pajulahdessa",
+        "https://www.kolmekampusta.fi/fi/tapahtumat/viima-akatemia-kasva-huippujaakiekkoilijaksi-leiri3",
         "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat?page=1",
         "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat?page=2",
         "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat?page=3",
@@ -8110,7 +8109,7 @@
         "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
         "https://www.kolmekampusta.fi/fi/evastekaytanto"
       ],
-      "body_length": 118115,
+      "body_length": 118164,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
@@ -23284,129 +23283,6 @@
       "unavailable_after": "Friday, 16-Oct-26 12:00:00 EEST",
       "og_type": "article"
     },
-    "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0": {
-      "title": "KesäFiilis aikuiset 60+ | Kolmen kampuksen urheiluopisto",
-      "status": 200,
-      "outbound": [
-        "https://www.kolmekampusta.fi/fi/verkkokaupat",
-        "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-        "https://www.kolmekampusta.fi/fi/search",
-        "https://www.kolmekampusta.fi/fi",
-        "https://www.kolmekampusta.fi/fi",
-        "https://www.kolmekampusta.fi/fi",
-        "https://www.kolmekampusta.fi/fi/verkkokaupat",
-        "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-        "https://www.kolmekampusta.fi/en",
-        "https://www.kolmekampusta.fi/fi/search",
-        "https://www.kolmekampusta.fi/fi/koulutukset",
-        "https://www.kolmekampusta.fi/fi/koulutukset/koulutus",
-        "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/hakijalle",
-        "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/ammatillinen-koulutus",
-        "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/oppisopimuskoulutus-jatkuva-haku",
-        "https://www.kolmekampusta.fi/fi/koulutukset/koulutus/vapaan-sivistystyon-koulutus",
-        "https://www.kolmekampusta.fi/fi/koulutus/kansainvalisyys",
-        "https://www.kolmekampusta.fi/fi/koulutus/opiskelijalle",
-        "https://www.kolmekampusta.fi/fi/urheilu",
-        "https://www.kolmekampusta.fi/fi/urheilu/leiri-ja-tapahtumakauppa",
-        "https://www.kolmekampusta.fi/fi/urheilu/leirit",
-        "https://www.kolmekampusta.fi/fi/urheilu/leirit/esikuvaleirit",
-        "https://www.kolmekampusta.fi/fi/urheilu/leirit/ylakoululeiritys",
-        "https://www.kolmekampusta.fi/fi/urheilu/leirit/urheilurippileirit",
-        "https://www.kolmekampusta.fi/fi/urheilu/valmennuskeskus",
-        "https://www.kolmekampusta.fi/fi/meista/tilat",
-        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut",
-        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/kestavyysurheilu",
-        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/korkeanpaikan-harjoittelu",
-        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/testauspalvelut",
-        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/pajulahden-palautumiskeskus",
-        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/taito-360",
-        "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen",
-        "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen/urheilun-tki",
-        "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen/kolmen-kampuksen-journal-club",
-        "https://www.kolmekampusta.fi/fi/urheilu/yhteisomme",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/liikunnalliset-vapaa-ajan-kurssit",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/perhepaketit",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/teemakurssit",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/aikuiset-60-fiiliskurssit",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/lisapalvelut",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/villaloma-kisakalliossa",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kisakallion-sporttipassi",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kisakallion-rantasauna",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/lake-pool-pajulahti",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/pajulahden-uimahalli",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/seikkailupuisto",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/valine-ja-kenttavuokraus",
-        "https://www.kolmekampusta.fi/fi/urheilu/tilat",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/liikunta-ja-hyvinvointipalvelut",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/kanta-asiakkuus",
-        "https://kauppa.kolmekampusta.fi/",
-        "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit",
-        "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/leirikoulu",
-        "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/luokkaretki",
-        "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/rippileiri",
-        "https://www.kolmekampusta.fi/fi/urheilu/leirit",
-        "https://www.kolmekampusta.fi/fi/yritykset",
-        "https://www.kolmekampusta.fi/fi/yritykset",
-        "https://www.kolmekampusta.fi/fi/yritykset/kokoukset",
-        "https://www.kolmekampusta.fi/fi/yritykset/kokoukset/seminaarit-ja-juhlat",
-        "https://www.kolmekampusta.fi/fi/yritykset/tyohyvinvointi",
-        "https://www.kolmekampusta.fi/fi/yritykset/hyvinvointikoulu",
-        "https://www.kolmekampusta.fi/fi/yritykset/villamaailma-yrityksille",
-        "https://www.kolmekampusta.fi/fi/majoitus",
-        "https://www.kolmekampusta.fi/fi/majoitus/pajulahti",
-        "https://www.kolmekampusta.fi/fi/majoitus/kisakallio",
-        "https://www.kolmekampusta.fi/fi/ravintolapalvelut",
-        "https://www.kolmekampusta.fi/fi/ravintolapalvelut/tilaustarjoilut",
-        "https://www.kolmekampusta.fi/fi/tapahtumat",
-        "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
-        "https://www.kolmekampusta.fi/fi/meista",
-        "https://www.kolmekampusta.fi/fi/meista/avoimet-tyopaikat",
-        "https://www.kolmekampusta.fi/fi/ajankohtaista",
-        "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-        "https://www.kolmekampusta.fi/fi/meista/laskutustiedot",
-        "https://www.kolmekampusta.fi/fi/meista/saatioiden-apurahat",
-        "https://www.kolmekampusta.fi/fi/meista/hankkeet",
-        "https://www.kolmekampusta.fi/fi/meista/vastuullisuus",
-        "https://www.kolmekampusta.fi/fi/kampukset",
-        "https://www.kolmekampusta.fi/fi/meista/tilat",
-        "https://www.kolmekampusta.fi/fi",
-        "https://www.kolmekampusta.fi/fi",
-        "https://www.kolmekampusta.fi/fi/tapahtumat",
-        "https://www.kolmekampusta.fi/fi/majoitus",
-        "https://www.kolmekampusta.fi/sites/default/files/2026-02/kesafiilis-27-31.7.2026-1.pdf",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/kanta-asiakkuus",
-        "https://kolmekampusta.willba.store/event/PL153594",
-        "https://www.kolmekampusta.fi/fi/fiiliskurssien-ilmoittautumislomake",
-        "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/vapaan-sivistystyon-koulutus",
-        "https://www.kolmekampusta.fi/fi/taxonomy/term/55",
-        "https://www.kolmekampusta.fi/fi",
-        "https://www.kolmekampusta.fi/fi/verkkokaupat",
-        "https://www.kolmekampusta.fi/fi/ajankohtaista",
-        "https://www.kolmekampusta.fi/fi/meista/laskutustiedot",
-        "https://www.kolmekampusta.fi/fi/varaus-ja-peruutusehdot",
-        "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-        "https://www.kolmekampusta.fi/fi/uutiskirjeet",
-        "https://www.kolmekampusta.fi/fi/meista",
-        "https://www.kolmekampusta.fi/fi/aluekartta",
-        "https://www.kolmekampusta.fi/fi/anna-palautetta",
-        "https://www.kolmekampusta.fi/fi/koulutus/opiskelijalle",
-        "https://app.digitalguest.com/guestbook/Pajulahti",
-        "https://app.digitalguest.com/guestbook/Kisakallio",
-        "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
-        "https://www.kolmekampusta.fi/fi/evastekaytanto"
-      ],
-      "body_length": 96676,
-      "soft_404_signals": {},
-      "no_alias": false,
-      "canonical": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "is_canonical_duplicate": false,
-      "updated_time": "2026-07-23T23:06:20+03:00",
-      "robots": "unavailable_after: Friday, 31-Jul-26 00:00:00 EEST",
-      "unavailable_after": "Friday, 31-Jul-26 00:00:00 EEST",
-      "og_type": "article"
-    },
     "https://www.kolmekampusta.fi/fi/tapahtumat/kuntofiilis-pajulahdessa-0": {
       "title": "KuntoFiilis aikuiset 60+ | Kolmen kampuksen urheiluopisto",
       "status": 200,
@@ -24512,6 +24388,126 @@
       "unavailable_after": "Sunday, 08-Nov-26 12:00:00 EET",
       "og_type": "article"
     },
+    "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa": {
+      "title": "Naisten hyvinvointi- ja sporttiviikonloppu | Kolmen kampuksen urheiluopisto",
+      "status": 200,
+      "outbound": [
+        "https://www.kolmekampusta.fi/fi/verkkokaupat",
+        "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
+        "https://www.kolmekampusta.fi/fi/search",
+        "https://www.kolmekampusta.fi/fi",
+        "https://www.kolmekampusta.fi/fi",
+        "https://www.kolmekampusta.fi/fi",
+        "https://www.kolmekampusta.fi/fi/verkkokaupat",
+        "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
+        "https://www.kolmekampusta.fi/en",
+        "https://www.kolmekampusta.fi/fi/search",
+        "https://www.kolmekampusta.fi/fi/koulutukset",
+        "https://www.kolmekampusta.fi/fi/koulutukset/koulutus",
+        "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/hakijalle",
+        "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/ammatillinen-koulutus",
+        "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/oppisopimuskoulutus-jatkuva-haku",
+        "https://www.kolmekampusta.fi/fi/koulutukset/koulutus/vapaan-sivistystyon-koulutus",
+        "https://www.kolmekampusta.fi/fi/koulutus/kansainvalisyys",
+        "https://www.kolmekampusta.fi/fi/koulutus/opiskelijalle",
+        "https://www.kolmekampusta.fi/fi/urheilu",
+        "https://www.kolmekampusta.fi/fi/urheilu/leiri-ja-tapahtumakauppa",
+        "https://www.kolmekampusta.fi/fi/urheilu/leirit",
+        "https://www.kolmekampusta.fi/fi/urheilu/leirit/esikuvaleirit",
+        "https://www.kolmekampusta.fi/fi/urheilu/leirit/ylakoululeiritys",
+        "https://www.kolmekampusta.fi/fi/urheilu/leirit/urheilurippileirit",
+        "https://www.kolmekampusta.fi/fi/urheilu/valmennuskeskus",
+        "https://www.kolmekampusta.fi/fi/meista/tilat",
+        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut",
+        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/kestavyysurheilu",
+        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/korkeanpaikan-harjoittelu",
+        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/testauspalvelut",
+        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/pajulahden-palautumiskeskus",
+        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/taito-360",
+        "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen",
+        "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen/urheilun-tki",
+        "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen/kolmen-kampuksen-journal-club",
+        "https://www.kolmekampusta.fi/fi/urheilu/yhteisomme",
+        "https://www.kolmekampusta.fi/fi/vapaa-aika",
+        "https://www.kolmekampusta.fi/fi/vapaa-aika/liikunnalliset-vapaa-ajan-kurssit",
+        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/perhepaketit",
+        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/teemakurssit",
+        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/aikuiset-60-fiiliskurssit",
+        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/lisapalvelut",
+        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/villaloma-kisakalliossa",
+        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit",
+        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kisakallion-sporttipassi",
+        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kisakallion-rantasauna",
+        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/lake-pool-pajulahti",
+        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/pajulahden-uimahalli",
+        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/seikkailupuisto",
+        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/valine-ja-kenttavuokraus",
+        "https://www.kolmekampusta.fi/fi/urheilu/tilat",
+        "https://www.kolmekampusta.fi/fi/vapaa-aika/liikunta-ja-hyvinvointipalvelut",
+        "https://www.kolmekampusta.fi/fi/vapaa-aika/kanta-asiakkuus",
+        "https://kauppa.kolmekampusta.fi/",
+        "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit",
+        "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/leirikoulu",
+        "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/luokkaretki",
+        "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/rippileiri",
+        "https://www.kolmekampusta.fi/fi/urheilu/leirit",
+        "https://www.kolmekampusta.fi/fi/yritykset",
+        "https://www.kolmekampusta.fi/fi/yritykset",
+        "https://www.kolmekampusta.fi/fi/yritykset/kokoukset",
+        "https://www.kolmekampusta.fi/fi/yritykset/kokoukset/seminaarit-ja-juhlat",
+        "https://www.kolmekampusta.fi/fi/yritykset/tyohyvinvointi",
+        "https://www.kolmekampusta.fi/fi/yritykset/hyvinvointikoulu",
+        "https://www.kolmekampusta.fi/fi/yritykset/villamaailma-yrityksille",
+        "https://www.kolmekampusta.fi/fi/majoitus",
+        "https://www.kolmekampusta.fi/fi/majoitus/pajulahti",
+        "https://www.kolmekampusta.fi/fi/majoitus/kisakallio",
+        "https://www.kolmekampusta.fi/fi/ravintolapalvelut",
+        "https://www.kolmekampusta.fi/fi/ravintolapalvelut/tilaustarjoilut",
+        "https://www.kolmekampusta.fi/fi/tapahtumat",
+        "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
+        "https://www.kolmekampusta.fi/fi/meista",
+        "https://www.kolmekampusta.fi/fi/meista/avoimet-tyopaikat",
+        "https://www.kolmekampusta.fi/fi/ajankohtaista",
+        "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
+        "https://www.kolmekampusta.fi/fi/meista/laskutustiedot",
+        "https://www.kolmekampusta.fi/fi/meista/saatioiden-apurahat",
+        "https://www.kolmekampusta.fi/fi/meista/hankkeet",
+        "https://www.kolmekampusta.fi/fi/meista/vastuullisuus",
+        "https://www.kolmekampusta.fi/fi/kampukset",
+        "https://www.kolmekampusta.fi/fi/meista/tilat",
+        "https://www.kolmekampusta.fi/fi",
+        "https://www.kolmekampusta.fi/fi",
+        "https://www.kolmekampusta.fi/fi/tapahtumat",
+        "https://kolmekampusta.fi/fi/vapaa-aika/kanta-asiakkuus",
+        "https://kolmekampusta.willba.store/event/PL153639",
+        "https://www.kolmekampusta.fi/fi/vapaa-ajan-ilmoittautumislomake",
+        "https://www.kolmekampusta.fi/fi/taxonomy/term/56",
+        "https://www.kolmekampusta.fi/fi",
+        "https://www.kolmekampusta.fi/fi/verkkokaupat",
+        "https://www.kolmekampusta.fi/fi/ajankohtaista",
+        "https://www.kolmekampusta.fi/fi/meista/laskutustiedot",
+        "https://www.kolmekampusta.fi/fi/varaus-ja-peruutusehdot",
+        "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
+        "https://www.kolmekampusta.fi/fi/uutiskirjeet",
+        "https://www.kolmekampusta.fi/fi/meista",
+        "https://www.kolmekampusta.fi/fi/aluekartta",
+        "https://www.kolmekampusta.fi/fi/anna-palautetta",
+        "https://www.kolmekampusta.fi/fi/koulutus/opiskelijalle",
+        "https://app.digitalguest.com/guestbook/Pajulahti",
+        "https://app.digitalguest.com/guestbook/Kisakallio",
+        "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
+        "https://www.kolmekampusta.fi/fi/evastekaytanto"
+      ],
+      "body_length": 94580,
+      "soft_404_signals": {},
+      "no_alias": false,
+      "canonical": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "is_canonical_duplicate": false,
+      "updated_time": "2026-06-16T11:51:20+03:00",
+      "robots": "unavailable_after: Sunday, 15-Nov-26 23:00:00 EET",
+      "unavailable_after": "Sunday, 15-Nov-26 23:00:00 EET",
+      "og_type": "article"
+    },
     "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-joulu": {
       "title": "Täyden palvelun joulu Kisakalliossa | Kolmen kampuksen urheiluopisto",
       "status": 200,
@@ -25500,126 +25496,6 @@
       "updated_time": "2025-09-29T20:25:30+03:00",
       "og_type": "article"
     },
-    "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa": {
-      "title": "Naisten hyvinvointi- ja sporttiviikonloppu | Kolmen kampuksen urheiluopisto",
-      "status": 200,
-      "outbound": [
-        "https://www.kolmekampusta.fi/fi/verkkokaupat",
-        "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-        "https://www.kolmekampusta.fi/fi/search",
-        "https://www.kolmekampusta.fi/fi",
-        "https://www.kolmekampusta.fi/fi",
-        "https://www.kolmekampusta.fi/fi",
-        "https://www.kolmekampusta.fi/fi/verkkokaupat",
-        "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-        "https://www.kolmekampusta.fi/en",
-        "https://www.kolmekampusta.fi/fi/search",
-        "https://www.kolmekampusta.fi/fi/koulutukset",
-        "https://www.kolmekampusta.fi/fi/koulutukset/koulutus",
-        "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/hakijalle",
-        "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/ammatillinen-koulutus",
-        "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/oppisopimuskoulutus-jatkuva-haku",
-        "https://www.kolmekampusta.fi/fi/koulutukset/koulutus/vapaan-sivistystyon-koulutus",
-        "https://www.kolmekampusta.fi/fi/koulutus/kansainvalisyys",
-        "https://www.kolmekampusta.fi/fi/koulutus/opiskelijalle",
-        "https://www.kolmekampusta.fi/fi/urheilu",
-        "https://www.kolmekampusta.fi/fi/urheilu/leiri-ja-tapahtumakauppa",
-        "https://www.kolmekampusta.fi/fi/urheilu/leirit",
-        "https://www.kolmekampusta.fi/fi/urheilu/leirit/esikuvaleirit",
-        "https://www.kolmekampusta.fi/fi/urheilu/leirit/ylakoululeiritys",
-        "https://www.kolmekampusta.fi/fi/urheilu/leirit/urheilurippileirit",
-        "https://www.kolmekampusta.fi/fi/urheilu/valmennuskeskus",
-        "https://www.kolmekampusta.fi/fi/meista/tilat",
-        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut",
-        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/kestavyysurheilu",
-        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/korkeanpaikan-harjoittelu",
-        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/testauspalvelut",
-        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/pajulahden-palautumiskeskus",
-        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/taito-360",
-        "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen",
-        "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen/urheilun-tki",
-        "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen/kolmen-kampuksen-journal-club",
-        "https://www.kolmekampusta.fi/fi/urheilu/yhteisomme",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/liikunnalliset-vapaa-ajan-kurssit",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/perhepaketit",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/teemakurssit",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/aikuiset-60-fiiliskurssit",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/lisapalvelut",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/villaloma-kisakalliossa",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kisakallion-sporttipassi",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kisakallion-rantasauna",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/lake-pool-pajulahti",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/pajulahden-uimahalli",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/seikkailupuisto",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/valine-ja-kenttavuokraus",
-        "https://www.kolmekampusta.fi/fi/urheilu/tilat",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/liikunta-ja-hyvinvointipalvelut",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/kanta-asiakkuus",
-        "https://kauppa.kolmekampusta.fi/",
-        "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit",
-        "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/leirikoulu",
-        "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/luokkaretki",
-        "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/rippileiri",
-        "https://www.kolmekampusta.fi/fi/urheilu/leirit",
-        "https://www.kolmekampusta.fi/fi/yritykset",
-        "https://www.kolmekampusta.fi/fi/yritykset",
-        "https://www.kolmekampusta.fi/fi/yritykset/kokoukset",
-        "https://www.kolmekampusta.fi/fi/yritykset/kokoukset/seminaarit-ja-juhlat",
-        "https://www.kolmekampusta.fi/fi/yritykset/tyohyvinvointi",
-        "https://www.kolmekampusta.fi/fi/yritykset/hyvinvointikoulu",
-        "https://www.kolmekampusta.fi/fi/yritykset/villamaailma-yrityksille",
-        "https://www.kolmekampusta.fi/fi/majoitus",
-        "https://www.kolmekampusta.fi/fi/majoitus/pajulahti",
-        "https://www.kolmekampusta.fi/fi/majoitus/kisakallio",
-        "https://www.kolmekampusta.fi/fi/ravintolapalvelut",
-        "https://www.kolmekampusta.fi/fi/ravintolapalvelut/tilaustarjoilut",
-        "https://www.kolmekampusta.fi/fi/tapahtumat",
-        "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
-        "https://www.kolmekampusta.fi/fi/meista",
-        "https://www.kolmekampusta.fi/fi/meista/avoimet-tyopaikat",
-        "https://www.kolmekampusta.fi/fi/ajankohtaista",
-        "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-        "https://www.kolmekampusta.fi/fi/meista/laskutustiedot",
-        "https://www.kolmekampusta.fi/fi/meista/saatioiden-apurahat",
-        "https://www.kolmekampusta.fi/fi/meista/hankkeet",
-        "https://www.kolmekampusta.fi/fi/meista/vastuullisuus",
-        "https://www.kolmekampusta.fi/fi/kampukset",
-        "https://www.kolmekampusta.fi/fi/meista/tilat",
-        "https://www.kolmekampusta.fi/fi",
-        "https://www.kolmekampusta.fi/fi",
-        "https://www.kolmekampusta.fi/fi/tapahtumat",
-        "https://kolmekampusta.fi/fi/vapaa-aika/kanta-asiakkuus",
-        "https://kolmekampusta.willba.store/event/PL153639",
-        "https://www.kolmekampusta.fi/fi/vapaa-ajan-ilmoittautumislomake",
-        "https://www.kolmekampusta.fi/fi/taxonomy/term/56",
-        "https://www.kolmekampusta.fi/fi",
-        "https://www.kolmekampusta.fi/fi/verkkokaupat",
-        "https://www.kolmekampusta.fi/fi/ajankohtaista",
-        "https://www.kolmekampusta.fi/fi/meista/laskutustiedot",
-        "https://www.kolmekampusta.fi/fi/varaus-ja-peruutusehdot",
-        "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-        "https://www.kolmekampusta.fi/fi/uutiskirjeet",
-        "https://www.kolmekampusta.fi/fi/meista",
-        "https://www.kolmekampusta.fi/fi/aluekartta",
-        "https://www.kolmekampusta.fi/fi/anna-palautetta",
-        "https://www.kolmekampusta.fi/fi/koulutus/opiskelijalle",
-        "https://app.digitalguest.com/guestbook/Pajulahti",
-        "https://app.digitalguest.com/guestbook/Kisakallio",
-        "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
-        "https://www.kolmekampusta.fi/fi/evastekaytanto"
-      ],
-      "body_length": 94580,
-      "soft_404_signals": {},
-      "no_alias": false,
-      "canonical": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "is_canonical_duplicate": false,
-      "updated_time": "2026-06-16T11:51:20+03:00",
-      "robots": "unavailable_after: Sunday, 15-Nov-26 23:00:00 EET",
-      "unavailable_after": "Sunday, 15-Nov-26 23:00:00 EET",
-      "og_type": "article"
-    },
     "https://www.kolmekampusta.fi/fi/tapahtumat/hyvan-olon-viikonloppu-pajulahdessa-27-29112026": {
       "title": "Hyvän olon viikonloppu | Kolmen kampuksen urheiluopisto",
       "status": 200,
@@ -26099,7 +25975,7 @@
         "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
         "https://www.kolmekampusta.fi/fi/evastekaytanto"
       ],
-      "body_length": 80418,
+      "body_length": 80424,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa",
@@ -33528,7 +33404,7 @@
       "title": "Tulevat tapahtumat | Kolmen kampuksen urheiluopisto",
       "status": 200,
       "outbound": [],
-      "body_length": 102692,
+      "body_length": 100103,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
@@ -33665,7 +33541,6 @@
         "https://www.kolmekampusta.fi/fi",
         "https://www.kolmekampusta.fi/fi/tapahtumat",
         "https://kauppa.kolmekampusta.fi/tuote/kehonpaino-ja-liikkuvuustreeni/",
-        "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
         "https://www.kolmekampusta.fi/fi",
         "https://www.kolmekampusta.fi/fi/verkkokaupat",
         "https://www.kolmekampusta.fi/fi/ajankohtaista",
@@ -33682,12 +33557,12 @@
         "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
         "https://www.kolmekampusta.fi/fi/evastekaytanto"
       ],
-      "body_length": 87077,
+      "body_length": 86738,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
       "is_canonical_duplicate": false,
-      "updated_time": "2026-06-19T16:36:53+03:00",
+      "updated_time": "2026-07-25T15:00:27+03:00",
       "robots": "unavailable_after: Saturday, 08-Aug-26 14:00:00 EEST",
       "unavailable_after": "Saturday, 08-Aug-26 14:00:00 EEST",
       "og_type": "article"
@@ -33696,7 +33571,7 @@
       "title": "Tulevat tapahtumat | Kolmen kampuksen urheiluopisto",
       "status": 200,
       "outbound": [],
-      "body_length": 119352,
+      "body_length": 119251,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
@@ -33706,7 +33581,7 @@
       "title": "Tulevat tapahtumat | Kolmen kampuksen urheiluopisto",
       "status": 200,
       "outbound": [],
-      "body_length": 119195,
+      "body_length": 119153,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
@@ -33716,7 +33591,7 @@
       "title": "Tulevat tapahtumat | Kolmen kampuksen urheiluopisto",
       "status": 200,
       "outbound": [],
-      "body_length": 97193,
+      "body_length": 94698,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
@@ -38440,6 +38315,129 @@
       "canonical": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-kisakalliossa",
       "is_canonical_duplicate": false
     },
+    "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0": {
+      "title": "KesäFiilis aikuiset 60+ | Kolmen kampuksen urheiluopisto",
+      "status": 200,
+      "outbound": [
+        "https://www.kolmekampusta.fi/fi/verkkokaupat",
+        "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
+        "https://www.kolmekampusta.fi/fi/search",
+        "https://www.kolmekampusta.fi/fi",
+        "https://www.kolmekampusta.fi/fi",
+        "https://www.kolmekampusta.fi/fi",
+        "https://www.kolmekampusta.fi/fi/verkkokaupat",
+        "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
+        "https://www.kolmekampusta.fi/en",
+        "https://www.kolmekampusta.fi/fi/search",
+        "https://www.kolmekampusta.fi/fi/koulutukset",
+        "https://www.kolmekampusta.fi/fi/koulutukset/koulutus",
+        "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/hakijalle",
+        "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/ammatillinen-koulutus",
+        "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/oppisopimuskoulutus-jatkuva-haku",
+        "https://www.kolmekampusta.fi/fi/koulutukset/koulutus/vapaan-sivistystyon-koulutus",
+        "https://www.kolmekampusta.fi/fi/koulutus/kansainvalisyys",
+        "https://www.kolmekampusta.fi/fi/koulutus/opiskelijalle",
+        "https://www.kolmekampusta.fi/fi/urheilu",
+        "https://www.kolmekampusta.fi/fi/urheilu/leiri-ja-tapahtumakauppa",
+        "https://www.kolmekampusta.fi/fi/urheilu/leirit",
+        "https://www.kolmekampusta.fi/fi/urheilu/leirit/esikuvaleirit",
+        "https://www.kolmekampusta.fi/fi/urheilu/leirit/ylakoululeiritys",
+        "https://www.kolmekampusta.fi/fi/urheilu/leirit/urheilurippileirit",
+        "https://www.kolmekampusta.fi/fi/urheilu/valmennuskeskus",
+        "https://www.kolmekampusta.fi/fi/meista/tilat",
+        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut",
+        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/kestavyysurheilu",
+        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/korkeanpaikan-harjoittelu",
+        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/testauspalvelut",
+        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/pajulahden-palautumiskeskus",
+        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/taito-360",
+        "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen",
+        "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen/urheilun-tki",
+        "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen/kolmen-kampuksen-journal-club",
+        "https://www.kolmekampusta.fi/fi/urheilu/yhteisomme",
+        "https://www.kolmekampusta.fi/fi/vapaa-aika",
+        "https://www.kolmekampusta.fi/fi/vapaa-aika/liikunnalliset-vapaa-ajan-kurssit",
+        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/perhepaketit",
+        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/teemakurssit",
+        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/aikuiset-60-fiiliskurssit",
+        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/lisapalvelut",
+        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/villaloma-kisakalliossa",
+        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit",
+        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kisakallion-sporttipassi",
+        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kisakallion-rantasauna",
+        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/lake-pool-pajulahti",
+        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/pajulahden-uimahalli",
+        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/seikkailupuisto",
+        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/valine-ja-kenttavuokraus",
+        "https://www.kolmekampusta.fi/fi/urheilu/tilat",
+        "https://www.kolmekampusta.fi/fi/vapaa-aika/liikunta-ja-hyvinvointipalvelut",
+        "https://www.kolmekampusta.fi/fi/vapaa-aika/kanta-asiakkuus",
+        "https://kauppa.kolmekampusta.fi/",
+        "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit",
+        "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/leirikoulu",
+        "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/luokkaretki",
+        "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/rippileiri",
+        "https://www.kolmekampusta.fi/fi/urheilu/leirit",
+        "https://www.kolmekampusta.fi/fi/yritykset",
+        "https://www.kolmekampusta.fi/fi/yritykset",
+        "https://www.kolmekampusta.fi/fi/yritykset/kokoukset",
+        "https://www.kolmekampusta.fi/fi/yritykset/kokoukset/seminaarit-ja-juhlat",
+        "https://www.kolmekampusta.fi/fi/yritykset/tyohyvinvointi",
+        "https://www.kolmekampusta.fi/fi/yritykset/hyvinvointikoulu",
+        "https://www.kolmekampusta.fi/fi/yritykset/villamaailma-yrityksille",
+        "https://www.kolmekampusta.fi/fi/majoitus",
+        "https://www.kolmekampusta.fi/fi/majoitus/pajulahti",
+        "https://www.kolmekampusta.fi/fi/majoitus/kisakallio",
+        "https://www.kolmekampusta.fi/fi/ravintolapalvelut",
+        "https://www.kolmekampusta.fi/fi/ravintolapalvelut/tilaustarjoilut",
+        "https://www.kolmekampusta.fi/fi/tapahtumat",
+        "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
+        "https://www.kolmekampusta.fi/fi/meista",
+        "https://www.kolmekampusta.fi/fi/meista/avoimet-tyopaikat",
+        "https://www.kolmekampusta.fi/fi/ajankohtaista",
+        "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
+        "https://www.kolmekampusta.fi/fi/meista/laskutustiedot",
+        "https://www.kolmekampusta.fi/fi/meista/saatioiden-apurahat",
+        "https://www.kolmekampusta.fi/fi/meista/hankkeet",
+        "https://www.kolmekampusta.fi/fi/meista/vastuullisuus",
+        "https://www.kolmekampusta.fi/fi/kampukset",
+        "https://www.kolmekampusta.fi/fi/meista/tilat",
+        "https://www.kolmekampusta.fi/fi",
+        "https://www.kolmekampusta.fi/fi",
+        "https://www.kolmekampusta.fi/fi/tapahtumat",
+        "https://www.kolmekampusta.fi/fi/majoitus",
+        "https://www.kolmekampusta.fi/sites/default/files/2026-02/kesafiilis-27-31.7.2026-1.pdf",
+        "https://www.kolmekampusta.fi/fi/vapaa-aika/kanta-asiakkuus",
+        "https://kolmekampusta.willba.store/event/PL153594",
+        "https://www.kolmekampusta.fi/fi/fiiliskurssien-ilmoittautumislomake",
+        "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/vapaan-sivistystyon-koulutus",
+        "https://www.kolmekampusta.fi/fi/taxonomy/term/55",
+        "https://www.kolmekampusta.fi/fi",
+        "https://www.kolmekampusta.fi/fi/verkkokaupat",
+        "https://www.kolmekampusta.fi/fi/ajankohtaista",
+        "https://www.kolmekampusta.fi/fi/meista/laskutustiedot",
+        "https://www.kolmekampusta.fi/fi/varaus-ja-peruutusehdot",
+        "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
+        "https://www.kolmekampusta.fi/fi/uutiskirjeet",
+        "https://www.kolmekampusta.fi/fi/meista",
+        "https://www.kolmekampusta.fi/fi/aluekartta",
+        "https://www.kolmekampusta.fi/fi/anna-palautetta",
+        "https://www.kolmekampusta.fi/fi/koulutus/opiskelijalle",
+        "https://app.digitalguest.com/guestbook/Pajulahti",
+        "https://app.digitalguest.com/guestbook/Kisakallio",
+        "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
+        "https://www.kolmekampusta.fi/fi/evastekaytanto"
+      ],
+      "body_length": 96691,
+      "soft_404_signals": {},
+      "no_alias": false,
+      "canonical": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "is_canonical_duplicate": false,
+      "updated_time": "2026-07-25T15:39:33+03:00",
+      "robots": "unavailable_after: Friday, 31-Jul-26 00:00:00 EEST",
+      "unavailable_after": "Friday, 31-Jul-26 00:00:00 EEST",
+      "og_type": "article"
+    },
     "https://www.kolmekampusta.fi/sites/default/files/2026-07/minna_keronen1_kuva_mira_koistinen-1920x1280.webp": {
       "title": null,
       "status": 200,
@@ -42521,7 +42519,7 @@
         "https://kauppa.kolmekampusta.fi/tuote-osasto/seikkailupuisto/",
         "https://kauppa.kolmekampusta.fi/tuote-osasto/hyvinvointikoulu/",
         "https://kauppa.kolmekampusta.fi/wp-content/uploads/2026/06/digi-opiskelija2-1200x900-1.webp",
-        "https://www.kolmekampusta.fi/fi/koulutukset/koulutus/vapaan-sivistystyon-koulutus",
+        "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/vapaan-sivistystyon-koulutus",
         "https://kauppa.kolmekampusta.fi/tuote/latvuksista-laiturille-paketti-pajulahti/",
         "https://kauppa.kolmekampusta.fi/tuote/lake-pool-aamupilates/",
         "https://kauppa.kolmekampusta.fi/tuote/bungee-trampoliini-2/",
@@ -42591,6 +42589,8 @@
         "https://kolmekampusta.willba.store/event/kk109948-kaj-kunnaksen-50+-kuntofiilis?locationId=34&utm_source=kauppa.kolmekampusta.fi",
         "https://kolmekampusta.willba.store/event/kk105900?locationId=34&utm_source=kauppa.kolmekampusta.fi",
         "https://kolmekampusta.willba.store/event/pl153640?locationId=1&utm_source=kauppa.kolmekampusta.fi",
+        "https://kolmekampusta.willba.store/event/kk115732-maalivahdit-viima-akatemian-syksyn-2026-leiri?locationId=34&utm_source=kauppa.kolmekampusta.fi",
+        "https://kolmekampusta.willba.store/event/kk115293-viima-akatemia-syksyn-2026-leiri?locationId=34&utm_source=kauppa.kolmekampusta.fi",
         "https://kolmekampusta.willba.store/event/pl160221-syysloman-tekniikkaleiri?locationId=1&utm_source=kauppa.kolmekampusta.fi",
         "https://kolmekampusta.willba.store/event/pl160220-taitoluistelun-tekniikkaleiri-pojille?locationId=1&utm_source=kauppa.kolmekampusta.fi",
         "https://kolmekampusta.willba.store/event/pl154236-pohja-coaching-traincation-pajulahdessa-23.-25.10.2026!?locationId=1&utm_source=kauppa.kolmekampusta.fi",
@@ -42598,10 +42598,14 @@
         "https://kolmekampusta.willba.store/event/pl650545-merja-huttusen-leiri-aikuisluistelijoille?locationId=1&utm_source=kauppa.kolmekampusta.fi",
         "https://kolmekampusta.willba.store/event/pl153639?locationId=1&utm_source=kauppa.kolmekampusta.fi",
         "https://kolmekampusta.willba.store/event/kk109612-laura-lepiston-leiri-aikuisille-13.-15.11.2026?locationId=34&utm_source=kauppa.kolmekampusta.fi",
+        "https://kolmekampusta.willba.store/event/pl652057-kestavyysseminaari-2026?locationId=1&utm_source=kauppa.kolmekampusta.fi",
         "https://kolmekampusta.willba.store/event/kk108018?locationId=34&utm_source=kauppa.kolmekampusta.fi",
         "https://kolmekampusta.willba.store/event/kk105904-joulufiilis-kisakalliossa?locationId=34&utm_source=kauppa.kolmekampusta.fi",
         "https://kolmekampusta.willba.store/event/pl157715-vuodenvaihteen-tekniikkaleiri-29.-31.12.2026?locationId=1&utm_source=kauppa.kolmekampusta.fi",
         "https://kolmekampusta.willba.store/event/pl650293-poikien-taitoluistelun-tekniikkaleiri-29-30.12.2026?locationId=1&utm_source=kauppa.kolmekampusta.fi",
+        "https://kolmekampusta.willba.store/event/kk115735-viima-akatemia-tammikuun-2027-leiri?locationId=34&utm_source=kauppa.kolmekampusta.fi",
+        "https://kolmekampusta.willba.store/event/kk110998-motor-skills-acquisition-conference-2027?locationId=34&utm_source=kauppa.kolmekampusta.fi",
+        "https://kolmekampusta.willba.store/event/kk115737-viima-akatemia-toukokuun-2027-leiri?locationId=34&utm_source=kauppa.kolmekampusta.fi",
         "https://www.addtoany.com/add_to/facebook?linkname=Koulutus%3A+Teko%C3%A4lyn+hy%C3%B6dynt%C3%A4minen+ty%C3%B6prosessissa&linkurl=https%3A%2F%2Fkauppa.kolmekampusta.fi%2Ftuote%2Fkoulutus-tekoalyn-hyodyntaminen-tyoprosessissa%2F",
         "https://www.addtoany.com/add_to/twitter?linkname=Koulutus%3A+Teko%C3%A4lyn+hy%C3%B6dynt%C3%A4minen+ty%C3%B6prosessissa&linkurl=https%3A%2F%2Fkauppa.kolmekampusta.fi%2Ftuote%2Fkoulutus-tekoalyn-hyodyntaminen-tyoprosessissa%2F",
         "https://www.addtoany.com/add_to/linkedin?linkname=Koulutus%3A+Teko%C3%A4lyn+hy%C3%B6dynt%C3%A4minen+ty%C3%B6prosessissa&linkurl=https%3A%2F%2Fkauppa.kolmekampusta.fi%2Ftuote%2Fkoulutus-tekoalyn-hyodyntaminen-tyoprosessissa%2F",
@@ -42612,7 +42616,7 @@
         "https://www.kolmekampusta.fi/fi/varaus-ja-peruutusehdot",
         "http://www.kolmekampusta.fi/fi/verkkokaupan-tilaus-ja-toimitusehdot"
       ],
-      "body_length": 359093,
+      "body_length": 322684,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://kauppa.kolmekampusta.fi/tuote/koulutus-tekoalyn-hyodyntaminen-tyoprosessissa/",
@@ -42758,7 +42762,7 @@
         "https://kauppa.kolmekampusta.fi/tuote-osasto/seikkailupuisto/",
         "https://kauppa.kolmekampusta.fi/tuote-osasto/hyvinvointikoulu/",
         "https://kauppa.kolmekampusta.fi/wp-content/uploads/2022/11/Pajulahti_verkkokauppa_poytatennis.jpg",
-        "https://www.kolmekampusta.fi/fi/koulutukset/koulutus/vapaan-sivistystyon-koulutus",
+        "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/vapaan-sivistystyon-koulutus",
         "https://kauppa.kolmekampusta.fi/tuote/latvuksista-laiturille-paketti-pajulahti/",
         "https://kauppa.kolmekampusta.fi/tuote/lake-pool-aamupilates/",
         "https://kauppa.kolmekampusta.fi/tuote/bungee-trampoliini-2/",
@@ -42828,6 +42832,8 @@
         "https://kolmekampusta.willba.store/event/kk109948-kaj-kunnaksen-50+-kuntofiilis?locationId=34&utm_source=kauppa.kolmekampusta.fi",
         "https://kolmekampusta.willba.store/event/kk105900?locationId=34&utm_source=kauppa.kolmekampusta.fi",
         "https://kolmekampusta.willba.store/event/pl153640?locationId=1&utm_source=kauppa.kolmekampusta.fi",
+        "https://kolmekampusta.willba.store/event/kk115732-maalivahdit-viima-akatemian-syksyn-2026-leiri?locationId=34&utm_source=kauppa.kolmekampusta.fi",
+        "https://kolmekampusta.willba.store/event/kk115293-viima-akatemia-syksyn-2026-leiri?locationId=34&utm_source=kauppa.kolmekampusta.fi",
         "https://kolmekampusta.willba.store/event/pl160221-syysloman-tekniikkaleiri?locationId=1&utm_source=kauppa.kolmekampusta.fi",
         "https://kolmekampusta.willba.store/event/pl160220-taitoluistelun-tekniikkaleiri-pojille?locationId=1&utm_source=kauppa.kolmekampusta.fi",
         "https://kolmekampusta.willba.store/event/pl154236-pohja-coaching-traincation-pajulahdessa-23.-25.10.2026!?locationId=1&utm_source=kauppa.kolmekampusta.fi",
@@ -42835,10 +42841,14 @@
         "https://kolmekampusta.willba.store/event/pl650545-merja-huttusen-leiri-aikuisluistelijoille?locationId=1&utm_source=kauppa.kolmekampusta.fi",
         "https://kolmekampusta.willba.store/event/pl153639?locationId=1&utm_source=kauppa.kolmekampusta.fi",
         "https://kolmekampusta.willba.store/event/kk109612-laura-lepiston-leiri-aikuisille-13.-15.11.2026?locationId=34&utm_source=kauppa.kolmekampusta.fi",
+        "https://kolmekampusta.willba.store/event/pl652057-kestavyysseminaari-2026?locationId=1&utm_source=kauppa.kolmekampusta.fi",
         "https://kolmekampusta.willba.store/event/kk108018?locationId=34&utm_source=kauppa.kolmekampusta.fi",
         "https://kolmekampusta.willba.store/event/kk105904-joulufiilis-kisakalliossa?locationId=34&utm_source=kauppa.kolmekampusta.fi",
         "https://kolmekampusta.willba.store/event/pl157715-vuodenvaihteen-tekniikkaleiri-29.-31.12.2026?locationId=1&utm_source=kauppa.kolmekampusta.fi",
         "https://kolmekampusta.willba.store/event/pl650293-poikien-taitoluistelun-tekniikkaleiri-29-30.12.2026?locationId=1&utm_source=kauppa.kolmekampusta.fi",
+        "https://kolmekampusta.willba.store/event/kk115735-viima-akatemia-tammikuun-2027-leiri?locationId=34&utm_source=kauppa.kolmekampusta.fi",
+        "https://kolmekampusta.willba.store/event/kk110998-motor-skills-acquisition-conference-2027?locationId=34&utm_source=kauppa.kolmekampusta.fi",
+        "https://kolmekampusta.willba.store/event/kk115737-viima-akatemia-toukokuun-2027-leiri?locationId=34&utm_source=kauppa.kolmekampusta.fi",
         "https://www.addtoany.com/add_to/facebook?linkname=Koulutus%3A+Psyykkiset+taidot+1+%285+op%29&linkurl=https%3A%2F%2Fkauppa.kolmekampusta.fi%2Ftuote%2Fkoulutus-psyykkiset-taidot-1-5-op%2F",
         "https://www.addtoany.com/add_to/twitter?linkname=Koulutus%3A+Psyykkiset+taidot+1+%285+op%29&linkurl=https%3A%2F%2Fkauppa.kolmekampusta.fi%2Ftuote%2Fkoulutus-psyykkiset-taidot-1-5-op%2F",
         "https://www.addtoany.com/add_to/linkedin?linkname=Koulutus%3A+Psyykkiset+taidot+1+%285+op%29&linkurl=https%3A%2F%2Fkauppa.kolmekampusta.fi%2Ftuote%2Fkoulutus-psyykkiset-taidot-1-5-op%2F",
@@ -42849,7 +42859,7 @@
         "https://www.kolmekampusta.fi/fi/varaus-ja-peruutusehdot",
         "http://www.kolmekampusta.fi/fi/verkkokaupan-tilaus-ja-toimitusehdot"
       ],
-      "body_length": 358197,
+      "body_length": 321788,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://kauppa.kolmekampusta.fi/tuote/koulutus-psyykkiset-taidot-1-5-op/",
@@ -46032,7 +46042,7 @@
       "outbound": [],
       "is_file": true
     },
-    "https://www.kolmekampusta.fi/sites/default/files/2026-02/kesafiilis-27-31.7.2026-1.pdf": {
+    "https://www.kolmekampusta.fi/sites/default/files/2026-02/kuntofiilis-3-7.8.2026.pdf": {
       "title": null,
       "status": 200,
       "error": null,
@@ -46271,13 +46281,6 @@
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/taxonomy/term/55",
       "is_canonical_duplicate": false
-    },
-    "https://www.kolmekampusta.fi/sites/default/files/2026-02/kuntofiilis-3-7.8.2026.pdf": {
-      "title": null,
-      "status": 200,
-      "error": null,
-      "outbound": [],
-      "is_file": true
     },
     "https://www.kolmekampusta.fi/sites/default/files/2026-05/luonnon-aarelle-kisakalliossa-19-20.9.2026.pdf": {
       "title": null,
@@ -48892,117 +48895,6 @@
       "canonical": "https://www.kolmekampusta.fi/en/upcoming-events",
       "is_canonical_duplicate": true
     },
-    "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276": {
-      "title": "Kirjaudu sisään | Kolmen kampuksen urheiluopisto",
-      "status": 403,
-      "outbound": [
-        "https://www.kolmekampusta.fi/fi/verkkokaupat",
-        "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-        "https://www.kolmekampusta.fi/fi/search",
-        "https://www.kolmekampusta.fi/fi",
-        "https://www.kolmekampusta.fi/fi",
-        "https://www.kolmekampusta.fi/fi",
-        "https://www.kolmekampusta.fi/fi/verkkokaupat",
-        "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-        "https://www.kolmekampusta.fi/en/user/login",
-        "https://www.kolmekampusta.fi/fi/search",
-        "https://www.kolmekampusta.fi/fi/koulutukset",
-        "https://www.kolmekampusta.fi/fi/koulutukset/koulutus",
-        "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/hakijalle",
-        "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/ammatillinen-koulutus",
-        "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/oppisopimuskoulutus-jatkuva-haku",
-        "https://www.kolmekampusta.fi/fi/koulutukset/koulutus/vapaan-sivistystyon-koulutus",
-        "https://www.kolmekampusta.fi/fi/koulutus/kansainvalisyys",
-        "https://www.kolmekampusta.fi/fi/koulutus/opiskelijalle",
-        "https://www.kolmekampusta.fi/fi/urheilu",
-        "https://www.kolmekampusta.fi/fi/urheilu/leiri-ja-tapahtumakauppa",
-        "https://www.kolmekampusta.fi/fi/urheilu/leirit",
-        "https://www.kolmekampusta.fi/fi/urheilu/leirit/esikuvaleirit",
-        "https://www.kolmekampusta.fi/fi/urheilu/leirit/ylakoululeiritys",
-        "https://www.kolmekampusta.fi/fi/urheilu/leirit/urheilurippileirit",
-        "https://www.kolmekampusta.fi/fi/urheilu/valmennuskeskus",
-        "https://www.kolmekampusta.fi/fi/meista/tilat",
-        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut",
-        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/kestavyysurheilu",
-        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/korkeanpaikan-harjoittelu",
-        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/testauspalvelut",
-        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/pajulahden-palautumiskeskus",
-        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/taito-360",
-        "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen",
-        "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen/urheilun-tki",
-        "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen/kolmen-kampuksen-journal-club",
-        "https://www.kolmekampusta.fi/fi/urheilu/yhteisomme",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/liikunnalliset-vapaa-ajan-kurssit",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/perhepaketit",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/teemakurssit",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/aikuiset-60-fiiliskurssit",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/lisapalvelut",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/villaloma-kisakalliossa",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kisakallion-sporttipassi",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kisakallion-rantasauna",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/lake-pool-pajulahti",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/pajulahden-uimahalli",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/seikkailupuisto",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/valine-ja-kenttavuokraus",
-        "https://www.kolmekampusta.fi/fi/urheilu/tilat",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/liikunta-ja-hyvinvointipalvelut",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/kanta-asiakkuus",
-        "https://kauppa.kolmekampusta.fi/",
-        "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit",
-        "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/leirikoulu",
-        "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/luokkaretki",
-        "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/rippileiri",
-        "https://www.kolmekampusta.fi/fi/urheilu/leirit",
-        "https://www.kolmekampusta.fi/fi/yritykset",
-        "https://www.kolmekampusta.fi/fi/yritykset",
-        "https://www.kolmekampusta.fi/fi/yritykset/kokoukset",
-        "https://www.kolmekampusta.fi/fi/yritykset/kokoukset/seminaarit-ja-juhlat",
-        "https://www.kolmekampusta.fi/fi/yritykset/tyohyvinvointi",
-        "https://www.kolmekampusta.fi/fi/yritykset/hyvinvointikoulu",
-        "https://www.kolmekampusta.fi/fi/yritykset/villamaailma-yrityksille",
-        "https://www.kolmekampusta.fi/fi/majoitus",
-        "https://www.kolmekampusta.fi/fi/majoitus/pajulahti",
-        "https://www.kolmekampusta.fi/fi/majoitus/kisakallio",
-        "https://www.kolmekampusta.fi/fi/ravintolapalvelut",
-        "https://www.kolmekampusta.fi/fi/ravintolapalvelut/tilaustarjoilut",
-        "https://www.kolmekampusta.fi/fi/tapahtumat",
-        "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
-        "https://www.kolmekampusta.fi/fi/meista",
-        "https://www.kolmekampusta.fi/fi/meista/avoimet-tyopaikat",
-        "https://www.kolmekampusta.fi/fi/ajankohtaista",
-        "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-        "https://www.kolmekampusta.fi/fi/meista/laskutustiedot",
-        "https://www.kolmekampusta.fi/fi/meista/saatioiden-apurahat",
-        "https://www.kolmekampusta.fi/fi/meista/hankkeet",
-        "https://www.kolmekampusta.fi/fi/meista/vastuullisuus",
-        "https://www.kolmekampusta.fi/fi/kampukset",
-        "https://www.kolmekampusta.fi/fi/meista/tilat",
-        "https://www.kolmekampusta.fi/fi",
-        "https://www.kolmekampusta.fi/fi",
-        "https://www.kolmekampusta.fi/fi",
-        "https://www.kolmekampusta.fi/fi/verkkokaupat",
-        "https://www.kolmekampusta.fi/fi/ajankohtaista",
-        "https://www.kolmekampusta.fi/fi/meista/laskutustiedot",
-        "https://www.kolmekampusta.fi/fi/varaus-ja-peruutusehdot",
-        "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-        "https://www.kolmekampusta.fi/fi/uutiskirjeet",
-        "https://www.kolmekampusta.fi/fi/meista",
-        "https://www.kolmekampusta.fi/fi/aluekartta",
-        "https://www.kolmekampusta.fi/fi/anna-palautetta",
-        "https://www.kolmekampusta.fi/fi/koulutus/opiskelijalle",
-        "https://app.digitalguest.com/guestbook/Pajulahti",
-        "https://app.digitalguest.com/guestbook/Kisakallio",
-        "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
-        "https://www.kolmekampusta.fi/fi/evastekaytanto"
-      ],
-      "body_length": 80541,
-      "soft_404_signals": {},
-      "no_alias": false,
-      "canonical": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "is_canonical_duplicate": false
-    },
     "https://www.kolmekampusta.fi/en/current-topics?type=article": {
       "title": "Ajankohtaista | Kolmen kampuksen urheiluopisto",
       "status": 200,
@@ -49565,6 +49457,13 @@
       "is_file": true
     },
     "https://www.kolmekampusta.fi/sites/default/files/2026-02/reilun-kilpailun-ohjelma-kolmen-kampuksen-urheiluopisto.pdf": {
+      "title": null,
+      "status": 200,
+      "error": null,
+      "outbound": [],
+      "is_file": true
+    },
+    "https://www.kolmekampusta.fi/sites/default/files/2026-02/kesafiilis-27-31.7.2026-1.pdf": {
       "title": null,
       "status": 200,
       "error": null,
@@ -72516,11 +72415,6 @@
     },
     {
       "source": "https://www.kolmekampusta.fi/fi/vapaa-aika",
-      "target": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "text": "KesäFiilis Pajulahdessa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/vapaa-aika",
       "target": "https://www.kolmekampusta.fi/fi/tapahtumat/kuntofiilis-pajulahdessa-0",
       "text": "KuntoFiilis Pajulahdessa"
     },
@@ -72573,6 +72467,11 @@
       "source": "https://www.kolmekampusta.fi/fi/vapaa-aika",
       "target": "https://www.kolmekampusta.fi/fi/tapahtumat/pilates-ja-barreviikonloppu-kisakallio",
       "text": "Pilates- ja Barreviikonloppu Kisakallio"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/vapaa-aika",
+      "target": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "text": "Crosstraining -viikonloppu Pajulahdessa"
     },
     {
       "source": "https://www.kolmekampusta.fi/fi/vapaa-aika",
@@ -74983,11 +74882,6 @@
       "source": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/aikuiset-60-fiiliskurssit",
       "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/teemakurssit",
       "text": "täältä"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/aikuiset-60-fiiliskurssit",
-      "target": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "text": "KesäFiilis Pajulahdessa"
     },
     {
       "source": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/aikuiset-60-fiiliskurssit",
@@ -90931,11 +90825,6 @@
     },
     {
       "source": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
-      "target": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "text": "KesäFiilis Pajulahdessa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
       "target": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallio-cheerleading-champ-camp-2-482026",
       "text": "Kisakallio Cheerleading CHAMP CAMP 2.-4.8.2026"
     },
@@ -90988,6 +90877,11 @@
       "source": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
       "target": "https://www.kolmekampusta.fi/fi/tapahtumat/naisten-hyvinvointi-ja-sporttiviikonloppu-25-2792026-pajulahdessa",
       "text": "Naisten hyvinvointi- ja sporttiviikonloppu 25.-27.9.2026 Pajulahdessa"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
+      "target": "https://www.kolmekampusta.fi/fi/tapahtumat/viima-akatemia-kasva-huippujaakiekkoilijaksi-leiri3",
+      "text": "Viima Akatemia – Kasva huippujääkiekkoilijaksi (Leiri 3)"
     },
     {
       "source": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
@@ -153455,546 +153349,6 @@
       "text": "Evästekäytäntö"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/verkkokaupat",
-      "text": "Verkkokauppa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-      "text": "Yhteystiedot"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/search",
-      "text": ""
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi",
-      "text": ""
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi",
-      "text": ""
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi",
-      "text": "Kolmen kampuksen urheiluopisto"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/verkkokaupat",
-      "text": "Verkkokauppa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-      "text": "Yhteystiedot"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/en",
-      "text": "Englanti"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/search",
-      "text": ""
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/koulutukset",
-      "text": "Koulutukset"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/koulutukset/koulutus",
-      "text": "Koulutus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/hakijalle",
-      "text": "Hakijalle"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/ammatillinen-koulutus",
-      "text": "Ammatillinen koulutus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/oppisopimuskoulutus-jatkuva-haku",
-      "text": "Oppisopimuskoulutus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/koulutukset/koulutus/vapaan-sivistystyon-koulutus",
-      "text": "Vapaan sivistystyön koulutus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/kansainvalisyys",
-      "text": "Kansainvälisyys"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/opiskelijalle",
-      "text": "Opiskelijalle"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu",
-      "text": "Urheilu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/leiri-ja-tapahtumakauppa",
-      "text": "Leiri- ja tapahtumakauppa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit",
-      "text": "Leirit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit/esikuvaleirit",
-      "text": "Esikuvaleirit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit/ylakoululeiritys",
-      "text": "Yläkoululeiritys"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit/urheilurippileirit",
-      "text": "Urheilurippileirit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/valmennuskeskus",
-      "text": "Valmennuskeskus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/meista/tilat",
-      "text": "Olosuhteet"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut",
-      "text": "Urheilun palvelut"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/kestavyysurheilu",
-      "text": "Kestävyysurheilu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/korkeanpaikan-harjoittelu",
-      "text": "Korkeanpaikan harjoittelu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/testauspalvelut",
-      "text": "Testauspalvelut"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/pajulahden-palautumiskeskus",
-      "text": "Pajulahden palautumiskeskus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/taito-360",
-      "text": "TAITO 360 - motoristen taitojen harjoittelu- ja kuntoilualue"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen",
-      "text": "Osaamisen kehittäminen"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen/urheilun-tki",
-      "text": "Urheilun TKI"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen/kolmen-kampuksen-journal-club",
-      "text": "Journal Club"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/yhteisomme",
-      "text": "Yhteisömme"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika",
-      "text": "Vapaa-aika"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/liikunnalliset-vapaa-ajan-kurssit",
-      "text": "Lomat ja kurssit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/perhepaketit",
-      "text": "Perhepaketit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/teemakurssit",
-      "text": "Teemakurssit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/aikuiset-60-fiiliskurssit",
-      "text": "Aikuiset 60+ Fiiliskurssit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/lisapalvelut",
-      "text": "Lomien lisäpalvelut"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/villaloma-kisakalliossa",
-      "text": "Villaloma Kisakalliossa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit",
-      "text": "Aktiviteetit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kisakallion-sporttipassi",
-      "text": "Kisakallion Sporttipassi"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kisakallion-rantasauna",
-      "text": "Kisakallion sauna ja uinti"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/lake-pool-pajulahti",
-      "text": "Lake Pool Pajulahti"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/pajulahden-uimahalli",
-      "text": "Pajulahden uimahalli"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/seikkailupuisto",
-      "text": "Pajulahden Seikkailupuisto"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/valine-ja-kenttavuokraus",
-      "text": "Väline- ja kenttävuokraus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/tilat",
-      "text": "Tilat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/liikunta-ja-hyvinvointipalvelut",
-      "text": "Liikunta- ja hyvinvointipalvelut"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/kanta-asiakkuus",
-      "text": "Kanta-asiakkuus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://kauppa.kolmekampusta.fi/",
-      "text": "Verkkokauppa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit",
-      "text": "Ryhmät ja leirit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/leirikoulu",
-      "text": "Leirikoulu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/luokkaretki",
-      "text": "Luokkaretki"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/rippileiri",
-      "text": "Rippileiri"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit",
-      "text": "Urheilijaryhmät"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/yritykset",
-      "text": "Yritysryhmät"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/yritykset",
-      "text": "Yritykset"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/yritykset/kokoukset",
-      "text": "Kokoukset"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/yritykset/kokoukset/seminaarit-ja-juhlat",
-      "text": "Seminaarit ja juhlat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/yritykset/tyohyvinvointi",
-      "text": "Työhyvinvointi"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/yritykset/hyvinvointikoulu",
-      "text": "Hyvinvointikoulu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/yritykset/villamaailma-yrityksille",
-      "text": "Villamaailma Kisakalliossa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/majoitus",
-      "text": "Majoitus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/majoitus/pajulahti",
-      "text": "Pajulahti"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/majoitus/kisakallio",
-      "text": "Kisakallio"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/ravintolapalvelut",
-      "text": "Ravintolapalvelut"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/ravintolapalvelut/tilaustarjoilut",
-      "text": "Tilaustarjoilut"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/tapahtumat",
-      "text": "Tapahtumat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
-      "text": "Tulevat tapahtumat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/meista",
-      "text": "Meistä"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/meista/avoimet-tyopaikat",
-      "text": "Avoimet työpaikat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/ajankohtaista",
-      "text": "Ajankohtaista"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-      "text": "Yhteystiedot"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/meista/laskutustiedot",
-      "text": "Laskutustiedot"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/meista/saatioiden-apurahat",
-      "text": "Säätiöiden apurahat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/meista/hankkeet",
-      "text": "Hankkeet"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/meista/vastuullisuus",
-      "text": "Vastuullisuus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/kampukset",
-      "text": "Kampukset"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/meista/tilat",
-      "text": "Tilat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi",
-      "text": "Etusivu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi",
-      "text": "Etusivu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/tapahtumat",
-      "text": "Tapahtumat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/majoitus",
-      "text": "tästä"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/sites/default/files/2026-02/kesafiilis-27-31.7.2026-1.pdf",
-      "text": "Tutustu alustavaan ohjelmaan tästä!"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/kanta-asiakkuus",
-      "text": "tästä"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://kolmekampusta.willba.store/event/PL153594",
-      "text": "Osta verkkokaupasta"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/fiiliskurssien-ilmoittautumislomake",
-      "text": "Ilmoittaudu mukaan"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/vapaan-sivistystyon-koulutus",
-      "text": "vapaan sivistystyön koulutuksesta"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/taxonomy/term/55",
-      "text": "Fiiliskurssit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi",
-      "text": ""
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/verkkokaupat",
-      "text": "Verkkokauppa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/ajankohtaista",
-      "text": "Ajankohtaista"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/meista/laskutustiedot",
-      "text": "Laskutustiedot"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/varaus-ja-peruutusehdot",
-      "text": "Varaus- ja peruutusehdot"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-      "text": "Yhteystiedot"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/uutiskirjeet",
-      "text": "Tilaa uutiskirje"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/meista",
-      "text": "Meistä"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/aluekartta",
-      "text": "Aluekartta"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/anna-palautetta",
-      "text": "Anna palautetta"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/opiskelijalle",
-      "text": "Opiskelijalle"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://app.digitalguest.com/guestbook/Pajulahti",
-      "text": "PajuInfo"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://app.digitalguest.com/guestbook/Kisakallio",
-      "text": "KisakallioInfo"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
-      "text": "Tietosuojaseloste"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
-      "target": "https://www.kolmekampusta.fi/fi/evastekaytanto",
-      "text": "Evästekäytäntö"
-    },
-    {
       "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kuntofiilis-pajulahdessa-0",
       "target": "https://www.kolmekampusta.fi/fi/verkkokaupat",
       "text": "Verkkokauppa"
@@ -158845,6 +158199,531 @@
       "text": "Evästekäytäntö"
     },
     {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/verkkokaupat",
+      "text": "Verkkokauppa"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
+      "text": "Yhteystiedot"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/search",
+      "text": ""
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi",
+      "text": ""
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi",
+      "text": ""
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi",
+      "text": "Kolmen kampuksen urheiluopisto"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/verkkokaupat",
+      "text": "Verkkokauppa"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
+      "text": "Yhteystiedot"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/en",
+      "text": "Englanti"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/search",
+      "text": ""
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/koulutukset",
+      "text": "Koulutukset"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/koulutukset/koulutus",
+      "text": "Koulutus"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/hakijalle",
+      "text": "Hakijalle"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/ammatillinen-koulutus",
+      "text": "Ammatillinen koulutus"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/oppisopimuskoulutus-jatkuva-haku",
+      "text": "Oppisopimuskoulutus"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/koulutukset/koulutus/vapaan-sivistystyon-koulutus",
+      "text": "Vapaan sivistystyön koulutus"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/koulutus/kansainvalisyys",
+      "text": "Kansainvälisyys"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/koulutus/opiskelijalle",
+      "text": "Opiskelijalle"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu",
+      "text": "Urheilu"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/leiri-ja-tapahtumakauppa",
+      "text": "Leiri- ja tapahtumakauppa"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit",
+      "text": "Leirit"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit/esikuvaleirit",
+      "text": "Esikuvaleirit"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit/ylakoululeiritys",
+      "text": "Yläkoululeiritys"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit/urheilurippileirit",
+      "text": "Urheilurippileirit"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/valmennuskeskus",
+      "text": "Valmennuskeskus"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/meista/tilat",
+      "text": "Olosuhteet"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut",
+      "text": "Urheilun palvelut"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/kestavyysurheilu",
+      "text": "Kestävyysurheilu"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/korkeanpaikan-harjoittelu",
+      "text": "Korkeanpaikan harjoittelu"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/testauspalvelut",
+      "text": "Testauspalvelut"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/pajulahden-palautumiskeskus",
+      "text": "Pajulahden palautumiskeskus"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/taito-360",
+      "text": "TAITO 360 - motoristen taitojen harjoittelu- ja kuntoilualue"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen",
+      "text": "Osaamisen kehittäminen"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen/urheilun-tki",
+      "text": "Urheilun TKI"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen/kolmen-kampuksen-journal-club",
+      "text": "Journal Club"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/yhteisomme",
+      "text": "Yhteisömme"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika",
+      "text": "Vapaa-aika"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/liikunnalliset-vapaa-ajan-kurssit",
+      "text": "Lomat ja kurssit"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/perhepaketit",
+      "text": "Perhepaketit"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/teemakurssit",
+      "text": "Teemakurssit"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/aikuiset-60-fiiliskurssit",
+      "text": "Aikuiset 60+ Fiiliskurssit"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/lisapalvelut",
+      "text": "Lomien lisäpalvelut"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/villaloma-kisakalliossa",
+      "text": "Villaloma Kisakalliossa"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit",
+      "text": "Aktiviteetit"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kisakallion-sporttipassi",
+      "text": "Kisakallion Sporttipassi"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kisakallion-rantasauna",
+      "text": "Kisakallion sauna ja uinti"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/lake-pool-pajulahti",
+      "text": "Lake Pool Pajulahti"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/pajulahden-uimahalli",
+      "text": "Pajulahden uimahalli"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/seikkailupuisto",
+      "text": "Pajulahden Seikkailupuisto"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/valine-ja-kenttavuokraus",
+      "text": "Väline- ja kenttävuokraus"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/tilat",
+      "text": "Tilat"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/liikunta-ja-hyvinvointipalvelut",
+      "text": "Liikunta- ja hyvinvointipalvelut"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/kanta-asiakkuus",
+      "text": "Kanta-asiakkuus"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://kauppa.kolmekampusta.fi/",
+      "text": "Verkkokauppa"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit",
+      "text": "Ryhmät ja leirit"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/leirikoulu",
+      "text": "Leirikoulu"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/luokkaretki",
+      "text": "Luokkaretki"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/rippileiri",
+      "text": "Rippileiri"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit",
+      "text": "Urheilijaryhmät"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/yritykset",
+      "text": "Yritysryhmät"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/yritykset",
+      "text": "Yritykset"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/yritykset/kokoukset",
+      "text": "Kokoukset"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/yritykset/kokoukset/seminaarit-ja-juhlat",
+      "text": "Seminaarit ja juhlat"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/yritykset/tyohyvinvointi",
+      "text": "Työhyvinvointi"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/yritykset/hyvinvointikoulu",
+      "text": "Hyvinvointikoulu"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/yritykset/villamaailma-yrityksille",
+      "text": "Villamaailma Kisakalliossa"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/majoitus",
+      "text": "Majoitus"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/majoitus/pajulahti",
+      "text": "Pajulahti"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/majoitus/kisakallio",
+      "text": "Kisakallio"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/ravintolapalvelut",
+      "text": "Ravintolapalvelut"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/ravintolapalvelut/tilaustarjoilut",
+      "text": "Tilaustarjoilut"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/tapahtumat",
+      "text": "Tapahtumat"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
+      "text": "Tulevat tapahtumat"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/meista",
+      "text": "Meistä"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/meista/avoimet-tyopaikat",
+      "text": "Avoimet työpaikat"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/ajankohtaista",
+      "text": "Ajankohtaista"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
+      "text": "Yhteystiedot"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/meista/laskutustiedot",
+      "text": "Laskutustiedot"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/meista/saatioiden-apurahat",
+      "text": "Säätiöiden apurahat"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/meista/hankkeet",
+      "text": "Hankkeet"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/meista/vastuullisuus",
+      "text": "Vastuullisuus"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/kampukset",
+      "text": "Kampukset"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/meista/tilat",
+      "text": "Tilat"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi",
+      "text": "Etusivu"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi",
+      "text": "Etusivu"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/tapahtumat",
+      "text": "Tapahtumat"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://kolmekampusta.fi/fi/vapaa-aika/kanta-asiakkuus",
+      "text": "tästä"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://kolmekampusta.willba.store/event/PL153639",
+      "text": "Osta paikka verkkokaupastamme!"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/vapaa-ajan-ilmoittautumislomake",
+      "text": "Ilmoittaudu mukaan tästä"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/taxonomy/term/56",
+      "text": "Teemakurssit"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi",
+      "text": ""
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/verkkokaupat",
+      "text": "Verkkokauppa"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/ajankohtaista",
+      "text": "Ajankohtaista"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/meista/laskutustiedot",
+      "text": "Laskutustiedot"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/varaus-ja-peruutusehdot",
+      "text": "Varaus- ja peruutusehdot"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
+      "text": "Yhteystiedot"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/uutiskirjeet",
+      "text": "Tilaa uutiskirje"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/meista",
+      "text": "Meistä"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/aluekartta",
+      "text": "Aluekartta"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/anna-palautetta",
+      "text": "Anna palautetta"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/koulutus/opiskelijalle",
+      "text": "Opiskelijalle"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://app.digitalguest.com/guestbook/Pajulahti",
+      "text": "PajuInfo"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://app.digitalguest.com/guestbook/Kisakallio",
+      "text": "KisakallioInfo"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
+      "text": "Tietosuojaseloste"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
+      "target": "https://www.kolmekampusta.fi/fi/evastekaytanto",
+      "text": "Evästekäytäntö"
+    },
+    {
       "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-joulu",
       "target": "https://www.kolmekampusta.fi/fi/verkkokaupat",
       "text": "Verkkokauppa"
@@ -163201,531 +163080,6 @@
     },
     {
       "source": "https://www.kolmekampusta.fi/fi/lastenmaailma",
-      "target": "https://www.kolmekampusta.fi/fi/evastekaytanto",
-      "text": "Evästekäytäntö"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/verkkokaupat",
-      "text": "Verkkokauppa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-      "text": "Yhteystiedot"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/search",
-      "text": ""
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi",
-      "text": ""
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi",
-      "text": ""
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi",
-      "text": "Kolmen kampuksen urheiluopisto"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/verkkokaupat",
-      "text": "Verkkokauppa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-      "text": "Yhteystiedot"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/en",
-      "text": "Englanti"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/search",
-      "text": ""
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/koulutukset",
-      "text": "Koulutukset"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/koulutukset/koulutus",
-      "text": "Koulutus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/hakijalle",
-      "text": "Hakijalle"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/ammatillinen-koulutus",
-      "text": "Ammatillinen koulutus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/oppisopimuskoulutus-jatkuva-haku",
-      "text": "Oppisopimuskoulutus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/koulutukset/koulutus/vapaan-sivistystyon-koulutus",
-      "text": "Vapaan sivistystyön koulutus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/kansainvalisyys",
-      "text": "Kansainvälisyys"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/opiskelijalle",
-      "text": "Opiskelijalle"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu",
-      "text": "Urheilu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/leiri-ja-tapahtumakauppa",
-      "text": "Leiri- ja tapahtumakauppa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit",
-      "text": "Leirit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit/esikuvaleirit",
-      "text": "Esikuvaleirit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit/ylakoululeiritys",
-      "text": "Yläkoululeiritys"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit/urheilurippileirit",
-      "text": "Urheilurippileirit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/valmennuskeskus",
-      "text": "Valmennuskeskus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/meista/tilat",
-      "text": "Olosuhteet"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut",
-      "text": "Urheilun palvelut"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/kestavyysurheilu",
-      "text": "Kestävyysurheilu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/korkeanpaikan-harjoittelu",
-      "text": "Korkeanpaikan harjoittelu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/testauspalvelut",
-      "text": "Testauspalvelut"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/pajulahden-palautumiskeskus",
-      "text": "Pajulahden palautumiskeskus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/taito-360",
-      "text": "TAITO 360 - motoristen taitojen harjoittelu- ja kuntoilualue"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen",
-      "text": "Osaamisen kehittäminen"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen/urheilun-tki",
-      "text": "Urheilun TKI"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen/kolmen-kampuksen-journal-club",
-      "text": "Journal Club"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/yhteisomme",
-      "text": "Yhteisömme"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika",
-      "text": "Vapaa-aika"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/liikunnalliset-vapaa-ajan-kurssit",
-      "text": "Lomat ja kurssit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/perhepaketit",
-      "text": "Perhepaketit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/teemakurssit",
-      "text": "Teemakurssit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/aikuiset-60-fiiliskurssit",
-      "text": "Aikuiset 60+ Fiiliskurssit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/lisapalvelut",
-      "text": "Lomien lisäpalvelut"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/villaloma-kisakalliossa",
-      "text": "Villaloma Kisakalliossa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit",
-      "text": "Aktiviteetit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kisakallion-sporttipassi",
-      "text": "Kisakallion Sporttipassi"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kisakallion-rantasauna",
-      "text": "Kisakallion sauna ja uinti"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/lake-pool-pajulahti",
-      "text": "Lake Pool Pajulahti"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/pajulahden-uimahalli",
-      "text": "Pajulahden uimahalli"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/seikkailupuisto",
-      "text": "Pajulahden Seikkailupuisto"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/valine-ja-kenttavuokraus",
-      "text": "Väline- ja kenttävuokraus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/tilat",
-      "text": "Tilat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/liikunta-ja-hyvinvointipalvelut",
-      "text": "Liikunta- ja hyvinvointipalvelut"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/kanta-asiakkuus",
-      "text": "Kanta-asiakkuus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://kauppa.kolmekampusta.fi/",
-      "text": "Verkkokauppa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit",
-      "text": "Ryhmät ja leirit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/leirikoulu",
-      "text": "Leirikoulu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/luokkaretki",
-      "text": "Luokkaretki"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/rippileiri",
-      "text": "Rippileiri"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit",
-      "text": "Urheilijaryhmät"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/yritykset",
-      "text": "Yritysryhmät"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/yritykset",
-      "text": "Yritykset"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/yritykset/kokoukset",
-      "text": "Kokoukset"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/yritykset/kokoukset/seminaarit-ja-juhlat",
-      "text": "Seminaarit ja juhlat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/yritykset/tyohyvinvointi",
-      "text": "Työhyvinvointi"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/yritykset/hyvinvointikoulu",
-      "text": "Hyvinvointikoulu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/yritykset/villamaailma-yrityksille",
-      "text": "Villamaailma Kisakalliossa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/majoitus",
-      "text": "Majoitus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/majoitus/pajulahti",
-      "text": "Pajulahti"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/majoitus/kisakallio",
-      "text": "Kisakallio"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/ravintolapalvelut",
-      "text": "Ravintolapalvelut"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/ravintolapalvelut/tilaustarjoilut",
-      "text": "Tilaustarjoilut"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/tapahtumat",
-      "text": "Tapahtumat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
-      "text": "Tulevat tapahtumat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/meista",
-      "text": "Meistä"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/meista/avoimet-tyopaikat",
-      "text": "Avoimet työpaikat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/ajankohtaista",
-      "text": "Ajankohtaista"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-      "text": "Yhteystiedot"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/meista/laskutustiedot",
-      "text": "Laskutustiedot"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/meista/saatioiden-apurahat",
-      "text": "Säätiöiden apurahat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/meista/hankkeet",
-      "text": "Hankkeet"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/meista/vastuullisuus",
-      "text": "Vastuullisuus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/kampukset",
-      "text": "Kampukset"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/meista/tilat",
-      "text": "Tilat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi",
-      "text": "Etusivu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi",
-      "text": "Etusivu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/tapahtumat",
-      "text": "Tapahtumat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://kolmekampusta.fi/fi/vapaa-aika/kanta-asiakkuus",
-      "text": "tästä"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://kolmekampusta.willba.store/event/PL153639",
-      "text": "Osta paikka verkkokaupastamme!"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-ajan-ilmoittautumislomake",
-      "text": "Ilmoittaudu mukaan tästä"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/taxonomy/term/56",
-      "text": "Teemakurssit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi",
-      "text": ""
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/verkkokaupat",
-      "text": "Verkkokauppa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/ajankohtaista",
-      "text": "Ajankohtaista"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/meista/laskutustiedot",
-      "text": "Laskutustiedot"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/varaus-ja-peruutusehdot",
-      "text": "Varaus- ja peruutusehdot"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-      "text": "Yhteystiedot"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/uutiskirjeet",
-      "text": "Tilaa uutiskirje"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/meista",
-      "text": "Meistä"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/aluekartta",
-      "text": "Aluekartta"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/anna-palautetta",
-      "text": "Anna palautetta"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/opiskelijalle",
-      "text": "Opiskelijalle"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://app.digitalguest.com/guestbook/Pajulahti",
-      "text": "PajuInfo"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://app.digitalguest.com/guestbook/Kisakallio",
-      "text": "KisakallioInfo"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
-      "target": "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
-      "text": "Tietosuojaseloste"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/crosstraining-viikonloppu-pajulahdessa",
       "target": "https://www.kolmekampusta.fi/fi/evastekaytanto",
       "text": "Evästekäytäntö"
     },
@@ -197656,11 +197010,6 @@
     },
     {
       "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "text": "27.6.2026"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
       "target": "https://www.kolmekampusta.fi/fi",
       "text": ""
     },
@@ -218250,6 +217599,546 @@
       "text": "Evästekäytäntö"
     },
     {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/verkkokaupat",
+      "text": "Verkkokauppa"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
+      "text": "Yhteystiedot"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/search",
+      "text": ""
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi",
+      "text": ""
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi",
+      "text": ""
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi",
+      "text": "Kolmen kampuksen urheiluopisto"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/verkkokaupat",
+      "text": "Verkkokauppa"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
+      "text": "Yhteystiedot"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/en",
+      "text": "Englanti"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/search",
+      "text": ""
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/koulutukset",
+      "text": "Koulutukset"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/koulutukset/koulutus",
+      "text": "Koulutus"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/hakijalle",
+      "text": "Hakijalle"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/ammatillinen-koulutus",
+      "text": "Ammatillinen koulutus"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/oppisopimuskoulutus-jatkuva-haku",
+      "text": "Oppisopimuskoulutus"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/koulutukset/koulutus/vapaan-sivistystyon-koulutus",
+      "text": "Vapaan sivistystyön koulutus"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/koulutus/kansainvalisyys",
+      "text": "Kansainvälisyys"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/koulutus/opiskelijalle",
+      "text": "Opiskelijalle"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu",
+      "text": "Urheilu"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/leiri-ja-tapahtumakauppa",
+      "text": "Leiri- ja tapahtumakauppa"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit",
+      "text": "Leirit"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit/esikuvaleirit",
+      "text": "Esikuvaleirit"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit/ylakoululeiritys",
+      "text": "Yläkoululeiritys"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit/urheilurippileirit",
+      "text": "Urheilurippileirit"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/valmennuskeskus",
+      "text": "Valmennuskeskus"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/meista/tilat",
+      "text": "Olosuhteet"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut",
+      "text": "Urheilun palvelut"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/kestavyysurheilu",
+      "text": "Kestävyysurheilu"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/korkeanpaikan-harjoittelu",
+      "text": "Korkeanpaikan harjoittelu"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/testauspalvelut",
+      "text": "Testauspalvelut"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/pajulahden-palautumiskeskus",
+      "text": "Pajulahden palautumiskeskus"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/taito-360",
+      "text": "TAITO 360 - motoristen taitojen harjoittelu- ja kuntoilualue"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen",
+      "text": "Osaamisen kehittäminen"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen/urheilun-tki",
+      "text": "Urheilun TKI"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen/kolmen-kampuksen-journal-club",
+      "text": "Journal Club"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/yhteisomme",
+      "text": "Yhteisömme"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika",
+      "text": "Vapaa-aika"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/liikunnalliset-vapaa-ajan-kurssit",
+      "text": "Lomat ja kurssit"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/perhepaketit",
+      "text": "Perhepaketit"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/teemakurssit",
+      "text": "Teemakurssit"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/aikuiset-60-fiiliskurssit",
+      "text": "Aikuiset 60+ Fiiliskurssit"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/lisapalvelut",
+      "text": "Lomien lisäpalvelut"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/villaloma-kisakalliossa",
+      "text": "Villaloma Kisakalliossa"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit",
+      "text": "Aktiviteetit"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kisakallion-sporttipassi",
+      "text": "Kisakallion Sporttipassi"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kisakallion-rantasauna",
+      "text": "Kisakallion sauna ja uinti"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/lake-pool-pajulahti",
+      "text": "Lake Pool Pajulahti"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/pajulahden-uimahalli",
+      "text": "Pajulahden uimahalli"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/seikkailupuisto",
+      "text": "Pajulahden Seikkailupuisto"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/valine-ja-kenttavuokraus",
+      "text": "Väline- ja kenttävuokraus"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/tilat",
+      "text": "Tilat"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/liikunta-ja-hyvinvointipalvelut",
+      "text": "Liikunta- ja hyvinvointipalvelut"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/kanta-asiakkuus",
+      "text": "Kanta-asiakkuus"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://kauppa.kolmekampusta.fi/",
+      "text": "Verkkokauppa"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit",
+      "text": "Ryhmät ja leirit"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/leirikoulu",
+      "text": "Leirikoulu"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/luokkaretki",
+      "text": "Luokkaretki"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/rippileiri",
+      "text": "Rippileiri"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit",
+      "text": "Urheilijaryhmät"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/yritykset",
+      "text": "Yritysryhmät"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/yritykset",
+      "text": "Yritykset"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/yritykset/kokoukset",
+      "text": "Kokoukset"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/yritykset/kokoukset/seminaarit-ja-juhlat",
+      "text": "Seminaarit ja juhlat"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/yritykset/tyohyvinvointi",
+      "text": "Työhyvinvointi"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/yritykset/hyvinvointikoulu",
+      "text": "Hyvinvointikoulu"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/yritykset/villamaailma-yrityksille",
+      "text": "Villamaailma Kisakalliossa"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/majoitus",
+      "text": "Majoitus"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/majoitus/pajulahti",
+      "text": "Pajulahti"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/majoitus/kisakallio",
+      "text": "Kisakallio"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/ravintolapalvelut",
+      "text": "Ravintolapalvelut"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/ravintolapalvelut/tilaustarjoilut",
+      "text": "Tilaustarjoilut"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/tapahtumat",
+      "text": "Tapahtumat"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
+      "text": "Tulevat tapahtumat"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/meista",
+      "text": "Meistä"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/meista/avoimet-tyopaikat",
+      "text": "Avoimet työpaikat"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/ajankohtaista",
+      "text": "Ajankohtaista"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
+      "text": "Yhteystiedot"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/meista/laskutustiedot",
+      "text": "Laskutustiedot"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/meista/saatioiden-apurahat",
+      "text": "Säätiöiden apurahat"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/meista/hankkeet",
+      "text": "Hankkeet"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/meista/vastuullisuus",
+      "text": "Vastuullisuus"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/kampukset",
+      "text": "Kampukset"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/meista/tilat",
+      "text": "Tilat"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi",
+      "text": "Etusivu"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi",
+      "text": "Etusivu"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/tapahtumat",
+      "text": "Tapahtumat"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/majoitus",
+      "text": "tästä"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/sites/default/files/2026-02/kesafiilis-27-31.7.2026-1.pdf",
+      "text": "Tutustu alustavaan ohjelmaan tästä!"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/kanta-asiakkuus",
+      "text": "tästä"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://kolmekampusta.willba.store/event/PL153594",
+      "text": "Ilmoittaudu verkkokaupassa"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/fiiliskurssien-ilmoittautumislomake",
+      "text": "Ilmoittaudu lomakkeella"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/vapaan-sivistystyon-koulutus",
+      "text": "vapaan sivistystyön koulutuksesta"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/taxonomy/term/55",
+      "text": "Fiiliskurssit"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi",
+      "text": ""
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/verkkokaupat",
+      "text": "Verkkokauppa"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/ajankohtaista",
+      "text": "Ajankohtaista"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/meista/laskutustiedot",
+      "text": "Laskutustiedot"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/varaus-ja-peruutusehdot",
+      "text": "Varaus- ja peruutusehdot"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
+      "text": "Yhteystiedot"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/uutiskirjeet",
+      "text": "Tilaa uutiskirje"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/meista",
+      "text": "Meistä"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/aluekartta",
+      "text": "Aluekartta"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/anna-palautetta",
+      "text": "Anna palautetta"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/koulutus/opiskelijalle",
+      "text": "Opiskelijalle"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://app.digitalguest.com/guestbook/Pajulahti",
+      "text": "PajuInfo"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://app.digitalguest.com/guestbook/Kisakallio",
+      "text": "KisakallioInfo"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
+      "text": "Tietosuojaseloste"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0",
+      "target": "https://www.kolmekampusta.fi/fi/evastekaytanto",
+      "text": "Evästekäytäntö"
+    },
+    {
       "source": "https://www.kolmekampusta.fi/fi/taxonomy/term/121",
       "target": "https://www.kolmekampusta.fi/fi/verkkokaupat",
       "text": "Verkkokauppa"
@@ -233576,8 +233465,8 @@
     },
     {
       "source": "https://www.kolmekampusta.fi/tekoaly1",
-      "target": "https://www.kolmekampusta.fi/fi/koulutukset/koulutus/vapaan-sivistystyon-koulutus",
-      "text": "Lue lisää vapaan sivistystyön koulutuksesta."
+      "target": "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/vapaan-sivistystyon-koulutus",
+      "text": "Lue lisää vapaan sivistystyön koulutuksesta"
     },
     {
       "source": "https://www.kolmekampusta.fi/tekoaly1",
@@ -233922,17 +233811,27 @@
     {
       "source": "https://www.kolmekampusta.fi/tekoaly1",
       "target": "https://kolmekampusta.willba.store/event/pl153640?locationId=1&utm_source=kauppa.kolmekampusta.fi",
-      "text": "Uutta! Pajulahti Naisten hyvinvointi- ja sporttiviikon­loppu 25.09.2026–27.09.2026"
+      "text": "Uutta! Pajulahti Naisten hyvinvointi- ja sportti­viikonloppu 25.09.2026–27.09.2026"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/tekoaly1",
+      "target": "https://kolmekampusta.willba.store/event/kk115732-maalivahdit-viima-akatemian-syksyn-2026-leiri?locationId=34&utm_source=kauppa.kolmekampusta.fi",
+      "text": "Uutta! Kisakallio Viima Akatemia syksy 2026 Maalivahdit 28.09.2026–01.10.2026"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/tekoaly1",
+      "target": "https://kolmekampusta.willba.store/event/kk115293-viima-akatemia-syksyn-2026-leiri?locationId=34&utm_source=kauppa.kolmekampusta.fi",
+      "text": "Uutta! Kisakallio Viima Akatemia syksy 2026 28.09.2026–01.10.2026"
     },
     {
       "source": "https://www.kolmekampusta.fi/tekoaly1",
       "target": "https://kolmekampusta.willba.store/event/pl160221-syysloman-tekniikkaleiri?locationId=1&utm_source=kauppa.kolmekampusta.fi",
-      "text": "Uutta! Pajulahti Syysloman tekniikkaleiri 13.10.2026–15.10.2026"
+      "text": "Uutta! Pajulahti Syys­loman tekniikka­leiri 13.10.2026–15.10.2026"
     },
     {
       "source": "https://www.kolmekampusta.fi/tekoaly1",
       "target": "https://kolmekampusta.willba.store/event/pl160220-taitoluistelun-tekniikkaleiri-pojille?locationId=1&utm_source=kauppa.kolmekampusta.fi",
-      "text": "Uutta! Pajulahti Taitoluistelun tekniikkaleiri pojille (lokakuu) 13.10.2026–14.10.2026"
+      "text": "Uutta! Pajulahti Taito­luistelun tekniikka­leiri pojille (lokakuu) 13.10.2026–14.10.2026"
     },
     {
       "source": "https://www.kolmekampusta.fi/tekoaly1",
@@ -233952,12 +233851,17 @@
     {
       "source": "https://www.kolmekampusta.fi/tekoaly1",
       "target": "https://kolmekampusta.willba.store/event/pl153639?locationId=1&utm_source=kauppa.kolmekampusta.fi",
-      "text": "Uutta! Pajulahti Cross Training -viikonloppu 13.11.2026–15.11.2026"
+      "text": "Uutta! Pajulahti Cross Training viikonloppu 13.11.2026–15.11.2026"
     },
     {
       "source": "https://www.kolmekampusta.fi/tekoaly1",
       "target": "https://kolmekampusta.willba.store/event/kk109612-laura-lepiston-leiri-aikuisille-13.-15.11.2026?locationId=34&utm_source=kauppa.kolmekampusta.fi",
       "text": "Uutta! Kisakallio Laura Lepistön leiri aikuisille 13.11.2026–15.11.2026"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/tekoaly1",
+      "target": "https://kolmekampusta.willba.store/event/pl652057-kestavyysseminaari-2026?locationId=1&utm_source=kauppa.kolmekampusta.fi",
+      "text": "Uutta! Pajulahti Kestävyys­seminaari 2026 16.11.2026–17.11.2026"
     },
     {
       "source": "https://www.kolmekampusta.fi/tekoaly1",
@@ -233972,12 +233876,27 @@
     {
       "source": "https://www.kolmekampusta.fi/tekoaly1",
       "target": "https://kolmekampusta.willba.store/event/pl157715-vuodenvaihteen-tekniikkaleiri-29.-31.12.2026?locationId=1&utm_source=kauppa.kolmekampusta.fi",
-      "text": "Uutta! Pajulahti Vuoden­vaihteen tekniikka­leiri 29.12.2026–31.12.2026"
+      "text": "Uutta! Pajulahti Vuoden­vaih­teen tekniikka­leiri 29.12.2026–31.12.2026"
     },
     {
       "source": "https://www.kolmekampusta.fi/tekoaly1",
       "target": "https://kolmekampusta.willba.store/event/pl650293-poikien-taitoluistelun-tekniikkaleiri-29-30.12.2026?locationId=1&utm_source=kauppa.kolmekampusta.fi",
-      "text": "Uutta! Pajulahti Poikien taitoluistelun tekniikkaleiri (joulukuu) 29.12.2026–30.12.2026"
+      "text": "Uutta! Pajulahti Poikien taito­luistelun tekniikka­leiri (joulukuu) 29.12.2026–30.12.2026"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/tekoaly1",
+      "target": "https://kolmekampusta.willba.store/event/kk115735-viima-akatemia-tammikuun-2027-leiri?locationId=34&utm_source=kauppa.kolmekampusta.fi",
+      "text": "Uutta! Kisakallio Viima Akatemia tammikuu 2027 25.01.2027–28.01.2027"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/tekoaly1",
+      "target": "https://kolmekampusta.willba.store/event/kk110998-motor-skills-acquisition-conference-2027?locationId=34&utm_source=kauppa.kolmekampusta.fi",
+      "text": "Uutta! Kisakallio Motor Skills Acquisition conference 2027 15.03.2027–20.03.2027"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/tekoaly1",
+      "target": "https://kolmekampusta.willba.store/event/kk115737-viima-akatemia-toukokuun-2027-leiri?locationId=34&utm_source=kauppa.kolmekampusta.fi",
+      "text": "Uutta! Kisakallio Viima Akatemia toukokuu 2027 10.05.2027–13.05.2027"
     },
     {
       "source": "https://www.kolmekampusta.fi/tekoaly1",
@@ -234636,8 +234555,8 @@
     },
     {
       "source": "https://www.kolmekampusta.fi/psyykkiset1",
-      "target": "https://www.kolmekampusta.fi/fi/koulutukset/koulutus/vapaan-sivistystyon-koulutus",
-      "text": "Lue lisää vapaan sivistystyön koulutuksesta."
+      "target": "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/vapaan-sivistystyon-koulutus",
+      "text": "Lue lisää vapaan sivistystyön koulutuksesta"
     },
     {
       "source": "https://www.kolmekampusta.fi/psyykkiset1",
@@ -234982,17 +234901,27 @@
     {
       "source": "https://www.kolmekampusta.fi/psyykkiset1",
       "target": "https://kolmekampusta.willba.store/event/pl153640?locationId=1&utm_source=kauppa.kolmekampusta.fi",
-      "text": "Uutta! Pajulahti Naisten hyvinvointi- ja sporttiviikon­loppu 25.09.2026–27.09.2026"
+      "text": "Uutta! Pajulahti Naisten hyvinvointi- ja sportti­viikonloppu 25.09.2026–27.09.2026"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/psyykkiset1",
+      "target": "https://kolmekampusta.willba.store/event/kk115732-maalivahdit-viima-akatemian-syksyn-2026-leiri?locationId=34&utm_source=kauppa.kolmekampusta.fi",
+      "text": "Uutta! Kisakallio Viima Akatemia syksy 2026 Maalivahdit 28.09.2026–01.10.2026"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/psyykkiset1",
+      "target": "https://kolmekampusta.willba.store/event/kk115293-viima-akatemia-syksyn-2026-leiri?locationId=34&utm_source=kauppa.kolmekampusta.fi",
+      "text": "Uutta! Kisakallio Viima Akatemia syksy 2026 28.09.2026–01.10.2026"
     },
     {
       "source": "https://www.kolmekampusta.fi/psyykkiset1",
       "target": "https://kolmekampusta.willba.store/event/pl160221-syysloman-tekniikkaleiri?locationId=1&utm_source=kauppa.kolmekampusta.fi",
-      "text": "Uutta! Pajulahti Syysloman tekniikkaleiri 13.10.2026–15.10.2026"
+      "text": "Uutta! Pajulahti Syys­loman tekniikka­leiri 13.10.2026–15.10.2026"
     },
     {
       "source": "https://www.kolmekampusta.fi/psyykkiset1",
       "target": "https://kolmekampusta.willba.store/event/pl160220-taitoluistelun-tekniikkaleiri-pojille?locationId=1&utm_source=kauppa.kolmekampusta.fi",
-      "text": "Uutta! Pajulahti Taitoluistelun tekniikkaleiri pojille (lokakuu) 13.10.2026–14.10.2026"
+      "text": "Uutta! Pajulahti Taito­luistelun tekniikka­leiri pojille (lokakuu) 13.10.2026–14.10.2026"
     },
     {
       "source": "https://www.kolmekampusta.fi/psyykkiset1",
@@ -235012,12 +234941,17 @@
     {
       "source": "https://www.kolmekampusta.fi/psyykkiset1",
       "target": "https://kolmekampusta.willba.store/event/pl153639?locationId=1&utm_source=kauppa.kolmekampusta.fi",
-      "text": "Uutta! Pajulahti Cross Training -viikonloppu 13.11.2026–15.11.2026"
+      "text": "Uutta! Pajulahti Cross Training viikonloppu 13.11.2026–15.11.2026"
     },
     {
       "source": "https://www.kolmekampusta.fi/psyykkiset1",
       "target": "https://kolmekampusta.willba.store/event/kk109612-laura-lepiston-leiri-aikuisille-13.-15.11.2026?locationId=34&utm_source=kauppa.kolmekampusta.fi",
       "text": "Uutta! Kisakallio Laura Lepistön leiri aikuisille 13.11.2026–15.11.2026"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/psyykkiset1",
+      "target": "https://kolmekampusta.willba.store/event/pl652057-kestavyysseminaari-2026?locationId=1&utm_source=kauppa.kolmekampusta.fi",
+      "text": "Uutta! Pajulahti Kestävyys­seminaari 2026 16.11.2026–17.11.2026"
     },
     {
       "source": "https://www.kolmekampusta.fi/psyykkiset1",
@@ -235032,12 +234966,27 @@
     {
       "source": "https://www.kolmekampusta.fi/psyykkiset1",
       "target": "https://kolmekampusta.willba.store/event/pl157715-vuodenvaihteen-tekniikkaleiri-29.-31.12.2026?locationId=1&utm_source=kauppa.kolmekampusta.fi",
-      "text": "Uutta! Pajulahti Vuoden­vaihteen tekniikka­leiri 29.12.2026–31.12.2026"
+      "text": "Uutta! Pajulahti Vuoden­vaih­teen tekniikka­leiri 29.12.2026–31.12.2026"
     },
     {
       "source": "https://www.kolmekampusta.fi/psyykkiset1",
       "target": "https://kolmekampusta.willba.store/event/pl650293-poikien-taitoluistelun-tekniikkaleiri-29-30.12.2026?locationId=1&utm_source=kauppa.kolmekampusta.fi",
-      "text": "Uutta! Pajulahti Poikien taitoluistelun tekniikkaleiri (joulukuu) 29.12.2026–30.12.2026"
+      "text": "Uutta! Pajulahti Poikien taito­luistelun tekniikka­leiri (joulukuu) 29.12.2026–30.12.2026"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/psyykkiset1",
+      "target": "https://kolmekampusta.willba.store/event/kk115735-viima-akatemia-tammikuun-2027-leiri?locationId=34&utm_source=kauppa.kolmekampusta.fi",
+      "text": "Uutta! Kisakallio Viima Akatemia tammikuu 2027 25.01.2027–28.01.2027"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/psyykkiset1",
+      "target": "https://kolmekampusta.willba.store/event/kk110998-motor-skills-acquisition-conference-2027?locationId=34&utm_source=kauppa.kolmekampusta.fi",
+      "text": "Uutta! Kisakallio Motor Skills Acquisition conference 2027 15.03.2027–20.03.2027"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/psyykkiset1",
+      "target": "https://kolmekampusta.willba.store/event/kk115737-viima-akatemia-toukokuun-2027-leiri?locationId=34&utm_source=kauppa.kolmekampusta.fi",
+      "text": "Uutta! Kisakallio Viima Akatemia toukokuu 2027 10.05.2027–13.05.2027"
     },
     {
       "source": "https://www.kolmekampusta.fi/psyykkiset1",
@@ -254233,506 +254182,6 @@
       "source": "https://www.kolmekampusta.fi/en/villa-kallio-and-villa-koivu",
       "target": "https://www.kolmekampusta.fi/en/privacy-policy",
       "text": "Privacy policy"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/verkkokaupat",
-      "text": "Verkkokauppa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-      "text": "Yhteystiedot"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/search",
-      "text": ""
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi",
-      "text": ""
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi",
-      "text": ""
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi",
-      "text": "Kolmen kampuksen urheiluopisto"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/verkkokaupat",
-      "text": "Verkkokauppa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-      "text": "Yhteystiedot"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/en/user/login",
-      "text": "Englanti"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/search",
-      "text": ""
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/koulutukset",
-      "text": "Koulutukset"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/koulutukset/koulutus",
-      "text": "Koulutus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/hakijalle",
-      "text": "Hakijalle"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/ammatillinen-koulutus",
-      "text": "Ammatillinen koulutus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/oppisopimuskoulutus-jatkuva-haku",
-      "text": "Oppisopimuskoulutus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/koulutukset/koulutus/vapaan-sivistystyon-koulutus",
-      "text": "Vapaan sivistystyön koulutus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/kansainvalisyys",
-      "text": "Kansainvälisyys"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/opiskelijalle",
-      "text": "Opiskelijalle"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu",
-      "text": "Urheilu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/leiri-ja-tapahtumakauppa",
-      "text": "Leiri- ja tapahtumakauppa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit",
-      "text": "Leirit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit/esikuvaleirit",
-      "text": "Esikuvaleirit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit/ylakoululeiritys",
-      "text": "Yläkoululeiritys"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit/urheilurippileirit",
-      "text": "Urheilurippileirit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/valmennuskeskus",
-      "text": "Valmennuskeskus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/meista/tilat",
-      "text": "Olosuhteet"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut",
-      "text": "Urheilun palvelut"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/kestavyysurheilu",
-      "text": "Kestävyysurheilu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/korkeanpaikan-harjoittelu",
-      "text": "Korkeanpaikan harjoittelu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/testauspalvelut",
-      "text": "Testauspalvelut"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/pajulahden-palautumiskeskus",
-      "text": "Pajulahden palautumiskeskus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/taito-360",
-      "text": "TAITO 360 - motoristen taitojen harjoittelu- ja kuntoilualue"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen",
-      "text": "Osaamisen kehittäminen"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen/urheilun-tki",
-      "text": "Urheilun TKI"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen/kolmen-kampuksen-journal-club",
-      "text": "Journal Club"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/yhteisomme",
-      "text": "Yhteisömme"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika",
-      "text": "Vapaa-aika"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/liikunnalliset-vapaa-ajan-kurssit",
-      "text": "Lomat ja kurssit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/perhepaketit",
-      "text": "Perhepaketit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/teemakurssit",
-      "text": "Teemakurssit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/aikuiset-60-fiiliskurssit",
-      "text": "Aikuiset 60+ Fiiliskurssit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/lisapalvelut",
-      "text": "Lomien lisäpalvelut"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/villaloma-kisakalliossa",
-      "text": "Villaloma Kisakalliossa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit",
-      "text": "Aktiviteetit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kisakallion-sporttipassi",
-      "text": "Kisakallion Sporttipassi"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kisakallion-rantasauna",
-      "text": "Kisakallion sauna ja uinti"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/lake-pool-pajulahti",
-      "text": "Lake Pool Pajulahti"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/pajulahden-uimahalli",
-      "text": "Pajulahden uimahalli"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/seikkailupuisto",
-      "text": "Pajulahden Seikkailupuisto"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/valine-ja-kenttavuokraus",
-      "text": "Väline- ja kenttävuokraus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/tilat",
-      "text": "Tilat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/liikunta-ja-hyvinvointipalvelut",
-      "text": "Liikunta- ja hyvinvointipalvelut"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/kanta-asiakkuus",
-      "text": "Kanta-asiakkuus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://kauppa.kolmekampusta.fi/",
-      "text": "Verkkokauppa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit",
-      "text": "Ryhmät ja leirit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/leirikoulu",
-      "text": "Leirikoulu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/luokkaretki",
-      "text": "Luokkaretki"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/rippileiri",
-      "text": "Rippileiri"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit",
-      "text": "Urheilijaryhmät"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/yritykset",
-      "text": "Yritysryhmät"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/yritykset",
-      "text": "Yritykset"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/yritykset/kokoukset",
-      "text": "Kokoukset"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/yritykset/kokoukset/seminaarit-ja-juhlat",
-      "text": "Seminaarit ja juhlat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/yritykset/tyohyvinvointi",
-      "text": "Työhyvinvointi"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/yritykset/hyvinvointikoulu",
-      "text": "Hyvinvointikoulu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/yritykset/villamaailma-yrityksille",
-      "text": "Villamaailma Kisakalliossa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/majoitus",
-      "text": "Majoitus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/majoitus/pajulahti",
-      "text": "Pajulahti"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/majoitus/kisakallio",
-      "text": "Kisakallio"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/ravintolapalvelut",
-      "text": "Ravintolapalvelut"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/ravintolapalvelut/tilaustarjoilut",
-      "text": "Tilaustarjoilut"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/tapahtumat",
-      "text": "Tapahtumat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
-      "text": "Tulevat tapahtumat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/meista",
-      "text": "Meistä"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/meista/avoimet-tyopaikat",
-      "text": "Avoimet työpaikat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/ajankohtaista",
-      "text": "Ajankohtaista"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-      "text": "Yhteystiedot"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/meista/laskutustiedot",
-      "text": "Laskutustiedot"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/meista/saatioiden-apurahat",
-      "text": "Säätiöiden apurahat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/meista/hankkeet",
-      "text": "Hankkeet"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/meista/vastuullisuus",
-      "text": "Vastuullisuus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/kampukset",
-      "text": "Kampukset"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/meista/tilat",
-      "text": "Tilat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi",
-      "text": "Etusivu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi",
-      "text": "Etusivu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi",
-      "text": ""
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/verkkokaupat",
-      "text": "Verkkokauppa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/ajankohtaista",
-      "text": "Ajankohtaista"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/meista/laskutustiedot",
-      "text": "Laskutustiedot"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/varaus-ja-peruutusehdot",
-      "text": "Varaus- ja peruutusehdot"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-      "text": "Yhteystiedot"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/uutiskirjeet",
-      "text": "Tilaa uutiskirje"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/meista",
-      "text": "Meistä"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/aluekartta",
-      "text": "Aluekartta"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/anna-palautetta",
-      "text": "Anna palautetta"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/opiskelijalle",
-      "text": "Opiskelijalle"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://app.digitalguest.com/guestbook/Pajulahti",
-      "text": "PajuInfo"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://app.digitalguest.com/guestbook/Kisakallio",
-      "text": "KisakallioInfo"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
-      "text": "Tietosuojaseloste"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "target": "https://www.kolmekampusta.fi/fi/evastekaytanto",
-      "text": "Evästekäytäntö"
     },
     {
       "source": "https://www.kolmekampusta.fi/en/news/2026-02/our-service-numbers-have-changed",
@@ -278408,7 +277857,15 @@
       "status": 200,
       "error": null
     },
+    "https://kolmekampusta.willba.store/event/kk110998-motor-skills-acquisition-conference-2027?locationId=34&utm_source=kauppa.kolmekampusta.fi": {
+      "status": 200,
+      "error": null
+    },
     "https://kolmekampusta.willba.store/event/kk115293-viima-akatemia-syksyn-2026-leiri": {
+      "status": 200,
+      "error": null
+    },
+    "https://kolmekampusta.willba.store/event/kk115293-viima-akatemia-syksyn-2026-leiri?locationId=34&utm_source=kauppa.kolmekampusta.fi": {
       "status": 200,
       "error": null
     },
@@ -278416,11 +277873,23 @@
       "status": 200,
       "error": null
     },
+    "https://kolmekampusta.willba.store/event/kk115732-maalivahdit-viima-akatemian-syksyn-2026-leiri?locationId=34&utm_source=kauppa.kolmekampusta.fi": {
+      "status": 200,
+      "error": null
+    },
     "https://kolmekampusta.willba.store/event/kk115735-viima-akatemia-tammikuun-2027-leiri": {
       "status": 200,
       "error": null
     },
+    "https://kolmekampusta.willba.store/event/kk115735-viima-akatemia-tammikuun-2027-leiri?locationId=34&utm_source=kauppa.kolmekampusta.fi": {
+      "status": 200,
+      "error": null
+    },
     "https://kolmekampusta.willba.store/event/kk115737-viima-akatemia-toukokuun-2027-leiri": {
+      "status": 200,
+      "error": null
+    },
+    "https://kolmekampusta.willba.store/event/kk115737-viima-akatemia-toukokuun-2027-leiri?locationId=34&utm_source=kauppa.kolmekampusta.fi": {
       "status": 200,
       "error": null
     },
@@ -278517,6 +277986,10 @@
       "error": null
     },
     "https://kolmekampusta.willba.store/event/pl652057-kestavyysseminaari-2026?locationId=1": {
+      "status": 200,
+      "error": null
+    },
+    "https://kolmekampusta.willba.store/event/pl652057-kestavyysseminaari-2026?locationId=1&utm_source=kauppa.kolmekampusta.fi": {
       "status": 200,
       "error": null
     },
@@ -279132,21 +278605,6 @@
       ]
     },
     {
-      "target": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-276",
-      "kind": "internal",
-      "status": 403,
-      "error": null,
-      "linked_from": [
-        {
-          "page": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-          "anchor": "27.6.2026",
-          "page_updated": "2026-06-19T16:36:53+03:00",
-          "page_og_type": "article",
-          "page_unavailable_after": "Saturday, 08-Aug-26 14:00:00 EEST"
-        }
-      ]
-    },
-    {
       "target": "https://kauppa.kolmekampusta.fi/tuote/alterg-painokevennetty-juoksumatto/",
       "kind": "external",
       "status": 404,
@@ -279252,12 +278710,12 @@
   ],
   "canonical_duplicates": [],
   "stats": {
-    "pages_crawled": 982,
-    "pages_with_data": 982,
-    "edges": 44581,
-    "external_targets_checked": 351,
-    "broken_count": 10,
-    "broken_internal": 6,
+    "pages_crawled": 981,
+    "pages_with_data": 981,
+    "edges": 44491,
+    "external_targets_checked": 357,
+    "broken_count": 9,
+    "broken_internal": 5,
     "broken_external": 4,
     "external_uncertain_count": 1,
     "external_trusted_ok_count": 1,
