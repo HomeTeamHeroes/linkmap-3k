@@ -1,10 +1,10 @@
 # Broken Links Report
 
 - **Site:** https://www.kolmekampusta.fi/fi
-- **Crawled:** 2026-07-28T09:33:15
-- **Pages crawled:** 983
-- **External targets checked:** 356
-- **Total broken:** 9 (5 internal, 4 external)
+- **Crawled:** 2026-07-29T09:07:22
+- **Pages crawled:** 984
+- **External targets checked:** 355
+- **Total broken:** 7 (5 internal, 2 external)
 - **❓ External links could not be verified:** 1 (likely bot-detection / WAF — manual verification recommended)
 - **🛡️ Trusted-domain links treated as OK:** 1 (bot-blocked from CI, but on domains you marked trusted)
 - **⚠️ Pages without URL alias:** 1 (Drupal /node/N served directly, no Pathauto alias)
@@ -14,14 +14,14 @@
 ### `https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-vesipaiva-257`
 - **Reason:** HTTP 403
 - **Linked from 3 page(s):**
-  - `https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kesan-tarjonta-kolmella-kampuksella` — "La 25.7. klo 13-15 Vesipäivä" *[updated 2026-07-17]*
-  - `https://www.kolmekampusta.fi/fi/tilat/rantamakasiini` — "La 25.7. klo 13-15 Vesipäivä" *[updated 2026-07-13]*
+  - `https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kesan-tarjonta-kolmella-kampuksella` — "La 25.7. klo 13-15 Vesipäivä" *[updated 2026-07-28]*
+  - `https://www.kolmekampusta.fi/fi/meista/tilat/rantamakasiini` — "La 25.7. klo 13-15 Vesipäivä" *[updated 2026-07-28]*
   - `https://www.kolmekampusta.fi/fi/tapahtumat/rantamakasiinin-kesa` — "La 25.7. klo 13-15 Vesipäivä" *[updated 2026-07-13, ⏰ expires Sunday, 09-Aug-26 23:00:00 EEST]*
 
 ### `https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-kisakalliossa`
 - **Reason:** HTTP 403
 - **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kesan-tarjonta-kolmella-kampuksella` — "KesäFiilis Kisakalliossa 20.-24.7." *[updated 2026-07-17]*
+  - `https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kesan-tarjonta-kolmella-kampuksella` — "KesäFiilis Kisakalliossa 20.-24.7." *[updated 2026-07-28]*
 
 ### `https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa`
 - **Reason:** HTTP 403
@@ -31,36 +31,26 @@
 ### `https://www.kolmekampusta.fi/fi/tapahtumat/tenniskurssi-4-vrk-pajulahdessa-0`
 - **Reason:** HTTP 403
 - **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kesan-tarjonta-kolmella-kampuksella` — "Tenniskurssi Pajulahdessa 20.-24.7." *[updated 2026-07-17]*
+  - `https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kesan-tarjonta-kolmella-kampuksella` — "Tenniskurssi Pajulahdessa 20.-24.7." *[updated 2026-07-28]*
 
 ### `https://www.kolmekampusta.fi/sites/default/files/2026-07/kesa-26-31.7.2026.pdf`
 - **Reason:** HTTP 404
 - **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-vkot-28-31-57-317` — "Alustava ohjelma" *[updated 2026-07-22, ⏰ expires Friday, 07-Aug-26 00:00:00 EEST]*
+  - `https://www.kolmekampusta.fi/fi/tapahtumat/kesa-pajulahdessa-vkot-28-31-57-317` — "Alustava ohjelma" *[updated 2026-07-28, ⏰ expires Saturday, 01-Aug-26 00:00:00 EEST]*
 
 ## External broken links
 
 ### `https://kauppa.kolmekampusta.fi/tuote/alterg-painokevennetty-juoksumatto/`
 - **Reason:** HTTP 404
 - **Linked from 2 page(s):**
-  - `https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/pajulahden-palautumiskeskus` — "AlterG-tuotteet verkkokaupasta" *[updated 2026-06-05]*
-  - `https://www.kolmekampusta.fi/fi/pajulahden-palautumiskeskus` — "AlterG-tuotteet verkkokaupasta" *[updated 2026-06-05]*
+  - `https://www.kolmekampusta.fi/fi/meista/tilat/pajulahden-palautumiskeskus` — "AlterG-tuotteet verkkokaupasta" *[updated 2026-07-28]*
+  - `https://www.kolmekampusta.fi/fi/pajulahden-palautumiskeskus` — "AlterG-tuotteet verkkokaupasta" *[updated 2026-07-28]*
 
 ### `https://kauppa.kolmekampusta.fi/tuote/pajulahden-palautumishuone/`
 - **Reason:** HTTP 404
 - **Linked from 2 page(s):**
-  - `https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/pajulahden-palautumiskeskus` — "Palautumishuoneen kertakäynti verkkokaupasta" *[updated 2026-06-05]*
-  - `https://www.kolmekampusta.fi/fi/pajulahden-palautumiskeskus` — "Palautumishuoneen kertakäynti verkkokaupasta" *[updated 2026-06-05]*
-
-### `https://kauppa.kolmekampusta.fi/tuote/fatbike-vuokraus`
-- **Reason:** HTTP 404
-- **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/ulkoliikunta-kesalla` — "verkkokaupastamme." *[updated 2026-07-14]*
-
-### `https://kauppa.kolmekampusta.fi/tuote/fatbike-vuokraus/`
-- **Reason:** HTTP 404
-- **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/en/leisure/activities/outdoor-exercise` — "online store." *[updated 2026-05-31]*
+  - `https://www.kolmekampusta.fi/fi/meista/tilat/pajulahden-palautumiskeskus` — "Palautumishuoneen kertakäynti verkkokaupasta" *[updated 2026-07-28]*
+  - `https://www.kolmekampusta.fi/fi/pajulahden-palautumiskeskus` — "Palautumishuoneen kertakäynti verkkokaupasta" *[updated 2026-07-28]*
 
 ## ❓ External links — could not be verified
 
