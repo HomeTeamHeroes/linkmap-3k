@@ -1,20 +1,25 @@
 # Broken Links Report
 
 - **Site:** https://www.kolmekampusta.fi/fi
-- **Crawled:** 2026-08-03T09:46:17
-- **Pages crawled:** 965
-- **External targets checked:** 353
-- **Total broken:** 5 (1 internal, 4 external)
+- **Crawled:** 2026-08-07T11:38:38
+- **Pages crawled:** 966
+- **External targets checked:** 334
+- **Total broken:** 5 (2 internal, 3 external)
 - **❓ External links could not be verified:** 1 (likely bot-detection / WAF — manual verification recommended)
 - **🛡️ Trusted-domain links treated as OK:** 1 (bot-blocked from CI, but on domains you marked trusted)
 - **⚠️ Pages without URL alias:** 1 (Drupal /node/N served directly, no Pathauto alias)
 
 ## Internal broken pages
 
-### `https://www.kolmekampusta.fi/fi/tapahtumat/kesafiilis-pajulahdessa-0`
+### `https://www.kolmekampusta.fi/fi/tapahtumat/kisakallio-cheerleading-champ-camp-2-482026`
 - **Reason:** HTTP 403
 - **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kesan-tarjonta-kolmella-kampuksella` — "KesäFiilis Pajulahdessa 27.-31.7." *[updated 2026-07-29]*
+  - `https://www.kolmekampusta.fi/fi/urheilu/leirit/esikuvaleirit` — "Kisakallio Cheerleading CHAMP CAMP 2.-4.8." *[updated 2026-08-03]*
+
+### `https://www.kolmekampusta.fi/fi/tapahtumat/kuntofiilis-pajulahdessa-0`
+- **Reason:** HTTP 403
+- **Linked from 1 page(s):**
+  - `https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/aikuiset-60-fiiliskurssit` — "KuntoFiilis 3.-7.8. Pajulahti" *[updated 2026-08-05]*
 
 ## External broken links
 
@@ -32,14 +37,8 @@
 
 ### `https://kolmekampusta.willba.store/event/pl649982-taitoluistelun-tekniikkaleiri-pojille-22.-23.8.2026`
 - **Reason:** HTTP 404
-- **Linked from 2 page(s):**
-  - `https://www.kolmekampusta.fi/fi/urheilu/leirit/esikuvaleirit` — "LUE LISÄÄ" *[updated 2026-07-16]*
-  - `https://www.kolmekampusta.fi/fi/artikkelit/syksyn-taitoluisteluleirit-2026-myynnissa-nyt` — "LUE LISÄÄ" *[updated 2026-06-29]*
-
-### `https://kolmekampusta.willba.store/event/pl649982-taitoluistelun-tekniikkaleiri-pojille-22.-23.8.2026?locationId=1`
-- **Reason:** HTTP 404
 - **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/tapahtumat/taitoluistelun-tekniikkaleiri-pojille-22-2382026-pajulahdessa` — "Ilmoittaudu mukaan TÄSTÄ" *[updated 2026-02-24, ⏰ expires Sunday, 23-Aug-26 18:00:00 EEST]*
+  - `https://www.kolmekampusta.fi/fi/artikkelit/syksyn-taitoluisteluleirit-2026-myynnissa-nyt` — "LUE LISÄÄ" *[updated 2026-06-29]*
 
 ## ❓ External links — could not be verified
 
