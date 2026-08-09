@@ -1,7 +1,7 @@
 {
   "start_url": "https://www.kolmekampusta.fi/fi",
   "base_netloc": "www.kolmekampusta.fi",
-  "crawled_at": "2026-08-07T11:38:38",
+  "crawled_at": "2026-08-09T22:05:23",
   "pages": {
     "https://www.kolmekampusta.fi/fi": {
       "title": "Kolmen kampuksen urheiluopisto | Kolmen kampuksen urheiluopisto",
@@ -5040,12 +5040,12 @@
         "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
         "https://www.kolmekampusta.fi/fi/evastekaytanto"
       ],
-      "body_length": 99418,
+      "body_length": 99484,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/lake-pool-pajulahti",
       "is_canonical_duplicate": false,
-      "updated_time": "2026-08-06T11:27:42+03:00",
+      "updated_time": "2026-08-07T15:49:08+03:00",
       "og_type": "article"
     },
     "https://www.kolmekampusta.fi/fi/meista/tilat/pajulahden-uimahalli": {
@@ -7660,7 +7660,6 @@
         "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat?type=66",
         "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat?type=24",
         "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat?type=23",
-        "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
         "https://www.kolmekampusta.fi/fi/tapahtumat/guttman-games-2026",
         "https://www.kolmekampusta.fi/fi/tapahtumat/taitoluistelun-tekniikkaleiri-pojille-22-2382026-pajulahdessa",
         "https://www.kolmekampusta.fi/fi/tapahtumat/ittf-para-future-finland-open-2026",
@@ -7672,11 +7671,11 @@
         "https://www.kolmekampusta.fi/fi/tapahtumat/viima-akatemia-kasva-huippujaakiekkoilijaksi-leiri3",
         "https://www.kolmekampusta.fi/fi/tapahtumat/viima-akatemia-kasva-huippujaakiekkoilijaksi-leiri1",
         "https://www.kolmekampusta.fi/fi/tapahtumat/viima-akatemia-kasva-huippujaakiekkoilijaksi-leiri2",
+        "https://www.kolmekampusta.fi/fi/tapahtumat/syysfiilis-pajulahdessa-1",
         "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat?page=1",
         "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat?page=2",
-        "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat?page=3",
         "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat?page=1",
-        "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat?page=3",
+        "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat?page=2",
         "https://www.kolmekampusta.fi/fi",
         "https://www.kolmekampusta.fi/fi/verkkokaupat",
         "https://www.kolmekampusta.fi/fi/ajankohtaista",
@@ -7693,7 +7692,7 @@
         "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
         "https://www.kolmekampusta.fi/fi/evastekaytanto"
       ],
-      "body_length": 117031,
+      "body_length": 116687,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
@@ -12406,7 +12405,7 @@
       "title": "Haku | Kolmen kampuksen urheiluopisto",
       "status": 200,
       "outbound": [],
-      "body_length": 92165,
+      "body_length": 87600,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/search",
@@ -17940,7 +17939,7 @@
         "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
         "https://www.kolmekampusta.fi/fi/evastekaytanto"
       ],
-      "body_length": 79340,
+      "body_length": 79346,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallio-cheerleading-champ-camp-2-482026",
@@ -20234,12 +20233,12 @@
         "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
         "https://www.kolmekampusta.fi/fi/evastekaytanto"
       ],
-      "body_length": 99418,
+      "body_length": 99484,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/lake-pool-pajulahti",
       "is_canonical_duplicate": false,
-      "updated_time": "2026-08-06T11:27:42+03:00",
+      "updated_time": "2026-08-07T15:49:08+03:00",
       "og_type": "article"
     },
     "https://www.kolmekampusta.fi/sites/default/files/2025-08/pajulahti_palautumishuone.jpg": {
@@ -22169,6 +22168,7 @@
         "https://www.kolmekampusta.fi/fi",
         "https://www.kolmekampusta.fi/fi/tapahtumat",
         "https://kolmekampusta.fi/fi/vapaa-aika/kanta-asiakkuus",
+        "https://kolmekampusta.willba.store/event/PL153714",
         "https://www.kolmekampusta.fi/fi/vapaa-ajan-ilmoittautumislomake",
         "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/teemakurssit",
         "https://www.kolmekampusta.fi/fi/taxonomy/term/56",
@@ -22189,12 +22189,12 @@
         "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
         "https://www.kolmekampusta.fi/fi/evastekaytanto"
       ],
-      "body_length": 95539,
+      "body_length": 95701,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/tapahtumat/hyvan-olon-viikonloppu-pajulahdessa-3010-1112026",
       "is_canonical_duplicate": false,
-      "updated_time": "2026-07-22T14:19:47+03:00",
+      "updated_time": "2026-08-07T15:27:44+03:00",
       "robots": "unavailable_after: Sunday, 01-Nov-26 23:00:00 EET",
       "unavailable_after": "Sunday, 01-Nov-26 23:00:00 EET",
       "og_type": "article"
@@ -23755,7 +23755,7 @@
         "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
         "https://www.kolmekampusta.fi/fi/evastekaytanto"
       ],
-      "body_length": 79288,
+      "body_length": 79295,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/tapahtumat/kuntofiilis-pajulahdessa-0",
@@ -31455,7 +31455,7 @@
       "title": "Tulevat tapahtumat | Kolmen kampuksen urheiluopisto",
       "status": 200,
       "outbound": [],
-      "body_length": 88582,
+      "body_length": 85846,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
@@ -31511,126 +31511,11 @@
       "canonical": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
       "is_canonical_duplicate": true
     },
-    "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88": {
-      "title": "Kisakallion kesälauantait: Kehonpaino-liikkuvuusharjoittelu 8.8. | Kolmen kampuksen urheiluopisto",
-      "status": 200,
-      "outbound": [
-        "https://www.kolmekampusta.fi/fi/verkkokaupat",
-        "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-        "https://www.kolmekampusta.fi/fi/search",
-        "https://www.kolmekampusta.fi/fi",
-        "https://www.kolmekampusta.fi/fi",
-        "https://www.kolmekampusta.fi/fi",
-        "https://www.kolmekampusta.fi/fi/verkkokaupat",
-        "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-        "https://www.kolmekampusta.fi/en",
-        "https://www.kolmekampusta.fi/fi/search",
-        "https://www.kolmekampusta.fi/fi/koulutukset",
-        "https://www.kolmekampusta.fi/fi/koulutukset/koulutus",
-        "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/hakijalle",
-        "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/ammatillinen-koulutus",
-        "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/oppisopimuskoulutus-jatkuva-haku",
-        "https://www.kolmekampusta.fi/fi/koulutukset/koulutus/vapaan-sivistystyon-koulutus",
-        "https://www.kolmekampusta.fi/fi/koulutus/kansainvalisyys",
-        "https://www.kolmekampusta.fi/fi/koulutus/opiskelijalle",
-        "https://www.kolmekampusta.fi/fi/urheilu",
-        "https://www.kolmekampusta.fi/fi/urheilu/leiri-ja-tapahtumakauppa",
-        "https://www.kolmekampusta.fi/fi/urheilu/leirit",
-        "https://www.kolmekampusta.fi/fi/urheilu/leirit/esikuvaleirit",
-        "https://www.kolmekampusta.fi/fi/urheilu/leirit/ylakoululeiritys",
-        "https://www.kolmekampusta.fi/fi/urheilu/leirit/urheilurippileirit",
-        "https://www.kolmekampusta.fi/fi/urheilu/valmennuskeskus",
-        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut",
-        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/kestavyysurheilu",
-        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/korkeanpaikan-harjoittelu",
-        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/testauspalvelut",
-        "https://www.kolmekampusta.fi/fi/meista/tilat/pajulahden-palautumiskeskus",
-        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/taito-360",
-        "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen",
-        "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen/urheilun-tki",
-        "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen/kolmen-kampuksen-journal-club",
-        "https://www.kolmekampusta.fi/fi/urheilu/yhteisomme",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/liikunnalliset-vapaa-ajan-kurssit",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/perhepaketit",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/teemakurssit",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/aikuiset-60-fiiliskurssit",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/lisapalvelut",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/villaloma-kisakalliossa",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kisakallion-sporttipassi",
-        "https://www.kolmekampusta.fi/fi/meista/tilat/kisakallion-rantasauna",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/lake-pool-pajulahti",
-        "https://www.kolmekampusta.fi/fi/meista/tilat/pajulahden-uimahalli",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/seikkailupuisto",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/valine-ja-kenttavuokraus",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/liikunta-ja-hyvinvointipalvelut",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/kanta-asiakkuus",
-        "https://kauppa.kolmekampusta.fi/",
-        "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit",
-        "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/leirikoulu",
-        "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/luokkaretki",
-        "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/rippileiri",
-        "https://www.kolmekampusta.fi/fi/urheilu/leirit",
-        "https://www.kolmekampusta.fi/fi/yritykset",
-        "https://www.kolmekampusta.fi/fi/yritykset",
-        "https://www.kolmekampusta.fi/fi/yritykset/kokoukset",
-        "https://www.kolmekampusta.fi/fi/yritykset/kokoukset/seminaarit-ja-juhlat",
-        "https://www.kolmekampusta.fi/fi/yritykset/tyohyvinvointi",
-        "https://www.kolmekampusta.fi/fi/yritykset/hyvinvointikoulu",
-        "https://www.kolmekampusta.fi/fi/yritykset/villamaailma-yrityksille",
-        "https://www.kolmekampusta.fi/fi/majoitus",
-        "https://www.kolmekampusta.fi/fi/majoitus/pajulahti",
-        "https://www.kolmekampusta.fi/fi/majoitus/kisakallio",
-        "https://www.kolmekampusta.fi/fi/ravintolapalvelut",
-        "https://www.kolmekampusta.fi/fi/ravintolapalvelut/tilaustarjoilut",
-        "https://www.kolmekampusta.fi/fi/tapahtumat",
-        "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
-        "https://www.kolmekampusta.fi/fi/meista",
-        "https://www.kolmekampusta.fi/fi/meista/avoimet-tyopaikat",
-        "https://www.kolmekampusta.fi/fi/ajankohtaista",
-        "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-        "https://www.kolmekampusta.fi/fi/meista/laskutustiedot",
-        "https://www.kolmekampusta.fi/fi/meista/saatioiden-apurahat",
-        "https://www.kolmekampusta.fi/fi/meista/hankkeet",
-        "https://www.kolmekampusta.fi/fi/meista/vastuullisuus",
-        "https://www.kolmekampusta.fi/fi/kampukset",
-        "https://www.kolmekampusta.fi/fi/meista/tilat",
-        "https://www.kolmekampusta.fi/fi",
-        "https://www.kolmekampusta.fi/fi",
-        "https://www.kolmekampusta.fi/fi/tapahtumat",
-        "https://kauppa.kolmekampusta.fi/tuote/kehonpaino-ja-liikkuvuustreeni/",
-        "https://www.kolmekampusta.fi/fi",
-        "https://www.kolmekampusta.fi/fi/verkkokaupat",
-        "https://www.kolmekampusta.fi/fi/ajankohtaista",
-        "https://www.kolmekampusta.fi/fi/meista/laskutustiedot",
-        "https://www.kolmekampusta.fi/fi/varaus-ja-peruutusehdot",
-        "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-        "https://www.kolmekampusta.fi/fi/uutiskirjeet",
-        "https://www.kolmekampusta.fi/fi/meista",
-        "https://www.kolmekampusta.fi/fi/aluekartta",
-        "https://www.kolmekampusta.fi/fi/anna-palautetta",
-        "https://www.kolmekampusta.fi/fi/koulutus/opiskelijalle",
-        "https://app.digitalguest.com/guestbook/Pajulahti",
-        "https://app.digitalguest.com/guestbook/Kisakallio",
-        "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
-        "https://www.kolmekampusta.fi/fi/evastekaytanto"
-      ],
-      "body_length": 85600,
-      "soft_404_signals": {},
-      "no_alias": false,
-      "canonical": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "is_canonical_duplicate": false,
-      "updated_time": "2026-07-25T15:00:27+03:00",
-      "robots": "unavailable_after: Saturday, 08-Aug-26 14:00:00 EEST",
-      "unavailable_after": "Saturday, 08-Aug-26 14:00:00 EEST",
-      "og_type": "article"
-    },
     "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat?page=1": {
       "title": "Tulevat tapahtumat | Kolmen kampuksen urheiluopisto",
       "status": 200,
       "outbound": [],
-      "body_length": 118058,
+      "body_length": 117557,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
@@ -31640,17 +31525,7 @@
       "title": "Tulevat tapahtumat | Kolmen kampuksen urheiluopisto",
       "status": 200,
       "outbound": [],
-      "body_length": 118168,
-      "soft_404_signals": {},
-      "no_alias": false,
-      "canonical": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
-      "is_canonical_duplicate": true
-    },
-    "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat?page=3": {
-      "title": "Tulevat tapahtumat | Kolmen kampuksen urheiluopisto",
-      "status": 200,
-      "outbound": [],
-      "body_length": 88359,
+      "body_length": 116743,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
@@ -37163,6 +37038,115 @@
       "updated_time": "2026-01-08T15:44:48+02:00",
       "og_type": "article"
     },
+    "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88": {
+      "title": "Kirjaudu sisään | Kolmen kampuksen urheiluopisto",
+      "status": 403,
+      "outbound": [
+        "https://www.kolmekampusta.fi/fi/verkkokaupat",
+        "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
+        "https://www.kolmekampusta.fi/fi/search",
+        "https://www.kolmekampusta.fi/fi",
+        "https://www.kolmekampusta.fi/fi",
+        "https://www.kolmekampusta.fi/fi",
+        "https://www.kolmekampusta.fi/fi/verkkokaupat",
+        "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
+        "https://www.kolmekampusta.fi/en/user/login",
+        "https://www.kolmekampusta.fi/fi/search",
+        "https://www.kolmekampusta.fi/fi/koulutukset",
+        "https://www.kolmekampusta.fi/fi/koulutukset/koulutus",
+        "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/hakijalle",
+        "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/ammatillinen-koulutus",
+        "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/oppisopimuskoulutus-jatkuva-haku",
+        "https://www.kolmekampusta.fi/fi/koulutukset/koulutus/vapaan-sivistystyon-koulutus",
+        "https://www.kolmekampusta.fi/fi/koulutus/kansainvalisyys",
+        "https://www.kolmekampusta.fi/fi/koulutus/opiskelijalle",
+        "https://www.kolmekampusta.fi/fi/urheilu",
+        "https://www.kolmekampusta.fi/fi/urheilu/leiri-ja-tapahtumakauppa",
+        "https://www.kolmekampusta.fi/fi/urheilu/leirit",
+        "https://www.kolmekampusta.fi/fi/urheilu/leirit/esikuvaleirit",
+        "https://www.kolmekampusta.fi/fi/urheilu/leirit/ylakoululeiritys",
+        "https://www.kolmekampusta.fi/fi/urheilu/leirit/urheilurippileirit",
+        "https://www.kolmekampusta.fi/fi/urheilu/valmennuskeskus",
+        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut",
+        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/kestavyysurheilu",
+        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/korkeanpaikan-harjoittelu",
+        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/testauspalvelut",
+        "https://www.kolmekampusta.fi/fi/meista/tilat/pajulahden-palautumiskeskus",
+        "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/taito-360",
+        "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen",
+        "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen/urheilun-tki",
+        "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen/kolmen-kampuksen-journal-club",
+        "https://www.kolmekampusta.fi/fi/urheilu/yhteisomme",
+        "https://www.kolmekampusta.fi/fi/vapaa-aika",
+        "https://www.kolmekampusta.fi/fi/vapaa-aika/liikunnalliset-vapaa-ajan-kurssit",
+        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/perhepaketit",
+        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/teemakurssit",
+        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/aikuiset-60-fiiliskurssit",
+        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/lisapalvelut",
+        "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/villaloma-kisakalliossa",
+        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit",
+        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kisakallion-sporttipassi",
+        "https://www.kolmekampusta.fi/fi/meista/tilat/kisakallion-rantasauna",
+        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/lake-pool-pajulahti",
+        "https://www.kolmekampusta.fi/fi/meista/tilat/pajulahden-uimahalli",
+        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/seikkailupuisto",
+        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/valine-ja-kenttavuokraus",
+        "https://www.kolmekampusta.fi/fi/vapaa-aika/liikunta-ja-hyvinvointipalvelut",
+        "https://www.kolmekampusta.fi/fi/vapaa-aika/kanta-asiakkuus",
+        "https://kauppa.kolmekampusta.fi/",
+        "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit",
+        "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/leirikoulu",
+        "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/luokkaretki",
+        "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/rippileiri",
+        "https://www.kolmekampusta.fi/fi/urheilu/leirit",
+        "https://www.kolmekampusta.fi/fi/yritykset",
+        "https://www.kolmekampusta.fi/fi/yritykset",
+        "https://www.kolmekampusta.fi/fi/yritykset/kokoukset",
+        "https://www.kolmekampusta.fi/fi/yritykset/kokoukset/seminaarit-ja-juhlat",
+        "https://www.kolmekampusta.fi/fi/yritykset/tyohyvinvointi",
+        "https://www.kolmekampusta.fi/fi/yritykset/hyvinvointikoulu",
+        "https://www.kolmekampusta.fi/fi/yritykset/villamaailma-yrityksille",
+        "https://www.kolmekampusta.fi/fi/majoitus",
+        "https://www.kolmekampusta.fi/fi/majoitus/pajulahti",
+        "https://www.kolmekampusta.fi/fi/majoitus/kisakallio",
+        "https://www.kolmekampusta.fi/fi/ravintolapalvelut",
+        "https://www.kolmekampusta.fi/fi/ravintolapalvelut/tilaustarjoilut",
+        "https://www.kolmekampusta.fi/fi/tapahtumat",
+        "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
+        "https://www.kolmekampusta.fi/fi/meista",
+        "https://www.kolmekampusta.fi/fi/meista/avoimet-tyopaikat",
+        "https://www.kolmekampusta.fi/fi/ajankohtaista",
+        "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
+        "https://www.kolmekampusta.fi/fi/meista/laskutustiedot",
+        "https://www.kolmekampusta.fi/fi/meista/saatioiden-apurahat",
+        "https://www.kolmekampusta.fi/fi/meista/hankkeet",
+        "https://www.kolmekampusta.fi/fi/meista/vastuullisuus",
+        "https://www.kolmekampusta.fi/fi/kampukset",
+        "https://www.kolmekampusta.fi/fi/meista/tilat",
+        "https://www.kolmekampusta.fi/fi",
+        "https://www.kolmekampusta.fi/fi",
+        "https://www.kolmekampusta.fi/fi",
+        "https://www.kolmekampusta.fi/fi/verkkokaupat",
+        "https://www.kolmekampusta.fi/fi/ajankohtaista",
+        "https://www.kolmekampusta.fi/fi/meista/laskutustiedot",
+        "https://www.kolmekampusta.fi/fi/varaus-ja-peruutusehdot",
+        "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
+        "https://www.kolmekampusta.fi/fi/uutiskirjeet",
+        "https://www.kolmekampusta.fi/fi/meista",
+        "https://www.kolmekampusta.fi/fi/aluekartta",
+        "https://www.kolmekampusta.fi/fi/anna-palautetta",
+        "https://www.kolmekampusta.fi/fi/koulutus/opiskelijalle",
+        "https://app.digitalguest.com/guestbook/Pajulahti",
+        "https://app.digitalguest.com/guestbook/Kisakallio",
+        "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
+        "https://www.kolmekampusta.fi/fi/evastekaytanto"
+      ],
+      "body_length": 79394,
+      "soft_404_signals": {},
+      "no_alias": false,
+      "canonical": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "is_canonical_duplicate": false
+    },
     "https://www.kolmekampusta.fi/sites/default/files/2026-07/minna_keronen1_kuva_mira_koistinen-1920x1280.webp": {
       "title": null,
       "status": 200,
@@ -37298,8 +37282,8 @@
       "is_file": true
     },
     "https://www.kolmekampusta.fi/fi/tapahtumat/rantamakasiinin-kesa": {
-      "title": "Rantamakasiinin kesä - kaupungin parhaat artesaanipizzat | Kolmen kampuksen urheiluopisto",
-      "status": 200,
+      "title": "Kirjaudu sisään | Kolmen kampuksen urheiluopisto",
+      "status": 403,
       "outbound": [
         "https://www.kolmekampusta.fi/fi/verkkokaupat",
         "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
@@ -37309,7 +37293,7 @@
         "https://www.kolmekampusta.fi/fi",
         "https://www.kolmekampusta.fi/fi/verkkokaupat",
         "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-        "https://www.kolmekampusta.fi/en",
+        "https://www.kolmekampusta.fi/en/user/login",
         "https://www.kolmekampusta.fi/fi/search",
         "https://www.kolmekampusta.fi/fi/koulutukset",
         "https://www.kolmekampusta.fi/fi/koulutukset/koulutus",
@@ -37384,14 +37368,6 @@
         "https://www.kolmekampusta.fi/fi/meista/tilat",
         "https://www.kolmekampusta.fi/fi",
         "https://www.kolmekampusta.fi/fi",
-        "https://www.kolmekampusta.fi/fi/tapahtumat",
-        "https://www.kolmekampusta.fi/sites/default/files/2026-07/rantamakasiini_kesamenu26_fin_versio2.pdf",
-        "https://www.kolmekampusta.fi/fi/meista/tilat/rantamakasiini",
-        "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kisakallion-sporttipassi",
-        "https://www.kolmekampusta.fi/fi/meista/tilat/kisakallion-rantasauna",
-        "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-        "https://3d.keyframe.fi/tour/kisakallion-urheiluopisto-rantamakasiini",
-        "https://www.kolmekampusta.fi/fi/meista/tilat/rantamakasiini",
         "https://www.kolmekampusta.fi/fi",
         "https://www.kolmekampusta.fi/fi/verkkokaupat",
         "https://www.kolmekampusta.fi/fi/ajankohtaista",
@@ -37408,15 +37384,11 @@
         "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
         "https://www.kolmekampusta.fi/fi/evastekaytanto"
       ],
-      "body_length": 91382,
+      "body_length": 79277,
       "soft_404_signals": {},
       "no_alias": false,
       "canonical": "https://www.kolmekampusta.fi/fi/tapahtumat/rantamakasiinin-kesa",
-      "is_canonical_duplicate": false,
-      "updated_time": "2026-07-29T12:48:30+03:00",
-      "robots": "unavailable_after: Sunday, 09-Aug-26 23:00:00 EEST",
-      "unavailable_after": "Sunday, 09-Aug-26 23:00:00 EEST",
-      "og_type": "article"
+      "is_canonical_duplicate": false
     },
     "https://www.kolmekampusta.fi/sites/default/files/2026-05/rekrytointi-henkilotiedot.pdf": {
       "title": null,
@@ -87591,11 +87563,6 @@
     },
     {
       "source": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
-      "target": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "text": "Kisakallion kesälauantait: Kehonpaino-liikkuvuusharjoittelu 8.8."
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
       "target": "https://www.kolmekampusta.fi/fi/tapahtumat/guttman-games-2026",
       "text": "Guttman Games 2026"
     },
@@ -87651,6 +87618,11 @@
     },
     {
       "source": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
+      "target": "https://www.kolmekampusta.fi/fi/tapahtumat/syysfiilis-pajulahdessa-1",
+      "text": "SyysFiilis Pajulahdessa"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
       "target": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat?page=1",
       "text": "Sivu 2"
     },
@@ -87661,17 +87633,12 @@
     },
     {
       "source": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
-      "target": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat?page=3",
-      "text": "Sivu 4"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
       "target": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat?page=1",
       "text": "Seuraava sivu"
     },
     {
       "source": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
-      "target": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat?page=3",
+      "target": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat?page=2",
       "text": "Viimeinen sivu"
     },
     {
@@ -147666,6 +147633,11 @@
     },
     {
       "source": "https://www.kolmekampusta.fi/fi/tapahtumat/hyvan-olon-viikonloppu-pajulahdessa-3010-1112026",
+      "target": "https://kolmekampusta.willba.store/event/PL153714",
+      "text": "Osta suoraan verkkokaupasta"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/hyvan-olon-viikonloppu-pajulahdessa-3010-1112026",
       "target": "https://www.kolmekampusta.fi/fi/vapaa-ajan-ilmoittautumislomake",
       "text": "Ilmoittaudu mukaan"
     },
@@ -187210,506 +187182,6 @@
       "text": "Privacy policy"
     },
     {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/verkkokaupat",
-      "text": "Verkkokauppa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-      "text": "Yhteystiedot"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/search",
-      "text": ""
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi",
-      "text": ""
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi",
-      "text": ""
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi",
-      "text": "Kolmen kampuksen urheiluopisto"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/verkkokaupat",
-      "text": "Verkkokauppa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-      "text": "Yhteystiedot"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/en",
-      "text": "Englanti"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/search",
-      "text": ""
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/koulutukset",
-      "text": "Koulutukset"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/koulutukset/koulutus",
-      "text": "Koulutus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/hakijalle",
-      "text": "Hakijalle"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/ammatillinen-koulutus",
-      "text": "Ammatillinen koulutus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/oppisopimuskoulutus-jatkuva-haku",
-      "text": "Oppisopimuskoulutus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/koulutukset/koulutus/vapaan-sivistystyon-koulutus",
-      "text": "Vapaan sivistystyön koulutus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/kansainvalisyys",
-      "text": "Kansainvälisyys"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/opiskelijalle",
-      "text": "Opiskelijalle"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu",
-      "text": "Urheilu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/leiri-ja-tapahtumakauppa",
-      "text": "Leiri- ja tapahtumakauppa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit",
-      "text": "Leirit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit/esikuvaleirit",
-      "text": "Esikuvaleirit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit/ylakoululeiritys",
-      "text": "Yläkoululeiritys"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit/urheilurippileirit",
-      "text": "Urheilurippileirit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/valmennuskeskus",
-      "text": "Valmennuskeskus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut",
-      "text": "Urheilun palvelut"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/kestavyysurheilu",
-      "text": "Kestävyysurheilu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/korkeanpaikan-harjoittelu",
-      "text": "Korkeanpaikan harjoittelu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/testauspalvelut",
-      "text": "Testauspalvelut"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/meista/tilat/pajulahden-palautumiskeskus",
-      "text": "Pajulahden palautumiskeskus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/taito-360",
-      "text": "TAITO 360 - motoristen taitojen harjoittelu- ja kuntoilualue"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen",
-      "text": "Osaamisen kehittäminen"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen/urheilun-tki",
-      "text": "Urheilun TKI"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen/kolmen-kampuksen-journal-club",
-      "text": "Journal Club"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/yhteisomme",
-      "text": "Yhteisömme"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika",
-      "text": "Vapaa-aika"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/liikunnalliset-vapaa-ajan-kurssit",
-      "text": "Lomat ja kurssit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/perhepaketit",
-      "text": "Perhepaketit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/teemakurssit",
-      "text": "Teemakurssit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/aikuiset-60-fiiliskurssit",
-      "text": "Aikuiset 60+ Fiiliskurssit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/lisapalvelut",
-      "text": "Lomien lisäpalvelut"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/villaloma-kisakalliossa",
-      "text": "Villaloma Kisakalliossa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit",
-      "text": "Aktiviteetit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kisakallion-sporttipassi",
-      "text": "Kisakallion Sporttipassi"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/meista/tilat/kisakallion-rantasauna",
-      "text": "Kisakallion sauna ja uinti"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/lake-pool-pajulahti",
-      "text": "Lake Pool Pajulahti"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/meista/tilat/pajulahden-uimahalli",
-      "text": "Pajulahden uimahalli"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/seikkailupuisto",
-      "text": "Pajulahden Seikkailupuisto"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/valine-ja-kenttavuokraus",
-      "text": "Väline- ja kenttävuokraus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/liikunta-ja-hyvinvointipalvelut",
-      "text": "Liikunta- ja hyvinvointipalvelut"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/kanta-asiakkuus",
-      "text": "Kanta-asiakkuus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://kauppa.kolmekampusta.fi/",
-      "text": "Verkkokauppa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit",
-      "text": "Ryhmät ja leirit"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/leirikoulu",
-      "text": "Leirikoulu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/luokkaretki",
-      "text": "Luokkaretki"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/rippileiri",
-      "text": "Rippileiri"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit",
-      "text": "Urheilijaryhmät"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/yritykset",
-      "text": "Yritysryhmät"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/yritykset",
-      "text": "Yritykset"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/yritykset/kokoukset",
-      "text": "Kokoukset"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/yritykset/kokoukset/seminaarit-ja-juhlat",
-      "text": "Seminaarit ja juhlat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/yritykset/tyohyvinvointi",
-      "text": "Työhyvinvointi"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/yritykset/hyvinvointikoulu",
-      "text": "Hyvinvointikoulu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/yritykset/villamaailma-yrityksille",
-      "text": "Villamaailma Kisakalliossa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/majoitus",
-      "text": "Majoitus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/majoitus/pajulahti",
-      "text": "Pajulahti"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/majoitus/kisakallio",
-      "text": "Kisakallio"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/ravintolapalvelut",
-      "text": "Ravintolapalvelut"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/ravintolapalvelut/tilaustarjoilut",
-      "text": "Tilaustarjoilut"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/tapahtumat",
-      "text": "Tapahtumat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
-      "text": "Tulevat tapahtumat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/meista",
-      "text": "Meistä"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/meista/avoimet-tyopaikat",
-      "text": "Avoimet työpaikat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/ajankohtaista",
-      "text": "Ajankohtaista"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-      "text": "Yhteystiedot"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/meista/laskutustiedot",
-      "text": "Laskutustiedot"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/meista/saatioiden-apurahat",
-      "text": "Säätiöiden apurahat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/meista/hankkeet",
-      "text": "Hankkeet"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/meista/vastuullisuus",
-      "text": "Vastuullisuus"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/kampukset",
-      "text": "Kampukset"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/meista/tilat",
-      "text": "Tilat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi",
-      "text": "Etusivu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi",
-      "text": "Etusivu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/tapahtumat",
-      "text": "Tapahtumat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://kauppa.kolmekampusta.fi/tuote/kehonpaino-ja-liikkuvuustreeni/",
-      "text": "Varaa verkosta!"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi",
-      "text": ""
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/verkkokaupat",
-      "text": "Verkkokauppa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/ajankohtaista",
-      "text": "Ajankohtaista"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/meista/laskutustiedot",
-      "text": "Laskutustiedot"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/varaus-ja-peruutusehdot",
-      "text": "Varaus- ja peruutusehdot"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
-      "text": "Yhteystiedot"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/uutiskirjeet",
-      "text": "Tilaa uutiskirje"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/meista",
-      "text": "Meistä"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/aluekartta",
-      "text": "Aluekartta"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/anna-palautetta",
-      "text": "Anna palautetta"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/koulutus/opiskelijalle",
-      "text": "Opiskelijalle"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://app.digitalguest.com/guestbook/Pajulahti",
-      "text": "PajuInfo"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://app.digitalguest.com/guestbook/Kisakallio",
-      "text": "KisakallioInfo"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
-      "text": "Tietosuojaseloste"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "target": "https://www.kolmekampusta.fi/fi/evastekaytanto",
-      "text": "Evästekäytäntö"
-    },
-    {
       "source": "https://www.kolmekampusta.fi/fi/meista/avoimet-tyopaikat/asiakaspalveluneuvoja-vakituinen",
       "target": "https://www.kolmekampusta.fi/fi/verkkokaupat",
       "text": "Verkkokauppa"
@@ -210910,6 +210382,496 @@
       "text": "Evästekäytäntö"
     },
     {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/verkkokaupat",
+      "text": "Verkkokauppa"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
+      "text": "Yhteystiedot"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/search",
+      "text": ""
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi",
+      "text": ""
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi",
+      "text": ""
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi",
+      "text": "Kolmen kampuksen urheiluopisto"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/verkkokaupat",
+      "text": "Verkkokauppa"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
+      "text": "Yhteystiedot"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/en/user/login",
+      "text": "Englanti"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/search",
+      "text": ""
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/koulutukset",
+      "text": "Koulutukset"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/koulutukset/koulutus",
+      "text": "Koulutus"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/hakijalle",
+      "text": "Hakijalle"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/ammatillinen-koulutus",
+      "text": "Ammatillinen koulutus"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/koulutus/koulutukset/oppisopimuskoulutus-jatkuva-haku",
+      "text": "Oppisopimuskoulutus"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/koulutukset/koulutus/vapaan-sivistystyon-koulutus",
+      "text": "Vapaan sivistystyön koulutus"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/koulutus/kansainvalisyys",
+      "text": "Kansainvälisyys"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/koulutus/opiskelijalle",
+      "text": "Opiskelijalle"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu",
+      "text": "Urheilu"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/leiri-ja-tapahtumakauppa",
+      "text": "Leiri- ja tapahtumakauppa"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit",
+      "text": "Leirit"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit/esikuvaleirit",
+      "text": "Esikuvaleirit"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit/ylakoululeiritys",
+      "text": "Yläkoululeiritys"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit/urheilurippileirit",
+      "text": "Urheilurippileirit"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/valmennuskeskus",
+      "text": "Valmennuskeskus"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut",
+      "text": "Urheilun palvelut"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/kestavyysurheilu",
+      "text": "Kestävyysurheilu"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/korkeanpaikan-harjoittelu",
+      "text": "Korkeanpaikan harjoittelu"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/testauspalvelut",
+      "text": "Testauspalvelut"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/meista/tilat/pajulahden-palautumiskeskus",
+      "text": "Pajulahden palautumiskeskus"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/taito-360",
+      "text": "TAITO 360 - motoristen taitojen harjoittelu- ja kuntoilualue"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen",
+      "text": "Osaamisen kehittäminen"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen/urheilun-tki",
+      "text": "Urheilun TKI"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/osaamisen-kehittaminen/kolmen-kampuksen-journal-club",
+      "text": "Journal Club"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/yhteisomme",
+      "text": "Yhteisömme"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika",
+      "text": "Vapaa-aika"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/liikunnalliset-vapaa-ajan-kurssit",
+      "text": "Lomat ja kurssit"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/perhepaketit",
+      "text": "Perhepaketit"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/teemakurssit",
+      "text": "Teemakurssit"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/aikuiset-60-fiiliskurssit",
+      "text": "Aikuiset 60+ Fiiliskurssit"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/lisapalvelut",
+      "text": "Lomien lisäpalvelut"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/villaloma-kisakalliossa",
+      "text": "Villaloma Kisakalliossa"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit",
+      "text": "Aktiviteetit"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kisakallion-sporttipassi",
+      "text": "Kisakallion Sporttipassi"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/meista/tilat/kisakallion-rantasauna",
+      "text": "Kisakallion sauna ja uinti"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/lake-pool-pajulahti",
+      "text": "Lake Pool Pajulahti"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/meista/tilat/pajulahden-uimahalli",
+      "text": "Pajulahden uimahalli"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/seikkailupuisto",
+      "text": "Pajulahden Seikkailupuisto"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/valine-ja-kenttavuokraus",
+      "text": "Väline- ja kenttävuokraus"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/liikunta-ja-hyvinvointipalvelut",
+      "text": "Liikunta- ja hyvinvointipalvelut"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/kanta-asiakkuus",
+      "text": "Kanta-asiakkuus"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://kauppa.kolmekampusta.fi/",
+      "text": "Verkkokauppa"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit",
+      "text": "Ryhmät ja leirit"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/leirikoulu",
+      "text": "Leirikoulu"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/luokkaretki",
+      "text": "Luokkaretki"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/ryhmat-ja-leirit/rippileiri",
+      "text": "Rippileiri"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/urheilu/leirit",
+      "text": "Urheilijaryhmät"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/yritykset",
+      "text": "Yritysryhmät"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/yritykset",
+      "text": "Yritykset"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/yritykset/kokoukset",
+      "text": "Kokoukset"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/yritykset/kokoukset/seminaarit-ja-juhlat",
+      "text": "Seminaarit ja juhlat"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/yritykset/tyohyvinvointi",
+      "text": "Työhyvinvointi"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/yritykset/hyvinvointikoulu",
+      "text": "Hyvinvointikoulu"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/yritykset/villamaailma-yrityksille",
+      "text": "Villamaailma Kisakalliossa"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/majoitus",
+      "text": "Majoitus"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/majoitus/pajulahti",
+      "text": "Pajulahti"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/majoitus/kisakallio",
+      "text": "Kisakallio"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/ravintolapalvelut",
+      "text": "Ravintolapalvelut"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/ravintolapalvelut/tilaustarjoilut",
+      "text": "Tilaustarjoilut"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/tapahtumat",
+      "text": "Tapahtumat"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/tulevat-tapahtumat",
+      "text": "Tulevat tapahtumat"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/meista",
+      "text": "Meistä"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/meista/avoimet-tyopaikat",
+      "text": "Avoimet työpaikat"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/ajankohtaista",
+      "text": "Ajankohtaista"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
+      "text": "Yhteystiedot"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/meista/laskutustiedot",
+      "text": "Laskutustiedot"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/meista/saatioiden-apurahat",
+      "text": "Säätiöiden apurahat"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/meista/hankkeet",
+      "text": "Hankkeet"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/meista/vastuullisuus",
+      "text": "Vastuullisuus"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/kampukset",
+      "text": "Kampukset"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/meista/tilat",
+      "text": "Tilat"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi",
+      "text": "Etusivu"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi",
+      "text": "Etusivu"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi",
+      "text": ""
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/verkkokaupat",
+      "text": "Verkkokauppa"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/ajankohtaista",
+      "text": "Ajankohtaista"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/meista/laskutustiedot",
+      "text": "Laskutustiedot"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/varaus-ja-peruutusehdot",
+      "text": "Varaus- ja peruutusehdot"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/meista/yhteystiedot",
+      "text": "Yhteystiedot"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/uutiskirjeet",
+      "text": "Tilaa uutiskirje"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/meista",
+      "text": "Meistä"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/aluekartta",
+      "text": "Aluekartta"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/anna-palautetta",
+      "text": "Anna palautetta"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/koulutus/opiskelijalle",
+      "text": "Opiskelijalle"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://app.digitalguest.com/guestbook/Pajulahti",
+      "text": "PajuInfo"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://app.digitalguest.com/guestbook/Kisakallio",
+      "text": "KisakallioInfo"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/markkinointi-ja-asiakasrekisterin-tietosuojaseloste",
+      "text": "Tietosuojaseloste"
+    },
+    {
+      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "target": "https://www.kolmekampusta.fi/fi/evastekaytanto",
+      "text": "Evästekäytäntö"
+    },
+    {
       "source": "https://www.kolmekampusta.fi/fi/taxonomy/term/121",
       "target": "https://www.kolmekampusta.fi/fi/verkkokaupat",
       "text": "Verkkokauppa"
@@ -211496,7 +211458,7 @@
     },
     {
       "source": "https://www.kolmekampusta.fi/fi/tapahtumat/rantamakasiinin-kesa",
-      "target": "https://www.kolmekampusta.fi/en",
+      "target": "https://www.kolmekampusta.fi/en/user/login",
       "text": "Englanti"
     },
     {
@@ -211868,46 +211830,6 @@
       "source": "https://www.kolmekampusta.fi/fi/tapahtumat/rantamakasiinin-kesa",
       "target": "https://www.kolmekampusta.fi/fi",
       "text": "Etusivu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/rantamakasiinin-kesa",
-      "target": "https://www.kolmekampusta.fi/fi/tapahtumat",
-      "text": "Tapahtumat"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/rantamakasiinin-kesa",
-      "target": "https://www.kolmekampusta.fi/sites/default/files/2026-07/rantamakasiini_kesamenu26_fin_versio2.pdf",
-      "text": "RANTAMAKASIININ MENU"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/rantamakasiinin-kesa",
-      "target": "https://www.kolmekampusta.fi/fi/meista/tilat/rantamakasiini",
-      "text": "Kisakallion Rantamakasiinissa"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/rantamakasiinin-kesa",
-      "target": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kisakallion-sporttipassi",
-      "text": "Sporttipassin"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/rantamakasiinin-kesa",
-      "target": "https://www.kolmekampusta.fi/fi/meista/tilat/kisakallion-rantasauna",
-      "text": "rantasaunan"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/rantamakasiinin-kesa",
-      "target": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
-      "text": "La 8.8. klo 13-14 Kehonpaino-liikkuvuusharjoittelu"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/rantamakasiinin-kesa",
-      "target": "https://3d.keyframe.fi/tour/kisakallion-urheiluopisto-rantamakasiini",
-      "text": "3D-Virtuaalikierros"
-    },
-    {
-      "source": "https://www.kolmekampusta.fi/fi/tapahtumat/rantamakasiinin-kesa",
-      "target": "https://www.kolmekampusta.fi/fi/meista/tilat/rantamakasiini",
-      "text": "Rantamakasiini"
     },
     {
       "source": "https://www.kolmekampusta.fi/fi/tapahtumat/rantamakasiinin-kesa",
@@ -270796,6 +270718,10 @@
       "status": 200,
       "error": null
     },
+    "https://kolmekampusta.willba.store/event/PL153714": {
+      "status": 200,
+      "error": null
+    },
     "https://kolmekampusta.willba.store/event/PL160305": {
       "status": 200,
       "error": null
@@ -271425,6 +271351,43 @@
       ]
     },
     {
+      "target": "https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88",
+      "kind": "internal",
+      "status": 403,
+      "error": null,
+      "linked_from": [
+        {
+          "page": "https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kesan-tarjonta-kolmella-kampuksella",
+          "anchor": "La 8.8. klo 13-14 Kehonpaino-liikkuvuusharjoittelu",
+          "page_updated": "2026-08-03T19:29:30+03:00",
+          "page_og_type": "article",
+          "page_unavailable_after": null
+        },
+        {
+          "page": "https://www.kolmekampusta.fi/fi/meista/tilat/rantamakasiini",
+          "anchor": "La 8.8. klo 13-14 Kehonpaino-liikkuvuusharjoittelu",
+          "page_updated": "2026-07-29T12:48:39+03:00",
+          "page_og_type": "article",
+          "page_unavailable_after": null
+        }
+      ]
+    },
+    {
+      "target": "https://www.kolmekampusta.fi/fi/tapahtumat/rantamakasiinin-kesa",
+      "kind": "internal",
+      "status": 403,
+      "error": null,
+      "linked_from": [
+        {
+          "page": "https://www.kolmekampusta.fi/fi/artikkelit/kansainvalinen-agilityfestivaali-tuo-kesatunnelman-kisakallioon-juhannuksena",
+          "anchor": "RANTAMAKASIININ KESÄ KUTSUU",
+          "page_updated": "2026-06-17T18:54:17+03:00",
+          "page_og_type": "article",
+          "page_unavailable_after": null
+        }
+      ]
+    },
+    {
       "target": "https://kauppa.kolmekampusta.fi/tuote/alterg-painokevennetty-juoksumatto/",
       "kind": "external",
       "status": 404,
@@ -271515,12 +271478,12 @@
   ],
   "canonical_duplicates": [],
   "stats": {
-    "pages_crawled": 966,
-    "pages_with_data": 966,
-    "edges": 43342,
-    "external_targets_checked": 334,
-    "broken_count": 5,
-    "broken_internal": 2,
+    "pages_crawled": 965,
+    "pages_with_data": 965,
+    "edges": 43332,
+    "external_targets_checked": 335,
+    "broken_count": 7,
+    "broken_internal": 4,
     "broken_external": 3,
     "external_uncertain_count": 1,
     "external_trusted_ok_count": 1,

@@ -1,15 +1,21 @@
 # Broken Links Report
 
 - **Site:** https://www.kolmekampusta.fi/fi
-- **Crawled:** 2026-08-07T11:38:38
-- **Pages crawled:** 966
-- **External targets checked:** 334
-- **Total broken:** 5 (2 internal, 3 external)
+- **Crawled:** 2026-08-09T22:05:23
+- **Pages crawled:** 965
+- **External targets checked:** 335
+- **Total broken:** 7 (4 internal, 3 external)
 - **❓ External links could not be verified:** 1 (likely bot-detection / WAF — manual verification recommended)
 - **🛡️ Trusted-domain links treated as OK:** 1 (bot-blocked from CI, but on domains you marked trusted)
 - **⚠️ Pages without URL alias:** 1 (Drupal /node/N served directly, no Pathauto alias)
 
 ## Internal broken pages
+
+### `https://www.kolmekampusta.fi/fi/tapahtumat/kisakallion-kesalauantait-kehonpaino-liikkuvuusharjoittelu-88`
+- **Reason:** HTTP 403
+- **Linked from 2 page(s):**
+  - `https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kesan-tarjonta-kolmella-kampuksella` — "La 8.8. klo 13-14 Kehonpaino-liikkuvuusharjoittelu" *[updated 2026-08-03]*
+  - `https://www.kolmekampusta.fi/fi/meista/tilat/rantamakasiini` — "La 8.8. klo 13-14 Kehonpaino-liikkuvuusharjoittelu" *[updated 2026-07-29]*
 
 ### `https://www.kolmekampusta.fi/fi/tapahtumat/kisakallio-cheerleading-champ-camp-2-482026`
 - **Reason:** HTTP 403
@@ -20,6 +26,11 @@
 - **Reason:** HTTP 403
 - **Linked from 1 page(s):**
   - `https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/aikuiset-60-fiiliskurssit` — "KuntoFiilis 3.-7.8. Pajulahti" *[updated 2026-08-05]*
+
+### `https://www.kolmekampusta.fi/fi/tapahtumat/rantamakasiinin-kesa`
+- **Reason:** HTTP 403
+- **Linked from 1 page(s):**
+  - `https://www.kolmekampusta.fi/fi/artikkelit/kansainvalinen-agilityfestivaali-tuo-kesatunnelman-kisakallioon-juhannuksena` — "RANTAMAKASIININ KESÄ KUTSUU" *[updated 2026-06-17]*
 
 ## External broken links
 
