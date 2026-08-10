@@ -1,9 +1,9 @@
 # Broken Links Report
 
 - **Site:** https://www.kolmekampusta.fi/fi
-- **Crawled:** 2026-08-09T22:05:23
+- **Crawled:** 2026-08-10T07:35:21
 - **Pages crawled:** 965
-- **External targets checked:** 335
+- **External targets checked:** 362
 - **Total broken:** 7 (4 internal, 3 external)
 - **❓ External links could not be verified:** 1 (likely bot-detection / WAF — manual verification recommended)
 - **🛡️ Trusted-domain links treated as OK:** 1 (bot-blocked from CI, but on domains you marked trusted)
