@@ -1,15 +1,20 @@
 # Broken Links Report
 
 - **Site:** https://www.kolmekampusta.fi/fi
-- **Crawled:** 2026-08-24T06:59:41
-- **Pages crawled:** 967
-- **External targets checked:** 373
-- **Total broken:** 10 (4 internal, 6 external)
+- **Crawled:** 2026-08-31T12:43:35
+- **Pages crawled:** 980
+- **External targets checked:** 383
+- **Total broken:** 10 (5 internal, 5 external)
 - **❓ External links could not be verified:** 2 (likely bot-detection / WAF — manual verification recommended)
 - **🛡️ Trusted-domain links treated as OK:** 1 (bot-blocked from CI, but on domains you marked trusted)
 - **⚠️ Pages without URL alias:** 1 (Drupal /node/N served directly, no Pathauto alias)
 
 ## Internal broken pages
+
+### `https://www.kolmekampusta.fi/fi/koulutus/koulutusvanhatuplasivu`
+- **Reason:** HTTP 403
+- **Linked from 1 page(s):**
+  - `https://www.kolmekampusta.fi/fi` — "Hae syksyn koulutuksiin nyt" *[updated 2026-08-30]*
 
 ### `https://www.kolmekampusta.fi/fi/paravalmentaja-koulutus-2-taso`
 - **Reason:** HTTP 403
@@ -29,7 +34,7 @@
 ### `https://www.kolmekampusta.fi/sites/default/files/2026-08/aquafiilis-21-25.9.2026.pdf`
 - **Reason:** HTTP 404
 - **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/tapahtumat/aquafiilis-pajulahdessa-taynna-1` — "Tutustu alustavaan ohjelmaan" *[updated 2026-08-22, ⏰ expires Friday, 25-Sep-26 00:00:00 EEST]*
+  - `https://www.kolmekampusta.fi/fi/tapahtumat/aquafiilis-pajulahdessa-taynna-1` — "Tutustu alustavaan ohjelmaan" *[updated 2026-08-25, ⏰ expires Friday, 25-Sep-26 00:00:00 EEST]*
 
 ## External broken links
 
@@ -38,37 +43,32 @@
 - **Linked from 6 page(s):**
   - `https://www.kolmekampusta.fi/fi/vapaa-aika` — "Osta Latvuksista laiturille -paketti" *[updated 2026-08-10]*
   - `https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit` — "Osta Latvuksista laiturille -paketti" *[updated 2026-08-12]*
-  - `https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/lake-pool-pajulahti` — "Osta Latvuksista laiturille -paketti" *[updated 2026-08-19]*
-  - `https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/seikkailupuisto` — "Osta Latvuksista laiturille -paketti" *[updated 2026-08-13]*
-  - `https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/lakepoolpajulahti` — "Osta Latvuksista laiturille -paketti" *[updated 2026-08-19]*
+  - `https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/lake-pool-pajulahti` — "Osta Latvuksista laiturille -paketti" *[updated 2026-08-26]*
+  - `https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/seikkailupuisto` — "Osta Latvuksista laiturille -paketti" *[updated 2026-08-28]*
+  - `https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/lakepoolpajulahti` — "Osta Latvuksista laiturille -paketti" *[updated 2026-08-26]*
   - `https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kesan-tarjonta-kolmella-kampuksella` — "Osta Latvuksista laiturille -paketti" *[updated 2026-08-11]*
 
 ### `https://kauppa.kolmekampusta.fi/tuote/alterg-painokevennetty-juoksumatto/`
 - **Reason:** HTTP 404
 - **Linked from 2 page(s):**
-  - `https://www.kolmekampusta.fi/fi/meista/tilat/pajulahden-palautumiskeskus` — "AlterG-tuotteet verkkokaupasta" *[updated 2026-07-28]*
-  - `https://www.kolmekampusta.fi/fi/pajulahden-palautumiskeskus` — "AlterG-tuotteet verkkokaupasta" *[updated 2026-07-28]*
+  - `https://www.kolmekampusta.fi/fi/meista/tilat/pajulahden-palautumiskeskus` — "AlterG-tuotteet verkkokaupasta" *[updated 2026-08-26]*
+  - `https://www.kolmekampusta.fi/fi/pajulahden-palautumiskeskus` — "AlterG-tuotteet verkkokaupasta" *[updated 2026-08-26]*
 
 ### `https://kauppa.kolmekampusta.fi/tuote/pajulahden-palautumishuone/`
 - **Reason:** HTTP 404
 - **Linked from 2 page(s):**
-  - `https://www.kolmekampusta.fi/fi/meista/tilat/pajulahden-palautumiskeskus` — "Palautumishuoneen kertakäynti verkkokaupasta" *[updated 2026-07-28]*
-  - `https://www.kolmekampusta.fi/fi/pajulahden-palautumiskeskus` — "Palautumishuoneen kertakäynti verkkokaupasta" *[updated 2026-07-28]*
+  - `https://www.kolmekampusta.fi/fi/meista/tilat/pajulahden-palautumiskeskus` — "Palautumishuoneen kertakäynti verkkokaupasta" *[updated 2026-08-26]*
+  - `https://www.kolmekampusta.fi/fi/pajulahden-palautumiskeskus` — "Palautumishuoneen kertakäynti verkkokaupasta" *[updated 2026-08-26]*
 
 ### `https://kauppa.kolmekampusta.fi/tuote/bungee-trampoliini-2/`
 - **Reason:** HTTP 404
 - **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/seikkailupuisto` — "Liput kätevästi netistä!" *[updated 2026-08-13]*
+  - `https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/seikkailupuisto` — "Liput kätevästi netistä!" *[updated 2026-08-28]*
 
 ### `https://kauppa.kolmekampusta.fi/tuote/rantasauna-kk-yleisovuorot`
 - **Reason:** HTTP 404
 - **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/meista/tilat/kisakallion-rantasauna` — "VERKKOKAUPASTA" *[updated 2026-07-28]*
-
-### `https://kolmekampusta.willba.store/event/pl649982-taitoluistelun-tekniikkaleiri-pojille-22.-23.8.2026`
-- **Reason:** HTTP 404
-- **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/artikkelit/syksyn-taitoluisteluleirit-2026-myynnissa-nyt` — "LUE LISÄÄ" *[updated 2026-06-29]*
+  - `https://www.kolmekampusta.fi/fi/meista/tilat/kisakallion-rantasauna` — "VERKKOKAUPASTA" *[updated 2026-08-26]*
 
 ## ❓ External links — could not be verified
 
@@ -83,7 +83,7 @@ These 2 external link(s) returned a response that could not be confidently class
 ### `https://bookauthority.org/books/best-skill-building-books`
 - **Reason:** HTTP 429
 - **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/tapahtumat/motor-skills-acquisition-conference-2027` — "Best Skill Building Books of All Time by Book Authority" *[updated 2026-07-09]*
+  - `https://www.kolmekampusta.fi/fi/tapahtumat/motor-skills-acquisition-conference-2027` — "Best Skill Building Books of All Time by Book Authority" *[updated 2026-08-25]*
 
 ### `https://www.vantaa.fi/hankkeet/hanke/heittaydy-harrastukseen-hanke`
 - **Reason:** timeout
