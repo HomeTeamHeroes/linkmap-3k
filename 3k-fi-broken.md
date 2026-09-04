@@ -1,20 +1,41 @@
 # Broken Links Report
 
 - **Site:** https://www.kolmekampusta.fi/fi
-- **Crawled:** 2026-08-31T12:43:35
-- **Pages crawled:** 980
-- **External targets checked:** 383
-- **Total broken:** 10 (5 internal, 5 external)
+- **Crawled:** 2026-09-04T20:15:29
+- **Pages crawled:** 979
+- **External targets checked:** 387
+- **Total broken:** 14 (8 internal, 6 external)
 - **❓ External links could not be verified:** 2 (likely bot-detection / WAF — manual verification recommended)
 - **🛡️ Trusted-domain links treated as OK:** 1 (bot-blocked from CI, but on domains you marked trusted)
 - **⚠️ Pages without URL alias:** 1 (Drupal /node/N served directly, no Pathauto alias)
 
 ## Internal broken pages
 
+### `https://www.kolmekampusta.fi/fi/koulutus/liikunnanohjauksen-perustutkinto`
+- **Reason:** HTTP 403
+- **Linked from 2 page(s):**
+  - `https://www.kolmekampusta.fi/fi/koulutus` — "Liikunnanohjauksen perustutkinto" *[updated 2026-09-04]*
+  - `https://www.kolmekampusta.fi/fi/uutiset/2026-02/hae-yhteishaussa-172-173-kolmen-kampuksen-urheiluopistoon` — "Lue lisää ja hae" *[updated 2026-02-02]*
+
+### `https://www.kolmekampusta.fi/fi/koulutus/kamppailuvalmentajakoulutus-taso1`
+- **Reason:** HTTP 403
+- **Linked from 1 page(s):**
+  - `https://www.kolmekampusta.fi/fi/koulutus` — "Kamppailulajien 1-tason valmentajakoulutus" *[updated 2026-09-04]*
+
 ### `https://www.kolmekampusta.fi/fi/koulutus/koulutusvanhatuplasivu`
 - **Reason:** HTTP 403
 - **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi` — "Hae syksyn koulutuksiin nyt" *[updated 2026-08-30]*
+  - `https://www.kolmekampusta.fi/fi` — "Hae syksyn koulutuksiin nyt" *[updated 2026-09-03]*
+
+### `https://www.kolmekampusta.fi/fi/koulutus/liiketta-ja-oivallusta-lasten-motoristen-taitojen-havainnointi-ja-tukeminen-arjessa`
+- **Reason:** HTTP 403
+- **Linked from 1 page(s):**
+  - `https://www.kolmekampusta.fi/fi/koulutus` — "Liikettä ja Oivallusta – Lasten motoristen taitojen havainnointi ja tukeminen arjessa" *[updated 2026-09-04]*
+
+### `https://www.kolmekampusta.fi/fi/koulutus/yksilollinen-hyvinvoinnin-edistaminen-30-osp`
+- **Reason:** HTTP 403
+- **Linked from 1 page(s):**
+  - `https://www.kolmekampusta.fi/fi/koulutus` — "Yksilöllinen hyvinvoinnin edistäminen, 30 osp" *[updated 2026-09-04]*
 
 ### `https://www.kolmekampusta.fi/fi/paravalmentaja-koulutus-2-taso`
 - **Reason:** HTTP 403
@@ -31,11 +52,6 @@
 - **Linked from 1 page(s):**
   - `https://www.kolmekampusta.fi/fi/urheilu/urheilun-palvelut/kestavyysurheilu` — "Lehtoviita - Psyykkinen valmistautuminen kilpailuihin" *[updated 2026-05-10]*
 
-### `https://www.kolmekampusta.fi/sites/default/files/2026-08/aquafiilis-21-25.9.2026.pdf`
-- **Reason:** HTTP 404
-- **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/tapahtumat/aquafiilis-pajulahdessa-taynna-1` — "Tutustu alustavaan ohjelmaan" *[updated 2026-08-25, ⏰ expires Friday, 25-Sep-26 00:00:00 EEST]*
-
 ## External broken links
 
 ### `https://kauppa.kolmekampusta.fi/tuote/latvuksista-laiturille-paketti-pajulahti/`
@@ -44,7 +60,7 @@
   - `https://www.kolmekampusta.fi/fi/vapaa-aika` — "Osta Latvuksista laiturille -paketti" *[updated 2026-08-10]*
   - `https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit` — "Osta Latvuksista laiturille -paketti" *[updated 2026-08-12]*
   - `https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/lake-pool-pajulahti` — "Osta Latvuksista laiturille -paketti" *[updated 2026-08-26]*
-  - `https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/seikkailupuisto` — "Osta Latvuksista laiturille -paketti" *[updated 2026-08-28]*
+  - `https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/seikkailupuisto` — "Osta Latvuksista laiturille -paketti" *[updated 2026-09-02]*
   - `https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/lakepoolpajulahti` — "Osta Latvuksista laiturille -paketti" *[updated 2026-08-26]*
   - `https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kesan-tarjonta-kolmella-kampuksella` — "Osta Latvuksista laiturille -paketti" *[updated 2026-08-11]*
 
@@ -60,10 +76,15 @@
   - `https://www.kolmekampusta.fi/fi/meista/tilat/pajulahden-palautumiskeskus` — "Palautumishuoneen kertakäynti verkkokaupasta" *[updated 2026-08-26]*
   - `https://www.kolmekampusta.fi/fi/pajulahden-palautumiskeskus` — "Palautumishuoneen kertakäynti verkkokaupasta" *[updated 2026-08-26]*
 
+### `http://minedu.fi/liikunta`
+- **Reason:** DNS resolution failed
+- **Linked from 1 page(s):**
+  - `https://www.kolmekampusta.fi/fi/urheilu/yhteisomme/paijat-hameen-urheiluakatemia` — "Opetus- ja Kulttuuriministeriöstä" *[updated 2025-06-24]*
+
 ### `https://kauppa.kolmekampusta.fi/tuote/bungee-trampoliini-2/`
 - **Reason:** HTTP 404
 - **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/seikkailupuisto` — "Liput kätevästi netistä!" *[updated 2026-08-28]*
+  - `https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/seikkailupuisto` — "Liput kätevästi netistä!" *[updated 2026-09-02]*
 
 ### `https://kauppa.kolmekampusta.fi/tuote/rantasauna-kk-yleisovuorot`
 - **Reason:** HTTP 404
@@ -83,7 +104,7 @@ These 2 external link(s) returned a response that could not be confidently class
 ### `https://bookauthority.org/books/best-skill-building-books`
 - **Reason:** HTTP 429
 - **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/tapahtumat/motor-skills-acquisition-conference-2027` — "Best Skill Building Books of All Time by Book Authority" *[updated 2026-08-25]*
+  - `https://www.kolmekampusta.fi/fi/tapahtumat/motor-skills-acquisition-conference-2027` — "Best Skill Building Books of All Time by Book Authority" *[updated 2026-09-04]*
 
 ### `https://www.vantaa.fi/hankkeet/hanke/heittaydy-harrastukseen-hanke`
 - **Reason:** timeout
