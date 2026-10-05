@@ -1,11 +1,11 @@
 # Broken Links Report
 
 - **Site:** https://www.kolmekampusta.fi/fi
-- **Crawled:** 2026-09-28T12:55:22
-- **Pages crawled:** 1014
-- **External targets checked:** 392
-- **Total broken:** 18 (5 internal, 13 external)
-- **❓ External links could not be verified:** 3 (likely bot-detection / WAF — manual verification recommended)
+- **Crawled:** 2026-10-05T13:35:42
+- **Pages crawled:** 1001
+- **External targets checked:** 387
+- **Total broken:** 15 (4 internal, 11 external)
+- **❓ External links could not be verified:** 2 (likely bot-detection / WAF — manual verification recommended)
 - **🛡️ Trusted-domain links treated as OK:** 1 (bot-blocked from CI, but on domains you marked trusted)
 - **⚠️ Pages without URL alias:** 1 (Drupal /node/N served directly, no Pathauto alias)
 
@@ -21,11 +21,6 @@
 - **Linked from 1 page(s):**
   - `https://www.kolmekampusta.fi/fi/koulutus` — "Yksilöllinen hyvinvoinnin edistäminen, 30 osp" *[updated 2026-09-07]*
 
-### `https://www.kolmekampusta.fi/fi/paravalmentaja-koulutus-2-taso`
-- **Reason:** HTTP 403
-- **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/uutiset/2025-10/ilmoittaudu-paravalmentaja-koulutukseen-2-taso` — "Lue lisää" *[updated 2025-10-21]*
-
 ### `https://www.kolmekampusta.fi/fi/tapahtumat/aquafiilis-pajulahdessa-taynna-1`
 - **Reason:** HTTP 403
 - **Linked from 1 page(s):**
@@ -38,122 +33,11 @@
 
 ## External broken links
 
-### `https://store.kisakallio.willba.app/en`
-- **Reason:** SSL error
-- **Linked from 108 page(s):**
-  - `https://www.kolmekampusta.fi/en` — "Book a stay in Kisakallio" *[updated 2026-09-17]*
-  - `https://www.kolmekampusta.fi/en/about-us/contact-information` — "Book a stay in Kisakallio" *[updated 2026-09-18]*
-  - `https://www.kolmekampusta.fi/en/search` — "Book a stay in Kisakallio"
-  - `https://www.kolmekampusta.fi/en/sports` — "Book a stay in Kisakallio" *[updated 2025-10-21]*
-  - `https://www.kolmekampusta.fi/en/sports/sports-services` — "Book a stay in Kisakallio" *[updated 2025-10-21]*
-  - `https://www.kolmekampusta.fi/en/sports/sports-services/high-altitude-training` — "Book a stay in Kisakallio" *[updated 2026-09-14]*
-  - `https://www.kolmekampusta.fi/en/sports/sports-services/testing-services` — "Book a stay in Kisakallio" *[updated 2026-07-03]*
-  - `https://www.kolmekampusta.fi/en/sports/sports-services/pajulahti-recovery-center` — "Book a stay in Kisakallio" *[updated 2025-10-21]*
-  - `https://www.kolmekampusta.fi/en/sports/sports-services/taito-360` — "Book a stay in Kisakallio" *[updated 2025-10-08]*
-  - `https://www.kolmekampusta.fi/en/sports/skill-development` — "Book a stay in Kisakallio" *[updated 2025-10-08]*
-  - `https://www.kolmekampusta.fi/en/leisure` — "Book a stay in Kisakallio" *[updated 2026-05-31]*
-  - `https://www.kolmekampusta.fi/en/leisure/activities` — "Book a stay in Kisakallio" *[updated 2026-05-31]*
-  - `https://www.kolmekampusta.fi/en/leisure/activities/lake-pool-pajulahti` — "Book a stay in Kisakallio" *[updated 2026-07-08]*
-  - `https://www.kolmekampusta.fi/en/leisure/activities/adventure-park` — "Book a stay in Kisakallio" *[updated 2026-04-10]*
-  - `https://www.kolmekampusta.fi/en/leisure/activities/equipment-and-field-rental` — "Book a stay in Kisakallio" *[updated 2026-06-05]*
-  - `https://www.kolmekampusta.fi/en/leisure/activities/outdoor-exercise` — "Book a stay in Kisakallio" *[updated 2026-07-28]*
-  - `https://www.kolmekampusta.fi/en/vapaa-aika/exercise-and-wellness-services` — "Book a stay in Kisakallio" *[updated 2025-10-08]*
-  - `https://www.kolmekampusta.fi/en/yritykset/villas-businesses` — "Book a stay in Kisakallio" *[updated 2025-10-08]*
-  - `https://www.kolmekampusta.fi/en/accommodation` — "Book a stay in Kisakallio" *[updated 2026-09-14]*
-  - `https://www.kolmekampusta.fi/en/restaurant-services` — "Book a stay in Kisakallio" *[updated 2025-10-21]*
-  - `https://www.kolmekampusta.fi/en/restaurant-services/catering-services` — "Book a stay in Kisakallio" *[updated 2026-08-14]*
-  - `https://www.kolmekampusta.fi/en/events` — "Book a stay in Kisakallio" *[updated 2026-08-11]*
-  - `https://www.kolmekampusta.fi/en/about-us` — "Book a stay in Kisakallio" *[updated 2026-05-31]*
-  - `https://www.kolmekampusta.fi/en/about-us/sustainability` — "Book a stay in Kisakallio" *[updated 2025-10-08]*
-  - `https://www.kolmekampusta.fi/en/about-us/campuses` — "Book a stay in Kisakallio" *[updated 2025-10-08]*
-  - `https://www.kolmekampusta.fi/en/about-us/facilities` — "Book a stay in Kisakallio" *[updated 2026-05-31]*
-  - `https://www.kolmekampusta.fi/en/kisakallio-campus` — "Book a stay in Kisakallio" *[updated 2025-10-08]*
-  - `https://www.kolmekampusta.fi/en/pajulahti-campus` — "Book a stay in Kisakallio" *[updated 2025-10-08]*
-  - `https://www.kolmekampusta.fi/en/makelanrinne-campus` — "Book a stay in Kisakallio" *[updated 2025-10-08]*
-  - `https://www.kolmekampusta.fi/en/cookie-policy` — "Book a stay in Kisakallio" *[updated 2025-06-24]*
-  - `https://www.kolmekampusta.fi/en/privacy-policy` — "Book a stay in Kisakallio" *[updated 2026-01-30]*
-  - `https://www.kolmekampusta.fi/en/leisure/activities/kisakallio-lakeside-sauna` — "Book a stay in Kisakallio" *[updated 2026-09-18]*
-  - `https://www.kolmekampusta.fi/en/leisure/activities/pajulahti-swimming-hall` — "Book a stay in Kisakallio" *[updated 2026-09-17]*
-  - `https://www.kolmekampusta.fi/en/groups-and-camps` — "Book a stay in Kisakallio" *[updated 2025-05-13]*
-  - `https://www.kolmekampusta.fi/en/upcoming-events` — "Book a stay in Kisakallio"
-  - `https://www.kolmekampusta.fi/en/current-topics` — "Book a stay in Kisakallio"
-  - `https://www.kolmekampusta.fi/en/news/2026-09/information-security-incident-pajulahti-campus` — "Book a stay in Kisakallio" *[updated 2026-09-22]*
-  - `https://www.kolmekampusta.fi/en/articles/shooting-sport-week-and-winter-grand-prix-2027-kisakallio` — "Book a stay in Kisakallio" *[updated 2026-09-01]*
-  - `https://www.kolmekampusta.fi/en/pajulahti-hall` — "Book a stay in Kisakallio" *[updated 2026-09-15]*
-  - `https://www.kolmekampusta.fi/en/pajulahtis-lakeside-saunas` — "Book a stay in Kisakallio" *[updated 2025-10-08]*
-  - `https://www.kolmekampusta.fi/en/about-us/facilities/gym-pajulahti-main-building` — "Book a stay in Kisakallio" *[updated 2026-06-05]*
-  - `https://www.kolmekampusta.fi/en/nikula-hall` — "Book a stay in Kisakallio" *[updated 2026-09-15]*
-  - `https://www.kolmekampusta.fi/en/pajulahti-ice-hall` — "Book a stay in Kisakallio" *[updated 2026-09-15]*
-  - `https://www.kolmekampusta.fi/en/ball-game-hall` — "Book a stay in Kisakallio" *[updated 2026-09-15]*
-  - `https://www.kolmekampusta.fi/en/sports-hall` — "Book a stay in Kisakallio" *[updated 2025-07-09]*
-  - `https://www.kolmekampusta.fi/en/training-center` — "Book a stay in Kisakallio" *[updated 2026-09-14]*
-  - `https://www.kolmekampusta.fi/en/testing-services-kisakallio` — "Book a stay in Kisakallio" *[updated 2026-07-06]*
-  - `https://www.kolmekampusta.fi/en/testing-services-pajulahti` — "Book a stay in Kisakallio" *[updated 2026-07-06]*
-  - `https://www.kolmekampusta.fi/en/kids-world` — "Book a stay in Kisakallio" *[updated 2025-10-08]*
-  - `https://www.kolmekampusta.fi/en/general-and-safety-instructions-adventure-park` — "Book a stay in Kisakallio" *[updated 2025-10-08]*
-  - …and 58 more
-
-### `https://store.pajulahti.willba.app/en`
-- **Reason:** DNS resolution failed
-- **Linked from 108 page(s):**
-  - `https://www.kolmekampusta.fi/en` — "Book a stay in Pajulahti" *[updated 2026-09-17]*
-  - `https://www.kolmekampusta.fi/en/about-us/contact-information` — "Book a stay in Pajulahti" *[updated 2026-09-18]*
-  - `https://www.kolmekampusta.fi/en/search` — "Book a stay in Pajulahti"
-  - `https://www.kolmekampusta.fi/en/sports` — "Book a stay in Pajulahti" *[updated 2025-10-21]*
-  - `https://www.kolmekampusta.fi/en/sports/sports-services` — "Book a stay in Pajulahti" *[updated 2025-10-21]*
-  - `https://www.kolmekampusta.fi/en/sports/sports-services/high-altitude-training` — "Book a stay in Pajulahti" *[updated 2026-09-14]*
-  - `https://www.kolmekampusta.fi/en/sports/sports-services/testing-services` — "Book a stay in Pajulahti" *[updated 2026-07-03]*
-  - `https://www.kolmekampusta.fi/en/sports/sports-services/pajulahti-recovery-center` — "Book a stay in Pajulahti" *[updated 2025-10-21]*
-  - `https://www.kolmekampusta.fi/en/sports/sports-services/taito-360` — "Book a stay in Pajulahti" *[updated 2025-10-08]*
-  - `https://www.kolmekampusta.fi/en/sports/skill-development` — "Book a stay in Pajulahti" *[updated 2025-10-08]*
-  - `https://www.kolmekampusta.fi/en/leisure` — "Book a stay in Pajulahti" *[updated 2026-05-31]*
-  - `https://www.kolmekampusta.fi/en/leisure/activities` — "Book a stay in Pajulahti" *[updated 2026-05-31]*
-  - `https://www.kolmekampusta.fi/en/leisure/activities/lake-pool-pajulahti` — "Book a stay in Pajulahti" *[updated 2026-07-08]*
-  - `https://www.kolmekampusta.fi/en/leisure/activities/adventure-park` — "Book a stay in Pajulahti" *[updated 2026-04-10]*
-  - `https://www.kolmekampusta.fi/en/leisure/activities/equipment-and-field-rental` — "Book a stay in Pajulahti" *[updated 2026-06-05]*
-  - `https://www.kolmekampusta.fi/en/leisure/activities/outdoor-exercise` — "Book a stay in Pajulahti" *[updated 2026-07-28]*
-  - `https://www.kolmekampusta.fi/en/vapaa-aika/exercise-and-wellness-services` — "Book a stay in Pajulahti" *[updated 2025-10-08]*
-  - `https://www.kolmekampusta.fi/en/yritykset/villas-businesses` — "Book a stay in Pajulahti" *[updated 2025-10-08]*
-  - `https://www.kolmekampusta.fi/en/accommodation` — "Book a stay in Pajulahti" *[updated 2026-09-14]*
-  - `https://www.kolmekampusta.fi/en/restaurant-services` — "Book a stay in Pajulahti" *[updated 2025-10-21]*
-  - `https://www.kolmekampusta.fi/en/restaurant-services/catering-services` — "Book a stay in Pajulahti" *[updated 2026-08-14]*
-  - `https://www.kolmekampusta.fi/en/events` — "Book a stay in Pajulahti" *[updated 2026-08-11]*
-  - `https://www.kolmekampusta.fi/en/about-us` — "Book a stay in Pajulahti" *[updated 2026-05-31]*
-  - `https://www.kolmekampusta.fi/en/about-us/sustainability` — "Book a stay in Pajulahti" *[updated 2025-10-08]*
-  - `https://www.kolmekampusta.fi/en/about-us/campuses` — "Book a stay in Pajulahti" *[updated 2025-10-08]*
-  - `https://www.kolmekampusta.fi/en/about-us/facilities` — "Book a stay in Pajulahti" *[updated 2026-05-31]*
-  - `https://www.kolmekampusta.fi/en/kisakallio-campus` — "Book a stay in Pajulahti" *[updated 2025-10-08]*
-  - `https://www.kolmekampusta.fi/en/pajulahti-campus` — "Book a stay in Pajulahti" *[updated 2025-10-08]*
-  - `https://www.kolmekampusta.fi/en/makelanrinne-campus` — "Book a stay in Pajulahti" *[updated 2025-10-08]*
-  - `https://www.kolmekampusta.fi/en/cookie-policy` — "Book a stay in Pajulahti" *[updated 2025-06-24]*
-  - `https://www.kolmekampusta.fi/en/privacy-policy` — "Book a stay in Pajulahti" *[updated 2026-01-30]*
-  - `https://www.kolmekampusta.fi/en/leisure/activities/kisakallio-lakeside-sauna` — "Book a stay in Pajulahti" *[updated 2026-09-18]*
-  - `https://www.kolmekampusta.fi/en/leisure/activities/pajulahti-swimming-hall` — "Book a stay in Pajulahti" *[updated 2026-09-17]*
-  - `https://www.kolmekampusta.fi/en/groups-and-camps` — "Book a stay in Pajulahti" *[updated 2025-05-13]*
-  - `https://www.kolmekampusta.fi/en/upcoming-events` — "Book a stay in Pajulahti"
-  - `https://www.kolmekampusta.fi/en/current-topics` — "Book a stay in Pajulahti"
-  - `https://www.kolmekampusta.fi/en/news/2026-09/information-security-incident-pajulahti-campus` — "Book a stay in Pajulahti" *[updated 2026-09-22]*
-  - `https://www.kolmekampusta.fi/en/articles/shooting-sport-week-and-winter-grand-prix-2027-kisakallio` — "Book a stay in Pajulahti" *[updated 2026-09-01]*
-  - `https://www.kolmekampusta.fi/en/pajulahti-hall` — "Book a stay in Pajulahti" *[updated 2026-09-15]*
-  - `https://www.kolmekampusta.fi/en/pajulahtis-lakeside-saunas` — "Book a stay in Pajulahti" *[updated 2025-10-08]*
-  - `https://www.kolmekampusta.fi/en/about-us/facilities/gym-pajulahti-main-building` — "Book a stay in Pajulahti" *[updated 2026-06-05]*
-  - `https://www.kolmekampusta.fi/en/nikula-hall` — "Book a stay in Pajulahti" *[updated 2026-09-15]*
-  - `https://www.kolmekampusta.fi/en/pajulahti-ice-hall` — "Book a stay in Pajulahti" *[updated 2026-09-15]*
-  - `https://www.kolmekampusta.fi/en/ball-game-hall` — "Book a stay in Pajulahti" *[updated 2026-09-15]*
-  - `https://www.kolmekampusta.fi/en/sports-hall` — "Book a stay in Pajulahti" *[updated 2025-07-09]*
-  - `https://www.kolmekampusta.fi/en/training-center` — "Book a stay in Pajulahti" *[updated 2026-09-14]*
-  - `https://www.kolmekampusta.fi/en/testing-services-kisakallio` — "Book a stay in Pajulahti" *[updated 2026-07-06]*
-  - `https://www.kolmekampusta.fi/en/testing-services-pajulahti` — "Book a stay in Pajulahti" *[updated 2026-07-06]*
-  - `https://www.kolmekampusta.fi/en/kids-world` — "Book a stay in Pajulahti" *[updated 2025-10-08]*
-  - `https://www.kolmekampusta.fi/en/general-and-safety-instructions-adventure-park` — "Book a stay in Pajulahti" *[updated 2025-10-08]*
-  - …and 58 more
-
 ### `https://store.kisakallio.willba.app/`
 - **Reason:** SSL error
-- **Linked from 4 page(s):**
+- **Linked from 3 page(s):**
   - `https://www.kolmekampusta.fi/fi/urheilu/leiri-ja-tapahtumakauppa` — "Osta Kisakallion verkkokaupasta" *[updated 2025-10-03]*
-  - `https://www.kolmekampusta.fi/fi/vapaa-aika/liikunnalliset-vapaa-ajan-kurssit` — "Varaa majoitus" *[updated 2026-08-10]*
-  - `https://www.kolmekampusta.fi/en/accommodation` — "Book a stay in Kisakallio" *[updated 2026-09-14]*
+  - `https://www.kolmekampusta.fi/fi/vapaa-aika/liikunnalliset-vapaa-ajan-kurssit` — "Varaa majoitus" *[updated 2026-09-29]*
   - `https://www.kolmekampusta.fi/fi/meista/tilat/hotelli-omenatarha` — "Varaa majoitus" *[updated 2026-07-28]*
 
 ### `https://kauppa.kolmekampusta.fi/tuote/alterg-painokevennetty-juoksumatto/`
@@ -162,23 +46,11 @@
   - `https://www.kolmekampusta.fi/fi/meista/tilat/pajulahden-palautumiskeskus` — "AlterG-tuotteet verkkokaupasta" *[updated 2026-09-16]*
   - `https://www.kolmekampusta.fi/fi/pajulahden-palautumiskeskus` — "AlterG-tuotteet verkkokaupasta" *[updated 2026-09-16]*
 
-### `https://kauppa.kolmekampusta.fi/tuote/pajulahden-palautumishuone/`
+### `https://pajulahti.com/tuote/hierontalahjakortti/`
 - **Reason:** HTTP 404
 - **Linked from 2 page(s):**
-  - `https://www.kolmekampusta.fi/fi/meista/tilat/pajulahden-palautumiskeskus` — "Palautumishuoneen kertakäynti verkkokaupasta" *[updated 2026-09-16]*
-  - `https://www.kolmekampusta.fi/fi/pajulahden-palautumiskeskus` — "Palautumishuoneen kertakäynti verkkokaupasta" *[updated 2026-09-16]*
-
-### `https://kolmekampusta.willba.store/event/pl153639?locationId=1&utm_source=kauppa.kolmekampusta.fi`
-- **Reason:** HTTP 404
-- **Linked from 2 page(s):**
-  - `https://www.kolmekampusta.fi/psyykkiset1` — "Pajulahti Cross Training viikonloppu 13.11.2026–15.11.2026" *[updated 2026-09-02]*
-  - `https://www.kolmekampusta.fi/tekoaly1` — "Pajulahti Cross Training viikonloppu 13.11.2026–15.11.2026" *[updated 2026-09-23]*
-
-### `https://store.kisakallio.willba.app/event/109143`
-- **Reason:** SSL error
-- **Linked from 2 page(s):**
-  - `https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kisakallion-sporttipassi` — "Osta verkkokaupasta" *[updated 2026-07-28]*
-  - `https://www.kolmekampusta.fi/fi/vapaa-aika/aktiviteetit/kisakallion-sporttipassi` — "Osta verkkokaupasta" *[updated 2026-07-28]*
+  - `https://www.kolmekampusta.fi/fi/hieronta` — "hierontalahjakortit." *[updated 2026-05-15]*
+  - `https://www.kolmekampusta.fi/en/massage-services` — "massage gift cards" *[updated 2025-10-08]*
 
 ### `https://store.pajulahti.willba.app/rooms/hotel-puistopaju-374?ageCategoryCounts=%7B%22guests-1%22%3A1%7D`
 - **Reason:** DNS resolution failed
@@ -191,6 +63,16 @@
 - **Linked from 2 page(s):**
   - `https://www.kolmekampusta.fi/fi/meista/tilat/hotelli-rantapaju` — "Varaa majoitus" *[updated 2026-07-28]*
   - `https://www.kolmekampusta.fi/en/hotel-rantapaju` — "Book accommodation" *[updated 2025-10-08]*
+
+### `https://kolmekampusta-test.druid.fi/fi/vapaa-aika/kanta-asiakkuus`
+- **Reason:** HTTP 401
+- **Linked from 1 page(s):**
+  - `https://www.kolmekampusta.fi/fi/tapahtumat/aquafiilis-pajulahdessa-4` — "tästä!" *[updated 2026-09-29, ⏰ expires Friday, 13-Nov-26 23:00:00 EET]*
+
+### `https://pajulahti.com/tuote-osasto/hierontapalvelut/`
+- **Reason:** HTTP 404
+- **Linked from 1 page(s):**
+  - `https://www.kolmekampusta.fi/en/massage-services` — "pay for the massage in advance in our online store." *[updated 2025-10-08]*
 
 ### `https://store.kisakallio.willba.app/rooms/apartment-hotel-katajarinne-102?ageCategoryCounts=%7B%22guests-1%22%3A1%7D`
 - **Reason:** SSL error
@@ -207,14 +89,14 @@
 - **Linked from 1 page(s):**
   - `https://www.kolmekampusta.fi/fi/tapahtumat/talviuinnin-sm-kilpailut` — "Varaa majoitus" *[updated 2026-08-11, ⏰ expires Wednesday, 11-Nov-37 11:11:00 EET]*
 
-### `https://store.pajulahti.willba.app/fi/rooms?ageCategoryCounts=%7B%22guests-1%22%3A1%7D`
+### `https://www.kolmekapusta.fi/fi`
 - **Reason:** DNS resolution failed
 - **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/en/accommodation` — "Book a stay in Pajulahti" *[updated 2026-09-14]*
+  - `https://www.kolmekampusta.fi/fi/uutiset/2026-10/ohjeet-henkilotietojen-suojaamiseen-tietoturvahyokkayksessa` — "https://www.kolmekampusta.fi/fi" *[updated 2026-10-02]*
 
 ## ❓ External links — could not be verified
 
-These 3 external link(s) returned a response that could not be confidently classified as broken or working. Common causes:
+These 2 external link(s) returned a response that could not be confidently classified as broken or working. Common causes:
 
 - **HTTP 403/415/429** — site's WAF or bot-detection flagged the request (Cloudflare often blocks datacenter IPs even with browser User-Agents)
 - **HTTP 5xx** — temporary server issue, may resolve on next scan
@@ -225,17 +107,12 @@ These 3 external link(s) returned a response that could not be confidently class
 ### `https://bookauthority.org/books/best-skill-building-books`
 - **Reason:** HTTP 429
 - **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/tapahtumat/motor-skills-acquisition-conference-2027` — "Best Skill Building Books of All Time by Book Authority" *[updated 2026-09-25]*
+  - `https://www.kolmekampusta.fi/fi/tapahtumat/motor-skills-acquisition-conference-2027` — "Best Skill Building Books of All Time by Book Authority" *[updated 2026-09-30]*
 
 ### `https://epale.ec.europa.eu/en/blog/gender-equality-sport`
 - **Reason:** HTTP 403
 - **Linked from 1 page(s):**
   - `https://www.kolmekampusta.fi/fi/caset/genderwise-hanke` — "EPALE: Gender Equality in Sport" *[updated 2026-09-14]*
-
-### `https://www.vantaa.fi/hankkeet/hanke/heittaydy-harrastukseen-hanke`
-- **Reason:** timeout
-- **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/caset/heittaydy-harrastukseen` — "Heittäydy harrastukseen -hanke | Vantaa" *[updated 2026-08-23]*
 
 ## ⚠️ Pages without URL alias
 
