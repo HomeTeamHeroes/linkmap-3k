@@ -1,10 +1,10 @@
 # Broken Links Report
 
 - **Site:** https://www.kolmekampusta.fi/fi
-- **Crawled:** 2026-10-12T14:25:24
-- **Pages crawled:** 1020
+- **Crawled:** 2026-10-13T18:03:05
+- **Pages crawled:** 1025
 - **External targets checked:** 385
-- **Total broken:** 81 (70 internal, 11 external)
+- **Total broken:** 80 (70 internal, 10 external)
 - **❓ External links could not be verified:** 3 (likely bot-detection / WAF — manual verification recommended)
 - **🛡️ Trusted-domain links treated as OK:** 1 (bot-blocked from CI, but on domains you marked trusted)
 - **⚠️ Pages without URL alias:** 1 (Drupal /node/N served directly, no Pathauto alias)
@@ -399,11 +399,6 @@
 - **Reason:** HTTP 404
 - **Linked from 1 page(s):**
   - `https://www.kolmekampusta.fi/fi/urheilu/leirit/esikuvaleirit` — "LUE LISÄÄ" *[updated 2026-10-09]*
-
-### `https://kolmekampusta.willba.store/event/pl160220-taitoluistelun-tekniikkaleiri-pojille?locationId=1`
-- **Reason:** HTTP 404
-- **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/tapahtumat/syysloman-tekniikkaleiri-pojille` — "Ilmoittaudu mukaan TÄSTÄ" *[updated 2026-08-30, ⏰ expires Wednesday, 14-Oct-26 18:00:00 EEST]*
 
 ### `https://pajulahti.com/tuote/hierontalahjakortti/`
 - **Reason:** HTTP 404
