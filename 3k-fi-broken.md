@@ -1,43 +1,51 @@
 # Broken Links Report
 
 - **Site:** https://www.kolmekampusta.fi/fi
-- **Crawled:** 2026-10-13T18:03:05
-- **Pages crawled:** 1025
-- **External targets checked:** 385
-- **Total broken:** 80 (70 internal, 10 external)
-- **❓ External links could not be verified:** 3 (likely bot-detection / WAF — manual verification recommended)
+- **Crawled:** 2026-10-19T12:07:19
+- **Pages crawled:** 994
+- **External targets checked:** 379
+- **Total broken:** 81 (72 internal, 9 external)
+- **❓ External links could not be verified:** 5 (likely bot-detection / WAF — manual verification recommended)
 - **🛡️ Trusted-domain links treated as OK:** 1 (bot-blocked from CI, but on domains you marked trusted)
 - **⚠️ Pages without URL alias:** 1 (Drupal /node/N served directly, no Pathauto alias)
 
 ## Internal broken pages
 
-### `https://www.kolmekampusta.fi/fi/tapahtumat/syysloman-kisakallion-kasisleiri`
+### `https://www.kolmekampusta.fi/fi/tapahtumat/salibandyn-taito-ja-pelileiri-syyslomalla`
 - **Reason:** HTTP 403
 - **Linked from 2 page(s):**
-  - `https://www.kolmekampusta.fi/fi/urheilu/leirit/esikuvaleirit` — "Syysloman Kisakallion käsisleiri 12.-14.102026" *[updated 2026-10-09]*
-  - `https://www.kolmekampusta.fi/fi/syksyn-tarjonta-kolmella-kampuksella` — "käsipalloleiri 2014-17-syntyneille" *[updated 2026-10-02]*
-
-### `https://www.kolmekampusta.fi/fi/tapahtumat/syysloman-lentopalloleiri-3-6-luokkalaisille`
-- **Reason:** HTTP 403
-- **Linked from 2 page(s):**
-  - `https://www.kolmekampusta.fi/fi/urheilu/leirit/esikuvaleirit` — "Syysloman lentopalloleiri 3.-6.-luokkalaisille 12.-14.10.2026" *[updated 2026-10-09]*
-  - `https://www.kolmekampusta.fi/fi/syksyn-tarjonta-kolmella-kampuksella` — "lentopalloleiri 3.-6.luokkalaisille" *[updated 2026-10-02]*
-
-### `https://www.kolmekampusta.fi/fi/tapahtumat/syysloman-stc-shooting-camp`
-- **Reason:** HTTP 403
-- **Linked from 2 page(s):**
-  - `https://www.kolmekampusta.fi/fi/urheilu/leirit/esikuvaleirit` — "Syysloman STC Shooting Camp 12.-14.10.2026" *[updated 2026-10-09]*
-  - `https://www.kolmekampusta.fi/fi/syksyn-tarjonta-kolmella-kampuksella` — "koripalloleiri STC Shooting Camp" *[updated 2026-10-02]*
+  - `https://www.kolmekampusta.fi/fi/urheilu/leirit/esikuvaleirit` — "Syysloman salibandyn taito- ja pelileiri 19.-21.10.2026" *[updated 2026-10-09]*
+  - `https://www.kolmekampusta.fi/fi/syksyn-tarjonta-kolmella-kampuksella` — "salibandyn taito- ja pelileiri" *[updated 2026-10-16]*
 
 ### `https://www.kolmekampusta.fi/fi/koulutus/liiketta-ja-oivallusta-lasten-motoristen-taitojen-havainnointi-ja-tukeminen-arjessa`
 - **Reason:** HTTP 403
 - **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/koulutus` — "Liikettä ja Oivallusta – Lasten motoristen taitojen havainnointi ja tukeminen arjessa" *[updated 2026-09-07]*
+  - `https://www.kolmekampusta.fi/fi/koulutus` — "Liikettä ja Oivallusta – Lasten motoristen taitojen havainnointi ja tukeminen arjessa" *[updated 2026-10-18]*
 
 ### `https://www.kolmekampusta.fi/fi/koulutus/yksilollinen-hyvinvoinnin-edistaminen-30-osp`
 - **Reason:** HTTP 403
 - **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/koulutus` — "Yksilöllinen hyvinvoinnin edistäminen, 30 osp" *[updated 2026-09-07]*
+  - `https://www.kolmekampusta.fi/fi/koulutus` — "Yksilöllinen hyvinvoinnin edistäminen, 30 osp" *[updated 2026-10-18]*
+
+### `https://www.kolmekampusta.fi/fi/tapahtumat/syksy-pajulahdessa-viikko-42`
+- **Reason:** HTTP 403
+- **Linked from 1 page(s):**
+  - `https://www.kolmekampusta.fi/fi/syksyn-tarjonta-kolmella-kampuksella` — "Varaa täyden palvelun syksy Pajulahdessa" *[updated 2026-10-16]*
+
+### `https://www.kolmekampusta.fi/fi/tapahtumat/syysloman-kisakallion-kasisleiri`
+- **Reason:** HTTP 403
+- **Linked from 1 page(s):**
+  - `https://www.kolmekampusta.fi/fi/urheilu/leirit/esikuvaleirit` — "Syysloman Kisakallion käsisleiri 12.-14.102026" *[updated 2026-10-09]*
+
+### `https://www.kolmekampusta.fi/fi/tapahtumat/syysloman-lentopalloleiri-3-6-luokkalaisille`
+- **Reason:** HTTP 403
+- **Linked from 1 page(s):**
+  - `https://www.kolmekampusta.fi/fi/urheilu/leirit/esikuvaleirit` — "Syysloman lentopalloleiri 3.-6.-luokkalaisille 12.-14.10.2026" *[updated 2026-10-09]*
+
+### `https://www.kolmekampusta.fi/fi/tapahtumat/syysloman-stc-shooting-camp`
+- **Reason:** HTTP 403
+- **Linked from 1 page(s):**
+  - `https://www.kolmekampusta.fi/fi/urheilu/leirit/esikuvaleirit` — "Syysloman STC Shooting Camp 12.-14.10.2026" *[updated 2026-10-09]*
 
 ### `https://www.kolmekampusta.fi/sites/default/files/2025-07/jere-ahonen-ratakierroksen-kehityshanke-suomessa_0.pdf`
 - **Reason:** HTTP 404
@@ -415,14 +423,9 @@
 - **Linked from 1 page(s):**
   - `https://www.kolmekampusta.fi/fi/tapahtumat/talviuinnin-sm-kilpailut` — "Varaa majoitus" *[updated 2026-08-11, ⏰ expires Wednesday, 11-Nov-37 11:11:00 EET]*
 
-### `https://www.kolmekapusta.fi/fi`
-- **Reason:** DNS resolution failed
-- **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/uutiset/2026-10/ohjeet-henkilotietojen-suojaamiseen-tietoturvahyokkayksessa` — "https://www.kolmekampusta.fi/fi" *[updated 2026-10-02]*
-
 ## ❓ External links — could not be verified
 
-These 3 external link(s) returned a response that could not be confidently classified as broken or working. Common causes:
+These 5 external link(s) returned a response that could not be confidently classified as broken or working. Common causes:
 
 - **HTTP 403/415/429** — site's WAF or bot-detection flagged the request (Cloudflare often blocks datacenter IPs even with browser User-Agents)
 - **HTTP 5xx** — temporary server issue, may resolve on next scan
@@ -445,6 +448,16 @@ These 3 external link(s) returned a response that could not be confidently class
 - **Reason:** HTTP 403
 - **Linked from 1 page(s):**
   - `https://www.kolmekampusta.fi/fi/caset/genderwise-hanke` — "EPALE: Gender Equality in Sport" *[updated 2026-09-14]*
+
+### `https://worldcurling.org/events/worldjuniorb/`
+- **Reason:** HTTP 403
+- **Linked from 1 page(s):**
+  - `https://www.kolmekampusta.fi/fi/tapahtumat/curling-junior-b-mm-kilpailut-0` — "Lue lisää" *[updated 2026-10-14]*
+
+### `https://worldcurling.org/events/worldmixeddoubles/`
+- **Reason:** HTTP 403
+- **Linked from 1 page(s):**
+  - `https://www.kolmekampusta.fi/fi/tapahtumat/paricurling-mm-kilpailut` — "Lue lisää" *[updated 2026-09-24]*
 
 ## ⚠️ Pages without URL alias
 
