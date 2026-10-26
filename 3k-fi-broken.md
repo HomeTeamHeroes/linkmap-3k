@@ -1,11 +1,11 @@
 # Broken Links Report
 
 - **Site:** https://www.kolmekampusta.fi/fi
-- **Crawled:** 2026-10-25T12:57:58
-- **Pages crawled:** 989
-- **External targets checked:** 373
-- **Total broken:** 83 (73 internal, 10 external)
-- **❓ External links could not be verified:** 4 (likely bot-detection / WAF — manual verification recommended)
+- **Crawled:** 2026-10-26T12:22:04
+- **Pages crawled:** 995
+- **External targets checked:** 369
+- **Total broken:** 81 (73 internal, 8 external)
+- **❓ External links could not be verified:** 3 (likely bot-detection / WAF — manual verification recommended)
 - **🛡️ Trusted-domain links treated as OK:** 1 (bot-blocked from CI, but on domains you marked trusted)
 - **⚠️ Pages without URL alias:** 1 (Drupal /node/N served directly, no Pathauto alias)
 
@@ -391,22 +391,11 @@
   - `https://www.kolmekampusta.fi/fi/meista/tilat/pajulahden-palautumiskeskus` — "AlterG-tuotteet verkkokaupasta" *[updated 2026-09-16]*
   - `https://www.kolmekampusta.fi/fi/pajulahden-palautumiskeskus` — "AlterG-tuotteet verkkokaupasta" *[updated 2026-09-16]*
 
-### `https://store.pajulahti.willba.app/rooms/hotel-puistopaju-374?ageCategoryCounts=%7B%22guests-1%22%3A1%7D`
-- **Reason:** DNS resolution failed
-- **Linked from 2 page(s):**
-  - `https://www.kolmekampusta.fi/fi/meista/tilat/hotelli-puistopaju` — "Varaa majoitus" *[updated 2026-09-08]*
-  - `https://www.kolmekampusta.fi/en/hotel-puistopaju` — "Book accommodation" *[updated 2026-09-08]*
-
 ### `https://store.pajulahti.willba.app/rooms/hotel-rantapaju-370?ageCategoryCounts=%7B%22guests-1%22%3A1%7D`
 - **Reason:** DNS resolution failed
 - **Linked from 2 page(s):**
   - `https://www.kolmekampusta.fi/fi/meista/tilat/hotelli-rantapaju` — "Varaa majoitus" *[updated 2026-07-28]*
   - `https://www.kolmekampusta.fi/en/hotel-rantapaju` — "Book accommodation" *[updated 2025-10-08]*
-
-### `https://kolmekampusta-test.druid.fi/fi/vapaa-aika/kanta-asiakkuus`
-- **Reason:** HTTP 401
-- **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/tapahtumat/aquafiilis-pajulahdessa-4` — "tästä!" *[updated 2026-09-29, ⏰ expires Friday, 13-Nov-26 23:00:00 EET]*
 
 ### `https://kolmekampusta.willba.store/event/pl160220-taitoluistelun-tekniikkaleiri-pojille`
 - **Reason:** HTTP 404
@@ -435,7 +424,7 @@
 
 ## ❓ External links — could not be verified
 
-These 4 external link(s) returned a response that could not be confidently classified as broken or working. Common causes:
+These 3 external link(s) returned a response that could not be confidently classified as broken or working. Common causes:
 
 - **HTTP 403/415/429** — site's WAF or bot-detection flagged the request (Cloudflare often blocks datacenter IPs even with browser User-Agents)
 - **HTTP 5xx** — temporary server issue, may resolve on next scan
@@ -454,11 +443,6 @@ These 4 external link(s) returned a response that could not be confidently class
 - **Linked from 2 page(s):**
   - `https://www.kolmekampusta.fi/fi/koulutus/vapaan-sivistystyon-koulutus` — "Lue lisää OKM:n sivuilta" *[updated 2026-09-03]*
   - `https://www.kolmekampusta.fi/fi/koulutus/koulutukset/vapaan-sivistystyon-koulutus` — "Lue lisää OKM:n sivuilta" *[updated 2026-09-03]*
-
-### `https://bookauthority.org/books/best-skill-building-books`
-- **Reason:** HTTP 429
-- **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/tapahtumat/motor-skills-acquisition-conference-2027` — "Best Skill Building Books of All Time by Book Authority" *[updated 2026-10-23]*
 
 ### `https://epale.ec.europa.eu/en/blog/gender-equality-sport`
 - **Reason:** HTTP 403
