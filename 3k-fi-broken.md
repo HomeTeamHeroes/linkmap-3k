@@ -1,11 +1,11 @@
 # Broken Links Report
 
 - **Site:** https://www.kolmekampusta.fi/fi
-- **Crawled:** 2026-10-26T12:22:04
-- **Pages crawled:** 995
+- **Crawled:** 2026-11-02T14:46:27
+- **Pages crawled:** 997
 - **External targets checked:** 369
-- **Total broken:** 81 (73 internal, 8 external)
-- **❓ External links could not be verified:** 3 (likely bot-detection / WAF — manual verification recommended)
+- **Total broken:** 78 (72 internal, 6 external)
+- **❓ External links could not be verified:** 2 (likely bot-detection / WAF — manual verification recommended)
 - **🛡️ Trusted-domain links treated as OK:** 1 (bot-blocked from CI, but on domains you marked trusted)
 - **⚠️ Pages without URL alias:** 1 (Drupal /node/N served directly, no Pathauto alias)
 
@@ -14,43 +14,38 @@
 ### `https://www.kolmekampusta.fi/fi/koulutus/avoin-yliopisto/psyykkiset-taidot1`
 - **Reason:** HTTP 403
 - **Linked from 2 page(s):**
-  - `https://www.kolmekampusta.fi/fi/koulutus` — "Psyykkiset taidot 1, 5op" *[updated 2026-10-18]*
+  - `https://www.kolmekampusta.fi/fi/koulutus` — "Psyykkiset taidot 1, 5op" *[updated 2026-11-01]*
   - `https://www.kolmekampusta.fi/fi/koulutus/liikunnan-ja-valmennuksen-ammattitutkinto-valmennuksen-osaamisala` — "https://www.kolmekampusta.fi/fi/koulutus/avoin-yliopisto/psyykkiset-taidot1" *[updated 2026-10-02]*
 
 ### `https://www.kolmekampusta.fi/fi/koulutus/liiketta-ja-oivallusta-lasten-motoristen-taitojen-havainnointi-ja-tukeminen-arjessa`
 - **Reason:** HTTP 403
 - **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/koulutus` — "Liikettä ja Oivallusta – Lasten motoristen taitojen havainnointi ja tukeminen arjessa" *[updated 2026-10-18]*
+  - `https://www.kolmekampusta.fi/fi/koulutus` — "Liikettä ja Oivallusta – Lasten motoristen taitojen havainnointi ja tukeminen arjessa" *[updated 2026-11-01]*
 
 ### `https://www.kolmekampusta.fi/fi/tapahtumat/fannin-lahiruoka-ja-pientuottajalounas`
 - **Reason:** HTTP 403
 - **Linked from 1 page(s):**
   - `https://www.kolmekampusta.fi/fi/syksyn-tarjonta-kolmella-kampuksella` — "Tutustu menuun." *[updated 2026-10-20]*
 
+### `https://www.kolmekampusta.fi/fi/tapahtumat/hyvan-olon-viikonloppu-pajulahdessa-3010-1112026`
+- **Reason:** HTTP 403
+- **Linked from 1 page(s):**
+  - `https://www.kolmekampusta.fi/fi/tapahtumat/hyvan-olon-viikonloppu-taynna` — "tästä!" *[updated 2026-11-01, ⏰ expires Sunday, 29-Nov-26 23:00:00 EET]*
+
 ### `https://www.kolmekampusta.fi/fi/tapahtumat/jani-sievisen-uintileiri-aikuisille-taynna`
 - **Reason:** HTTP 403
 - **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/urheilu/leirit/esikuvaleirit` — "Jani Sievisen uintileiri aikuisille 22.-23.10.2026" *[updated 2026-10-19]*
+  - `https://www.kolmekampusta.fi/fi/urheilu/leirit/esikuvaleirit` — "Jani Sievisen uintileiri aikuisille 22.-23.10.2026" *[updated 2026-10-26]*
 
-### `https://www.kolmekampusta.fi/fi/tapahtumat/salibandyn-taito-ja-pelileiri-syyslomalla`
+### `https://www.kolmekampusta.fi/fi/tapahtumat/lady-basket-korisleiri`
 - **Reason:** HTTP 403
 - **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/urheilu/leirit/esikuvaleirit` — "Syysloman salibandyn taito- ja pelileiri 19.-21.10.2026" *[updated 2026-10-19]*
+  - `https://www.kolmekampusta.fi/fi/urheilu/leirit/esikuvaleirit` — "Lady Basket - naisten korisleiri 30.10.-1.11." *[updated 2026-10-26]*
 
-### `https://www.kolmekampusta.fi/fi/tapahtumat/syysloman-kisakallion-kasisleiri`
+### `https://www.kolmekampusta.fi/fi/tapahtumat/syysfiilis-pajulahdessa-2`
 - **Reason:** HTTP 403
 - **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/urheilu/leirit/esikuvaleirit` — "Syysloman Kisakallion käsisleiri 12.-14.102026" *[updated 2026-10-19]*
-
-### `https://www.kolmekampusta.fi/fi/tapahtumat/syysloman-lentopalloleiri-3-6-luokkalaisille`
-- **Reason:** HTTP 403
-- **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/urheilu/leirit/esikuvaleirit` — "Syysloman lentopalloleiri 3.-6.-luokkalaisille 12.-14.10.2026" *[updated 2026-10-19]*
-
-### `https://www.kolmekampusta.fi/fi/tapahtumat/syysloman-stc-shooting-camp`
-- **Reason:** HTTP 403
-- **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/urheilu/leirit/esikuvaleirit` — "Syysloman STC Shooting Camp 12.-14.10.2026" *[updated 2026-10-19]*
+  - `https://www.kolmekampusta.fi/fi/vapaa-aika/lomat-ja-kurssit/aikuiset-60-fiiliskurssit` — "SyysFiilis 26.-30.10. Pajulahti" *[updated 2026-10-11]*
 
 ### `https://www.kolmekampusta.fi/sites/default/files/2025-07/jere-ahonen-ratakierroksen-kehityshanke-suomessa_0.pdf`
 - **Reason:** HTTP 404
@@ -379,12 +374,6 @@
 
 ## External broken links
 
-### `http://www.erca.cc/index.php/en/`
-- **Reason:** HTTP 404
-- **Linked from 2 page(s):**
-  - `https://www.kolmekampusta.fi/fi/seikkailupuiston-yleis-ja-turvallisuusohjeet` — "ERCA" *[updated 2026-10-15]*
-  - `https://www.kolmekampusta.fi/en/general-and-safety-instructions-adventure-park` — "ERCA" *[updated 2025-10-08]*
-
 ### `https://kauppa.kolmekampusta.fi/tuote/alterg-painokevennetty-juoksumatto/`
 - **Reason:** HTTP 404
 - **Linked from 2 page(s):**
@@ -396,11 +385,6 @@
 - **Linked from 2 page(s):**
   - `https://www.kolmekampusta.fi/fi/meista/tilat/hotelli-rantapaju` — "Varaa majoitus" *[updated 2026-07-28]*
   - `https://www.kolmekampusta.fi/en/hotel-rantapaju` — "Book accommodation" *[updated 2025-10-08]*
-
-### `https://kolmekampusta.willba.store/event/pl160220-taitoluistelun-tekniikkaleiri-pojille`
-- **Reason:** HTTP 404
-- **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/urheilu/leirit/esikuvaleirit` — "LUE LISÄÄ" *[updated 2026-10-19]*
 
 ### `https://pajulahti.com/tuote/hierontalahjakortti/`
 - **Reason:** connection failed
@@ -424,19 +408,13 @@
 
 ## ❓ External links — could not be verified
 
-These 3 external link(s) returned a response that could not be confidently classified as broken or working. Common causes:
+These 2 external link(s) returned a response that could not be confidently classified as broken or working. Common causes:
 
 - **HTTP 403/415/429** — site's WAF or bot-detection flagged the request (Cloudflare often blocks datacenter IPs even with browser User-Agents)
 - **HTTP 5xx** — temporary server issue, may resolve on next scan
 - **Timeout / connection reset** — slow response, may be intermittent
 
 **These links are very likely fine** when visited from a normal browser. Verify manually by opening them — if they work, no action needed. If they're actually broken, move them to your real broken-links triage.
-
-### `https://basket.sites.avoine.com/basket/lomakkeet/ylakoululeiritys/`
-- **Reason:** HTTP 503
-- **Linked from 2 page(s):**
-  - `https://www.kolmekampusta.fi/fi/urheilu/leirit/ylakoululeiritys-kisakallion-kampuksella` — "Koripalloliiton hakulomakkeella" *[updated 2026-09-22]*
-  - `https://www.kolmekampusta.fi/fi/urheilu/leirit/ylakoululeiritys-pajulahden-kampuksella` — "linkistä" *[updated 2026-10-08]*
 
 ### `https://okm.fi/vapaa-sivistystyo`
 - **Reason:** HTTP 403
