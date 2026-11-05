@@ -1,12 +1,12 @@
 # Broken Links Report
 
 - **Site:** https://www.kolmekampusta.fi/fi
-- **Crawled:** 2026-11-02T14:46:27
-- **Pages crawled:** 997
-- **External targets checked:** 369
+- **Crawled:** 2026-11-05T07:57:44
+- **Pages crawled:** 1017
+- **External targets checked:** 368
 - **Total broken:** 78 (72 internal, 6 external)
-- **❓ External links could not be verified:** 2 (likely bot-detection / WAF — manual verification recommended)
-- **🛡️ Trusted-domain links treated as OK:** 1 (bot-blocked from CI, but on domains you marked trusted)
+- **❓ External links could not be verified:** 3 (likely bot-detection / WAF — manual verification recommended)
+- **🛡️ Trusted-domain links treated as OK:** 3 (bot-blocked from CI, but on domains you marked trusted)
 - **⚠️ Pages without URL alias:** 1 (Drupal /node/N served directly, no Pathauto alias)
 
 ## Internal broken pages
@@ -408,13 +408,18 @@
 
 ## ❓ External links — could not be verified
 
-These 2 external link(s) returned a response that could not be confidently classified as broken or working. Common causes:
+These 3 external link(s) returned a response that could not be confidently classified as broken or working. Common causes:
 
 - **HTTP 403/415/429** — site's WAF or bot-detection flagged the request (Cloudflare often blocks datacenter IPs even with browser User-Agents)
 - **HTTP 5xx** — temporary server issue, may resolve on next scan
 - **Timeout / connection reset** — slow response, may be intermittent
 
 **These links are very likely fine** when visited from a normal browser. Verify manually by opening them — if they work, no action needed. If they're actually broken, move them to your real broken-links triage.
+
+### `https://jyx.jyu.fi/jyx/Record/jyx_123456789_105177`
+- **Reason:** HTTP 503
+- **Linked from 1 page(s):**
+  - `https://www.kolmekampusta.fi/fi/uutiset/2025-09/jouva-hankkeen-tyossa-oppimisen-selvitystyo-valmistunut` — "Raportin voit lukea täällä" *[updated 2025-09-05]*
 
 ### `https://okm.fi/vapaa-sivistystyo`
 - **Reason:** HTTP 403
