@@ -1,41 +1,73 @@
 # Broken Links Report
 
 - **Site:** https://www.kolmekampusta.fi/fi
-- **Crawled:** 2026-11-05T07:57:44
-- **Pages crawled:** 1017
-- **External targets checked:** 368
-- **Total broken:** 78 (72 internal, 6 external)
+- **Crawled:** 2026-11-09T15:11:25
+- **Pages crawled:** 1012
+- **External targets checked:** 371
+- **Total broken:** 84 (78 internal, 6 external)
 - **❓ External links could not be verified:** 3 (likely bot-detection / WAF — manual verification recommended)
-- **🛡️ Trusted-domain links treated as OK:** 3 (bot-blocked from CI, but on domains you marked trusted)
+- **🛡️ Trusted-domain links treated as OK:** 1 (bot-blocked from CI, but on domains you marked trusted)
 - **⚠️ Pages without URL alias:** 1 (Drupal /node/N served directly, no Pathauto alias)
 
 ## Internal broken pages
 
+### `https://www.kolmekampusta.fi/en/system/404`
+- **Reason:** HTTP 404
+- **Linked from 2 page(s):**
+  - `https://www.kolmekampusta.fi/fi/koulutus/liikunnan-ja-valmennuksen-ammattitutkinto-liikunnan-osaamisala` — "Englanti"
+  - `https://www.kolmekampusta.fi/fi/system/404` — "Englanti"
+
 ### `https://www.kolmekampusta.fi/fi/koulutus/avoin-yliopisto/psyykkiset-taidot1`
 - **Reason:** HTTP 403
 - **Linked from 2 page(s):**
-  - `https://www.kolmekampusta.fi/fi/koulutus` — "Psyykkiset taidot 1, 5op" *[updated 2026-11-01]*
-  - `https://www.kolmekampusta.fi/fi/koulutus/liikunnan-ja-valmennuksen-ammattitutkinto-valmennuksen-osaamisala` — "https://www.kolmekampusta.fi/fi/koulutus/avoin-yliopisto/psyykkiset-taidot1" *[updated 2026-10-02]*
+  - `https://www.kolmekampusta.fi/fi/koulutus` — "Psyykkiset taidot 1, 5op" *[updated 2026-11-08]*
+  - `https://www.kolmekampusta.fi/fi/koulutus/liikunnan-ja-valmennuksen-ammattitutkinto-valmennuksen-osaamisala` — "https://www.kolmekampusta.fi/fi/koulutus/avoin-yliopisto/psyykkiset-taidot1" *[updated 2026-11-06]*
+
+### `https://www.kolmekampusta.fi/fi/tapahtumat/isanpaivan-aijabrunssi-rantamakasiinilla`
+- **Reason:** HTTP 403
+- **Linked from 2 page(s):**
+  - `https://www.kolmekampusta.fi/fi/artikkelit/kaksi-juhlapoytaa-yksi-herkullinen-isanpaiva` — "Tutustu menuun" *[updated 2026-11-02]*
+  - `https://www.kolmekampusta.fi/fi/meista/tilat/rantamakasiini` — "Tutustu menuun" *[updated 2026-11-08]*
 
 ### `https://www.kolmekampusta.fi/fi/koulutus/liiketta-ja-oivallusta-lasten-motoristen-taitojen-havainnointi-ja-tukeminen-arjessa`
 - **Reason:** HTTP 403
 - **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/koulutus` — "Liikettä ja Oivallusta – Lasten motoristen taitojen havainnointi ja tukeminen arjessa" *[updated 2026-11-01]*
+  - `https://www.kolmekampusta.fi/fi/koulutus` — "Liikettä ja Oivallusta – Lasten motoristen taitojen havainnointi ja tukeminen arjessa" *[updated 2026-11-08]*
+
+### `https://www.kolmekampusta.fi/fi/koulutus/liikunnan-ja-valmennuksen-ammattitutkinto-liikunnan-osaamisala`
+- **Reason:** HTTP 404
+- **Linked from 1 page(s):**
+  - `https://www.kolmekampusta.fi/fi/koulutus` — "Liikunnan ja valmennuksen ammattitutkinto, Liikunnan osaamisala" *[updated 2026-11-08]*
+
+### `https://www.kolmekampusta.fi/fi/koulutus/yksilollinen-hyvinvoinnin-edistaminen-30-osp`
+- **Reason:** HTTP 403
+- **Linked from 1 page(s):**
+  - `https://www.kolmekampusta.fi/fi/koulutus` — "Yksilöllinen hyvinvoinnin edistäminen, 30 osp" *[updated 2026-11-08]*
+
+### `https://www.kolmekampusta.fi/fi/system/404`
+- **Reason:** HTTP 404
+- **Linked from 1 page(s):**
+  - `https://www.kolmekampusta.fi/en/system/404` — "Finnish"
+
+### `https://www.kolmekampusta.fi/fi/tapahtumat/fannin-isanpaivalounas-pajulahdessa`
+- **Reason:** HTTP 403
+- **Linked from 1 page(s):**
+  - `https://www.kolmekampusta.fi/fi/artikkelit/kaksi-juhlapoytaa-yksi-herkullinen-isanpaiva` — "Tutustu menuun" *[updated 2026-11-02]*
 
 ### `https://www.kolmekampusta.fi/fi/tapahtumat/fannin-lahiruoka-ja-pientuottajalounas`
 - **Reason:** HTTP 403
 - **Linked from 1 page(s):**
   - `https://www.kolmekampusta.fi/fi/syksyn-tarjonta-kolmella-kampuksella` — "Tutustu menuun." *[updated 2026-10-20]*
 
-### `https://www.kolmekampusta.fi/fi/tapahtumat/hyvan-olon-viikonloppu-pajulahdessa-3010-1112026`
-- **Reason:** HTTP 403
-- **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/tapahtumat/hyvan-olon-viikonloppu-taynna` — "tästä!" *[updated 2026-11-01, ⏰ expires Sunday, 29-Nov-26 23:00:00 EET]*
-
 ### `https://www.kolmekampusta.fi/fi/tapahtumat/jani-sievisen-uintileiri-aikuisille-taynna`
 - **Reason:** HTTP 403
 - **Linked from 1 page(s):**
   - `https://www.kolmekampusta.fi/fi/urheilu/leirit/esikuvaleirit` — "Jani Sievisen uintileiri aikuisille 22.-23.10.2026" *[updated 2026-10-26]*
+
+### `https://www.kolmekampusta.fi/fi/tapahtumat/kaapo-kososen-temppuleiri`
+- **Reason:** HTTP 403
+- **Linked from 1 page(s):**
+  - `https://www.kolmekampusta.fi/fi/urheilu/leirit/esikuvaleirit` — "Kaapo Kososen temppuleiri lapsille ja nuorille 20.-22.11.2026" *[updated 2026-10-26]*
 
 ### `https://www.kolmekampusta.fi/fi/tapahtumat/lady-basket-korisleiri`
 - **Reason:** HTTP 403
@@ -377,8 +409,8 @@
 ### `https://kauppa.kolmekampusta.fi/tuote/alterg-painokevennetty-juoksumatto/`
 - **Reason:** HTTP 404
 - **Linked from 2 page(s):**
-  - `https://www.kolmekampusta.fi/fi/meista/tilat/pajulahden-palautumiskeskus` — "AlterG-tuotteet verkkokaupasta" *[updated 2026-09-16]*
-  - `https://www.kolmekampusta.fi/fi/pajulahden-palautumiskeskus` — "AlterG-tuotteet verkkokaupasta" *[updated 2026-09-16]*
+  - `https://www.kolmekampusta.fi/fi/meista/tilat/pajulahden-palautumiskeskus` — "AlterG-tuotteet verkkokaupasta" *[updated 2026-11-08]*
+  - `https://www.kolmekampusta.fi/fi/pajulahden-palautumiskeskus` — "AlterG-tuotteet verkkokaupasta" *[updated 2026-11-08]*
 
 ### `https://store.pajulahti.willba.app/rooms/hotel-rantapaju-370?ageCategoryCounts=%7B%22guests-1%22%3A1%7D`
 - **Reason:** DNS resolution failed
@@ -416,21 +448,21 @@ These 3 external link(s) returned a response that could not be confidently class
 
 **These links are very likely fine** when visited from a normal browser. Verify manually by opening them — if they work, no action needed. If they're actually broken, move them to your real broken-links triage.
 
-### `https://jyx.jyu.fi/jyx/Record/jyx_123456789_105177`
-- **Reason:** HTTP 503
-- **Linked from 1 page(s):**
-  - `https://www.kolmekampusta.fi/fi/uutiset/2025-09/jouva-hankkeen-tyossa-oppimisen-selvitystyo-valmistunut` — "Raportin voit lukea täällä" *[updated 2025-09-05]*
-
 ### `https://okm.fi/vapaa-sivistystyo`
 - **Reason:** HTTP 403
 - **Linked from 2 page(s):**
-  - `https://www.kolmekampusta.fi/fi/koulutus/vapaan-sivistystyon-koulutus` — "Lue lisää OKM:n sivuilta" *[updated 2026-09-03]*
-  - `https://www.kolmekampusta.fi/fi/koulutus/koulutukset/vapaan-sivistystyon-koulutus` — "Lue lisää OKM:n sivuilta" *[updated 2026-09-03]*
+  - `https://www.kolmekampusta.fi/fi/koulutus/vapaan-sivistystyon-koulutus` — "Lue lisää OKM:n sivuilta" *[updated 2026-11-08]*
+  - `https://www.kolmekampusta.fi/fi/koulutus/koulutukset/vapaan-sivistystyon-koulutus` — "Lue lisää OKM:n sivuilta" *[updated 2026-11-08]*
 
 ### `https://epale.ec.europa.eu/en/blog/gender-equality-sport`
 - **Reason:** HTTP 403
 - **Linked from 1 page(s):**
   - `https://www.kolmekampusta.fi/fi/caset/genderwise-hanke` — "EPALE: Gender Equality in Sport" *[updated 2026-09-14]*
+
+### `https://okm.fi/-/suomi-liikkeelle-ohjelmasta-2-8-miljoonaa-euroa-jarjestojen-liikkumista-lisaaviin-kokeiluihin`
+- **Reason:** HTTP 403
+- **Linked from 1 page(s):**
+  - `https://www.kolmekampusta.fi/fi/uutiset/2026-11/urheiluseura-2030-hanke-vahvistaa-seurojen-roolia-lasten-liikkumisen-edistajina` — "Opetus- ja kulttuuriministeriön tiedote" *[updated 2026-11-08]*
 
 ## ⚠️ Pages without URL alias
 
